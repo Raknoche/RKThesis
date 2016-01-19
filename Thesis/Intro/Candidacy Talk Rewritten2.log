@@ -1,0 +1,371 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  3 APR 2013 13:22
+entering extended mode
+**Candidacy*Talk*Rewritten2.tex
+("C:\Users\Richard\Desktop\Candidacy talk\Candidacy Talk Rewritten2.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty"
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@float@type=\count100
+\float@exts=\toks20
+\float@box=\box28
+\@floatcapt=\box29
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks21
+\flrow@foot=\insert233
+\FB@wd=\dimen121
+\FBo@wd=\dimen122
+\FBc@wd=\dimen123
+\FBo@ht=\skip46
+\FBc@ht=\skip47
+\FBf@ht=\skip48
+\FBo@max=\skip49
+\FBc@max=\skip50
+\FBf@max=\skip51
+\c@FBl@b=\count101
+\floatbox@depth=\count102
+\c@FRobj=\count103
+\c@FRsobj=\count104
+\Xhsize=\skip52
+\sXhsize=\skip53
+\Zhsize=\skip54
+\sZhsize=\skip55
+\flrow@rowbox=\box30
+\FR@Zunitlength=\dimen124
+\c@FBcnt=\count105
+\FPOScnt=\count106
+\LTleft=\skip56
+\LTright=\skip57
+\LTleft=\skip58
+\LTright=\skip59
+\flrow@types=\toks22
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/02/03 v3.3-65 Customizing captions (AR)
+\c@ContinuedFloat=\count107
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+)
+("C:\Users\Richard\Desktop\Candidacy talk\Candidacy Talk Rewritten2.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen125
+\scratchbox=\box31
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen126
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks24
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+("C:\Users\Richard\Desktop\Candidacy talk\Candidacy Talk Rewritten2.toc"
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
+\tf@toc=\write3
+
+<RotationCurve.png, id=10, 250.9375pt x 150.5625pt>
+File: RotationCurve.png Graphic file (type png)
+ <use RotationCurve.png>
+Package pdftex.def Info: RotationCurve.png used on input line 33.
+(pdftex.def)             Requested size: 250.93687pt x 150.56212pt.
+
+[2] [3 <C:/Users/Richard/Desktop/Candidacy talk/RotationCurve.png>] [4]
+<neutrinos.png, id=29, 943.27406pt x 503.63156pt>
+File: neutrinos.png Graphic file (type png)
+ <use neutrinos.png>
+Package pdftex.def Info: neutrinos.png used on input line 60.
+(pdftex.def)             Requested size: 377.30293pt x 201.44905pt.
+ [5 <C:/Users/Richard/Desktop/Candidacy talk/neutrinos.png>] [6]
+<DMCandidates.png, id=37, 397.485pt x 414.04688pt>
+File: DMCandidates.png Graphic file (type png)
+ <use DMCandidates.png>
+Package pdftex.def Info: DMCandidates.png used on input line 88.
+(pdftex.def)             Requested size: 278.2376pt x 289.83083pt.
+
+[7] [8 <C:/Users/Richard/Desktop/Candidacy talk/DMCandidates.png>] [9]
+<Recoil-spectrum.png, id=50, 517.935pt x 477.9456pt>
+File: Recoil-spectrum.png Graphic file (type png)
+ <use Recoil-spectrum.png>
+Package pdftex.def Info: Recoil-spectrum.png used on input line 109.
+(pdftex.def)             Requested size: 258.96686pt x 238.97221pt.
+
+[10 <C:/Users/Richard/Desktop/Candidacy talk/Recoil-spectrum.png>]
+<lux.jpg, id=55, 531.9875pt x 433.62pt>
+File: lux.jpg Graphic file (type jpg)
+ <use lux.jpg>
+Package pdftex.def Info: lux.jpg used on input line 128.
+(pdftex.def)             Requested size: 265.9931pt x 216.80946pt.
+ [11]
+<Recoils.jpg, id=59, 505.89pt x 347.84158pt>
+File: Recoils.jpg Graphic file (type jpg)
+ <use Recoils.jpg>
+Package pdftex.def Info: Recoils.jpg used on input line 137.
+(pdftex.def)             Requested size: 379.41655pt x 260.88052pt.
+ [12 <C:/Users/Richard/Desktop/Candidacy talk/lux.jpg>] [13 <C:/Users/Richard/D
+esktop/Candidacy talk/Recoils.jpg>] <gassys.jpg, id=67, 661.72218pt x 237.88875
+pt>
+File: gassys.jpg Graphic file (type jpg)
+
+<use gassys.jpg>
+Package pdftex.def Info: gassys.jpg used on input line 155.
+(pdftex.def)             Requested size: 330.86028pt x 118.94408pt.
+ [14] <Figone.jpg, id=71, 845.40843pt x 509.65407pt>
+File: Figone.jpg Graphic file (type jpg)
+
+<use Figone.jpg>
+Package pdftex.def Info: Figone.jpg used on input line 166.
+(pdftex.def)             Requested size: 422.70317pt x 254.8264pt.
+
+Overfull \hbox (32.70317pt too wide) in paragraph at lines 166--167
+ [] 
+ []
+
+[15 <C:/Users/Richard/Desktop/Candidacy talk/gassys.jpg>]
+<Figfour.jpg, id=75, 794.2172pt x 527.72156pt>
+File: Figfour.jpg Graphic file (type jpg)
+ <use Figfour.jpg>
+Package pdftex.def Info: Figfour.jpg used on input line 173.
+(pdftex.def)             Requested size: 397.10762pt x 263.86014pt.
+
+Overfull \hbox (7.10762pt too wide) in paragraph at lines 173--174
+ [] 
+ []
+
+[16 <C:/Users/Richard/Desktop/Candidacy talk/Figone.jpg>]
+<UMDIS.png, id=79, 254.5875pt x 339.3405pt>
+File: UMDIS.png Graphic file (type png)
+ <use UMDIS.png>
+Package pdftex.def Info: UMDIS.png used on input line 182.
+(pdftex.def)             Requested size: 254.58687pt x 339.33966pt.
+ [17 <C:/Users/Richard/Desktop/Candidacy talk/Figfour.jpg>]
+<cryo.png, id=83, 219.82124pt x 416.30531pt>
+File: cryo.png Graphic file (type png)
+ <use cryo.png>
+Package pdftex.def Info: cryo.png used on input line 191.
+(pdftex.def)             Requested size: 109.91034pt x 208.15215pt.
+ [18 <C:/Users/Richard/Desktop/Candidacy talk/UMDIS.png>]
+<spectra.png, id=88, 727.518pt x 277.035pt>
+File: spectra.png Graphic file (type png)
+ <use spectra.png>
+Package pdftex.def Info: spectra.png used on input line 202.
+(pdftex.def)             Requested size: 363.75812pt x 138.51715pt.
+ [19 <C:/Users/Richard/Desktop/Candidacy talk/cryo.png>]
+<backgrounds.png, id=94, 698.61pt x 272.6988pt>
+File: backgrounds.png Graphic file (type png)
+ <use backgrounds.png>
+Package pdftex.def Info: backgrounds.png used on input line 210.
+(pdftex.def)             Requested size: 349.30414pt x 136.34906pt.
+ [20 <C:/Users/Richard/Desktop/Candidacy talk/spectra.png> <C:/Users/Richard/De
+sktop/Candidacy talk/backgrounds.png>] [21]
+Underfull \hbox (badness 2460) in paragraph at lines 256--257
+[]\OT1/cmr/m/n/12 Wu, et al. \OT1/cmr/m/it/12 Monthly No-tices of the Royal As-
+tro-nom-i-cal So-ci-ety
+ []
+
+[22] ("C:\Users\Richard\Desktop\Candidacy talk\Candidacy Talk Rewritten2.aux") 
+) 
+Here is how much of TeX's memory you used:
+ 3704 strings out of 494045
+ 53439 string characters out of 3145963
+ 115408 words of memory out of 3000000
+ 6970 multiletter control sequences out of 15000+200000
+ 13358 words of font info for 51 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 37i,6n,38p,1505b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "Candidacy Talk Rewritten2.pdf" (22 pages, 3630443 bytes).
+PDF statistics:
+ 154 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+
