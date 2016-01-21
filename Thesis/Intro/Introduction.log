@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  19 JAN 2016 15:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  20 JAN 2016 15:16
 entering extended mode
 **Introduction.tex
 (C:\Users\Richard\Desktop\Thesis\Intro\Introduction.tex
@@ -201,6 +201,9 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 
 LaTeX Warning: Label `lensfigure' multiply defined.
 
+
+LaTeX Warning: Label `Lewin' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -260,7 +263,7 @@ File: RotationCurve2.png Graphic file (type png)
 Package pdftex.def Info: RotationCurve2.png used on input line 32.
 (pdftex.def)             Requested size: 326.71838pt x 295.10048pt.
 
-[5 <C:/Users/Richard/Desktop/Thesis/Intro/RotationCurve2.png>] [6] [7] [8]
+[5] [6 <C:/Users/Richard/Desktop/Thesis/Intro/RotationCurve2.png>] [7] [8]
 [9] [10] [11] [12] [13] [14]
 <LensEqFigure.png, id=59, 432.11438pt x 645.16031pt>
 File: LensEqFigure.png Graphic file (type png)
@@ -315,100 +318,90 @@ Package pdftex.def Info: neutrinos.png used on input line 400.
 (pdftex.def)             Requested size: 377.30293pt x 201.44905pt.
  [32 <C:/Users/Richard/Desktop/Thesis/Intro/neutrinos.png>] [33] [34] [35] [36]
  [37]
-[38] [39] [40] [41]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no í in font cmr12!
- [42] [43] [44] [45]
-<Recoil-spectrum.png, id=166, 517.935pt x 477.9456pt>
+[38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
+<Recoil-spectrum.png, id=176, 517.935pt x 477.9456pt>
 File: Recoil-spectrum.png Graphic file (type png)
 
 <use Recoil-spectrum.png>
-Package pdftex.def Info: Recoil-spectrum.png used on input line 500.
+Package pdftex.def Info: Recoil-spectrum.png used on input line 560.
 (pdftex.def)             Requested size: 258.96686pt x 238.97221pt.
- [46 <C:/Users/Richard/Desktop/Thesis/Intro/Recoil-spectrum.png>] [47] <Recoils
-.jpg, id=175, 505.89pt x 347.84158pt>
-File: Recoils.jpg Graphic file (type jpg)
-
-<use Recoils.jpg>
-Package pdftex.def Info: Recoils.jpg used on input line 518.
-(pdftex.def)             Requested size: 379.41655pt x 260.88052pt.
- [48 <C:/Users/Richard/Desktop/Thesis/Intro/Recoils.jpg>]
-Overfull \hbox (13.51765pt too wide) in paragraph at lines 545--545
+ [49]
+Overfull \hbox (13.51765pt too wide) in paragraph at lines 607--607
 []\OT1/cmr/bx/n/17.28 Calibration of the LUX De-tec-tor in a nonuni-
  []
 
-[49]
-Overfull \vbox (570.16673pt too high) has occurred while \output is active []
+[50 <C:/Users/Richard/Desktop/Thesis/Intro/Recoil-spectrum.png>]
+Overfull \vbox (768.91673pt too high) has occurred while \output is active []
 
 
-[50] [51]
-Underfull \hbox (badness 2460) in paragraph at lines 591--592
+[51] [52]
+Underfull \hbox (badness 2460) in paragraph at lines 653--654
 []\OT1/cmr/m/n/12 Wu, et al. \OT1/cmr/m/it/12 Monthly No-tices of the Royal As-
 tro-nom-i-cal So-ci-ety
  []
 
-[52]
+[53]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [53]
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
+ [54]
+Underfull \hbox (badness 10000) in paragraph at lines 696--697
 []\OT1/cmr/m/n/12 Kurki-Suonio, Cos-mo-log-i-cal Per-tur-ba-tion The-ory. (2015
 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--637
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
 []\OT1/cmr/m/n/12 Hu. CMB In-tro-duc-tion. (2001) back-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 642--643
+Underfull \hbox (badness 3735) in paragraph at lines 704--705
 []\OT1/cmr/m/n/12 Fermi-LAT Col-lab-o-ra-tion. Fermi LAT Search for Dark Mat-te
 r
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 642--643
+Underfull \hbox (badness 1688) in paragraph at lines 704--705
 \OT1/cmr/m/n/12 in Gamma-ray Lines and the In-clu-sive Pho-ton Spec-trum. (2012
 )
  []
 
-[54] [55] [56] (C:\Users\Richard\Desktop\Thesis\Intro\Introduction.aux)
+[55] [56] [57] [58] (C:\Users\Richard\Desktop\Thesis\Intro\Introduction.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3907 strings out of 494045
- 55721 string characters out of 3145963
- 115408 words of memory out of 3000000
- 7163 multiletter control sequences out of 15000+200000
+ 3912 strings out of 494045
+ 55747 string characters out of 3145963
+ 117408 words of memory out of 3000000
+ 7169 multiletter control sequences out of 15000+200000
  15212 words of font info for 57 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 37i,13n,38p,1545b,265s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,38p,1596b,265s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Introduction.pdf (56 pages, 1620757 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Introduction.pdf (58 pages, 1568418 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
+ 264 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -468,31 +468,91 @@ Experiments such as FERMI-LAT, PAMELA, and AMS-02 have confirmed a rise in the p
 
 \subsection{WIMP creation in Colliders}
 
+Experiments such as ATLAS and CMS are using the Large Hadron Collider (LHC) beneath France and Switzerland to search for the production of WIMPs in high energy particle collisions.  The LHC is a proton-proton collider which should have a large production cross section for colored super symmetric particles.  The WIMP pair production interaction $pp (p\bar{p}) \rightarrow \chi \bar{\chi}$ is of no use in these experiments, since it leaves no observable signal in the detector.  Instead, these experiments try to observe the higher order $pp (p\bar{p}) \rightarrow \chi \bar{\chi} + jets$ interaction, with the jets serving as a trigger that an event took place.  The dominant background when looking for such an event comes from the electroweak processes where the Z decays into a pair of neutrinos $pp (p\bar{p}) \rightarrow \nu \bar{\nu} + jets$ or the $W^{\pm}$ decays into a neutrino and a lepton $pp (p\bar{p}) \rightarrow l^{-}\bar{\nu} + jets$ or $pp (p\bar{p}) \rightarrow l^{+}\nu + jets$. In a WIMP $+$ jets event the WIMP will exit the detector unseen, producing a signature with missing transverse momentum.  The magnitude of this missing momentum is typically denoted as $E_T^{miss}$.  A model independent approach shows that $E_T^{miss}$ should be detectable at the LHC under the assumption that all new particles mediating the interaction of WIMPs and standard model particles are too heavy to be produced directly.  \cite{Beltran} However, no excess of events beyond the standard model processes has been observed at the LHC as of yet.  \cite{ATLAS}
+
+
 \subsection{Direct Detection Experiments}
+If dark matter interacts through the weak force, then it should be possible to observe WIMPs via nuclear recoils in direct detection experiments. During these events, a WIMP will scatter off of a target nucleus in the detector, producing a signal in the range of 1-100 keV. \cite{Lewin}   Direct detection experiments typically observe ionization, scintillation, or low temperature phonons produced during the event (or a combination of the three), although more recent experiments have developed an acoustic method of detection based on producing bubbles in a superheated fluid at the cite of a recoil.  These signals are susceptible to both nuclear recoil and electron recoil backgrounds so detailed, in situ, calibrations are required to characterize the detector's response to each type of event.  In this section, we will first review the WIMP recoil spectrum before discussing the different types of direct detection experiments in detail.  In the following chapter we will describe the one particular experiment, the LUX detector, in great detail before reviewing standard calibration techniques in chapter \ref{StandardCalibrations}.
 
-%%NOT MINE -- HERE FOR REFERENCE
+\subsubsection{The WIMP Recoil Spectrum}
 
-An alternative approach is provided by so-called
-direct detection experiments. If the Galaxy is filled with WIMPs, then many of them should pass through the Earth,
-making it possible to look for the interaction of such particles with baryonic matter,e.g. by recording the recoil energy of nuclei as WIMPs scatter off them.
-The signal in this case depends on the density and velocity distribution of WIMPs in the solar neighborhood and on the WIMP-nucleon scattering cross section. WIMPs
-can couple either with the spin content of a nucleus, through
-axial-vector (spin de-pendent) interactions, or with the nuclear mass, through scalar (spin-independent)
-scattering. The second interaction typically dominates over spin-dependent scatter-ing in current experiments, which use heavy atoms as targets. More than 20 direct dark matter detection experiments are either now operating or are currently in development. Presently, the best direct detection limits come from the CDMS and Edelweiss experiments, which probe nucleon-WIMP scattering cross sections of
-order 10−7 pb, for a WIMP mass of order 100 GeV. These experiments have ruled out the WIMP discovery claimed by the DAMA collaboration, although it may still be possible to find exotic particle candidates and Galaxy halo models which are able to accommodate the data from all current experiments
+Lewin and Smith provide a standard derivation of the expected WIMP recoil spectrum in reference \cite{Lewin}.  Their derivation begins with the differential particle density is given by 
+\begin{equation}
+dn=\frac{n_0}{k} f(\mathbf{v},\mathbf{v_E}) d^3\mathbf{v}
+\end{equation}
+where $n_0$ is the mean dark matter particle density, $\mathbf{v}$ is the velocity of the WIMP relative to the target, $\mathbf{v_E}$ is the velocity of the earth relative to the WIMP, $f(\mathbf{v},\mathbf{v_E})$ is the WIMP velocity distribution function.  The normalization constant $k$ is given by
+\begin{equation}
+k=\int_0^{2\pi}\int_{-1}^{1} \int_0^{v_{esc}}  f(\mathbf{v},\mathbf{v_E}) v^2 d(cos\theta)dv
+\end{equation}
+where $v_{esc}$ is the local escape velocity, so that 
+\begin{equation}
+\int_0^{v_esc}dn \equiv n_0.
+\end{equation}
+We treat the dark matter as a non-interacting ideal gas so that we can assume a Maxwellian dark matter velocity distribution given by
+\begin{equation}
+f(\mathbf{v},\mathbf{v_E})=e^{(-v+v_{E})^2/v_0^2}.
+\end{equation}
+Then for $v_{esc}=\infty$ we define
+\begin{equation} \label{k-not}
+k_0 \equiv (\pi v_0^2)^{3/2},
+\end{equation}
+and for finite escape velocity $v_{esc}=|\mathbf{v}+\mathbf{v_E}|$,
+\begin{equation}
+k=k_0[\mbox{erf}(\frac{v_{esc}}{v_0}) - \frac{2}{\sqrt{\pi}} \frac{v_{esc}}{v_0} e^{-v_{esc}^2/v_0^2}].
+\end{equation}
 
-%% OLD STUFF FROM CANDIDACY PAPER
-Cold dark matter particles such as WIMPs can be detected directly via nuclear recoils in terrestrial detectors.  In these events, a WIMP will scatter off of a target nucleus in the detector, causing the nucleus to recoil with a certain amount of energy taken from the collision.  The expected energy recoil spectrum of WIMPs detected in this manner is given by
-\[\frac{dN}{dE_r}=\frac{\sigma_0 \rho_\chi}{2 \mu^2 m_\chi} F^2(q) \int_{v_{min}}^{v_{esc}} \frac{f(v)}{v} dv, \]
-where $\rho_\chi$ is the local WIMP density, $f(v)$ is the velocity distribution of WIMPs in the halo, $v_{min}$ is the minimum WIMP velocity able to generate a recoil of energy $E_r$, $v_{esc}$ is the escape velocity for WIMPs in the halo, and  $\sigma_0$ is the WIMP-nucleus interaction cross sections. $F(q)$ is the nuclear form factor describing the scattering amplitude for momentum transfer $q$,and $\mu$ is the WIMP-nucleus reduced mass given by 
-\[\mu=\frac{m_\chi m_N}{m_\chi + m_N}\]
-where $m_N$ is the target nucleus mass \cite{Jungman,Goodman,Lewin}. The WIMP-nucleus cross section can have both spin-independent (SI) and spin-dependent (SD) components \cite{Shan}. The SI interaction cross section is given by
+The event rate per unit mass on a target of atomic mass $A$ (AMU), with cross-section per nucleus $\sigma$ is given by
+\begin{equation}
+dR=\frac{N_0}{A} \sigma v dn
+\end{equation}
+where $N_0$ is Avogadro's number ($6.02\times10^{26} mol^{-1}$).  For constant cross section $\sigma=\sigma_0$ the even rate per unit mass is then
+\begin{equation}
+R=\frac{N_0}{A}\sigma_0 \int v dn \equiv \frac{N_0}{A}\sigma_0n_0\left\langle v\right\rangle .
+\end{equation}
+Substituting $n_0=\rho_{\chi} / M_{\chi}$ (where $\rho_{\chi}$ and $M_{\chi}$ are the WIMP density and mass, respectively) we define the event rate per unit mass for $v_E=0$ and $v_{esc}=\infty$ as
+\begin{equation} \label{R-not}
+R_0=\frac{2 N_0 \rho_{\chi}}{\sqrt{\pi} A M_{\chi}} \sigma_0 v_0 = \frac{2 \rho_{\chi} }{\sqrt{\pi} M_{\chi} M_T} \sigma_0 v_0
+\end{equation}
+where $M_T$ is the mass of the WIMP, such that 
+\begin{equation} \label{intR}
+R=R_0 \frac{\sqrt{\pi} \left \langle v \right \rangle}{2 v_0} = R_0 \frac{k_0}{2 \pi v_0^4 k} \int v f(\mathbf{v},\mathbf{v_E}) d^3v.
+\end{equation}
+In differential form equation \ref{intR} becomes
+\begin{equation} \label{diffR}
+dR = R_0 \frac{k_0}{2 \pi v_0^4 k} v f(\mathbf{v},\mathbf{v_E}) d^3v.
+\end{equation}
+
+The recoil energy (as measured in the lab frame) of a nucleus struck by a WIMP of kinetic energy $E=\frac{1}{2} M_\chi v^2$ and scattered at an angle $\theta$ in a center-of-mass frame if given by
+\begin{equation}
+E_R= \frac{1}{2} M_\chi v^2 \frac{2 M_\chi M_T}{(M_\chi + M_T)^2} (1-cos\theta).
+\end{equation}
+For isotropic scattering recoils are uniformly distributed over a range of $0 \leq E_R \leq \frac{1}{2} M_\chi v^2 \frac{4 M_\chi M_T}{(M\chi + M_T)^2}$ so
+\begin{equation} \label{dRdER}
+\frac{dR}{dE_R} = \int_{E_{min}}^{E_{max}} \frac{(M_\chi + M_T)^2}{4 M_\chi M_T E} dR(E)
+\end{equation}
+where $E_{max} = \frac{1}{2} M_\chi v^2 \frac{4 M_\chi M_T}{(M_\chi + M_T)^2}$ and $E_min$ is the smallest WIMP energy which can produce a recoil of energy $E_R$.  Since $E=\frac{1}{2}M_\chi v^2$ and $E_0=\frac{1}{2}M_\chi v_0^2$, $E=E_0 \frac{v^2}{v_0^2}$ and equation \ref{dRdER} becomes
+\begin{equation}
+\frac{dR}{dE_R} = \frac{(M_\chi + M_T)^2}{4 M_\chi M_T E_0} \int_{v_{min}}^{v_{max}} \frac{v_0^2}{v^2} dR(v)
+\end{equation}
+where $v_{min}$ and $v_{max}$ is the WIMP velocities corresponding to $E_{min}$ and $E_{max}$.
+Therefore, using equations \ref{k-not}, \ref{R-not}, and \ref{diffR} the expected energy recoil spectrum of WIMPs scattering off of a target nucleus is given by
+\begin{align} \label{final_dRdER}
+\frac{dR}{dE_R} \begin{aligned} = \end{aligned} \frac{(M_\chi + M_T)^2}{4 M_\chi M_T} \frac{k_0 R_0}{2\pi E_0 k v_0^2}  \int_{v_{min}}^{v_{max}} \frac{f(\mathbf{v},\mathbf{v_E})}{v} d^3v \nonumber \\
+\begin{aligned} = \end{aligned} \frac{ (M_\chi + M_T)^2}{2M_\chi^2M_T^2} \frac{\rho_\chi}{M_\chi} \frac{\sigma_0}{k} \int_{v_{min}}^{v_{max}} \frac{f(\mathbf{v},\mathbf{v_E})}{v} d^3v
+\end{align}
+It is conventional to express $\sigma_0$ as the product of $\sigma_0$ at the coherent scattering limit in which the WIMP interacts with the entire nucleus (with momentum tranfer $q=0$) and a nuclear form factor $F$ which accounts for the loss of coherence with higher momentum transfer.  Therefore, using the WIMP-nucleus reduced mass given by $\mu\equiv \frac{M_\chi M_T}{M_\chi + M_T}$ equation \ref{final_dRdER} becomes
+\begin{equation} \label{final_dRdER_2}
+\frac{dR}{dE_R}=\frac{\sigma_0 \rho_\chi}{2 \mu^2 M_\chi k} F^2(q)  \int_{v_{min}}^{v_{max}} \frac{f(\mathbf{v},\mathbf{v_E})}{v} d^3v, 
+\end{equation}
+where, as a reminder, $\rho_\chi$ is the local WIMP density, $f(\mathbf{v},\mathbf{v_E})$ is the velocity distribution of WIMPs in the halo, $v_{min}$ is the minimum WIMP velocity able to generate a recoil of energy $E_R$, $v_{esc}$ is the escape velocity for WIMPs in the halo, $\sigma_0$ is the WIMP-nucleus interaction cross sections, and $F(q)$ is the nuclear form factor describing the scattering amplitude for momentum transfer $q$.
+
+The WIMP-nucleus cross section can have both spin-independent (SI) and spin-dependent (SD) components \cite{Shan}. The SI interaction cross section is given by
 \[\sigma_0^{SI}=\frac{4}{\pi}\mu^2 [Z f_p + (A - Z) f_n]^2,\]
 where Z is the atomic number of the target nucleus (the number of protons), A is the atomic mass number of the target nucleus ($A-Z$ is therefore the number of neutrons in the nucleus), and $f_p$ and $f_n$ are the effective scalar couplings of WIMPs to protons and neutrons, respectively.  In this process we must sum over the interactions in each nucleon prior to squaring, since the DeBroglie wavelength associated with the momentum transfer is comparable to, or larger than, the size of the target nuclei, giving rise to a coherence effect across the nucleons.  If the scalar couplings of WIMPs with neutrons and protons are approximately equal (which is the case with the LSP of SUSY), then the SI cross section can be simplified to
 \[\sigma_0^{SI} \simeq \frac{4}{\pi}\mu^2 A^2 |f_p|^2. \]
 The cross section for SD interactions is given by
 \[\sigma_0^{SD}=\frac{32}{\pi}G_F^2\mu^2\frac{J+1}{J}[\langle S_p \rangle a_p + \langle S_n \rangle a_n]^2, \]
-where $G_F$ is the Fermi constant, $J$ is the total spin of the target nucleus, $\langle S_{(p,n)} \rangle$ are the expectation values of the proton and neutron group spins, and $a_{(p,n)}$ are the effective SD WIMP couplings on protons and neutrons.  In SD WIMP-nucleus interactions it is assumed that only unpaired nucleons contribute significantly to the total cross section, since the spins of the nucleons in a nucleus are anti-aligned.  In most cases, the spin independent, coherent term dominates the total WIMP-nucleus cross section due to its $A^2$ dependence on the atomic mass number of the target nucleus.
+where $G_F$ is the Fermi constant, $J$ is the total spin of the target nucleus, $\langle S_{(p,n)} \rangle$ are the expectation values of the proton and neutron group spins, and $a_{(p,n)}$ are the effective SD WIMP couplings on protons and neutrons.  In SD WIMP-nucleus interactions it is assumed that only unpaired nucleons contribute significantly to the total cross section, since the spins of the nucleons in a nucleus are anti-aligned.  In most cases, the spin independent, coherent term dominates the total WIMP-nucleus cross section due to its $A^2$ dependence on the atomic mass number of the target nucleus.  
 
 A calculation of both the differential and integrated WIMP event rates in single isotope targets of  $^{131}$Xe, $^{73}$Ge, and $^{40}$Ar using a WIMP mass of 100 GeV is included in Figure 4.
 
@@ -509,19 +569,19 @@ Lighter target nuclei will produce lower event rates in a WIMP detector due to t
 %single phase (pulse shape, with NR producing singlets instead 						of triplet excimers)
 %dual phase (NR has higher charge density, so more 							recombination, so lower S2/S1)
 
-In WIMP detectors there will be two types of events.  WIMPs and neutrons will deposit energy via nuclear recoils, while gamma rays and x-rays will deposit energy via electron recoils.  The key to identifying WIMP events within a detector lies in understanding how it will respond to each of these events.  To achieve this goal, a quantity known as the quenching factor of a detector must be determined.  The quenching factor of a detector describes the difference in the amount of energy measured by the detector between the two types of events.  Electron recoil events are typically measured in units of $keV_{ee}$ (``keV-electron-equivalent"), which is the amount of energy an electron recoil would require to generate the event.  Similarly, nuclear recoil events are typically measured in units of $keV_{nr}$ (``keV-nuclear-recoil"), which is the amount of energy a nuclear recoil would require to generate the event.  The energy scale for electron recoils can be set using a beta emitting calibration source, while the energy scale for nuclear recoils can be set using a neutron calibration source.  A detector's quenching factor is then given by
-\[QF=\frac{E_{ee}(keV_{ee})}{E_r(keV_{nr})}.\]
+\subsubsection{Backgrounds in Direct Detection Experiments}
 
-In two phase (liquid and gas) xenon detectors the quenching factor differs between scintillation and ionization signals produced by interactions within the liquid.  The initial recoil event will produce a scintillation signal (referred to as S1) and ionization.  Photo-multiplier tubes can be used to measure the scintillation light, while the ionization can be drifted to an anode located in the gas phase of the detector.  Once the charged particles are accelerating toward the anode in the xenon gas they will create a secondary scintillation signal (referred to as S2).  Nuclear recoil events have higher ionization density, leading to a higher recombination probability, resulting in a higher S1 yield and lower S2 yield than electron recoil events of the same energy. Thus, the different quenching factors can be used to distinguish the two types of events.
+\subsubsection{Cryogenic Detectors}
 
-\begin{center}
-\includegraphics[scale=0.75]{Recoils.jpg}
-\captionof{figure}{A plot of electron recoil events generated by an external calibration source in the LUX prototype (LUX 0.1).  This data is used to determine the electron recoil band shown in red, while data from a neutron source (not shown) is used to determine the nuclear recoil band shown in green }
-\end{center}
+\subsubsection{Bubble Chambers}
+
+\subsubsection{Dual Phase TPCs}
+
+
 
 \section{The LUX Detector}
 
-\section{Standard Calibration of the LUX Detector}
+\section{Standard Calibration of the LUX Detector} \label{StandardCalibrations}
 
 \subsection{Calibration Sources}
 \subsubsection{Cesium}
@@ -533,7 +593,9 @@ In two phase (liquid and gas) xenon detectors the quenching factor differs betwe
 \subsubsection{Doke Plot}
 \subsubsection{Tritium Chi2}
 
-\subsubsection{Electron Recoil Band Calibration and Tritium Physics}
+\subsubsection{ER and NR Calibration}
+
+\subsubsection{Tritium Physics}
 
 \subsection{Detector Efficiency Corrections}
 \subsubsection{Sources of Detector Inefficiency}
@@ -669,6 +731,14 @@ Vikhlinin A, et al. Chandra Sample of Nearby Relaxed Galaxy Clusters: Mass, Gas 
 \bibitem{Serpico} P. Serpico. Astrophysical models for the origin of the positron "excess". 10.1016/j.astropartphys.2011.08.007  	arXiv:1108.4827
 
 \bibitem{Bertone} Bertone, et al. Particle Dark Matter: Evidence, Candidates and Constraints. Phys.Rept.405:279-390,2005 arXiv:hep-ph/0404175
+
+\bibitem{Beltran} Beltran, et al.  Maverick dark matter at colliders.  JHEP 1009:037,2010 arXiv:1002.4137
+
+\bibitem{ATLAS} The ATLAS Collaboration. Search for dark matter candidates and large extra dimensions in events with a jet and missing transverse momentum with the ATLAS detector. JHEP 1304 (2013) 075 arXiv:1210.4491 
+
+\bibitem{Lewin}  D Lewin and P F Smith.  Review of mathematics, numerical factors, and
+corrections for dark matter experiments based on elastic nuclear recoil.
+Astroparticle Physics, 1996.
 
 \end{thebibliography}
 
