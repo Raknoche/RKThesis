@@ -1,0 +1,51 @@
+\contentsline {section}{\numberline {1}Introduction to Dark Matter}{4}
+\contentsline {subsection}{\numberline {1.1}Evidence for Dark Matter}{5}
+\contentsline {subsubsection}{\numberline {1.1.1}Mass Measurements from Galactic Rotation Curves}{5}
+\contentsline {subsubsection}{\numberline {1.1.2}Mass Measurements from x-ray Gases}{8}
+\contentsline {subsubsection}{\numberline {1.1.3}Gravitational Lensing}{11}
+\contentsline {subsubsection}{\numberline {1.1.4}Cosmological Evidence}{21}
+\contentsline {subsection}{\numberline {1.2}Dark Matter Candidates}{27}
+\contentsline {subsubsection}{\numberline {1.2.1}The $\Lambda $CDM Model}{27}
+\contentsline {subsubsection}{\numberline {1.2.2}Nonbaryonic Dark Matter}{31}
+\contentsline {subsubsection}{\numberline {1.2.3}WIMPs and SUSY}{33}
+\contentsline {subsubsection}{\numberline {1.2.4}Axions and Axinos}{36}
+\contentsline {subsubsection}{\numberline {1.2.5}Gravitons and Gravitinos}{37}
+\contentsline {subsubsection}{\numberline {1.2.6}WIMPzillas}{37}
+\contentsline {section}{\numberline {2}Searching for WIMPs}{38}
+\contentsline {subsection}{\numberline {2.1}Indirect Detection Experiments}{38}
+\contentsline {subsubsection}{\numberline {2.1.1}Gamma-Ray Experiments}{39}
+\contentsline {subsubsection}{\numberline {2.1.2}Neutrino Experiments}{40}
+\contentsline {subsubsection}{\numberline {2.1.3}Positron Experiments}{41}
+\contentsline {subsection}{\numberline {2.2}WIMP creation in Colliders}{43}
+\contentsline {subsection}{\numberline {2.3}Direct Detection Experiments}{44}
+\contentsline {subsubsection}{\numberline {2.3.1}The WIMP Recoil Spectrum}{44}
+\contentsline {subsubsection}{\numberline {2.3.2}Backgrounds in Direct Detection Experiments}{51}
+\contentsline {subsubsection}{\numberline {2.3.3}Cryogenic Detectors}{51}
+\contentsline {subsubsection}{\numberline {2.3.4}Bubble Chambers}{51}
+\contentsline {subsubsection}{\numberline {2.3.5}Dual Phase TPCs}{51}
+\contentsline {section}{\numberline {3}The LUX Detector}{51}
+\contentsline {section}{\numberline {4}Standard Calibration of the LUX Detector}{51}
+\contentsline {subsection}{\numberline {4.1}Calibration Sources}{51}
+\contentsline {subsubsection}{\numberline {4.1.1}Cesium}{51}
+\contentsline {subsubsection}{\numberline {4.1.2}Kr83m}{51}
+\contentsline {subsubsection}{\numberline {4.1.3}Tritium}{51}
+\contentsline {subsection}{\numberline {4.2}Energy Scale Calibrations}{51}
+\contentsline {subsubsection}{\numberline {4.2.1}Recombination Physics}{51}
+\contentsline {subsubsection}{\numberline {4.2.2}Doke Plot}{51}
+\contentsline {subsubsection}{\numberline {4.2.3}Tritium Chi2}{51}
+\contentsline {subsubsection}{\numberline {4.2.4}ER and NR Calibration}{51}
+\contentsline {subsubsection}{\numberline {4.2.5}Tritium Physics}{51}
+\contentsline {subsection}{\numberline {4.3}Detector Efficiency Corrections}{51}
+\contentsline {subsubsection}{\numberline {4.3.1}Sources of Detector Inefficiency}{51}
+\contentsline {subsubsection}{\numberline {4.3.2}Standard Corrections}{51}
+\contentsline {subsubsection}{\numberline {4.3.3}Radon Lifetime Method}{51}
+\contentsline {subsubsection}{\numberline {4.3.4}PMTxPMT Method}{51}
+\contentsline {section}{\numberline {5}Calibration of the LUX Detector in a nonuniform Field}{51}
+\contentsline {subsection}{\numberline {5.1}Source of nonuniform Field}{51}
+\contentsline {subsection}{\numberline {5.2}Issues arising from nonuniform Field}{51}
+\contentsline {subsection}{\numberline {5.3}Removing field effects from data with theory}{51}
+\contentsline {subsection}{\numberline {5.4}Removing field effects from data with Monte Carlo}{51}
+\contentsline {subsection}{\numberline {5.5}Electron Recoil Calibration in a nonuniform Field}{51}
+\contentsline {section}{\numberline {6}Taking advantage of a nonuniform Field}{51}
+\contentsline {subsection}{\numberline {6.1}LY and QY v Field}{51}
+\contentsline {subsection}{\numberline {6.2}Descrimination v Field}{51}
