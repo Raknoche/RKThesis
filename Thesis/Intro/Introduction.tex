@@ -461,7 +461,7 @@ Ground based detectors, such as ANTARES and IceCube, search for the neutrinos pr
 
 \subsubsection{Positron Experiments}
 
-Positrons can be produced with a varying spectrum via direct annihilation of dark matter to positron-electron pairs or by annihilations to ZZ or W$^+$W$^-$.  \cite{Cheng,Kamionkowsk}.  These positrons do not travel in straight lines from their source due to galactic magnetic fields.  Due to their low mass, electrons and positrons lose energy via inverse Compton scattering and synchrotron radiation as they travel from source to observer. The energy loss increases with the square of the electron energy, such that the power law energy spectrum is steepened at the location of the observer, resulting in an expectation of ~$E^-3$.  The inelastic collision of cosmic-ray protons and $\alpha$-particles produce charged pions, which in turn produce secondary positrons and electrons in roughly equal amounts via the $\pi-\mu-e$ decay chain. \cite{Stecker}  For secondary electrons and positrons, the source spectrum would therefore follow the energy spectrum of ambient protons, which is approximately ~$E^-3.7$ after radiative loss during transit.  If the only source of positrons was from secondary production, and astrophysical sources produced electron, we would then expect the positron fraction $e^+/(e^+ + e^-)$) to decrease smoothly with energy.  \cite{PEBS} Therefore, experiments which seek to measure a positron signal from dark matter annihilation observe the positron fraction as a function of energy from entire galactic halo and compare their results to astrophysical models of positron production.
+Positrons can be produced with a varying spectrum via direct annihilation of dark matter to positron-electron pairs or by annihilations to ZZ or W$^+$W$^-$.  \cite{Cheng,Kamionkowsk}.  These positrons do not travel in straight lines from their source due to galactic magnetic fields.  Due to their low mass, electrons and positrons lose energy via inverse Compton scattering and synchrotron radiation as they travel from source to observer. The energy loss increases with the square of the electron energy, such that the power law energy spectrum is steepened at the location of the observer, resulting in an expectation of $\sim E^-3$.  The inelastic collision of cosmic-ray protons and $\alpha$-particles produce charged pions, which in turn produce secondary positrons and electrons in roughly equal amounts via the $\pi-\mu-e$ decay chain. \cite{Stecker}  For secondary electrons and positrons, the source spectrum would therefore follow the energy spectrum of ambient protons, which is approximately $\sim E^-3.7$ after radiative loss during transit.  If the only source of positrons was from secondary production, and astrophysical sources produced electron, we would then expect the positron fraction $e^+/(e^+ + e^-)$) to decrease smoothly with energy.  \cite{PEBS} Therefore, experiments which seek to measure a positron signal from dark matter annihilation observe the positron fraction as a function of energy from entire galactic halo and compare their results to astrophysical models of positron production.
 
 Experiments such as FERMI-LAT, PAMELA, and AMS-02 have confirmed a rise in the positron fraction at high energy. \cite{FermiPositron,PamelaPositron,AMSPositron} However, a very high cross section and leptophilic models are required for these observations to be attributed to dark matter annihilation.  Alternative explanations such as local pulsar sources and acceleration of secondary positrons have also been proposed. \cite{Serpico}
 
@@ -591,22 +591,453 @@ The background mitigation techniques discussed in this section can not completel
 %Get Sources from bradley thesis http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxRequiredReading/AWB_PhDThesis_20140120.pdf
 A WIMP deposits energy in a detect in the form of scintillation light, ionization, and heat.  A variety of WIMP detectors have been constructed that each detect one or two of these channels.  Scintillation detectors use scintillating crystals or liquid scintillators as a target medium. For instance, the DAMA/LIBRA experiment at the Gran Sasso Laboratory in Italy uses room temperature, thallium doped sodium iodide (NaI(Tl)) scintillating crystals as a target medium.  Each crystal is paired with two photomultiplier tubes (PMT) which collect scintillation light from within each crystal.  Annual modulation of the WIMP signal due to the motion of the earth around the sun is used to discriminated background events from WIMP events.  The XMASS detector uses liquid xenon as a target medium.  The scintillation produced in the xenon by recoil events is collected by PMT arrays. Background events from gamma ray sources are attenuated by the liquid xenon's large atomic number (Z=54) and high density, leading to a low background fiducial volume.  This discrimination technique is referred to as "self shielding."  Single phase liquid argon experiments, such as DEAP and CLEAN, can not take advantage of self shield techniques due to the intrinsic background from $^{39}$Ar.  Instead, these experiments use a technique called pulse shape discrimination to differentiate signal events from background.  Scintillation in liquid noble gases is produced by the decay of singlet or triplet excimers.  The triplet state emits light over a longer period of time, and the light can be suppressed by destructive interactions such as Penning ionization and electron-triplet spin exchange.  Nuclear recoils produce higher excitation densities, and therefore more destructive interactions with the triplet excimers, leading to a difference in the pulse shape of nuclear recoil and electron recoil events. 
 
-Single phase ionization detectors have also been used in the search for dark matter.  The CoGeNT detector in the Soudan Underground Laboratory in Minnesota uses a low input capacitance p-type point contact (PPC) germanium crystal to detect ionization from WIMP interactions.  The detector has energy thresholds as low as 500 eV, allowing the collaboration to search for low mass (~5 GeV/c$^2$) WIMP particles.  Electron recoil background events scatter at multiple events sites in the germanium crystal, while WIMPs scatter at most once. This leads to a longer rise time in pulses from background events which can be used as another form of pulse shape discrimination.
+Single phase ionization detectors have also been used in the search for dark matter.  The CoGeNT detector in the Soudan Underground Laboratory in Minnesota uses a low input capacitance p-type point contact (PPC) germanium crystal to detect ionization from WIMP interactions.  The detector has energy thresholds as low as 500 eV, allowing the collaboration to search for low mass ($\sim$5 GeV/c$^2$) WIMP particles.  Electron recoil background events scatter at multiple events sites in the germanium crystal, while WIMPs scatter at most once. This leads to a longer rise time in pulses from background events which can be used as another form of pulse shape discrimination.
 
 Phonon detectors are the final type of single signal detectors.  These type of detectors, such as the Cryogenic Underground Observatory for Rare Events (CUORE) in the Gran Sasso National Laboratory, use low heat capacity crystals as a target medium. In the case of CUORE, tellurium dioxide crystals (TeO$_2$) are held at 10 mK to reduce thermal noise.  The low heat capacity of the crystals allows particle interactions to raise the temperature of the crystals, which in turn changes the resistance of neutron transmutation doped germanium thermistors which are glued to the top of each crystal.  A constant current is applied to the thermistors, and the voltage across each thermistor is used as a detection method.  These types of detectors do not have any means of event discrimination, so they rely heavily on the use of radiopure construction materials and background modeling.
 
-In addition to the single signal detectors, many detectors collect data from two of the three energy deposition channels.  The Cryogenic Dark Matter Search (CDMS)  in the Soudan mine records signals from both phonons and ionization.  The detector uses Ge and Si detectors cooled to ~40mK as a target medium.  The low temperature is required to reduce thermal noise in the detector.  Ionized particles are drifted to the top of the crystals by an electric field where they are read out using field effect transistors, and the corresponding phonon signal is collected by superconducting transition edge sensors coupled with SQUIDs on the opposite face of each crystal.  The ionization yield of a nuclear recoil is lower than an electron recoil, so the ratio of the two signals is used for nuclear recoil discrimination.
+In addition to the single signal detectors, many detectors collect data from two of the three energy deposition channels.  The Cryogenic Dark Matter Search (CDMS)  in the Soudan mine records signals from both phonons and ionization.  The detector uses Ge and Si detectors cooled to $\sim$40mK as a target medium.  The low temperature is required to reduce thermal noise in the detector.  Ionized particles are drifted to the top of the crystals by an electric field where they are read out using field effect transistors, and the corresponding phonon signal is collected by superconducting transition edge sensors coupled with SQUIDs on the opposite face of each crystal.  The ionization yield of a nuclear recoil is lower than an electron recoil, so the ratio of the two signals is used for nuclear recoil discrimination.
 
 The Cryogenic Rare Event Search with Superconducting Thermometers (CRESST) is a phonon and scintillation detector in the Gran Sasso National Laboratory.  CRESST uses calcium tungstate (CaWO$_4$) crystals, which are cooled to 10 mK to lower thermal noise, as a target medium. As with CDMS, transition edge sensors are used to detect phonons originating from particle interactions in the crystals.  Scintillation light in the crystals absorbed by a silicon light absorber that converts the scintillation photons to heat, which are then detected by secondary thermometers.  A nuclear recoil produces 10-40 times less scintillation light in the CaWO$_4$ crystals than an electron recoil does, so the ratio of the phonon and scintillation signal can be used for nuclear recoil discrimination.
 
 The final class of detectors records the scintillation and ionization signals from particle interactions.  These detectors, which are known as dual phase time projection chambers, use liquid noble scintillators (typically xenon) as a target medium. Primary scintillation light is collected by PMT arrays at the top and bottom of the detector. An electric field is used to drift charge from ionized particles to the top of the detector, where the charge produces a secondary source of scintillation light as it accelerates through the gaseous xenon above the liquid.  The ratio of the primary and secondary scintillation light can be used for nuclear recoil discrimination.  Currently, the most sensitive dark matter detector in the world is a dual phase TPC placed in the Sanford Underground Reasearch Facility in South Dakota.  This detector, known as the Large Underground Xenon detector (LUX), will be discussed in depth in chapter \ref{LUXChap}.
 
-\section{The LUX Detector} \label{LUXChap} %Talk about self shield in this section
-STUFF
+\newpage
 
+%	Purity of detector materials in introduction
+
+\section{The LUX Detector} \label{LUXChap} %Talk about self shield in this section
+The Large Underground Xenon detector (LUX) is a dual phase time projection chamber location in the Sanford Underground Research facility in South Dakota.  The detector is a dodecagonal structure that uses 300 kg of liquid xenon as a target medium.   The commercially bought xenon was distilled to $\sim$1 ppm (g/g) of air by the manufacturer before undergoing a krypton removal campaign to lower residual krypton levels to less than 5 parts per trillion (g/g).  Particle interactions in the liquid xenon produce ionized and excited state xenon atoms.   Some of the electrons released in the ionization process recombine with the xenon ions, forming additional xenon excitons, while the rest are drifted to the liquid surface by an electric field.   The xenon excitons return to the ground state with a characteristic time constant of 2.2 ns for the singlet state and 27 ns for the triplet state, producing scintillation light at $\sim$175 nm in the processes.  This scintillation light is referred to as the S1 signal.   Electrons which make it to the liquid surface are accelerated through the gas above the liquid xenon by a stronger electric field, producing electroluminescent light which is referred to as the S2 signal. This process will be discussed in depth in section \ref{RecombSec} .
+
+Two arrays of 61 PMTs each are used to measure both the S1 and S2 light in the detector.  The light response of each PMT in the top array is used to reconstruct the XY position of recoil events based on the intensity of the S2 signal, and the time difference between the S1 and S2 signal is used to reconstruct the depth of the recoil events.  In this way, the LUX detector has three dimensional position reconstruction which can be used to construct a low background fiducial volume in the3 center of the detector.  
+
+ \begin{figure} 
+\includegraphics[scale=.5]{LUXevent.png} 
+\captionof{figure}{A depiction of a recoil event in LUX. The response of the top PMT array to the S2 light is used for xy position reconstruction, while the timing between the S1 and S2 signals is used for the depth measurement.}
+\label{LUXevent}
+\end{figure}
+
+The LUX detector is an extremely low background environment due to the strong self shielding properties of liquid xenon and the lack of naturally occurring xenon radioisotopes.  Low energy external backgrounds ($<$50 keV) can only travel a few millimeters into the liquid xenon volume, while higher energy gamma rays ($\sim$MeV range) will produce easily identifiable multiscatter events due to their mean free path of a few centimeters.  Any background events which do appear in the fiducial volume are reduced by over 99\% by using the ratio of the S1 and S2 signal as a form of nuclear recoil discrimination.  Discrimination techniques in the LUX detector will be discussed more in section \ref{DiscrimSec}.  In this section, we will  discuss the detector internals, external support system, and the DAQ electronics used to read out the PMT signal.  
+
+ \begin{figure} 
+\includegraphics[scale=.5]{GammaBackgrounds.png} 
+\captionof{figure}{Simulated gamma ray backgrounds in the LUX detector after removing multiscatter events. The black dashed lines indicate the fiducial volume used in the first LUX WIMP search results.}
+\label{GammaBackgrounds}
+\end{figure}
+
+\newpage
+
+\subsection{Detector Internals}
+\subsubsection{Cryostats} %(Show figure 5 from http://arxiv.org/pdf/1211.3788v2.pdf).
+
+
+A cross section of the LUX cryostats and detector internals is shown in figure \ref{LuxCross}.  An outer titanium cryostat is used to maintain a thermally insulating vacuum around the detector.  An inner cryostat which houses the liquid xenon and detector internals is attached to the roof of the outer cryostat via three plastic hangers.  Instrumentation cables and gas circulation plumbing are fed through flexible conduits at the top of the detector.  Flexibility of the feedthroughs is required to deal with thermal contraction of the plastic hangers.
+
+ \begin{figure} 
+\includegraphics[scale=.45]{LuxCryostat.png} 
+\captionof{figure}{Cross section of the LUX cryostats and internal detector components.\cite{LuxDetector}}
+\label{LuxCross}
+\end{figure}
+
+	
+\subsubsection{PMT Arrays, PTFE Structure, and Electric Field Cage}
+Inside the inner cryostat, a 5 cm thick copper block with a diameter of 55 cm is mounted directly on to the flange.  This copper serves as a radiation shield and a temperature controller during detector operations. A similar copper structure is attached to the bottom of the inner cryostat and is used to displace xenon from the inactive volume in addition to the functions of the top radiation shield.  
+
+Two PMT arrays are used to collect light from the S1 and S2 signals in the detector.  Each array contains 61 Hamamatsu R8778 PMTs which observe the active volume.  These PMTs were specifically designed for operation in liquid xenon, with a typical quantum efficiency of 33\% at the 175 nm wavelength of liquid xenon scintillation.  The top PMT array is housed in a copper structure which is hung 15 cm below the upper radiation shield by six titanium straps.  Reflective polytetrafluoroethylene (PTFE)   trifoils cover the inner face of the copper housing to increase light collection efficiency in the detector.  A similar structure is placed at the bottom of the detector to house the bottom PMT array. 
+
+Twelve PTFE panels hang from the top PMT support and are attached to the bottom PMT support.  These panels are used to increase light collection efficiency in the detector, and serve as the support structure for the electric field cage in the detector.  The field cage is made of five wire grids.  Each grid is made of thing stainless streel wires and are 88-99\% transparent at a normal angle of incidence.  Stainless steel is known to be 57\% reflective at xenon scintillation wavelength, further minimizing the optical footprint of the wire grids. The top grid is located 2 cm below the top PMT array.  A stainless steel ring is used to string 50 micron diameter stainless steel wires spaced with a pitch of 1 cm.  The voltage on the top grid is used to zero the electric field at the photocathodes of the top PMTs.  The anode is placed 4 cm below the top grid.  It is similar in design to the top grid, but uses 30 micro wires with 0.5 mm spacing. The gate grid, which uses 50 micron stainless steel wires with a pitch of 5 mm, is placed 1 cm below the anode grid. The position of the gate grid places it about 5 mm below the liquid xenon surface.   These two grids work in tandem to produce a strong extraction field (5-6 kV/cm) that pulls charge out of the liquid xenon and into the gas, producing the S2 signal. The cathode grid is placed about 49.5 cm below the liquid surface. This grid uses 260 micron diameter stainless steel wires with a pitch of 5 mm, and works in tandem with the anode grid to produce a $\sim$180 V/cm electric field which drifts charge from a particle interaction to the liquid surface.  The bottom grid is the last of the five wire grids.  It is located 4 cm below the cathode grid and 2 cm above the bottom PMT support, and uses 206 micron diameter stainless steel wires with a pitch of 1 cm.  The bottom grid serves the similar purpose as the top grid – it is used to zero the field at the photocathodes of the bottom PMT arrays.
+
+Fourty-eight copper field rings are spaced 1 cm apart inside of the PTFE panels to shape the drift field. These rings have thickness of 3.2 mm and a width of 12.7 mm.  The spacing and thickness of the rings were chosen to shield the active region from the electric field produced by the cathode high voltage cable.  The voltage of the field rings is set by a resistor chain that runs between the gate and the cathode grids.  A pair of  0.875 G$\Omega$ resistors connect the top field ring to the gate grid, while a pair of 1.25 G$\Omega$ resistors connect the bottom field ring to the cathode grid.  A pair of 1 G$\Omega$ resistors is used to connect each adjacent field ring.
+
+
+ \begin{figure} [!h]
+\includegraphics[scale=.45]{LuxFieldCage.png} 
+\captionof{figure}{Depiction of the LUX PMT supports, PTFE panels, and field cage.\cite{LuxDetector}}
+\label{LuxFieldCage}
+\end{figure}
+
+
+\subsubsection{Cryogenics}
+
+A thermosyphon system is used to cool the detector internals to liquid xenon temperatures  ($\sim$175K) during operation. A thermosyphon is a sealed tube filled with a variable amount of gaseous nitrogen (N$_2$).  A condenser which is immersed in a bath of liquid nitrogen is placed at the top of the thermosyphon.  As the nitrogen in the thermosyphon tube condenses, gravity causes it to trickle down stainless steel plumbing to copper heat exchangers that are attached to various points in the inner cryostat.  The condensed nitrogen evaporates when it hits the copper heat exchanger, removing heat from the detector.  The evaporated nitrogen rises back up the stainless steel plumbing where it is once again condensed by the liquid nitrogen bath.  In this way, the thermosyphons act in a continuous loop, transferring heat from the detector to the liquid nitrogen bath which the condenser is immersed in.
+
+Two thermosyphons are attached to the copper radiation shields at the top and bottom of the inner cryostat and are used as the driving force to cool the detector from room temperature to 175K. Two more thermosyphons are attached to copper shielding around the inner inner cryostat and are used to prevent any thermal gradients from building in the detector.  Each copper evaporator is fitted with a 50 W heater and a thermometer for fine temperature control.  Larger 750 W heaters are attached to the two primary thermosyphons to aid in detector warm up during liquid xenon recovery.
+
+\subsubsection{Instrumentation}
+
+The LUX detectors is fitted with numerous instruments that help monitor and stabilize the conditions within the cryostat. Fourty 100 $\Omega$ thin film platinum resistance temperature detectors (RTDs) are used to monitor the temperature inside the inner cryostat. These instruments are help prevent the formation of thermal gradients which could warp the detector internals.  An additional 23 RTDs are used to monitor the temperature inside the outer vacuum space, providing a means to detect leaks from the inner cryostat or outer atmosphere to the insulating vacuum space. Calibration of the RTD readouts was performed prior to installation, as well as in situ at room temperature, with an accuracy of 170 mK for each RTD.  Advantech Adam 6015 modules are used to feed the output voltage of the RTDs to a slow control database, where multiple users can monitor the read outs and set automated alarms to notify collaboration members of any temperature fluctuations in the detector.  
+
+A variety of pressure sensors are used throughout the detector.  Sensor models include Ashcroft AST4900 sensors, InstruTech Hornet ion and convection gauge, Swagelok PGU-50-PC100-L4FSF manual pressure gauges, and a Setra model 759 capacitance manometer.  These instruments are used to monitor the stability of the inner cryostat, the quality of the outer vacuum, and the pressure in various locations of the gas circulation system.  As with the RTDs mentioned above, all of the digital pressure gauges are read out to the slow control database where alarms can be set to notify users of potential leaks in the circulation system or out of control warming and cooling effects in the detector.
+
+Six parallel wire sensors are used to monitor the liquid level in the inner cryostat, the weir, dual-phase heat exchanger, and the liquid return line.   The later detectors mentioned here will be discussed in section \ref{GasSystem}.  The capacitance of each wire pair depends on the length of wire submerged in the liquid, allowing the overall height of the liquid to be determined.  Additionally, three parallel plate sensors are placed 120 degrees apart between the gate and anode grids.  These sensors ensure the liquid surface is uniform and without any tilt.    
+
+
+\subsection{External Support Systems}
+
+\subsubsection{Gas Circulation and Purification System} \label{GasSystem}
+The xenon used in the LUX detector needs to be free of electronegative and molecular impurities that could attenuate charge and light from particle interactions.  To achieve this goal LUX circulates the detector’s xenon through a gas system which includes a heated zirconium getter made by SAES.  The getter removes nearly all non-nobel gas impurities with an efficiency of 99.9\%, but requires the xenon to be in gaseous form when operating.  
+
+The process of evaporating the liquid xenon, flowing the gaseous xenon to the SAES getter, and recondensing the xenon before to returning it to the inner cryostat is handled by the LUX gas system. Within the inner cryostat excess liquid spills over the lip of a weir into a reservoir, where it enters the evaporator side of a two phase heat exchanger.  In this side of the heat exchanger, xenon is pumped on by the external circulation system until it evaporates. The cooling effect of the evaporation is used to recondense xenon which is returning to the detector on the other side of the heat exchanger, reducing the heat load of the process by 90\%. (\ref{BradleyThesis})
+
+% Xenon produces a flow rate-dependent heat load of 9.8 W/slpm.
+
+The gaseous xenon leaving the evaporator side of the heat exchanger passes through a concentric-tube heat exchanger which warms it to room temperature before circulating to the SAES getter.  After passing through the SAES gettter, the purified xenon continues on to a second concentric-tube heat exchanger where it is cooled before entering the condenser side of the two phase heat exchanger.  After condensing in the two phase heat exchanger the, now liquid, xenon enters the inner cryostat through the bottom radiation shield to ensure its temperature is consistent with the detector internals.
+
+A diaphragm pump which is capable of 50 SLPM (420 kg/day) is used to maintain a constant flow of xenon through the circulation system.  In practice, the flow is limited to $\sim$27 SLPM (227 kg/day) by the output pressure of the circulation pumps. 
+
+%This is directly copied from the section I wrote for the Kr removal paper.  Is it okay to copy and paste my own words from a different paper?
+\subsubsection{Gas Sampling System} 
+
+Five xenon sampling ports are including in the gas circulation system.  These ports allow xenon from the two phase heat exchanger, getter input, getter output, conduit purge lines, or circulation pump inlet to be diverted to a xenon assay system.  The assay system makes use of a cryogenic cold trap to separate impurities from the xenon.  During use, a xenon sample flows through the cold trap, where it is frozen through contact with a liquid nitrogen bath.  The frozen xenon sets the vapor pressure of the system at 1.8 mTorr. Most impurities have a vapor pressure higher than 1.8mTorr, allowing them to pass through the cold trap and separate from the bulk of the xenon.  The remaining impurities flow at high leak rates to a commercial Residual Gas Analyzer (RGA) made by SRS, where the absolute level of impurities in the bulk xenon is deduced by comparing to a calibration data set.  After sampling, xenon can be discarded with the use of vacuum pumps in the sampling system, or recovered to high pressure cryogenic storage and recovery vessel (SRV) for potential reuse later.  While we are most concerned with the krypton concentration due to the background producing radioisotope $^{85}$Kr, it is important to assay the other impurities as well.  Argon can produce radioactive backgrounds in the detector, helium can diffuse through PMT faces and damage the vacuum behind them, and nitrogen and oxygen can serve as an indicator for air leaks.  This assaying technique results in sensitivity to krypton below 1 ppt (1e-12) g/g, a factor of 10,000 better than measurements performed without a cold trap.
+
+ \begin{figure} [!h]
+\includegraphics[scale=.3]{SAMdiagram.png} 
+\captionof{figure}{Depiction of the LUX sampling system.  Xenon enters the sampling system through various sampling ports in the main circulation path. These sampling ports are shown in the top left of the diagram.  The xenon then passes through one of three leak valves (indicated by red triangles) into a U-shaped cold trap, where it is analyzed by an RGA on the output of the cold trap.  A secondary set of vacuum pumps is included so that the system can be evacuated independently of the RGA space.}
+\label{LuxSamSystem}
+\end{figure}
+
+
+\subsubsection{Water Tank and Muon Veto System}
+
+The LUX cryostat is enclosed in a 7.6 meter diameter, 5.1 meter high water tank.  The water tank holds 8 tons of water that is continuously circulated through an industrial purifying system to reduce detector backgrounds originating from the water tank itself.  The concentration of uranium, thorium, and potassium are held more than six orders of magnitude lower than the rock surrounding the laboratory (2 ppt, 3ppt, and 4 ppb respectively). The water tank provides 2.75 m of shielding to the top of the detector, and 3.5 m of shielding to the sides, that reduces backgrounds originating in the laboratory environment.  The tank is also outfitted with 20 Hammamatsu R7081 PMTs which can be used as an active veto for events which coincide with muons passing through the detector.
+
+ \begin{figure} [!h]
+\includegraphics[scale=.35]{LuxWaterTank.png} 
+\captionof{figure}{Cross section of the LUX water tank which surrounds the cryostat.}
+\label{LuxWaterTank}
+\end{figure}
+
+\subsubsection{Calibration Systems}
+
+LUX utilizes multiple internal and external calibration sources to measure the detector's S1 and S2 response to recoil events.  Six source tubes surround the cryostat in the water tank.  A system of pulleys is used to temporarily deploy radioactive sources in each tube.  A collimator is used for directional control of the particle interactions from the external sources. AmBe and $^{252}$Cf are placed in the source tubes to calibrate the detectors nuclear recoil response.  High energy $^{137}$Cs gamma ray sources are placed in the tubes to calibrate the detector's electron recoil response, and to illuminate the detector walls for position reconstruction and background modeling studies.  Other gamma ray sources, such as $^{22}$Na and $^{208}$Tl are available for electron recoil response calibration as well.  High energy gamma rays from external sources only penetrate the outermost centimeters of the liquid xenon volume due the same self shielding properties that reduce unwanted external backgrounds, making it difficult to calibrate the entire fiducial volume with external sources.
+
+\begin{figure} [!h]
+\includegraphics[scale=.35]{LuxSourceTubes.png} 
+\captionof{figure}{Rendering of the six external source tubes which surround the LUX cryostat.}
+\label{LuxSourceTubes}
+\end{figure}
+
+In addition to the source tubes mentioned above, a 377 cm long horizontal air filled conduit can be lowered into the water tank by a pulley system.   This conduit serves to displace water from the tank, opening a collimation path for an Adelphi Technologies,Inc. DD108  deuterium-deuterium neutron generator which is located outside of the water tank.  The neutron generator is operated at a 5\% duty cycle using 100 $\mu$s neutron pulses to produce mono-energetic 2.45 MeV neutrons at a rate of 500 Hz. The resulting neutrons scatter multiple times in the fiducial volume, and are used to calibrate the detector's nuclear recoil response from 0.7 to 24.2 keV$_{nr}$.
+
+
+LUX also employs two internal calibrations sources which are injected directly into the gas circulation system.   $^{83}$Rb soaked charcoal is used to inject $^{83m}$Kr directly into the circulation system on a weekly basis.  $^{83}$Rb decays into $^{83m}$Kr with an 86.2 day half life.   The resulting $^{83m}$Kr daughter decays via internal conversion at 9.4 keV and 32.1 keV with a half life of 1.86 hours.  Once injected into the gas system, the $^{83m}$Kr quickly makes its way into the fiducial volume, where it uniformly disperses throughout the entire detector.  The spatial uniformity and intrinsic nature of this source makes it extremely useful when measuring the spatial dependence of the detector's S1 and S2 signals, which we will be discuss in depth in Chapter \ref{StandardCalibrations}.  After a calibration has finished, the $^{83m}$Kr is removed from the detector in a short amount of time due to its 1.86 hour half life.  
+
+Tritiated methane (CH$_3$T) is the second internal calibration source used in LUX.  CH$_3$T is a beta source with a peak at 2.5 keV and a mean energy of 5.6 keV.  The wide, low energy spectrum of CH$_3$T is used to calibrate the detector's electron recoil response across the entire energy range of interest for WIMP events.  CH$_3$T has a half life of 12.3 years, so unlike the  $^{83m}$Kr it must be actively removed from the detector by the SAES getter in the circulation system.  The unprecedented CH$_3$T source was designed specifically for LUX, and is discussed in detail in Chapter \ref{TritiumChapter}.
+
+
+%From: http://xxx.lanl.gov/pdf/1108.1836v2
+\subsection{Detector Electronics}
+
+The photons collected by the two PMT arrays are amplified by the PMT dynode chains to mV scale voltage signals.  The rise time for an S1 pulse is limited to $\sim$6 ns by the response of the PMTs, and the 29 ns effective time constant of the xenon excimer relaxation defines the S1 pulses' decay constant.  The pulse width of and S2 event varies with depth due to diffusion of the electron cloud as it drifts through the detector. 
+
+The LUX data acquisition (DAQ) system  is designed to distinguish $>$95\% of single photoelectron pulses at 5 sigma above baseline noise fluctuations, and to prevent saturation of events with energies $<$100 keV$_{ee}$ at any stage in the electronics.  To achieve this, the analog chain must put the peak of single photoelectron distribution at 30 ADC counts.  In the analog chain, the mV scale signals from the PMTs are sent to a x5 amplitude preamplifier before passing to a post amplifier in the DAQ electronics rack. The multichannel post amplifier produces a gain of 1.5x that is sent to sixteen 8-channel ADC modules, and a gain of 2.8x to a DDC-8 trigger system.
+
+The ADC modules digitize the signals at 100 MHz (10 ns/sample) with a resolution of 14 bits. Each ADC board is connected to a VME bus that is subsequently connected to the DAQ computer by fiber optic cables.  Data is downloaded to the DAQ computer with speeds of up to 80 MB/s.  Each ADC board is controlled by four field programmable gate arrays (FPGAs) that operate in a space saving "pulse only digitization" (POD) mode. In POD mode, PMT channels are paired and data is only saved to the DAQ computer if either member of the PMT pairing rises above threshold. A valid pulse trigger gate (VPTG) mechanism further reduces memory space demands.  The VPTG is implemented using CAEN V814 discriminators which require two fold coincidence between PMT channels. Valid pulses are expected to occur in more than one channel, so the VPTG reduces unwanted triggers from various sources of noise.
+
+The DAQ trigger system uses two 8 channel digital signal processors (DDC-8DSP).  
+Top and bottom PMTs are summed into 16 groups (8 groups per array), and the analog sum of each group is produced with a Lecroy 628 Linear Fan-In/Fan-Out module.  
+A trigger builder is connected to the DDC-8’s and takes $<$1 $\mu$second to generate a final trigger signal to send to the DAQ.  The trigger builder is capable of distinguishing S1 and S2 pulses, and can therefore operate in S1-only, S2-only, or S1 and S2 trigger mode.  The DAQ can operate with a maximum trigger rate of 1.5 kHz before incurring deadtime. 
+
+\subsection{Science Results}
+
+PUT RUN04 RESULT IF (OR RUN03 IF RUN04 ISNT AVAILABLE)
+
+
+\section{Tritium as a Calibration Source} \label{TritiumChapter}
+ 
+%Talk about why we need tritium for ER band calibration, G1 and G2, etc etc.  Then talk about how LUX is the first to do a tritium calibration program, then include all the details from candidacy talk -- with some support added from LUX data itself. Next, discuss tritium ER band calibrations. Discuss how the calibration source has performed far beyond what it was assigned to do -- tritium G1 and G2 chi2 calibrations, physics from the tritum PRD paper, etc.  Finally, mention the source is critical to measuring detector corrections in a varying drift field, discussed in chapter (whatever it is).
+
+
+In two phase (liquid and gas) xenon detectors recoil events will produce a
+scintillation signal (referred to as S1) and ionization. The electrons produced by the ionization process can be drifted to an anode located in the gas phase of the detector. Once the electrons are accelerating toward the anode in the xenon gas they will create a secondary scintillation signal (referred to as S2). Nuclear recoil events have higher ionization density, leading to a higher probability that electron will recombine at the site of the initial recoil event, resulting in a higher S1 yield and lower S2 yield than electron recoil events of the same energy. Therefore, the ratio of the S1 and S2 signals can be used to distinguish electron recoil backgrounds from WIMP-like nuclear recoil events.  This background discrimination technique is referred to as nuclear recoil discrimination.
+
+A detector's response to both nuclear recoil and electron recoil events must be well understood to take advantage of nuclear recoil discrimination.  Typically, an external beta emitter such as $^{137}$Cs is used to calibrate the detector's electron recoil response. However, the xenon in LUX has a strong self-shielding characteristic at UV wavelengths. While this is convenient for eliminating background radiation from external sources, it makes calibrating the innermost regions of the detector difficult with external calibration sources.
+
+To overcome this problem the LUX collaboration is making use of internal calibration sources. An ideal internal calibration source would need to be a single beta emitter in the energy range of interest (< 15 keV) which can be dissolved into the liquid xenon in the detector. Furthermore, the source must be made of a material with low electronegativity so that it will not diminish the drift length of charge in the detector. Similarly the source cannot attenuate the UV scintillation light produced by events in the detector. To achieve a reliable calibration in all regions of the detector the source would need to have a long enough life time to diffuse throughout the entire detector (a few hours). Finally, there must be a method for removing the source once the calibration has finished. This could simply mean waiting for the source to decay if its half life is short, or actively purifying the source out of the detector if its half life is long
+
+Tritium meets several of these requirements. It is a beta emitter with a Q-value of 18 keV that produces a broad spectrum over the entire energy range of interest. Its 12.3 year half life means that the source will have plenty of time to dissolve uniformly throughout the detector. However, this long half life is potentially dangerous, since one can not simply wait for it to decay away { it must be actively
+removed from the detector when the calibration is completed. To complicate this matter bare tritium sticks to most surfaces, including materials like teflon, polyethylene, and steel which make up the majority of most xenon detectors. To make tritium removal more feasible we have made use of tritiated methane(CH$_3$T). Methane is highly inert due to its fully saturated carbon-hydrogen bonds. It has a diffusion constant in polyethylene that is 10 times smaller than
+hydrogen, and it does not capture electrons that will be drifting through the detector. By replacing one of the hydrogen atoms in a methane molecule with tritium we combine the strength of both of these materials, resulting in the ideal internal calibration source.
+
+\subsection{Tritiated Methane Injection System}
+
+The design of our triated methane calibration technique can be separated into three parts: the injection system, the tritiated methane source bottle, the zirconium getter.
+
+The tritiated methane source bottle was prepared in three steps. First, we prepared a xenon bottle that had similar pressure and purity to the LUX system. We filled a 2250 cc stainless steel bottle with 1590 torr of xenon from the same dekryptonation and purity
+program which the LUX xenon came from. The purpose of this xenon was to serve as a carrier gas for the tritiated methane. The next step was to prepare a small amount of tritiated methane to mix with
+this dekryptonated xenon. A reservoir of tritiated methane with an activity of 204 Bq/torr-cc was purchased from Moravek Biochemical. The reservoir was frozen with liquid nitrogen, resulting in a vapor pres-
+sure of 10.4 $\pm$ 0.05 torr. We then opened the frozen tritiated methane reservoir to a 1/4" VCR cross which was sealed with swagelok valves on each side. This first expansion space had a total volume of 5.2 $\pm$ 0.9 cc. Next, we isolated the VCR cross from the tritiated
+methane reservoir and then opened it to a 501 $\pm$ 0.2 cc expansion volume. We isolated the VCR cross a second time and then opened it up to a 53.2 $\pm$ 3.4 cc expansion volume. The VCR cross was then isolated for a third time before opening it to a 10.5 $\pm$ 0.5 cc expansion volume. After this final expansion the VCR cross was isolated and the remaining 0.016 $\pm$ 0.006 torr-cc of tritiated methane left within was mixed with the dekryptonated xenon inside the 2250 cc bottle via cryopumping. The final result was a tritiated methane source which had an activity of 9.1e-7 $\pm$ 3.4e-7 Bq/torr-cc.  After the success of the initial CH$_3$T calibrations in LUX, a similar procedure was used to produce stronger source bottles for higher statistics calibrations.
+
+The injection system for our tritiated methane calibration technique consists of a series of expansion volumes which are used to fine tune the amount of CH$_3$T that is injected. Once the CH$_3$T source bottle is opened it flows through a methane gas purifier (SAES MC1-905F) to remove any sources of potential contamination, such as bare tritium. The CH$_3$T then flows into the expansions volumes set by the
+user. We use expansion volumes of 9.8 $\pm$ 0.4 cc, 13.3 $\pm$ 0.4 cc, 26.0 $\pm$ 0.5 cc, 82.7 $\pm$ 0.5 cc, 12.0 $\pm$ 0.6 cc, and 132.7 $\pm$ 0.6 cc in setup, which provide over an order of magnitude control in the strength of an injection. Note that each injection will lower the total activity in the CH$_3$T source bottle via volume sharing, results in a smaller, yet calculable, injection activity with subsequent injections. Once the expansion volumes
+have filled, the flow of xenon in the gas system is diverted through the expansion volumes to sweep the CH$_3$T into the detector. We continue to flow through the expansion volumes for one hour at 1 SLPM, which is equivalent to flushing out the full 384.5 cc of the expansion volumes roughly 75 times. Two pump out ports allow various parts of the injection system to be evacuated in preparation for each use. A pressure gauge (PT-T1) is included above the tritiated methane source
+bottle so that this drop in activity can be measured. The final component of the injection system is a particle filter (Mott Corp. GSP3752FF11) which prevents particles contaminants from entering the LUX detector.
+
+\begin{figure} [!h]
+\includegraphics[scale=.6]{TritiumPlumbing.png} 
+\captionof{figure}{Plumbing diagram of the LUX tritium injection system.  Blue labels indicate valves, red labels indicate equipment, and green labels indicate the size of individual expansion volumes when all valves are closed.}
+\label{LUXInjectionSys}
+\end{figure}
+
+Once the CH3T has been injected in the LUX gas system it flows into the liquid xenon
+inside of the LUX cryostat, where it diffuses uniformly throughout the fiducial volume.  The CH$_3$ inside of the cryostat beta decays, producing electron recoil events over a wide range of energies throughout the entire detector.  
+
+Since the xenon gas in LUX is constantly circulating, the remaining CH$_3$T is swept out of inner cryostat with the circulating xenon.  The LUX gas system uses a hot zirconium getter (SAES ??) downstream of the cryostat to remove CH$_3$T and other impurities from from the xenon. Extensive R\&D was conducted using a smaller zirconium getter (SAES pcf4c3r1) at the University of Maryland to learn about the CH$_3$T removal efficiency of these purifiers. Details of these studies is discussed in section \ref{UMDRemoval}.
+
+\subsection{Triated Methane Removal} \label{UMDRemoval}
+
+To study the CH$_3$T removal efficiency of zirconium getters the University of Maryland built two separate systems to inject tritiated methane into a gaseous xenon
+and a liquid xenon environment. Both of these systems used zirconium getters to
+remove any CH$_3$T that was injected into them.
+
+\subsubsection{Gas Phase Experiments}
+
+The gaseous xenon system consists of three sections. The first section, the
+xenon space, contains a hot zirconium getter to remove CH$_3$T from the system, two xenon storage bottles used to move xenon through the system via cryopumping, and a proportional tube used to detect activity within the xenon space. The second section is a small transfer system which is used to inject consistent amounts of CH$_3$T into the xenon space with each injection. The final section consists of a CH$_3$T storage bottle used as the source of injections and a SAES MC1-905F methane purifier to remove unwanted contaminates prior to entering the xenon space.
+
+%Insert gas system diagram here
+\begin{figure}
+\includegraphics[scale=.55]{GasSystem.png} 
+\captionof{figure}{Diagram of the gaseous xenon system at UMD.  THe three section of the system are distinguished by green lines.  Circles labeled PG and MG are pressure gauges, and the hourglass shaped symbols represent hand valves.}
+\label{UMDGasSystem}
+\end{figure}
+
+The primary goal of this experiment was to determine the purification efficiency of the zirconium getter and study residual contamination. We found that the flow rate through the getter and the amount of time between injections had the largest impact of purification efficiency.  High  flow rates through the purifier can cool the zirconium inside, while inadequate rest time between subsequent purifications can lead to build up of methane on the surface of the zirconium beads. Both of these situations lead to a decrease in purifier efficiency. The first black data point in Figure \ref{UMDGasFlowRate} is our worst purification efficiency, (96\% $\pm$ 1\%) corresponding to our highest flow rate. (8 SLPM compared to the typical 0.3 SLPM) While we were unable to control the  flow through rate as much as we desired, we are at least able to conclude that exceeding the maximum flow rate suggested for the purifier does significantly decrease purification efficiency. We also found that allowing ample rest time between subsequent purifications significantly increases purification efficiency. Our best purifications were the first data points in each cluster in Figure \ref{UMDGasRestTime}. We were able to obtain efficiencies of 99.99\% when the purifier was resting for three weeks or longer, and obtained efficiencies ranging from 99.00\% to 99.90\% when the purifier was
+used on a daily basis.
+
+\begin{figure}
+\includegraphics[scale=.45]{GasPhaseRemoval_FlowRate.jpg} 
+\captionof{figure}{Single pass inefficiency of the purifier when removing CH$_3$T.  Red and blue points indicate data taken by different students, while the black points indicate data for which procedures were intentionally altered.}
+\label{UMDGasFlowRate}
+\end{figure}
+
+\begin{figure}
+\includegraphics[scale=.4]{GasPhaseRemoval_RestTime.jpg} 
+\captionof{figure}{Time-separated clusters of purification have an upward trend in purification inefficiency.}
+\label{UMDGasRestTime}
+\end{figure}
+
+
+
+\subsubsection{Liquid Phase Experiments}
+
+We have also tested tritium removal from liquid xenon. Our liquid xenon system
+consists of three main sections, the CH$_3$T injection system, the xenon circulation system, and the liquid xenon cryostat. We will first discuss the set up of the tritium injection system, pictured below. The injection system begins at the CH$_3$T storage bottle. This bottle is double valved for safety reasons. As with the gaseous experiments, we have a SAES MC1-905F methane purifier in series with the storage bottle. Following the methane purifier there is a series of injection volumes branching out to the left. These injection volumes are designed to inject the desired amount of CH$_3$T into the xenon system. The last component of the injection system is located above the injection volumes. This plumbing is used to collect all of the CH$_3$T from the injection volume via cyropumping. After the plumbing has warmed, the xenon circulating outside of the injection system is rerouted through the cryopump plumbing to sweep all of the CH$_3$T into the xenon circulation system. 
+
+
+\begin{figure}
+\includegraphics[scale=.6]{UMDInjectionSys.png} 
+\captionof{figure}{The tritium injection system for the liquid phase experiments at UMD. The red box indicates the CH$_3$T storage bottle and methane purifier area, the green box indicated the expansion volumes, and the box indicates the cryopumping and xenon flow through area.}
+\label{UMDInjectionSystem}
+\end{figure}
+
+
+In the xenon circulation system, a small diaphragm pump circulates gaseous xenon in a close circuit.  A zirconium getter (SAES pcf4c3r1) is positioned in between the CH$_3$T injection system and the liquid xenon cryostat.  A bypass around the zirconium getter is present to allow control of when CH$_3$T removal occurs.
+
+The final section of our system, the liquid xenon cryostat, is pictured in Figure \ref{UMDcryo}. In the liquid xenon system, a pulse tube refrigerator cools a xenon gas condenser consisting of a helical coil of copper tubing. The condensed xenon drips into a liquid xenon storage vessel. Two PMTs are placed inside of the storage vessel to observe scintillation light produce by CH$_3$T decays in the liquid xenon. Once the vessel is filled both of these PMTs are submerged in the liquid xenon. Note that this means the system at UMD is a single phase detector, rather than a dual phase detector like LUX. Polyethylene and teflon curtains were installed in the inner cryostat to surround the PMTs during some of our data sets. These curtains of plastic were used to study outgassing effects in our detector.
+
+\begin{figure}
+\includegraphics[scale=.45]{UMDCryo.png} 
+\captionof{figure}{The liquid xenon system at UMD. (A) The xenon condenser consists of a helical coil cooled by a pulse tube refrigerator. (B) The liquid xenon storage vessel houses two PMTs to observe tritium decay.}
+\label{UMDcryo}
+\end{figure}
+
+
+During our liquid phase experiments, our experimental procedure consisted of
+taking an adequate amount of background data, injecting CH$_3$T into the liquid xenon, waiting for the CH$_3$T event rate to plateau, and then purifying the CH$_3$T
+out of the xenon. During the data sets in which teflon or polyethylene curtains
+were installed around our PMTs we bypassed our purifier after initially purifying
+away the CH$_3$T so that outgassing effects could be studied. Injection activities for our liquid phase experiment ranged from 1487 $\pm$ 35.06 Bq to 12164 $\pm$ 1028.11 Bq.
+A detailed list of our purification efficiency measurements in liquid xenon is
+included in Table \ref{UMDPurification}. Note that the rise in background rate during our polyethylene runs is due to a change in PMT gain. Using the lessons learned from the gaseous xenon experiments we were able to achieve an average purification efficiency of 99.999\% in our liquid experiments, where we define our purification efficiency to be 
+
+\begin{equation}
+\text{Purification Efficiency} = 1 - \frac{A-B}{I-B},
+\end{equation}
+
+where A is the background event rate after injecting CH$_3$T, B is the background event rate before to injecting CH$_3$T, and I is the injected CH$_3$T activity as observed by out PMTs. We find that the addition of plastic curtains around our PMTs does not impair our ability to remove CH$_3$T at > 99.998\% levels. To illustrate the effectiveness of CH$_3$T removal, an overlay of injected and purified CH$_3$T spectra is included in Figure \ref{BeforeAndAfterSpec}. Cumulatively, we have injected over 68,000 observed becquerel of CH$_3$T into our liquid xenon. Although systematic errors lead to a fluctuation of our residual background rates, we see no upward trend in our data set as the cumulative observed injection activity rises.(Figure \ref{UMDBackgroundOverTime})
+
+
+\begin{figure}
+\includegraphics[scale=.5]{UMDspectra.png} 
+\captionof{figure}{Left: Overlay of CH$_3$T spectra seen by PMTs in the liquid xenon detector. The blue spectrum is what is seen prior to injecting tritium, the red spectrum is what is seen after injecting tritium, and the green spectrum is what is seen by after purifying the xenon to remove any injected CH$_3$T. Right: The difference between the before injection and after purification spectra.}
+\label{BeforeAndAfterSpec}
+\end{figure}
+
+\begin{figure}
+\includegraphics[scale=.35]{ResidualBackgroundCorrected_SystemErr.png} 
+\captionof{figure}{Residual background rates over time in the UMD detector after purifying the CH$_3$T out of the xenon. Blue data points are data sets in which no plastic curtains were used inside of the detector, red data points are data sets in which teflon curtains were
+used inside of the detector, and green data points are data sets in which polyethylene curtains were used inside of the detector.}
+\label{UMDBackgroundOverTime}
+\end{figure}
+
+\begin{sidewaystable}
+\scalebox{0.9}{
+\centering
+\caption{CH$_3$T purification efficiencies in liquid xenon.} \label{UMDPurification}
+\begin{tabular}{ c | c | c | c | c }
+Observed Injection Activity (Bq) & Background Before Injection (Bq) & Background After Injection (Bq) & Purification Efficiency & Type of Plastic \\
+\hline
+10415.84 $\pm$ 140.89 & 4.78 $\pm$ 0.38 & 4.99 $\pm$ 0.39 & 0.99998 $\pm$ 0.000054 & No Plastic \\
+3295.15 $\pm$ 46.28 & 4.99 $\pm$ 0.39 & 5.01 $\pm$ 0.39 & 0.99999 $\pm$ 0.00017 & No Plastic \\
+2836.67 $\pm$ 22.35 & 5.01 $\pm$ 0.39 & 4.76 $\pm$ 0.39 & 1.00009 $\pm$ 0.00020 & No Plastic \\
+12164.29 $\pm$ 1028.11 & 4.72 $\pm$ 0.39 & 5.09 $\pm$ 0.39 & 0.99997 $\pm$ 0.000082 & No Plastic \\
+11033.62 $\pm$ 1766.87 & 5.09 $\pm$ 0.39 & 4.69 $\pm$ 0.38 & 1.00004 $\pm$ 0.00015 & No Plastic \\
+9435.13 $\pm$ 180.13 & 3.74 $\pm$ 0.38 & 5.32 $\pm$ 0.39 & 0.99983 $\pm$ 0.000061 & Teflon \\
+7666.08 $\pm$ 226.67 & 5.11 $\pm$ 0.39 & 5.23 $\pm$ 0.39 & 0.99998 $\pm$ 0.000082 & Teflon \\
+6043.72 $\pm$ 446.80 & 5.23 $\pm$ 0.39 & 5.23 $\pm$ 0.39 & 1.00000 $\pm$ 0.00016 & Teflon \\
+4504.81 $\pm$ 220.89 & 4.64 $\pm$ 0.39 & 4.71 $\pm$ 0.40 & 0.99998 $\pm$ 0.00016 & No Plastic \\
+1487.09 $\pm$ 35.06 & 5.79 $\pm$ 0.41 & 5.76 $\pm$ 0.41 & 1.00002 $\pm$ 0.00043 & Polyethylene \\
+\end{tabular}
+}
+\end{sidewaystable}
+
+
+\subsubsection{Outgassing Experiements} 
+
+To more accurately model the LUX detector we surrounded our PMTs with polyethylene or teflon panels during some of our data sets. The experimental procedure for these data sets was to collect an adequate amount of background data, inject CH$_3$T into the liquid xenon, wait for the CH$_3$T event rate to plateau, purify the CH$_3$T away until we reached the initial background event rate, then bypass the purifier on our system to study outgassing effects. Once the purifier had been bypassed we discovered two sources of residual CH$_3$T contamination. We see a gradual rise in CH$_3$T activity after bypassing our purifier due to outgassing of CH$_3$T from the plastic panels.  This outgassing effect will be discussed in detail in Section \ref{SimOutgas}. In addition to this steady rise, we see large steps in CH$_3$T activity at random intervals. (Figure \ref{UMDOutgassing}) These step features occur every 3 days on average. The longest period of time without a step occurring was 5.08 days. To examine these step features more closely, we analyzed the spectra from one of these events. We found that the integral of the spectra rose from 8833 $\pm$ 93.98 to 17190 $\pm$ 131.11 during the event, an increase of 194.6\%. (Figure \ref{UMDOutgassingSpectra})
+
+\begin{figure}
+\includegraphics[scale=.35]{Outgassing_TimeHisto_Log.jpg} 
+\captionof{figure}{A time histogram of the CH$_3$T rate in our system. The third red line indicates when our purifier was bypassed.}
+\label{UMDOutgassing}
+\end{figure}
+
+\begin{figure}
+\includegraphics[scale=.35]{Steps_Overlay.png} 
+\captionof{figure}{An overlay of three spectra from a step in CH$_3$T after bypassing our purifier. The blue spectrum was collected prior to a step occurring, the red spectrum was collected while a step was occurring, and the green spectrum was collected after the step had reached a plateau.}
+\label{UMDOutgassingSpectra}
+\end{figure}
+
+Such an increase in CH$_3$T activity can be produced through two mechanisms: a drift in PMT gain which would shift the CH$_3$T spectrum horizontally, or an increase in CH$_3$T activity shifting the CH$_3$T spectrum vertically. To determine if our PMT gain was shifting during our CH$_3$T data sets we used an external $^{137}$Cs source. Over eight days the $^{137}$Cs event rate remained flat, with an initial event rate of 120255 $\pm$ 346.778 observed Bq and a final event rate of 115469 $\pm$ 339.807 observed Bq. A linear fit to the $^{137}$Cs data results in a nearly zero slope of 0.0026 Bq per day. (Figure \ref{UMDCsData}) We conclude that the rise in tritium rate during the step events can not be due to our PMT gain drifting, and must therefore be a result of an increase in the amount of CH$_3$T in the fiducial region of our detector. We suspect this increase in CH$_3$T is due to pockets of stagnant gas slowly moving into the detector's fiducial region. To avoid such a source of residual CH$_3$T contamination, a detector wishing to using tritiated methane as an internal calibration source must be designed such that no areas of stagnant gas exist within its system.  
+
+\begin{figure}
+\includegraphics[scale=.35]{Cesium_TimeHisto.jpg} 
+\captionof{figure}{The event rate of a $^{137}$Cs source placed outside the xenon storage vessel.  The flatness of the rate over time indicates that the PMT gains are mostly constant.}
+\label{UMDCsData}
+\end{figure}
+
+\subsubsection{Simulating Outgassing in LUX} \label{SimOutgas}
+%WHEN YOU SHOW PLOTS HERE - GET THE UPDATED PLOTS FROM JON. GIVE JON CREDIT IN THIS SECTION SOMEHOW... MAYBE HE HAS A LUX NOTE TO REFERENCE?
+
+The outgassing effects seen in UMD's small scale liquid xenon experiment places an upper limit on the CH$_3$T activity that can be injected into low background detectors such as LUX.   In the LUX collaboration we chose to define the tolerable CH$_3$T activity after a calibration to be 5\% of the nominal background rate in LUX, setting a limit on the residual CH$_3$T activity of 0.33 $\mu$Bq.  This upper limit is extremely conservative, and guarantees that any electron recoil backgrounds introduced by a CH$_3$T calibration will be negligible. 
+
+With the above constraints in mind, we can determine an upper limit on the amount of CH$_3$T that can be injected for internal calibrations of the LUX detector. The diffusion process is governed by two different equations known as Fick's laws. Fick's first law describes the flux of a material through a surface. Its general form is given by
+\begin{equation}
+J=-D\frac{d \phi(r,t)}{d r}.
+\end{equation}
+Combining Fick's first law with the continuity equation given by
+\begin{equation}
+\frac{\delta \phi}{\delta t} + \nabla \cdot J = 0,
+\end{equation}
+which states that a change in density in any part of the system is due to inflow and outflow of material results in Fick's second law,
+\begin{equation}
+\frac{\delta \phi}{\delta t} = D \nabla^2 \phi,
+\end{equation}
+which describes the transport of a material by diffusion.
+
+To implement these diffusion laws into our model we must determine the diffusion coefficient of CH$_3$T in the plastics of LUX. At room temperature, the diffusion coefficient of methane in teflon is measured to be $2.3 \times 10^{-7} \frac{cm^2}{sec}$. \cite{MethaneDiffusion}.  The temperature dependence of this diffusion constant is modeled by the Arrhenius equation,  
+\begin{equation}
+D=Ae^{\frac{-E_a}{RT}}
+\end{equation}
+where $E_a$ is the activation energy, $R$ is the gas constant, and $T$ is the temperature.  This suggests than an adjustment factor to the diffusion constant of $10^6$ at liquid xenon
+temperature. This adjustment factor is equivalent to increasing the thickness of the plastic in our model by a factor of 1,000. For this reason we are motivated
+to use half-infinite line boundary conditions in our diffusion model.
+
+The analytic solution to Fick's second law using half-finite line boundary conditions is
+\begin{equation}
+\phi(x,t) = KC_{out} - \int_0^t \text{erf}\left(\frac{x}{\sqrt{4D(t-\tau))}}\right)K \dot{C_{out}}(\tau)d\tau - KC_{out}(0)\text{erf}\left(\frac{x}{\sqrt{4Dt}}\right)
+\end{equation}
+where $K$ is the solubility of the material and $C_{out}$ is the outside concentration of the material.  \cite{FicksAnalytic}  For the outgassing process we are only interest in the flux of the material out of the plastic.  This is given by Fick's first law evaluated at $x=0$,
+\begin{equation}
+J_{out}(t)=-K\sqrt{\frac{D}{\pi}} \left( \int_0^t \frac{\dot{C_{out}(\tau)}}{\sqrt{t-\tau}}d\tau + \frac{C_{out}(t)}{\sqrt{t}} \right),
+\end{equation}
+where the sign has been flipped since the flux of material is outward. We see that it is no longer possible to evaluate $K$ and $D$ separately, since the diffusion in and out of the plastic is completely determined by the time-dependent concentration outside of the plastic. To simplify our model, we define a new constant
+\begin{equation}
+G=K\sqrt{\frac{D}{\pi}}
+\end{equation}
+We can fit the integral of our equation for the flux out of the plastic over time to the outgassing data collected in Maryland's liquid xenon system to extract a value for the constant $G$. Since the outgassing data includes step features from stagnant pockets of unpurified CH$_3$T, we can set an upper limit on $G$ by assuming the step features are a result of outgassing itself, and a lower limit on $G$ by removing the steps from our data, treating them as if they have no connection to outgassing at all. With this method
+we loosely constrain $0.0001 \frac{cm}{\sqrt{day}} \le G \le 0.01  \frac{cm}{\sqrt{day}}$. (Figure ??) The value of G was further constrained to $G \le 0.0002 \frac{cm}{\sqrt{day}}$ by injecting natural methane into LUX and observing the effects of outgassing with the sampling system. 
+
+%Include fitting G to UMD data plot here (fig 13 in first draft of tritium paper)
+
+With a constraint on G taken from the analytic solution to Fick's second law, we turn to numerical simulation to answer
+the question of how much initial CH$_3$T activity to inject into LUX to meet our calibration conditions. Several assumptions are made to simplify the numerical model. First, we approximate the diffusion into plastic as being a one dimensional process. In cylindrical coordinates, Fick's laws become
+\begin{equation}
+J = -D \left( \frac{\delta \phi}{\delta r} \mathbf{\hat{r}} + \frac{1}{r} \frac{\delta \phi}{\delta \theta} \boldsymbol{\hat{\theta}} + \frac{\delta \phi}{\delta z} \mathbf{\hat{z}} \right) 
+\end{equation}
+\begin{equation}
+\frac{\delta \phi}{\delta t} = D \left( \frac{\delta^2 \phi}{\delta r^2} + \frac{1}{r}\frac{\delta \phi}{\delta r} + \frac{1}{r^2} \frac{\delta^2 \phi}{\delta \theta^2} + \frac{\delta^2 \phi}{\delta z^2} \right).
+\end{equation}
+Since the plastic in our detector at Maryland and in LUX can be approximated by a cylindrical shell, there is no dependence on the azimuthal or z coordinates. Since $r$ is large compared to the thickness of the plastic shell, $\frac{\delta^2 \phi}{\delta r^2} \gg \frac{1}{r}\frac{\delta \phi}{\delta r}$, so we can make the approximations
+\begin{equation}
+J=-D\frac{\delta \phi}{\delta r} \mathbf{\hat{r}}
+\end{equation}
+\begin{equation}
+\frac{\delta \phi}{\delta t} = D \frac{\delta^2 \phi}{\delta r^2}
+\end{equation}
+
+We assume the concentration of CH$_3$T in LUX is uniform throughout its volume. This assumption is justified, since the design of LUX creates currents which stirs the liquid xenon. With perfect mixing the effect of the purifier can be modeled by adding an exponential time dependence to the outer volume. The time constant of this decay is equal to the time it takes xenon to recirculate through the LUX detector. We use a simple implementation of the first order Euler method for our numerical simulations. The finite difference approximations of Fick's two laws in one dimension are
+\begin{equation}
+J_{i,j}=-D \frac{ \phi_{i+1,j} - \phi{i,j}}{\Delta x}
+\end{equation}
+\begin{equation}
+\phi_{i,j+1}=\phi_{i,j}+ \Delta t \left( \frac{\phi_{i+1,j}-2\phi_{i,j}+\phi_{i-1,j}}{\Delta x^2}\right)
+\end{equation}
+where $i$ is the spacial index and $j$ is the time index.  To avoid divergence solutions we need
+\begin{equation}
+D\frac{\Delta t}{\Delta x^2} \le \frac{1}{2}.
+\end{equation}
+For effects to be propagated across N spacial bins, N time steps are required.
+Therefore, the effective time resolution is
+\begin{equation}
+\Delta t_{\text{effective}}=\Delta t \times N_x.
+\end{equation}
+
+The diffusion is simulated by setting the concentration at the boundary of the piece equal to $KC_{out}$, where $C_{out}$ is the concentration of CH$_3$T in the xenon. This concentration is dependent on time according to
+\begin{equation}
+\frac{\delta C_{out}}{\delta t} = J_{out} \frac{A_{\text{plastic}}}{V_{\text{xenon}}}-\frac{C_{out}}{\tau}
+\end{equation}
+where $A_{\text{plastic}}$ is the surface area of the
+plastic cylinder, $V_{\text{xenon}}$ is the total volume of xenon in the fiducial region, and $\tau$ is the time it takes for one full purification cycle. It was original assumed that $\tau$ would equal the turn over time of the xenon circulation system in LUX ($\sim$ 1.3 days), but was later found that $\tau$ was much shorter than expected ($\sim$ 6 hours). The first term on the right of this equation models outgassing of CH$_3$T from the plastic cylinder, while the second term models removal of CH$_3$T through purification. Using the first order Euler method, we arrive at an expression for $C_{out}$ given by
+\begin{equation}
+C_{j+1}=C_j + \Delta t \left[\left( J_{1,j}-J_{N_x,j}\right) \frac{A_{\text{plastic}}}{V_{\text{xenon}}} - \frac{C_j}{\tau} \right].
+\end{equation}
+
+The initial concentration is defined by dividing the desired injection activity by the volume of the fiducial region. We
+choose $D = 2.3 \times 10^{-9} \frac{cm^2}{sec}$ such that the
+half-infinite boundary conditions in our diffusion model is valid, and combine this with our allowed range of values for $G$ to extract a value for $K$. We find that an initial injection activity of ?? Bq results in the background rate returning to $<$ 5\% of its initial value in less than one ??. (Figure ??)
+
+%Insert output of Jon's simulation code here, and fill in the ?? as well.
+
+\subsection{ER Band Calibration of the LUX Detector} 
+
+%Describe the LUX injection system here?
+
+The LUX collaboration took many precautions to ensure a safe and successful tritium injection. Prior to injecting any tritiated methane into the detector, a natural methane injection was preformed to measure the purification time constant in LUX and constrain the value of $G$ further.   Twenty milligrams of natural methane were injected into LUX using the CH$_3$T injection system. The sampling system was used to measure the concentration of methane in the detector over the next few days, and a purification time constant of 5.90 $\pm$ 0.07 hours was measured.  The first natural methane injection was not large enough to observe outgassing from the detector, but a larger natural methane injection of ?? grams was able to constrain $G \le 0.0002 \frac{cm}{\sqrt{day}}$ at a later date.
+
+
+%Show Fig 15 CH4 injection from July 23 2013
+
+\begin{figure} [!h]
+\includegraphics[scale=.7]{LUXOutgassing.png} 
+\captionof{figure}{Sampling system results from the ?? gram natural methane injection which was used to constraint the value of $G$.}
+\label{LuxOutgassing}
+\end{figure}
+
+After the natural methane campaign a small amount of tritium was injected into LUX to confirm the purification time constant from above, and to confirm the mixing of the source throughout the detector.  A fiducial volume containing 125 kg of xenon between drift times of 30 to 320 $\mu$sec, with radius $ < $17.5 cm was defined for the analysis.  The first 23 hours of data show that the initial injection activity in the fiducial volume was 24.2 $\pm$ 0.3 mBq, while the initial injection activity in the entire detector was 44.9 $pm$ 0.5 mBq.  The ratio of the fiducial volume activity to the total volume activity is 0.539 $\pm$ 0.009, which is close to the expected ratio of 0.5 for a perfectly uniform distribution of CH$_3$T events. The CH$_3$T activity fell with a purification time constant of 6.9 $\pm$ 0.4 hours within the fiducial volume, confirming the $\sim$ 6 hour time constant measurement from phase one.
+
+%Show CH3T fiducial volume rate plots from the paper
+
+After confirming the purification time constant LUX approved the use of CH$_3$T as an internal calibration source.  The initial CH$_3$T calibration was limited to ?? Hz (?? events) due to the uncertainty in the value of the the diffusion constant $G$, but injections as large as ?? Hz (?? events) have been done after the upper limit of $G$ was lowered.  
+
+%Show and discuss mixing plots
+%Show and dicuss ER Band calibration
+%Dicuss the xenon physics results and cite the paper.
 
 \section{Standard Calibration of the LUX Detector} \label{StandardCalibrations}
 
+Stuff
 
 %First discuss the need for corrections to the data.  Talk about detector inefficiency effects (calling them exactly that), including Louis' (?) models for electron lifetime that Rick brought up.  Talk about standard KrypCal calibrations.  There is a thesis written about this already, so use that for guidance if needed...
 
@@ -619,12 +1050,9 @@ STUFF
 %Discuss recombination physics and the ability to turn the now (emphasis on this, since it is how we transition from the previous section) corrected data into an combined energy scale.  Then basically cover recombination physics (prob in Attila's thesis) and Doke plot from my Doke plot write up.
 
 \subsection{Energy Scale Calibrations}
-\subsubsection{Recombination Physics}
+\subsubsection{Recombination Physics} \label{RecombSec} 
 \subsubsection{Doke Plot}
 
-\section{Tritium as a Calibration Source}
-
-%Talk about why we need tritium for ER band calibration, G1 and G2, etc etc.  Then talk about how LUX is the first to do a tritium calibration program, then include all the details from candidacy talk -- with some support added from LUX data itself. Next, discuss tritium ER band calibrations. Discuss how the calibration source has performed far beyond what it was assigned to do -- tritium G1 and G2 chi2 calibrations, physics from the tritum PRD paper, etc.  Finally, mention the source is critical to measuring detector corrections in a varying drift field, discussed in chapter (whatever it is).
 
 
 \section{Novel Calibration Techniques}
@@ -771,6 +1199,10 @@ corrections for dark matter experiments based on elastic nuclear recoil.
 Astroparticle Physics, 1996.
 
 \bibitem{PauloThesis} P Br\'as. Finding a needle in a haystack: Background studies and WIMP detection efficiency in LUX. (2015)
+
+\bibitem{LuxDetector} D Akerib, et al.  The Large Underground Xenon (LUX) Experiment.  http://arxiv.org/pdf/1211.3788v2.pdf
+
+\bibitem{BradleyThesis} A Bradley. LUX Thermosyphon Cryogenics and Radon-Related Backgrounds for the First WIMP Result. %http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxRequiredReading/AWB_PhDThesis_20140120.pdf
 
 \end{thebibliography}
 
