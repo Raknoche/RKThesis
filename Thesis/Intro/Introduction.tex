@@ -754,7 +754,7 @@ A detector's response to both nuclear recoil and electron recoil events must be 
 
 To overcome this problem the LUX collaboration is making use of internal calibration sources. An ideal internal calibration source would need to be a single beta emitter in the energy range of interest (< 15 keV) which can be dissolved into the liquid xenon in the detector. Furthermore, the source must be made of a material with low electronegativity so that it will not diminish the drift length of charge in the detector. Similarly the source cannot attenuate the UV scintillation light produced by events in the detector. To achieve a reliable calibration in all regions of the detector the source would need to have a long enough life time to diffuse throughout the entire detector (a few hours). Finally, there must be a method for removing the source once the calibration has finished. This could simply mean waiting for the source to decay if its half life is short, or actively purifying the source out of the detector if its half life is long
 
-Tritium meets several of these requirements. It is a beta emitter with a Q-value of 18 keV that produces a broad spectrum over the entire energy range of interest. Its 12.3 year half life means that the source will have plenty of time to dissolve uniformly throughout the detector. However, this long half life is potentially dangerous, since one can not simply wait for it to decay away { it must be actively
+Tritium meets several of these requirements. It is a beta emitter with a Q-value of 18 keV, a mean energy of 5.6 keV, and a mode 3 keV that produces a broad spectrum over the entire energy range of interest. Its 12.3 year half life means that the source will have plenty of time to dissolve uniformly throughout the detector. However, this long half life is potentially dangerous, since one can not simply wait for it to decay away { it must be actively
 removed from the detector when the calibration is completed. To complicate this matter bare tritium sticks to most surfaces, including materials like teflon, polyethylene, and steel which make up the majority of most xenon detectors. To make tritium removal more feasible we have made use of tritiated methane(CH$_3$T). Methane is highly inert due to its fully saturated carbon-hydrogen bonds. It has a diffusion constant in polyethylene that is 10 times smaller than
 hydrogen, and it does not capture electrons that will be drifting through the detector. By replacing one of the hydrogen atoms in a methane molecule with tritium we combine the strength of both of these materials, resulting in the ideal internal calibration source.
 
@@ -957,9 +957,16 @@ where the sign has been flipped since the flux of material is outward. We see th
 G=K\sqrt{\frac{D}{\pi}}
 \end{equation}
 We can fit the integral of our equation for the flux out of the plastic over time to the outgassing data collected in Maryland's liquid xenon system to extract a value for the constant $G$. Since the outgassing data includes step features from stagnant pockets of unpurified CH$_3$T, we can set an upper limit on $G$ by assuming the step features are a result of outgassing itself, and a lower limit on $G$ by removing the steps from our data, treating them as if they have no connection to outgassing at all. With this method
-we loosely constrain $0.0001 \frac{cm}{\sqrt{day}} \le G \le 0.01  \frac{cm}{\sqrt{day}}$. (Figure ??) The value of G was further constrained to $G \le 0.0002 \frac{cm}{\sqrt{day}}$ by injecting natural methane into LUX and observing the effects of outgassing with the sampling system. 
+we loosely constrain $0.0001 \frac{cm}{\sqrt{day}} \le G \le 0.0075  \frac{cm}{\sqrt{day}}$. (Figure \ref{StepsandNoSteps}) The value of G was further constrained to $G \le 0.0002 \frac{cm}{\sqrt{day}}$ by injecting natural methane into LUX and observing the effects of outgassing with the sampling system. 
 
-%Include fitting G to UMD data plot here (fig 13 in first draft of tritium paper)
+\begin{figure}
+\includegraphics[scale=.7]{StepsandNoSteps.png} 
+\captionof{figure}{Fits of the integral of the flux of CH$_3$T out of plastic over time to the outgassing data collected in Maryland's liquid xenon system assuming that the step features
+are due to diffusion. The model does not perfectly describe the data, so a range of $G$ values is shown. These fits are used to
+set an upper limit on $G$. Bottom: Fits of the integral of the flux of CH$_3$T out of plastic over time to the same data, assuming that the step features are not due to diffusion. These fits are used to set a lower limit on $G$.}
+\label{StepsandNoSteps}
+\end{figure}
+
 
 With a constraint on G taken from the analytic solution to Fick's second law, we turn to numerical simulation to answer
 the question of how much initial CH$_3$T activity to inject into LUX to meet our calibration conditions. Several assumptions are made to simplify the numerical model. First, we approximate the diffusion into plastic as being a one dimensional process. In cylindrical coordinates, Fick's laws become
@@ -1006,18 +1013,18 @@ C_{j+1}=C_j + \Delta t \left[\left( J_{1,j}-J_{N_x,j}\right) \frac{A_{\text{plas
 
 The initial concentration is defined by dividing the desired injection activity by the volume of the fiducial region. We
 choose $D = 2.3 \times 10^{-9} \frac{cm^2}{sec}$ such that the
-half-infinite boundary conditions in our diffusion model is valid, and combine this with our allowed range of values for $G$ to extract a value for $K$. We find that an initial injection activity of ?? Bq results in the background rate returning to $<$ 5\% of its initial value in less than one ??. (Figure ??)
+half-infinite boundary conditions in our diffusion model is valid, and combine this with our allowed range of values for $G$ to extract a value for $K$. We find that an initial injection activity of 10 Bq results in the background rate returning to $<$ 5\% of its initial value in one month. (Figure \ref{OutgassingSim})
 
-%Insert output of Jon's simulation code here, and fill in the ?? as well.
+\begin{figure}
+\includegraphics[scale=.3]{OutgassingSim.png} 
+\captionof{figure}{The results of simulating the CH$_3$T activity in LUX after a 10 Bq injection.  In the first week the amount of residual CH$_3$T is dominated by the purification time constant, while the out gassing time constant determines the amount of activity later times.}
+\label{OutgassingSim}
+\end{figure}
 
 \subsection{ER Band Calibration of the LUX Detector} 
 
-%Describe the LUX injection system here?
+The LUX collaboration took many precautions to ensure a safe and successful tritium injection. Prior to injecting any tritiated methane into the detector, a natural methane injection was preformed to measure the purification time constant in LUX and constrain the value of $G$ further.   Twenty milligrams of natural methane were injected into LUX using the CH$_3$T injection system. The sampling system was used to measure the concentration of methane in the detector over the next few days, and a purification time constant of 5.90 $\pm$ 0.07 hours was measured.  The first natural methane injection was not large enough to observe outgassing from the detector, but a larger natural methane injection of 0.375 grams was able to constrain $G \le 0.0002 \frac{cm}{\sqrt{day}}$ at a later date.
 
-The LUX collaboration took many precautions to ensure a safe and successful tritium injection. Prior to injecting any tritiated methane into the detector, a natural methane injection was preformed to measure the purification time constant in LUX and constrain the value of $G$ further.   Twenty milligrams of natural methane were injected into LUX using the CH$_3$T injection system. The sampling system was used to measure the concentration of methane in the detector over the next few days, and a purification time constant of 5.90 $\pm$ 0.07 hours was measured.  The first natural methane injection was not large enough to observe outgassing from the detector, but a larger natural methane injection of ?? grams was able to constrain $G \le 0.0002 \frac{cm}{\sqrt{day}}$ at a later date.
-
-
-%Show Fig 15 CH4 injection from July 23 2013
 
 \begin{figure} [!h]
 \includegraphics[scale=.7]{LUXOutgassing.png} 
@@ -1027,20 +1034,59 @@ The LUX collaboration took many precautions to ensure a safe and successful trit
 
 After the natural methane campaign a small amount of tritium was injected into LUX to confirm the purification time constant from above, and to confirm the mixing of the source throughout the detector.  A fiducial volume containing 125 kg of xenon between drift times of 30 to 320 $\mu$sec, with radius $ < $17.5 cm was defined for the analysis.  The first 23 hours of data show that the initial injection activity in the fiducial volume was 24.2 $\pm$ 0.3 mBq, while the initial injection activity in the entire detector was 44.9 $pm$ 0.5 mBq.  The ratio of the fiducial volume activity to the total volume activity is 0.539 $\pm$ 0.009, which is close to the expected ratio of 0.5 for a perfectly uniform distribution of CH$_3$T events. The CH$_3$T activity fell with a purification time constant of 6.9 $\pm$ 0.4 hours within the fiducial volume, confirming the $\sim$ 6 hour time constant measurement from phase one.
 
-%Show CH3T fiducial volume rate plots from the paper
+\begin{figure} [!h]
+\includegraphics[scale=.7]{CH3T_fid_rate_new.png} 
+\captionof{figure}{Rate of CH$_3$T events after the first small injection into LUX.  The 6.9 hour time constant is consistent with expectations from the natural methane sampling campaign prior to this injection.}
+\label{LUXPurificationRate}
+\end{figure}
 
-After confirming the purification time constant LUX approved the use of CH$_3$T as an internal calibration source.  The initial CH$_3$T calibration was limited to ?? Hz (?? events) due to the uncertainty in the value of the the diffusion constant $G$, but injections as large as ?? Hz (?? events) have been done after the upper limit of $G$ was lowered.  
+After confirming the purification time constant LUX approved the use of CH$_3$T as an internal calibration source.  The initial CH$_3$T calibration was limited to 0.3 Hz due to the uncertainty in the value of the the diffusion constant $G$, but injections ranging from 2-10 Hz have been done every 3-4 months after the value of $G$ was constrained further.  The location of events from the first CH$_3$T calibration is shown in Figure \ref{TritiumSpatialDist}. As expected, the CH$_3$T source diffuses uniformly throughout the detector.  
+\begin{figure} [!h]
+\includegraphics[scale=.5]{TritiumRvZ.pdf} 
+\captionof{figure}{The location of events during the initial LUX CH$_3$T injection.  The solid black like indicates the fiducial volume used for the first LUX Run03 results paper.}
+\label{TritiumSpatialDist}
+\end{figure}
 
-%Show and discuss mixing plots
-%Show and dicuss ER Band calibration
-%Dicuss the xenon physics results and cite the paper.
+The combined energy spectrum for a high statistics CH$_3$T calibration is shown in Figure \ref{TritiumSpectrum}.  A model of the expected tritium beta spectrum which includes detector resolution effects is shown in red.  The data agrees very close with expectations above the detector's energy threshold, with a p-value of 0.70 from 3 to 18 keV.  The consistency of the energy spectrum across a wide range of energies provides strong support for the combined energy model presented in Section \ref{CombinedEnergyModel}.  The ratio of the CH$_3$T data to expectations was used to determine the energy threshold of the LUX detector.  A error function fit was used to determine a 50\% energy threshold of 1.24 $\pm$ 0.026 keV for electron recoil events.
+
+\newpage
+
+\begin{figure} [!h]
+\includegraphics[scale=.425]{TritiumSpectrum.pdf} 
+\captionof{figure}{Top: The combined energy spectrum from a high statistics CH$_3$T calibration in LUX.  Data is shown in black, and a model of the expected tritium beta spectrum is shown in red.  Bottom: The residual differences between the data and model for each bin, in units of $\sigma$.}
+\label{TritiumSpectrum}
+\end{figure}
+
+\begin{figure} [!h]
+\includegraphics[scale=.4]{TritiumThreshold.pdf} 
+\captionof{figure}{The ratio of the tritium data to expectations.  An error function fit used to determine the energy threshold is shown in blue.}
+\label{TritiumThreshold}
+\end{figure}
+
+The main purpose of the CH$_3$T calibration source is to measure the detector's electron recoil response.  This calibration is crucial when determining the "leakage fraction" of electron recoil backgrounds that fall below the nuclear recoil band mean.  Alternatively, a "discrimination" factor can be defined as the fraction of electron recoil backgrounds that do not fall below the nuclear recoil band mean.  The electron recoil band from a high statistics CH$_3$T calibration is shown in Figure \ref{TritiumERBand}.  The nuclear recoil band calibration from LUX's neutron generator calibration source is also included in Figure \ref{TritumERBand}. These two results have allowed the LUX collaboration to measure the detector's discrimination with unprecedented accuracy.  An average discrimination (1-$f$) for the LUX Run03 result was found to be 99.81\% $\pm$ 0.02\%.
+
+In addition to the calibration results mentioned in this section, the CH$_3$T calibration source has allowed the LUX collaboration to measure fundamental properties of liquid xenon to high accuracy.  These results are discussed in reference \cite{TritiumPaper}.
+
+\newpage 
+
+\begin{figure} [!h]
+\includegraphics[scale=.35]{TritiumERBand.pdf} 
+\captionof{figure}{The electron recoil calibration of LUX resulting from 170,000 CH$_3$T events at 180 V/cm.  The Gaussian means of each S1 bin, as well as power law fits to those means and the 10\% and 90\% contours of the ER band are shown in black.  The power law fits to the mean, 10\%, and 90\% countours of the NR band are shown in red.}
+\label{TritiumERBand}
+\end{figure}
+
+\begin{figure} [!h]
+\includegraphics[scale=.35]{TritiumLeakage.pdf} 
+\captionof{figure}{The leakage fraction and discrimination versus S1 in the LUX detector at 180 V/cm.}
+\label{TritiumLeakage}
+\end{figure}
+
 
 \section{Standard Calibration of the LUX Detector} \label{StandardCalibrations}
 
 Stuff
 
 %First discuss the need for corrections to the data.  Talk about detector inefficiency effects (calling them exactly that), including Louis' (?) models for electron lifetime that Rick brought up.  Talk about standard KrypCal calibrations.  There is a thesis written about this already, so use that for guidance if needed...
-
 
 \subsection{Detector Efficiency Corrections}
 \subsubsection{Sources of Detector Inefficiency}
@@ -1049,7 +1095,7 @@ Stuff
 
 %Discuss recombination physics and the ability to turn the now (emphasis on this, since it is how we transition from the previous section) corrected data into an combined energy scale.  Then basically cover recombination physics (prob in Attila's thesis) and Doke plot from my Doke plot write up.
 
-\subsection{Energy Scale Calibrations}
+\subsection{Energy Scale Calibrations} \label{CombinedEnergyModel}
 \subsubsection{Recombination Physics} \label{RecombSec} 
 \subsubsection{Doke Plot}
 
@@ -1203,6 +1249,8 @@ Astroparticle Physics, 1996.
 \bibitem{LuxDetector} D Akerib, et al.  The Large Underground Xenon (LUX) Experiment.  http://arxiv.org/pdf/1211.3788v2.pdf
 
 \bibitem{BradleyThesis} A Bradley. LUX Thermosyphon Cryogenics and Radon-Related Backgrounds for the First WIMP Result. %http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxRequiredReading/AWB_PhDThesis_20140120.pdf
+
+\bibitem{TritiumPaper} D Akerib et al.  Tritium calibration of the LUX dark matter experiment.  	Phys. Rev. D 93, 072009 (2016)  http://arxiv.org/abs/1512.03133
 
 \end{thebibliography}
 

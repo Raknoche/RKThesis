@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  3 MAY 2016 16:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  4 MAY 2016 15:53
 entering extended mode
 **Introduction.tex
 (C:\Users\Richard\Desktop\Thesis\Intro\Introduction.tex
@@ -709,71 +709,142 @@ OML/cmm/m/it/12 KC[] \OMS/cmsy/m/n/12   [][] [] [] \OML/cmm/m/it/12 K[]\OT1/cmr
 LaTeX Warning: Citation `FicksAnalytic' on page 99 undefined on input line 951.
 
 
-[99] [100] [101] [102] [103]
-<LUXOutgassing.png, id=1101, 435.87843pt x 360.59718pt>
+[99] <StepsandNoSteps.png, id=1073, 470.50781pt x 445.665pt>
+File: StepsandNoSteps.png Graphic file (type png)
+
+<use StepsandNoSteps.png>
+Package pdftex.def Info: StepsandNoSteps.png used on input line 963.
+(pdftex.def)             Requested size: 329.35321pt x 311.96336pt.
+ [100] [101] [102 <C:/Users/Richard/Desktop/Thesis/Intro/StepsandNoSteps.png>] 
+[103]
+<OutgassingSim.png, id=1104, 819.8128pt x 496.85625pt>
+File: OutgassingSim.png Graphic file (type png)
+ <use OutgassingSim.png>
+Package pdftex.def Info: OutgassingSim.png used on input line 1019.
+(pdftex.def)             Requested size: 245.94572pt x 149.05801pt.
+
+[104] <LUXOutgassing.png, id=1111, 435.87843pt x 360.59718pt>
 File: LUXOutgassing.png Graphic file (type png)
 
 <use LUXOutgassing.png>
-Package pdftex.def Info: LUXOutgassing.png used on input line 1023.
+Package pdftex.def Info: LUXOutgassing.png used on input line 1030.
 (pdftex.def)             Requested size: 305.11282pt x 252.4163pt.
- [104 <C:/Users/Richard/Desktop/Thesis/Intro/LUXOutgassing.png>]
-Overfull \hbox (13.51765pt too wide) in paragraph at lines 1068--1068
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[105 <C:/Users/Richard/Desktop/Thesis/Intro/OutgassingSim.png (PNG copy)>]
+<CH3T_fid_rate_new.png, id=1116, 397.485pt x 301.125pt>
+File: CH3T_fid_rate_new.png Graphic file (type png)
+
+<use CH3T_fid_rate_new.png>
+Package pdftex.def Info: CH3T_fid_rate_new.png used on input line 1038.
+(pdftex.def)             Requested size: 278.2376pt x 210.78606pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<TritiumRvZ.pdf, id=1118, 562.1pt x 421.575pt>
+File: TritiumRvZ.pdf Graphic file (type pdf)
+ <use TritiumRvZ.pdf>
+Package pdftex.def Info: TritiumRvZ.pdf used on input line 1045.
+(pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
+ [106 <C:/Users/Richard/Desktop/Thesis/Intro/LUXOutgassing.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[107 <C:/Users/Richard/Desktop/Thesis/Intro/CH3T_fid_rate_new.png>] [108 <C:/Us
+ers/Richard/Desktop/Thesis/Intro/TritiumRvZ.pdf>]
+<TritiumSpectrum.pdf, id=1148, 562.1pt x 421.575pt>
+File: TritiumSpectrum.pdf Graphic file (type pdf)
+ <use TritiumSpectrum.pdf>
+Package pdftex.def Info: TritiumSpectrum.pdf used on input line 1055.
+(pdftex.def)             Requested size: 238.89363pt x 179.17021pt.
+
+<TritiumThreshold.pdf, id=1149, 562.1pt x 421.575pt>
+File: TritiumThreshold.pdf Graphic file (type pdf)
+
+<use TritiumThreshold.pdf>
+Package pdftex.def Info: TritiumThreshold.pdf used on input line 1061.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+
+
+LaTeX Warning: Reference `TritumERBand' on page 109 undefined on input line 106
+6.
+
+[109 <C:/Users/Richard/Desktop/Thesis/Intro/TritiumSpectrum.pdf> <C:/Users/Rich
+ard/Desktop/Thesis/Intro/TritiumThreshold.pdf>] [110]
+<TritiumERBand.pdf, id=1210, 562.1pt x 421.575pt>
+File: TritiumERBand.pdf Graphic file (type pdf)
+ <use TritiumERBand.pdf>
+Package pdftex.def Info: TritiumERBand.pdf used on input line 1073.
+(pdftex.def)             Requested size: 196.73795pt x 147.55345pt.
+
+<TritiumLeakage.pdf, id=1211, 562.1pt x 421.575pt>
+File: TritiumLeakage.pdf Graphic file (type pdf)
+ <use TritiumLeakage.pdf>
+Package pdftex.def Info: TritiumLeakage.pdf used on input line 1079.
+(pdftex.def)             Requested size: 196.73795pt x 147.55345pt.
+
+[111 <C:/Users/Richard/Desktop/Thesis/Intro/TritiumERBand.pdf> <C:/Users/Richar
+d/Desktop/Thesis/Intro/TritiumLeakage.pdf>]
+Overfull \hbox (13.51765pt too wide) in paragraph at lines 1114--1114
 []\OT1/cmr/bx/n/17.28 Calibration of the LUX De-tec-tor in a nonuni-
  []
 
-[105] [106]
+[112] [113]
 Overfull \vbox (209.15004pt too high) has occurred while \output is active []
 
 
-[107] [108]
-Underfull \hbox (badness 2460) in paragraph at lines 1111--1112
+[114] [115]
+Underfull \hbox (badness 2460) in paragraph at lines 1157--1158
 []\OT1/cmr/m/n/12 Wu, et al. \OT1/cmr/m/it/12 Monthly No-tices of the Royal As-
 tro-nom-i-cal So-ci-ety
  []
 
-[109]
+[116]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [110]
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1155
+ [117]
+Underfull \hbox (badness 10000) in paragraph at lines 1200--1201
 []\OT1/cmr/m/n/12 Kurki-Suonio, Cos-mo-log-i-cal Per-tur-ba-tion The-ory. (2015
 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1203
 []\OT1/cmr/m/n/12 Hu. CMB In-tro-duc-tion. (2001) back-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 1162--1163
+Underfull \hbox (badness 3735) in paragraph at lines 1208--1209
 []\OT1/cmr/m/n/12 Fermi-LAT Col-lab-o-ra-tion. Fermi LAT Search for Dark Mat-te
 r
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1162--1163
+Underfull \hbox (badness 1688) in paragraph at lines 1208--1209
 \OT1/cmr/m/n/12 in Gamma-ray Lines and the In-clu-sive Pho-ton Spec-trum. (2012
 )
  []
 
-[111] [112]pdfTeX warning (ext4): destination with the same identifier (name{ci
+[118] [119]pdfTeX warning (ext4): destination with the same identifier (name{ci
 te.Lewin}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1197 \bibitem{Lewin}
+l.1243 \bibitem{Lewin}
                         D Lewin and P F Smith.  Review of mathematics, numer...
-[113]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1210.
- [114]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1210.
+[120]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1258.
+ [121]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1258.
  (C:\Users\Richard\Desktop\Thesis\Intro\Introduction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1210.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1258.
 
 Package rerunfilecheck Info: File `Introduction.out' has not changed.
 (rerunfilecheck)             Checksum: 079B64EE5D050840632A8EBF45233DD3;4900.
@@ -784,20 +855,20 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1210.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1258.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 757 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8134 strings out of 494045
- 120195 string characters out of 3145963
- 211350 words of memory out of 3000000
- 10958 multiletter control sequences out of 15000+200000
+ 8201 strings out of 494045
+ 121469 string characters out of 3145963
+ 213653 words of memory out of 3000000
+ 11001 multiletter control sequences out of 15000+200000
  15212 words of font info for 57 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 37i,13n,40p,2558b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,40p,2558b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
@@ -814,9 +885,9 @@ s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Introduction.pdf (114 pages, 5000022 bytes).
+Output written on Introduction.pdf (121 pages, 5674180 bytes).
 PDF statistics:
- 1296 PDF objects out of 1440 (max. 8388607)
- 371 named destinations out of 1000 (max. 500000)
- 629 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1433 PDF objects out of 1440 (max. 8388607)
+ 387 named destinations out of 1000 (max. 500000)
+ 669 words of extra memory for PDF output out of 10000 (max. 10000000)
 
