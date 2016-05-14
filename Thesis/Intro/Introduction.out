@@ -42,17 +42,17 @@
 \BOOKMARK [3][-]{subsubsection.4.2.3}{Outgassing Experiements}{subsection.4.2}% 42
 \BOOKMARK [3][-]{subsubsection.4.2.4}{Simulating Outgassing in LUX}{subsection.4.2}% 43
 \BOOKMARK [2][-]{subsection.4.3}{ER Band Calibration of the LUX Detector}{section.4}% 44
-\BOOKMARK [1][-]{section.5}{Standard Calibration of the LUX Detector}{}% 45
-\BOOKMARK [2][-]{subsection.5.1}{Detector Efficiency Corrections}{section.5}% 46
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Sources of Detector Inefficiency}{subsection.5.1}% 47
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Standard Corrections}{subsection.5.1}% 48
-\BOOKMARK [2][-]{subsection.5.2}{Energy Scale Calibrations}{section.5}% 49
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Recombination Physics}{subsection.5.2}% 50
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Doke Plot}{subsection.5.2}% 51
-\BOOKMARK [1][-]{section.6}{Novel Calibration Techniques}{}% 52
-\BOOKMARK [2][-]{subsection.6.1}{Resolution Method}{section.6}% 53
-\BOOKMARK [2][-]{subsection.6.2}{Radon Lifetime Method}{section.6}% 54
-\BOOKMARK [2][-]{subsection.6.3}{PMTxPMT Method}{section.6}% 55
+\BOOKMARK [1][-]{section.5}{Signal Corrections in the LUX Detector}{}% 45
+\BOOKMARK [2][-]{subsection.5.1}{Use of 83mKr in Signal Corrections}{section.5}% 46
+\BOOKMARK [2][-]{subsection.5.2}{S1 Corrections}{section.5}% 47
+\BOOKMARK [2][-]{subsection.5.3}{S2 Corrections}{section.5}% 48
+\BOOKMARK [2][-]{subsection.5.4}{Resolution as a measure of Electron Lifetime}{section.5}% 49
+\BOOKMARK [2][-]{subsection.5.5}{Radon as a measure of Electron Lifetime}{section.5}% 50
+\BOOKMARK [2][-]{subsection.5.6}{A PMT-by-PMT approach to S1 Corrections}{section.5}% 51
+\BOOKMARK [1][-]{section.6}{Energy Scale Calibrations}{}% 52
+\BOOKMARK [2][-]{subsection.6.1}{Recombination Physics}{section.6}% 53
+\BOOKMARK [2][-]{subsection.6.2}{Doke Plot}{section.6}% 54
+\BOOKMARK [2][-]{subsection.6.3}{Tritium Chi2 Method}{section.6}% 55
 \BOOKMARK [1][-]{section.7}{Calibration of the LUX Detector in a nonuniform Field}{}% 56
 \BOOKMARK [2][-]{subsection.7.1}{Source of nonuniform Field}{section.7}% 57
 \BOOKMARK [2][-]{subsection.7.2}{Issues arising from nonuniform Field}{section.7}% 58

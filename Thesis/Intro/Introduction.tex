@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage[capposition=bottom]{floatrow}
 \usepackage{amssymb}
+\usepackage{subfig}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{rotating}
@@ -744,11 +745,7 @@ PUT RUN04 RESULT IF (OR RUN03 IF RUN04 ISNT AVAILABLE)
 
 \section{Tritium as a Calibration Source} \label{TritiumChapter}
  
-%Talk about why we need tritium for ER band calibration, G1 and G2, etc etc.  Then talk about how LUX is the first to do a tritium calibration program, then include all the details from candidacy talk -- with some support added from LUX data itself. Next, discuss tritium ER band calibrations. Discuss how the calibration source has performed far beyond what it was assigned to do -- tritium G1 and G2 chi2 calibrations, physics from the tritum PRD paper, etc.  Finally, mention the source is critical to measuring detector corrections in a varying drift field, discussed in chapter (whatever it is).
-
-
-In two phase (liquid and gas) xenon detectors recoil events will produce a
-scintillation signal (referred to as S1) and ionization. The electrons produced by the ionization process can be drifted to an anode located in the gas phase of the detector. Once the electrons are accelerating toward the anode in the xenon gas they will create a secondary scintillation signal (referred to as S2). Nuclear recoil events have higher ionization density, leading to a higher probability that electron will recombine at the site of the initial recoil event, resulting in a higher S1 yield and lower S2 yield than electron recoil events of the same energy. Therefore, the ratio of the S1 and S2 signals can be used to distinguish electron recoil backgrounds from WIMP-like nuclear recoil events.  This background discrimination technique is referred to as nuclear recoil discrimination.
+In two phase (liquid and gas) xenon detectors recoil events will produce a scintillation signal (referred to as S1) and ionization. The electrons produced by the ionization process can be drifted to an anode located in the gas phase of the detector. Once the electrons are accelerating toward the anode in the xenon gas they will create a secondary scintillation signal (referred to as S2). Nuclear recoil events have higher ionization density, leading to a higher probability that electron will recombine at the site of the initial recoil event, resulting in a higher S1 yield and lower S2 yield than electron recoil events of the same energy. Therefore, the ratio of the S1 and S2 signals can be used to distinguish electron recoil backgrounds from WIMP-like nuclear recoil events.  This background discrimination technique is referred to as nuclear recoil discrimination.
 
 A detector's response to both nuclear recoil and electron recoil events must be well understood to take advantage of nuclear recoil discrimination.  Typically, an external beta emitter such as $^{137}$Cs is used to calibrate the detector's electron recoil response. However, the xenon in LUX has a strong self-shielding characteristic at UV wavelengths. While this is convenient for eliminating background radiation from external sources, it makes calibrating the innermost regions of the detector difficult with external calibration sources.
 
@@ -918,7 +915,6 @@ Such an increase in CH$_3$T activity can be produced through two mechanisms: a d
 \end{figure}
 
 \subsubsection{Simulating Outgassing in LUX} \label{SimOutgas}
-%WHEN YOU SHOW PLOTS HERE - GET THE UPDATED PLOTS FROM JON. GIVE JON CREDIT IN THIS SECTION SOMEHOW... MAYBE HE HAS A LUX NOTE TO REFERENCE?
 
 The outgassing effects seen in UMD's small scale liquid xenon experiment places an upper limit on the CH$_3$T activity that can be injected into low background detectors such as LUX.   In the LUX collaboration we chose to define the tolerable CH$_3$T activity after a calibration to be 5\% of the nominal background rate in LUX, setting a limit on the residual CH$_3$T activity of 0.33 $\mu$Bq.  This upper limit is extremely conservative, and guarantees that any electron recoil backgrounds introduced by a CH$_3$T calibration will be negligible. 
 
@@ -1011,9 +1007,8 @@ plastic cylinder, $V_{\text{xenon}}$ is the total volume of xenon in the fiducia
 C_{j+1}=C_j + \Delta t \left[\left( J_{1,j}-J_{N_x,j}\right) \frac{A_{\text{plastic}}}{V_{\text{xenon}}} - \frac{C_j}{\tau} \right].
 \end{equation}
 
-The initial concentration is defined by dividing the desired injection activity by the volume of the fiducial region. We
-choose $D = 2.3 \times 10^{-9} \frac{cm^2}{sec}$ such that the
-half-infinite boundary conditions in our diffusion model is valid, and combine this with our allowed range of values for $G$ to extract a value for $K$. We find that an initial injection activity of 10 Bq results in the background rate returning to $<$ 5\% of its initial value in one month. (Figure \ref{OutgassingSim})
+The initial concentration is defined by dividing the desired injection activity by the volume of the fiducial region. We choose $D = 2.3 \times 10^{-9} \frac{cm^2}{sec}$ such that the
+half-infinite boundary conditions in our diffusion model is valid, and combine this with our allowed range of values for $G$ to extract a value for $K$. We find that an initial injection activity of 10 Bq results in the background rate returning to $<$ 5\% of its initial value in one month. \cite{JonOutgassing} (Figure \ref{OutgassingSim})
 
 \begin{figure}
 \includegraphics[scale=.3]{OutgassingSim.png} 
@@ -1028,7 +1023,7 @@ The LUX collaboration took many precautions to ensure a safe and successful trit
 
 \begin{figure} [!h]
 \includegraphics[scale=.7]{LUXOutgassing.png} 
-\captionof{figure}{Sampling system results from the ?? gram natural methane injection which was used to constraint the value of $G$.}
+\captionof{figure}{Sampling system results from the 0.375 gram natural methane injection which was used to constraint the value of $G$. \cite{JonOutgassingTwo}}
 \label{LuxOutgassing}
 \end{figure}
 
@@ -1065,7 +1060,7 @@ The combined energy spectrum for a high statistics CH$_3$T calibration is shown 
 
 The main purpose of the CH$_3$T calibration source is to measure the detector's electron recoil response.  This calibration is crucial when determining the "leakage fraction" of electron recoil backgrounds that fall below the nuclear recoil band mean.  Alternatively, a "discrimination" factor can be defined as the fraction of electron recoil backgrounds that do not fall below the nuclear recoil band mean.  The electron recoil band from a high statistics CH$_3$T calibration is shown in Figure \ref{TritiumERBand}.  The nuclear recoil band calibration from LUX's neutron generator calibration source is also included in Figure \ref{TritumERBand}. These two results have allowed the LUX collaboration to measure the detector's discrimination with unprecedented accuracy.  An average discrimination (1-$f$) for the LUX Run03 result was found to be 99.81\% $\pm$ 0.02\%.
 
-In addition to the calibration results mentioned in this section, the CH$_3$T calibration source has allowed the LUX collaboration to measure fundamental properties of liquid xenon to high accuracy.  These results are discussed in reference \cite{TritiumPaper}.
+In addition to the calibration results mentioned in this section, the CH$_3$T calibration source has allowed the LUX collaboration to measure fundamental properties of liquid xenon to high accuracy.  These results are discussed in reference \cite{TritiumPaper}.  The calibration source is also an integral part of producing signal corrections in a detector with a nonuniform electric field, a topic which is discussed in chapter \ref{Run04Corrections}.
 
 \newpage 
 
@@ -1082,36 +1077,178 @@ In addition to the calibration results mentioned in this section, the CH$_3$T ca
 \end{figure}
 
 
-\section{Standard Calibration of the LUX Detector} \label{StandardCalibrations}
+\section{Signal Corrections in the LUX Detector} \label{StandardCalibrations}
 
-Stuff
+In this chapter, we discuss the need for position dependent corrections to the S1 and S2 signals in LUX.  Position dependence in the S1 signal can be introduced by a number of effects.  As photons travel from an interaction site to the PMT arrays they are reflected by teflon panels surrounding the active volume.  The reflectivity of the teflon varies based on the proximity of the interaction site, the angle of incidence of the light, and the surface properties of the teflon.   Photons are also reflected at the liquid xenon surface, causing about two thirds of the S1 signal to be collected in the bottom PMT array.  Events which are closer to the bottom PMT array have more solid angle covered by the PMT array, leading to a larger S1 signal for events toward the bottom of the detector.  A z-dependence of the light collection efficiency can also be introduced by light quenching impurities present in the liquid xenon, although this effect is negligible at the liquid xenon purity levels found in LUX.
 
-%First discuss the need for corrections to the data.  Talk about detector inefficiency effects (calling them exactly that), including Louis' (?) models for electron lifetime that Rick brought up.  Talk about standard KrypCal calibrations.  There is a thesis written about this already, so use that for guidance if needed...
+As electrons travel from the interaction site to the liquid surface they are absorbed by electronegative impurities in the liquid xenon.  This attenuation of charge leads to a smaller S2 signal from events originating deeper in the detector.  Since the purity of the liquid xenon changes on a weekly basis there is a significant time dependence in the strength of this effect. Small fluctuations in the X-Y plane of the extraction field or the liquid surface level can lead to a position dependence in both the efficiency at which electrons are extracted from the liquid xenon and the number of photoelectrons which are produced per extracted electrons.  Both of these effects are reflected in the size of the S2 signal.  Furthermore, while the individual PMTs are gain matched with LED calibrations, the variation in quantum efficiency between PMTs can lead to an X-Y position dependence in both the S1 and S2 signals.
 
-\subsection{Detector Efficiency Corrections}
-\subsubsection{Sources of Detector Inefficiency}
-\subsubsection{Standard Corrections}
+In the final data analysis, we wish to know the absolute number of photons and electrons produced by recoil interactions, as well as the nuclear recoil discrimination factor at all locations and times in the detector.  It is possible to define position dependent gain factors which convert the S1 signals and S2 signals to number of photons and number of electrons, respectively, but it is more convenient to normalize the S1 and S2 signals to one location in the detector.   Likewise, one could define position and time dependent ER and NR bands to track discrimination over time, but it is more convenient to normalize the data such that the ER band and NR bands are constant at all times and all locations in the detector.  In LUX we choose to normalize the S1 signal to the center of the detector, and the S2 signal to the top of the detector.  The choice to normalize the S1 signal to the center of the detector is arbitrary since the position dependence of the S1 signal has little time dependence, while the choice to normalize the S2 signal to the top of the detector is convenient for circumventing the time dependence inherent at deeper locations in the detector due to varying amount of electron absorbing impurities in the liquid xenon.  Once the S1 and S2 signals are uniform throughout the detector we can define one position independent gain factor for each of the detector signals.  Removing the position dependence of the S1 and S2 signals also results in increased resolution of the S1 and S2 spectra, as well as a narrowing of the ER and NR band widths.
 
+
+Note that a nonuniform drift field can also introduce position dependence to the S1 and S2 signals.  However, this effect changes the actual number of photons and electrons produced during a recoil interaction, rather than the detector's efficiency of collecting those photons and electrons.  In this chapter we will assume a uniform drift field is present in the detector, and discuss corrections for a detector with a nonuniform electric field in Chapter \ref{Run04Corrections}.
+
+\subsection{Use of $^{83m}$Kr in Signal Corrections}
+
+The LUX detector's $^{83m}$Kr calibration source is an ideal tool to measure corrections for the S1 and S2 signals. A $^{83}$Rb soaked charcoal source is used to inject its $^{83m}$Kr daughter directly into the LUX circulation system.  In the active volume the $^{83m}$Kr decays via internal conversion at 32.1 keV and 9.4 keV with a half life of 1.86 hours.  The half life of the 9.4 keV decay is only 154 ns, causing the two decays to merge into one 41.55 keV pulse in the LUX detector.  Note that it is possible to modify the LUX pulse finder to separate the two S1 signals when desired, but it is nearly impossible to separate the two S2 signals due to diffusion of the electron clouds as they drift to the liquid surface. 
+
+\begin{figure} [!h]
+\includegraphics[scale=.35]{Kr83Decay.png} 
+\captionof{figure}{The energy level diagram of the $^{83}$Rb and $^{83m}$Kr decays.}
+\label{KrDecayScheme}
+\end{figure}
+
+Once injected, the $^{83m}$Kr mixes uniformly throughout the active volume in a matter of minutes. The monoenergetic peak of the $^{83m}$Kr events can be measured at any point in the detector to determine the position dependence of the S1 and S2 signals.
+
+\begin{figure} 
+\centering
+\subfloat{{\includegraphics[width=6cm]{KrXvY.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6cm]{KrR2vz.png} }}
+\caption{ (Left) Density of $^{83m}$Kr events in the X-Y plane 10-30 minutes after a $^{83m}$Kr injection. (Right) Density of $^{83m}$Kr events in the R$^2$-Z plane 10-30 minutes after a $^{83m}$Kr injection.}
+\label{fig:LandauPlot}
+\end{figure}
+%Show R^2vZ and XY density plots of Kr for high stats injection in 2015 with time cut of 10-30 minutes to show quick mixing.
+
+The short half life causes the calibration source to be removed from the LUX detector in a matter of hours, allowing for calibration of the S1 and S2 signals on a weekly basis.  This is a crucial property of the calibration source, since the purity of the liquid xenon, and therefore the z-dependence of the S2 signal, changes on a weekly basis.  It is also important that the $^{83m}$Kr is an inert noble gas, a property which prevents temporary attenuation of the S1 and S2 signals during injection of the calibration source. 
+
+
+\subsection{S1 Corrections}
+
+We first measure the Z dependence of the $^{83m}$Kr S1 pulse areas by slicing the detector into drift time bins with widths defined such that each bin has roughly 300 events.  A Gaussian distribution is fit to the S1 spectra of each bin to determine the location of the spectra means. A second order polynomial is used to determine the S1 Z dependence between and outside of each drift time bin. A detector inefficiency correction for the Z direction is defined by taking the ratio of the S1  pulse area at the center of the detector (defined as $z_c$) to the S1 pulse area as a function of Z as described in the equation
+\begin{equation}
+\mbox{S}1_{\mbox{z-efficiency-correction}} = \frac{S1(z_c)}{S1(z)}.
+\end{equation} 
+
+%Show Run03 S1 gaussian fits and polynomial here -- can get it from the LUG probably
+\begin{figure} 
+\centering
+\subfloat{{\includegraphics[width=6.3cm]{KrS1_ZDep_Gaussians.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.3cm]{KrS1_ZDep.png} }}
+\caption{ (Left) Gaussian distribution fits to $^{83m}$Kr S1 data that are used to determine the drift time dependence of the S1 pulse area. (Right) The z dependence of the S1 pulse area. Black points indicate the maximum of Gaussian distribution fits for each drift time bin, and red points indicate the polynomial fit to that data.}
+\label{fig:KrypCal_S1ZDep}
+\end{figure}
+
+The XY dependence of the S1 signal is found by dividing the z-corrected ($S1 \times \mbox{S}1_{\mbox{z-efficiency-correction}}$) data into two dimensional XY bins with lengths defined such that each bin has roughly 300 events, and then fitting Gaussian distributions to the data of each bin.  The mean of the Gaussian distribution from each bin is used to construct S1 XY dependence maps, with a spline interpolation and extrapolation being used to determine the XY dependence between and outside of the bins. (Figure \ref{fig:KrypCalXYDep}) A detector inefficiency correction for the XY direction is defined by taking the ratio of the z-corrected S1 pulse area at the center of the detector to the z-corrected S1 pulse area as a function of XY in cm, as shown below
+\begin{align}
+\mbox{S}2_{\mbox{xy-efficiency-correction}} &= \frac{\mbox{S}2_{\mbox{z-efficiency-correction}}\times S2(x_c,y_c,z)}{\mbox{S}2_{\mbox{z-efficiency-correction}}\times S2(xyz)}.
+\end{align} 
+where $x_c$ and $y_c$ are the x and y center of the detector in uncorrected position coordinates.
+
+%Show S1 XY correction here
+\begin{figure} 
+\centering
+\subfloat{{\includegraphics[width=6.3cm]{KrS1_XYDep.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.3cm]{KrS1_XYDep_Norm.png} }}
+\caption{ (Left) Two dimensional map of the XY dependence in $^{83m}$Kr S1 data determined by fitting a Gaussian distribution to XY bins of the data and tracking the mean of each fit.(Right) Two dimensional map of the XY correction factor which is applied to z-corrected S1 data.}
+\label{fig:KrypCalS1XYDep}
+\end{figure}
+
+
+When enough stats are present in a $^{83m}$Kr calibration data set, a three dimensional S1 corrections map is favored over the two step (Z, then XY) corrections described above.  In this case, the uncorrected S1 data is divided into three dimensional XYZ voxels with volumes defined such that each bin has roughly 300 events. A Gaussian distribution is fit to the data of each voxel, and the mean of the Gaussian distribution is used to construct three dimensional S1 dependence maps, with a spline interpolation and extrapolation being used to determine the XYZ dependence between and outside of the voxel. (Figure \ref{fig:KrypCalXYDep}) A three dimensional detector inefficiency correction is then defined by taking the ratio of the uncorrected S1 pulse area at the center of the detector to uncorrected S1 pulse area as a function of X,Y, and drift time, as shown below
+\begin{align}
+\mbox{S}1_{\mbox{xyz-efficiency-correction}} &= \frac{S1(x_c,y_c,z_c)}{S1(xyz)}.
+\end{align} 
+The detector inefficiency effects in the S1 signal are all due to the unchanging internal geometry of the detector.  Therefore, the S1 correction maps vary by only a few percent over time and a single high stats three dimensional correction map can be applied to data over a long period of time.  
+
+Write formula for the actual S1 corrected data here. DO THIS!!
+
+Improvement in S1 resolution - resolution improves by 5\%, mean shifts by 2\% (absolute, not relative)
+
+\begin{figure} [!h]
+\includegraphics[scale=.75]{KRS1_ResolutionImprovement.png} 
+\captionof{figure}{The $^{83m}$Kr S1 spectrum with no corrections applied (blue), z dependent corrections applied (red), and xyz dependent corrections applied (green).}
+\label{KrS1Improvement}
+\end{figure}
+
+
+Stability in S1 over time. Corrected S1 varies by ~0.6\% over time.  Discrete jump is due to change in S1 corrections map
+
+\begin{figure} [!h]
+\includegraphics[scale=.35]{CorrectedS1_Stability.png} 
+\captionof{figure}{The corrected $^{83m}$Kr S1 mean over the duration of LUX's Run03 data taking campaign.}
+\label{KrS2Stability}
+\end{figure}
+
+\subsection{S2 Corrections}
+
+As with the S1 signal, we measure the Z dependence of the $^{83m}$Kr S2 pulse areas by slicing the detector into drift time bins with widths defined such that each bin has roughly 300 events. 
+An exponential decay is fit to the drift time dependence of the mean of each $^{83m}$Kr S2 distribution.  A detector inefficiency correction for the Z direction is defined by taking the ratio of the S2  pulse area just below the liquid surface to the S2 pulse area as a function of Z as described in the equation
+\begin{equation}
+\mbox{S}2_{\mbox{z-efficiency-correction}} = \frac{S2(z=0)}{S2(z)}.
+\end{equation} 
+
+%Show S2 Gaussian fits and exponential fit here -- can probably get it from LUG
+\begin{figure} 
+\centering
+\subfloat{{\includegraphics[width=6.3cm]{KrS2_ZDep_Gaussians.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.3cm]{KrS2_ZDep.png} }}
+\caption{ (Left) Gaussian distribution fits to $^{83m}$Kr S2 data that are used to determine the drift time dependence of the S2 pulse area. (Right) The z dependence of the S2 pulse area. Black points indicate the maximum of Gaussian distribution fits for each drift time bin, and red points indicate the exponential fit to that data.}
+\label{fig:KrypCal_S2ZDep}
+\end{figure}
+
+The process of measuring the XY dependence of the S2 signal is identical to the process of measuring the XY dependence of the S1 signal.  The z-corrected ($S2 \times \mbox{S}2_{\mbox{z-efficiency-correction}}$ S2 data is divided into two dimensional XY bins with lengths defined such that each bin has roughly 300 events, and a Gaussian distribution is fit to the data of each bin.  The mean of the Gaussian distribution from each bin is used to construct S2 XY dependence maps, with a spline interpolation and extrapolation being used to determine the XY dependence between and outside of the bins. (Figure \ref{fig:KrypCalXYDep}) A detector inefficiency correction for the XY direction is defined by taking the ratio of the z-corrected S2 pulse area at the center of the detector to the z-corrected S2 pulse area as a function of XY in cm, as shown below
+\begin{align}
+\mbox{S}2_{\mbox{xy-efficiency-correction}} &= \frac{\mbox{S}2_{\mbox{z-efficiency-correction}}\times S2(x_c,y_c,z)}{\mbox{S}2_{\mbox{z-efficiency-correction}}\times S2_(xyz)}.
+\end{align} 
+where $x_c$ and $y_c$ are the x and y center of the detector in uncorrected position coordinates.
+
+%Show S2 XY correction here
+\begin{figure} 
+\centering
+\subfloat{{\includegraphics[width=6.3cm]{KrS2_XYDep.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.3cm]{KrS2_XYDep_Norm.png} }}
+\caption{ (Left) Two dimensional map of the XY dependence in $^{83m}$Kr S2 data determined by fitting a Gaussian distribution to XY bins of the data and tracking the mean of each fit.(Right) Two dimensional map of the XY correction factor which is applied to z-corrected S2 data.}
+\label{fig:KrypCalS2XYDep}
+\end{figure}
+
+The z-dependence of the S2 signal is a function of the liquid xenon purity.  TALK ABOUT FORMULA FOR ELECTRON LIFETIME HERE. Therefore, the S2 correction maps vary significantly over time and must be remeasured on a weekly basis.  To apply S2 efficiency corrections to data at any time, a weighted average of the $^{83m}$Kr S2 Z dependence is used to defined a time interpolated S2 Z dependence correction.  
+Write formula for the actual S2 corrected data here.
+
+%Show lifetime plots from Run03 here
+\begin{figure} [!h]
+\includegraphics[scale=.75]{LUX_eLifetime_Run03.png} 
+\captionof{figure}{The electron lifetime over the duration of LUX's Run03 data taking campaign.}
+\label{KrS2Improvement}
+\end{figure}
+
+Improvement in S2 resolution - improves by 4\% and shifts by 21\% (absolute, not relative)
+
+\begin{figure} [!h]
+\includegraphics[scale=.75]{KRS2_ResolutionImprovement.png} 
+\captionof{figure}{The $^{83m}$Kr S2 spectrum with no corrections applied (blue), z dependent corrections applied (red), and xyz dependent corrections applied (green).}
+\label{KrS2Improvement}
+\end{figure}
+
+Stability in S2 over time  The corrected corrected S2 varies by ~2\% over time.
+
+\begin{figure} [!h]
+\includegraphics[scale=.35]{CorrectedS2_Stability.png} 
+\captionof{figure}{The corrected $^{83m}$Kr S2 mean over the duration of LUX's Run03 data taking campaign.}
+\label{KrS2Stability}
+\end{figure}
+
+\subsection{Resolution as a measure of Electron Lifetime}
+
+\subsection{Radon as a measure of Electron Lifetime}
+
+\subsection{A PMT-by-PMT approach to S1 Corrections}
+
+
+\section{Energy Scale Calibrations} \label{CombinedEnergyModel}
 
 %Discuss recombination physics and the ability to turn the now (emphasis on this, since it is how we transition from the previous section) corrected data into an combined energy scale.  Then basically cover recombination physics (prob in Attila's thesis) and Doke plot from my Doke plot write up.
 
-\subsection{Energy Scale Calibrations} \label{CombinedEnergyModel}
-\subsubsection{Recombination Physics} \label{RecombSec} 
-\subsubsection{Doke Plot}
+\subsection{Recombination Physics} \label{RecombSec} 
+\subsection{Doke Plot}
+\subsection{Tritium Chi2 Method}
 
 
-
-\section{Novel Calibration Techniques}
-
-\subsection{Resolution Method}
-\subsection{Radon Lifetime Method}
-\subsection{PMTxPMT Method}
-
-%Resolution Method
-%Radon Method
-%PMT x PMT method
-
-\section{Calibration of the LUX Detector in a nonuniform Field} 
+\section{Calibration of the LUX Detector in a nonuniform Field} \label{Run04Corrections}
 
 %Put the LUX Run04 KrypCal note here...
 
@@ -1249,6 +1386,10 @@ Astroparticle Physics, 1996.
 \bibitem{LuxDetector} D Akerib, et al.  The Large Underground Xenon (LUX) Experiment.  http://arxiv.org/pdf/1211.3788v2.pdf
 
 \bibitem{BradleyThesis} A Bradley. LUX Thermosyphon Cryogenics and Radon-Related Backgrounds for the First WIMP Result. %http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxRequiredReading/AWB_PhDThesis_20140120.pdf
+
+\bibitem{JonOutgassing} J Balajthy, and C Hall. Simulations of CH3T Diffusion into Plastic Parts of the LUX Detector. LUX Document Database. (2013) http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000481
+
+\bibitem{JonOutgassingTwo} J Balajthy.  Results of the Large CH4 Injection from April 2015.  LUX Document Database. (2015) http://teacher.pas.rochester.edu:8080/wiki/bin/view/Lux/LuxDB00000445
 
 \bibitem{TritiumPaper} D Akerib et al.  Tritium calibration of the LUX dark matter experiment.  	Phys. Rev. D 93, 072009 (2016)  http://arxiv.org/abs/1512.03133
 
