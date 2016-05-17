@@ -1132,9 +1132,12 @@ We first measure the Z dependence of the $^{83m}$Kr S1 pulse areas by slicing th
 
 The XY dependence of the S1 signal is found by dividing the z-corrected ($S1 \times \mbox{S}1_{\mbox{z-efficiency-correction}}$) data into two dimensional XY bins with lengths defined such that each bin has roughly 300 events, and then fitting Gaussian distributions to the data of each bin.  The mean of the Gaussian distribution from each bin is used to construct S1 XY dependence maps, with a spline interpolation and extrapolation being used to determine the XY dependence between and outside of the bins. (Figure \ref{fig:KrypCalXYDep}) A detector inefficiency correction for the XY direction is defined by taking the ratio of the z-corrected S1 pulse area at the center of the detector to the z-corrected S1 pulse area as a function of XY in cm, as shown below
 \begin{align}
-\mbox{S}2_{\mbox{xy-efficiency-correction}} &= \frac{\mbox{S}2_{\mbox{z-efficiency-correction}}\times S2(x_c,y_c,z)}{\mbox{S}2_{\mbox{z-efficiency-correction}}\times S2(xyz)}.
+\mbox{S}1_{\mbox{xy-efficiency-correction}} &= \frac{\mbox{S}1_{\mbox{z-efficiency-correction}}\times S1(x_c,y_c,z)}{\mbox{S}2_{\mbox{z-efficiency-correction}}\times S1(xyz)}.
 \end{align} 
-where $x_c$ and $y_c$ are the x and y center of the detector in uncorrected position coordinates.
+where $x_c$ and $y_c$ are the x and y center of the detector in uncorrected position coordinates. The corrected S1 pulse areas are produced by multiplying the raw, uncorrected S1 pulse areas by the XY and Z correction factors
+\begin{equation}
+\mbox{S}1_{\mbox{corrected}} = \mbox{S}1_{\mbox{raw}} \left( \mbox{S}1_{\mbox{z-efficiency-correction}} \right) \left( \mbox{S}1_{\mbox{xy-efficiency-correction}} \right).
+\end{equation}
 
 %Show S1 XY correction here
 \begin{figure} 
@@ -1147,15 +1150,18 @@ where $x_c$ and $y_c$ are the x and y center of the detector in uncorrected posi
 \end{figure}
 
 
-When enough stats are present in a $^{83m}$Kr calibration data set, a three dimensional S1 corrections map is favored over the two step (Z, then XY) corrections described above.  In this case, the uncorrected S1 data is divided into three dimensional XYZ voxels with volumes defined such that each bin has roughly 300 events. A Gaussian distribution is fit to the data of each voxel, and the mean of the Gaussian distribution is used to construct three dimensional S1 dependence maps, with a spline interpolation and extrapolation being used to determine the XYZ dependence between and outside of the voxel. (Figure \ref{fig:KrypCalXYDep}) A three dimensional detector inefficiency correction is then defined by taking the ratio of the uncorrected S1 pulse area at the center of the detector to uncorrected S1 pulse area as a function of X,Y, and drift time, as shown below
+When enough stats are present in a $^{83m}$Kr calibration data set, a three dimensional S1 corrections map is favored over the two step (Z, then XY) corrections described above.  In this case, the uncorrected S1 data is divided into three dimensional XYZ voxels with volumes defined such that each bin has roughly 300 events. A Gaussian distribution is fit to the data of each voxel, and the mean of the Gaussian distribution is used to construct three dimensional S1 dependence maps, with a spline interpolation and extrapolation being used to determine the XYZ dependence between and outside of the voxels. A three dimensional detector inefficiency correction is then defined by taking the ratio of the uncorrected S1 pulse area at the center of the detector to uncorrected S1 pulse area as a function of X,Y, and drift time, as shown below
 \begin{align}
 \mbox{S}1_{\mbox{xyz-efficiency-correction}} &= \frac{S1(x_c,y_c,z_c)}{S1(xyz)}.
 \end{align} 
+In this case, the corrected S1 pulse areas are produced by multiplying the raw, uncorrected S1 pulse areas by the XYZ correction factor.
+\begin{equation}
+\mbox{S}1_{\mbox{corrected}} = \mbox{S}1_{\mbox{raw}} \left( \mbox{S}1_{\mbox{xyz-efficiency-correction}} \right).
+\end{equation}
 The detector inefficiency effects in the S1 signal are all due to the unchanging internal geometry of the detector.  Therefore, the S1 correction maps vary by only a few percent over time and a single high stats three dimensional correction map can be applied to data over a long period of time.  
 
-Write formula for the actual S1 corrected data here. DO THIS!!
+Figure \ref{KrS1Improvement} show the $^{83m}$Kr S1 spectrum from one particular data set before and after pulse area corrections are applied. In this data set the corrections improve the S1 resolution resolution by 35\%, and shifts the mean by 2\%.  Similar improvements in resolution are seen in all $^{83m}$Kr data sets.  The corrected S1 pulse areas are also found to be extremely uniform over time, with the corrected $^{83m}$Kr S1 varying by less than 0.6\% over the course of the LUX detector's Run03 data taking campaign.
 
-Improvement in S1 resolution - resolution improves by 5\%, mean shifts by 2\% (absolute, not relative)
 
 \begin{figure} [!h]
 \includegraphics[scale=.75]{KRS1_ResolutionImprovement.png} 
@@ -1163,16 +1169,13 @@ Improvement in S1 resolution - resolution improves by 5\%, mean shifts by 2\% (a
 \label{KrS1Improvement}
 \end{figure}
 
-
-Stability in S1 over time. Corrected S1 varies by ~0.6\% over time.  Discrete jump is due to change in S1 corrections map
-
 \begin{figure} [!h]
 \includegraphics[scale=.35]{CorrectedS1_Stability.png} 
-\captionof{figure}{The corrected $^{83m}$Kr S1 mean over the duration of LUX's Run03 data taking campaign.}
+\captionof{figure}{The corrected $^{83m}$Kr S1 mean over the duration of LUX's Run03 data taking campaign. The dashed blue line indicates the mean of the corrected $^{83m}$Kr S1 spectrum over time, and the grey band indicates one standard deviation around the mean.}
 \label{KrS2Stability}
 \end{figure}
 
-\subsection{S2 Corrections}
+\subsection{S2 Corrections} \label{S2SignalCorr}
 
 As with the S1 signal, we measure the Z dependence of the $^{83m}$Kr S2 pulse areas by slicing the detector into drift time bins with widths defined such that each bin has roughly 300 events. 
 An exponential decay is fit to the drift time dependence of the mean of each $^{83m}$Kr S2 distribution.  A detector inefficiency correction for the Z direction is defined by taking the ratio of the S2  pulse area just below the liquid surface to the S2 pulse area as a function of Z as described in the equation
@@ -1194,7 +1197,10 @@ The process of measuring the XY dependence of the S2 signal is identical to the 
 \begin{align}
 \mbox{S}2_{\mbox{xy-efficiency-correction}} &= \frac{\mbox{S}2_{\mbox{z-efficiency-correction}}\times S2(x_c,y_c,z)}{\mbox{S}2_{\mbox{z-efficiency-correction}}\times S2_(xyz)}.
 \end{align} 
-where $x_c$ and $y_c$ are the x and y center of the detector in uncorrected position coordinates.
+where $x_c$ and $y_c$ are the x and y center of the detector in uncorrected position coordinates. The corrected S2 pulse areas are produced by multiplying the raw, uncorrected S2 pulse areas by the XY and Z correction factors
+\begin{equation}
+\mbox{S}2_{\mbox{corrected}} = \mbox{S}2_{\mbox{raw}} \left( \mbox{S}2_{\mbox{z-efficiency-correction}} \right) \left( \mbox{S}2_{\mbox{xy-efficiency-correction}} \right).
+\end{equation}
 
 %Show S2 XY correction here
 \begin{figure} 
@@ -1206,38 +1212,73 @@ where $x_c$ and $y_c$ are the x and y center of the detector in uncorrected posi
 \label{fig:KrypCalS2XYDep}
 \end{figure}
 
-The z-dependence of the S2 signal is a function of the liquid xenon purity.  TALK ABOUT FORMULA FOR ELECTRON LIFETIME HERE. Therefore, the S2 correction maps vary significantly over time and must be remeasured on a weekly basis.  To apply S2 efficiency corrections to data at any time, a weighted average of the $^{83m}$Kr S2 Z dependence is used to defined a time interpolated S2 Z dependence correction.  
-Write formula for the actual S2 corrected data here.
+The z-dependence of the S2 signal is a function of the liquid xenon purity, which is in turn a function of the detector's purification efficiency, the detector's flow rate, and the emanation rate of impurities from detector components.  Note that circulation outages have an immediate impact on the purity of the liquid xenon, since the zirconium getter is unable to counteract the emanation of impurities and since the sudden shock to the detector can release impurities from otherwise harmless locations such as the weir reservoir.  As a result, the S2 correction maps vary significantly over time and must be remeasured on a weekly basis.
 
 %Show lifetime plots from Run03 here
-\begin{figure} [!h]
-\includegraphics[scale=.75]{LUX_eLifetime_Run03.png} 
-\captionof{figure}{The electron lifetime over the duration of LUX's Run03 data taking campaign.}
-\label{KrS2Improvement}
-\end{figure}
+%\begin{figure} [!h]
+%\includegraphics[scale=.75]{LUX_eLifetime_Run03.png} 
+%\captionof{figure}{The electron lifetime over the duration of LUX's Run03 data taking campaign.}
+%\label{KrS2Improvement}
+%\end{figure}
 
-Improvement in S2 resolution - improves by 4\% and shifts by 21\% (absolute, not relative)
+
+\newpage
+
+Figure \ref{KrS2Improvement} shows the $^{83m}$Kr S2 spectrum from one particular data set before and after pulse area corrections are applied. In this data set the corrections improve the S2 resolution by 22\%, and shifts the mean by 21\%.  The large shift in the $^{83m}$Kr S2 mean is a result of the corrections "adding in" the electrons which were absorbed by impurities in the liquid xenon as they traveled to the surface.  Note that the resolution improvement and the shift of the mean are larger in data sets which have worse xenon purity.  As with the corrected S1 signal, the corrected S2 pulse areas are found to be extremely uniform over time, with the corrected $^{83m}$Kr S2 varying by less than 2\% over the course of the LUX detector's Run03 data taking campaign.
 
 \begin{figure} [!h]
-\includegraphics[scale=.75]{KRS2_ResolutionImprovement.png} 
+\includegraphics[scale=.7]{KRS2_ResolutionImprovement.png} 
 \captionof{figure}{The $^{83m}$Kr S2 spectrum with no corrections applied (blue), z dependent corrections applied (red), and xyz dependent corrections applied (green).}
 \label{KrS2Improvement}
 \end{figure}
 
-Stability in S2 over time  The corrected corrected S2 varies by ~2\% over time.
-
 \begin{figure} [!h]
-\includegraphics[scale=.35]{CorrectedS2_Stability.png} 
-\captionof{figure}{The corrected $^{83m}$Kr S2 mean over the duration of LUX's Run03 data taking campaign.}
+\includegraphics[scale=.3]{CorrectedS2_Stability.png} 
+\captionof{figure}{The corrected $^{83m}$Kr S2 mean over the duration of LUX's Run03 data taking campaign.  The dashed blue line indicates the mean of the corrected $^{83m}$Kr S2 spectrum over time, and the grey band indicates one standard deviation around the mean.}
 \label{KrS2Stability}
 \end{figure}
 
-\subsection{Resolution as a measure of Electron Lifetime}
-
 \subsection{Radon as a measure of Electron Lifetime}
+
+The method of extracting electron lifetimes described in Section \ref{S2SignalCorr} requires high statistics $^{83m}$Kr data sets for calibration.  While this method is reliable, data between an electron lifetime changing event, such as a circulation stop, and a $^{83m}$Kr calibration data set is unusable due to the lack of an electron lifetime measurement.  In this section we will discuss using $^{222}$Rn backgrounds to recover electron lifetime measurements from individual WIMP search data sets so that signals corrections can be applied even if a $^{83m}$Kr calibration is not available.
+
+Radon-222 appears in every data set taken in the LUX detector.  While it is an unwanted background in the data, the Radon-222 alpha peak is useful for continuous monitoring of our electron lifetime.  Radon events are selected using a box cut on the raw S1 pulse areas. (Figure \ref{fig:RadonSelection}) An upper limit of 240 $\mu$seconds is placed on the drift time of the selected events since the S1 signal saturates above this point, causing the radon data to become indistinguishable from the other alpha bands.  The S1 pulse areas do not have a time dependence, so the same box cut is applicable to data at any point in time.  An additional constraint of S2$_{\mbox{bottom}}(z) <$ S2$_{\mbox{bottom}}(z=0)$  since the S2 size anywhere in the detector should never exceed the maximum size of a $^{222}$Rn S2 at the top of the detector.  To ensure we are using clean radon data we only use the S2 signal from the bottoms PMT array to avoid PMT saturation.  After selection cuts are applied there are not enough radon events in a single data set to slice the detector into drift time bins as we did during $^{83m}$Kr calibrations.  Instead, we turn to a maximum likelihood approach to extract the electron lifetime from the limited amount of radon data.
+
+
+\begin{figure}[h]\centering
+\includegraphics[scale=0.5]{RadonSelection.png}
+\caption{Selection of radon events from a week of WIMP search data.  Black points include data from all alpha sources, and the blue lines indicate the box cut that is used to select $^{222}$Rn data (shown in red).}
+\label{fig:RadonSelection}
+\end{figure}
+
+%Likelihood fitting described in: https://en.wikipedia.org/wiki/Maximum_likelihood
+In the maximum likelihood analysis, a probability distribution function is used to determine the probability that an S2 of a given size and drift time will be measured, assuming some value for the electron lifetime.  There are two possible probability distribution functions which we can use.  The first PDF fits an attenuated Gaussian model to the attenuated S2 data, and is given by
+\begin{equation}
+\mbox{F}(x_i, z_i \text{\textbar} \mu, \sigma, \lambda) = \frac{1}{\sqrt{2\pi}\sigma} e^\frac{(-x_i - \mu e^\frac{-z_i}{\lambda})^2}{(2\sigma)^2}, 
+\end{equation}
+where $\sigma$ and $\mu$ are the Gaussian sigma and mean of the corrected radon peak based on the most recent krypton calibration data set, $x_i$ and $z_i$ are the signal and depth of the ith event in the data set, and $\lambda$ represents the unknown electron lifetime for the data set.  The second PDF fits a true Gaussian to the corrected S2 data, and is given by
+\begin{equation}
+\mbox{F}(x_i, z_i \text{\textbar} \mu, \sigma, \lambda) = \frac{1}{\sqrt{2 \pi} \sigma} e^\frac{(-x_i e^\frac{z_i}{\lambda} - \mu)^2}{(2 \sigma)^2}. 
+\end{equation}
+In either case, the PDF is measured on an event by event basis.  The likelihood of observing all of the events in a data set, for some value of $\mu$, $\sigma$, and $\lambda$ is then given by the likelihood function
+\begin{equation}
+\mathcal{L}(\mu, \sigma, \lambda ; x_i, z_i) = \prod_{i=1}^{n} F(x_i, z_i \text{\textbar} \mu, \sigma, \lambda)
+\end{equation}
+We wish to determine the electron lifetime value which has the highest likelihood of producing the observed data.  For convenience, we choose to minimize the negative of the log of the likelihood function with respect to $\lambda$, since it is less computational expensive to minimize a summation than it is to maximize a product.  
+
+After running the maximum likelihood method on all of the LUX detector's Run03 data sets we see that the attenuated Gaussian PDF is in better agreement with the z-slice method from Section \ref{S2SignalCorr}. (Figure \ref{fig:RadonLifetimeResults}) In either case, the results of the maximum likelihood fit from Radon data fall within one sigma of the results from $^{83m}$Kr calibrations. 
+
+\begin{figure}[h]\centering
+\includegraphics[scale=0.5]{RadonLifetimeResults.png}
+\caption{A comparison of the calculated electron lifetimes based on the maximum likelihood method with an attenuated Gaussian PDF (in blue) and corrected Gaussian PDF (in red).  The electron lifetime measured from $^{83m}$Kr calibrations is shown in black.}
+\label{fig:RadonLifetimeResults}
+\end{figure}
+
+
 
 \subsection{A PMT-by-PMT approach to S1 Corrections}
 
+stuff
 
 \section{Energy Scale Calibrations} \label{CombinedEnergyModel}
 
