@@ -47,14 +47,14 @@
 \contentsline {subsection}{\numberline {5.2}S1 Corrections}{116}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}S2 Corrections}{121}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Radon as a measure of Electron Lifetime}{126}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}A PMT-by-PMT approach to S1 Corrections}{129}{subsection.5.5}
-\contentsline {section}{\numberline {6}Energy Scale Calibrations}{130}{section.6}
-\contentsline {subsection}{\numberline {6.1}Recombination Physics}{130}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Doke Plot}{130}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Tritium Chi2 Method}{130}{subsection.6.3}
-\contentsline {section}{\numberline {7}Calibration of the LUX Detector in a nonuniform Field}{130}{section.7}
-\contentsline {subsection}{\numberline {7.1}Source of nonuniform Field}{130}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Issues arising from nonuniform Field}{130}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Removing field effects from data with theory}{130}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Removing field effects from data with Monte Carlo}{130}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Electron Recoil Calibration in a nonuniform Field}{130}{subsection.7.5}
+\contentsline {subsection}{\numberline {5.5}A PMT-by-PMT approach to S1 Corrections}{130}{subsection.5.5}
+\contentsline {section}{\numberline {6}Energy Scale Calibrations}{134}{section.6}
+\contentsline {subsection}{\numberline {6.1}Recombination Physics}{135}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Doke Plot}{135}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Tritium Chi2 Method}{135}{subsection.6.3}
+\contentsline {section}{\numberline {7}Calibration of the LUX Detector in a nonuniform Field}{135}{section.7}
+\contentsline {subsection}{\numberline {7.1}Source of nonuniform Field}{135}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Issues arising from nonuniform Field}{135}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Removing field effects from data with theory}{135}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Removing field effects from data with Monte Carlo}{135}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Electron Recoil Calibration in a nonuniform Field}{135}{subsection.7.5}

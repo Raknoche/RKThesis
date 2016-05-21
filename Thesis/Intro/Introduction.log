@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  17 MAY 2016 16:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  21 MAY 2016 17:05
 entering extended mode
 **Introduction.tex
 (C:\Users\Richard\Desktop\Thesis\Intro\Introduction.tex
@@ -418,12 +418,12 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 <RotationCurve2.png, id=341, 466.74374pt x 421.575pt>
 File: RotationCurve2.png Graphic file (type png)
  <use RotationCurve2.png>
-Package pdftex.def Info: RotationCurve2.png used on input line 34.
+Package pdftex.def Info: RotationCurve2.png used on input line 37.
 (pdftex.def)             Requested size: 326.71838pt x 295.10048pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 35.
+(caption)                particular \caption on input line 38.
 See the caption package documentation for explanation.
 
 [6 <C:/Users/Richard/Desktop/Thesis/Intro/RotationCurve2.png>] [7] [8] [9]
@@ -431,12 +431,12 @@ See the caption package documentation for explanation.
 File: LensEqFigure.png Graphic file (type png)
 
 <use LensEqFigure.png>
-Package pdftex.def Info: LensEqFigure.png used on input line 213.
+Package pdftex.def Info: LensEqFigure.png used on input line 216.
 (pdftex.def)             Requested size: 216.05666pt x 322.57936pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 214.
+(caption)                particular \caption on input line 217.
 See the caption package documentation for explanation.
 
 [15] [16 <C:/Users/Richard/Desktop/Thesis/Intro/LensEqFigure.png>] [17]
@@ -444,52 +444,52 @@ See the caption package documentation for explanation.
 File: GammaOneGammaTwo.png Graphic file (type png)
 
 <use GammaOneGammaTwo.png>
-Package pdftex.def Info: GammaOneGammaTwo.png used on input line 252.
+Package pdftex.def Info: GammaOneGammaTwo.png used on input line 255.
 (pdftex.def)             Requested size: 243.91313pt x 190.1619pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 253.
+(caption)                particular \caption on input line 256.
 See the caption package documentation for explanation.
 
 [19 <C:/Users/Richard/Desktop/Thesis/Intro/GammaOneGammaTwo.png>]
 <bulletcluster.jpg, id=502, 335.00156pt x 228.855pt>
 File: bulletcluster.jpg Graphic file (type jpg)
  <use bulletcluster.jpg>
-Package pdftex.def Info: bulletcluster.jpg used on input line 265.
+Package pdftex.def Info: bulletcluster.jpg used on input line 268.
 (pdftex.def)             Requested size: 335.00073pt x 228.85443pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 266.
+(caption)                particular \caption on input line 269.
 See the caption package documentation for explanation.
 
 [20 <C:/Users/Richard/Desktop/Thesis/Intro/bulletcluster.jpg>]
 <CMB_Planck.jpg, id=511, 1114.1625pt x 557.08125pt>
 File: CMB_Planck.jpg Graphic file (type jpg)
  <use CMB_Planck.jpg>
-Package pdftex.def Info: CMB_Planck.jpg used on input line 277.
+Package pdftex.def Info: CMB_Planck.jpg used on input line 280.
 (pdftex.def)             Requested size: 334.25133pt x 167.12566pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 278.
+(caption)                particular \caption on input line 281.
 See the caption package documentation for explanation.
 
 [21] [22 <C:/Users/Richard/Desktop/Thesis/Intro/CMB_Planck.jpg>] [23]
 <PS_Planck.png, id=541, 1017.04968pt x 542.77782pt>
 File: PS_Planck.png Graphic file (type png)
  <use PS_Planck.png>
-Package pdftex.def Info: PS_Planck.png used on input line 317.
+Package pdftex.def Info: PS_Planck.png used on input line 320.
 (pdftex.def)             Requested size: 406.81267pt x 217.10727pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 318.
+(caption)                particular \caption on input line 321.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (16.81267pt too wide) in paragraph at lines 317--318
+Overfull \hbox (16.81267pt too wide) in paragraph at lines 320--321
  [] 
  []
 
@@ -497,37 +497,37 @@ Overfull \hbox (16.81267pt too wide) in paragraph at lines 317--318
 <BAO.png, id=561, 542.77782pt x 209.28188pt>
 File: BAO.png Graphic file (type png)
  <use BAO.png>
-Package pdftex.def Info: BAO.png used on input line 330.
+Package pdftex.def Info: BAO.png used on input line 333.
 (pdftex.def)             Requested size: 379.94188pt x 146.49629pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 331.
+(caption)                particular \caption on input line 334.
 See the caption package documentation for explanation.
 
 [26 <C:/Users/Richard/Desktop/Thesis/Intro/BAO.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 342.
+(hyperref)                removing `math shift' on input line 345.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Lambda' on input line 342.
+(hyperref)                removing `\Lambda' on input line 345.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 342.
+(hyperref)                removing `math shift' on input line 345.
 
 [27] [28] [29] [30] [31] <neutrinos.png, id=618, 943.27406pt x 503.63156pt>
 File: neutrinos.png Graphic file (type png)
 
 <use neutrinos.png>
-Package pdftex.def Info: neutrinos.png used on input line 402.
+Package pdftex.def Info: neutrinos.png used on input line 405.
 (pdftex.def)             Requested size: 377.30293pt x 201.44905pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 403.
+(caption)                particular \caption on input line 406.
 See the caption package documentation for explanation.
 
 [32 <C:/Users/Richard/Desktop/Thesis/Intro/neutrinos.png>] [33] [34] [35]
@@ -536,12 +536,12 @@ See the caption package documentation for explanation.
 File: Recoil-spectrum.png Graphic file (type png)
 
 <use Recoil-spectrum.png>
-Package pdftex.def Info: Recoil-spectrum.png used on input line 562.
+Package pdftex.def Info: Recoil-spectrum.png used on input line 565.
 (pdftex.def)             Requested size: 258.96686pt x 238.97221pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 563.
+(caption)                particular \caption on input line 566.
 See the caption package documentation for explanation.
 
 [49] [50 <C:/Users/Richard/Desktop/Thesis/Intro/Recoil-spectrum.png>] [51]
@@ -549,28 +549,28 @@ See the caption package documentation for explanation.
 <LUXevent.png, id=834, 632.3625pt x 515.67656pt>
 File: LUXevent.png Graphic file (type png)
  <use LUXevent.png>
-Package pdftex.def Info: LUXevent.png used on input line 615.
+Package pdftex.def Info: LUXevent.png used on input line 618.
 (pdftex.def)             Requested size: 316.18048pt x 257.83765pt.
 
 
-LaTeX Warning: Reference `DiscrimSec' on page 60 undefined on input line 620.
+LaTeX Warning: Reference `DiscrimSec' on page 60 undefined on input line 623.
 
 [60 <C:/Users/Richard/Desktop/Thesis/Intro/LUXevent.png>]
 <GammaBackgrounds.png, id=840, 536.75531pt x 508.90125pt>
 File: GammaBackgrounds.png Graphic file (type png)
 
 <use GammaBackgrounds.png>
-Package pdftex.def Info: GammaBackgrounds.png used on input line 623.
+Package pdftex.def Info: GammaBackgrounds.png used on input line 626.
 (pdftex.def)             Requested size: 268.37698pt x 254.45pt.
  [61 <C:/Users/Richard/Desktop/Thesis/Intro/GammaBackgrounds.png>] <LuxCryostat
 .png, id=848, 871.00406pt x 658.71094pt>
 File: LuxCryostat.png Graphic file (type png)
 
 <use LuxCryostat.png>
-Package pdftex.def Info: LuxCryostat.png used on input line 637.
+Package pdftex.def Info: LuxCryostat.png used on input line 640.
 (pdftex.def)             Requested size: 391.94821pt x 296.41718pt.
 
-Overfull \hbox (1.94821pt too wide) in paragraph at lines 637--638
+Overfull \hbox (1.94821pt too wide) in paragraph at lines 640--641
  [][] 
  []
 
@@ -582,7 +582,7 @@ Missing character: There is no ì in font cmr12!
 <LuxFieldCage.png, id=865, 845.40843pt x 652.68843pt>
 File: LuxFieldCage.png Graphic file (type png)
  <use LuxFieldCage.png>
-Package pdftex.def Info: LuxFieldCage.png used on input line 654.
+Package pdftex.def Info: LuxFieldCage.png used on input line 657.
 (pdftex.def)             Requested size: 380.43027pt x 293.70708pt.
 
 [65] [66 <C:/Users/Richard/Desktop/Thesis/Intro/LuxFieldCage.png>] [67]
@@ -592,14 +592,14 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
 
-LaTeX Warning: Reference `BradleyThesis' on page 69 undefined on input line 680
+LaTeX Warning: Reference `BradleyThesis' on page 69 undefined on input line 683
 .
 
 [69] [70] <SAMdiagram.png, id=895, 774.64406pt x 621.07031pt>
 File: SAMdiagram.png Graphic file (type png)
 
 <use SAMdiagram.png>
-Package pdftex.def Info: SAMdiagram.png used on input line 694.
+Package pdftex.def Info: SAMdiagram.png used on input line 697.
 (pdftex.def)             Requested size: 232.395pt x 186.32253pt.
 
 
@@ -609,7 +609,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <LuxWaterTank.png, id=905, 855.94781pt x 609.02531pt>
 File: LuxWaterTank.png Graphic file (type png)
  <use LuxWaterTank.png>
-Package pdftex.def Info: LuxWaterTank.png used on input line 705.
+Package pdftex.def Info: LuxWaterTank.png used on input line 708.
 (pdftex.def)             Requested size: 299.58623pt x 213.16205pt.
 
 [73 <C:/Users/Richard/Desktop/Thesis/Intro/LuxWaterTank.png>]
@@ -617,7 +617,7 @@ Package pdftex.def Info: LuxWaterTank.png used on input line 705.
 File: LuxSourceTubes.png Graphic file (type png)
 
 <use LuxSourceTubes.png>
-Package pdftex.def Info: LuxSourceTubes.png used on input line 715.
+Package pdftex.def Info: LuxSourceTubes.png used on input line 718.
 (pdftex.def)             Requested size: 108.2937pt x 226.33646pt.
 
 
@@ -633,28 +633,28 @@ Missing character: There is no ô in font cmr12!
 File: TritiumPlumbing.png Graphic file (type png)
 
 <use TritiumPlumbing.png>
-Package pdftex.def Info: TritiumPlumbing.png used on input line 774.
+Package pdftex.def Info: TritiumPlumbing.png used on input line 777.
 (pdftex.def)             Requested size: 384.38902pt x 273.27304pt.
  [83 <C:/Users/Richard/Desktop/Thesis/Intro/TritiumPlumbing.png>] [84] <GasSyst
 em.png, id=964, 561.59813pt x 864.22874pt>
 File: GasSystem.png Graphic file (type png)
 
 <use GasSystem.png>
-Package pdftex.def Info: GasSystem.png used on input line 797.
+Package pdftex.def Info: GasSystem.png used on input line 800.
 (pdftex.def)             Requested size: 308.87993pt x 475.32727pt.
  [85] [86 <C:/Users/Richard/Desktop/Thesis/Intro/GasSystem.png>] <GasPhaseRemov
 al_FlowRate.jpg, id=978, 845.40843pt x 509.65407pt>
 File: GasPhaseRemoval_FlowRate.jpg Graphic file (type jpg)
 
 <use GasPhaseRemoval_FlowRate.jpg>
-Package pdftex.def Info: GasPhaseRemoval_FlowRate.jpg used on input line 806.
+Package pdftex.def Info: GasPhaseRemoval_FlowRate.jpg used on input line 809.
 (pdftex.def)             Requested size: 380.43027pt x 229.34221pt.
 
 <GasPhaseRemoval_RestTime.jpg, id=979, 794.2172pt x 527.72156pt>
 File: GasPhaseRemoval_RestTime.jpg Graphic file (type jpg)
 
 <use GasPhaseRemoval_RestTime.jpg>
-Package pdftex.def Info: GasPhaseRemoval_RestTime.jpg used on input line 812.
+Package pdftex.def Info: GasPhaseRemoval_RestTime.jpg used on input line 815.
 (pdftex.def)             Requested size: 317.68124pt x 211.08488pt.
  [87 <C:/Users/Richard/Desktop/Thesis/Intro/GasPhaseRemoval_FlowRate.jpg>] [88 
 <C:/Users/Richard/Desktop/Thesis/Intro/GasPhaseRemoval_RestTime.jpg>]
@@ -662,20 +662,20 @@ Package pdftex.def Info: GasPhaseRemoval_RestTime.jpg used on input line 812.
 File: UMDInjectionSys.png Graphic file (type png)
 
 <use UMDInjectionSys.png>
-Package pdftex.def Info: UMDInjectionSys.png used on input line 826.
+Package pdftex.def Info: UMDInjectionSys.png used on input line 829.
 (pdftex.def)             Requested size: 254.302pt x 279.14502pt.
  [89 <C:/Users/Richard/Desktop/Thesis/Intro/UMDInjectionSys.png>] <UMDCryo.png,
  id=996, 219.82124pt x 416.30531pt>
 File: UMDCryo.png Graphic file (type png)
  <use UMDCryo.png>
-Package pdftex.def Info: UMDCryo.png used on input line 837.
+Package pdftex.def Info: UMDCryo.png used on input line 840.
 (pdftex.def)             Requested size: 98.91864pt x 187.33565pt.
 
 [90] [91 <C:/Users/Richard/Desktop/Thesis/Intro/UMDCryo.png>]
 <UMDspectra.png, id=1013, 727.518pt x 277.035pt>
 File: UMDspectra.png Graphic file (type png)
  <use UMDspectra.png>
-Package pdftex.def Info: UMDspectra.png used on input line 859.
+Package pdftex.def Info: UMDspectra.png used on input line 862.
 (pdftex.def)             Requested size: 363.75812pt x 138.51715pt.
 
 <ResidualBackgroundCorrected_SystemErr.png, id=1014, 1120.185pt x 409.53pt>
@@ -683,15 +683,15 @@ File: ResidualBackgroundCorrected_SystemErr.png Graphic file (type png)
 
 <use ResidualBackgroundCorrected_SystemErr.png>
 Package pdftex.def Info: ResidualBackgroundCorrected_SystemErr.png used on inpu
-t line 865.
+t line 868.
 (pdftex.def)             Requested size: 392.07062pt x 143.33765pt.
 
-Overfull \hbox (2.07062pt too wide) in paragraph at lines 865--867
+Overfull \hbox (2.07062pt too wide) in paragraph at lines 868--870
  [][] 
  []
 
 
-Overfull \hbox (106.99863pt too wide) in paragraph at lines 889--890
+Overfull \hbox (106.99863pt too wide) in paragraph at lines 892--893
  [][] 
  []
 
@@ -701,13 +701,13 @@ rd/Desktop/Thesis/Intro/ResidualBackgroundCorrected_SystemErr.png>] [94]
 File: Outgassing_TimeHisto_Log.jpg Graphic file (type jpg)
 
 <use Outgassing_TimeHisto_Log.jpg>
-Package pdftex.def Info: Outgassing_TimeHisto_Log.jpg used on input line 898.
+Package pdftex.def Info: Outgassing_TimeHisto_Log.jpg used on input line 901.
 (pdftex.def)             Requested size: 266.91367pt x 198.93369pt.
 
 <Steps_Overlay.png, id=1035, 698.61pt x 473.77pt>
 File: Steps_Overlay.png Graphic file (type png)
  <use Steps_Overlay.png>
-Package pdftex.def Info: Steps_Overlay.png used on input line 904.
+Package pdftex.def Info: Steps_Overlay.png used on input line 907.
 (pdftex.def)             Requested size: 244.51715pt x 165.82198pt.
 
 [95] [96 <C:/Users/Richard/Desktop/Thesis/Intro/Outgassing_TimeHisto_Log.jpg> <
@@ -716,15 +716,15 @@ C:/Users/Richard/Desktop/Thesis/Intro/Steps_Overlay.png>]
 File: Cesium_TimeHisto.jpg Graphic file (type jpg)
 
 <use Cesium_TimeHisto.jpg>
-Package pdftex.def Info: Cesium_TimeHisto.jpg used on input line 912.
+Package pdftex.def Info: Cesium_TimeHisto.jpg used on input line 915.
 (pdftex.def)             Requested size: 270.866pt x 125.77174pt.
  [97 <C:/Users/Richard/Desktop/Thesis/Intro/Cesium_TimeHisto.jpg>] [98]
 
 LaTeX Warning: Citation `MethaneDiffusion' on page 99 undefined on input line 9
-35.
+38.
 
 
-Overfull \hbox (4.50252pt too wide) detected at line 946
+Overfull \hbox (4.50252pt too wide) detected at line 949
 []\OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; t\OT1/cmr/m/n/12 ) = \
 OML/cmm/m/it/12 KC[] \OMS/cmsy/m/n/12   [][] [] [] \OML/cmm/m/it/12 K[]\OT1/cmr
 /m/n/12 (\OML/cmm/m/it/12 \OT1/cmr/m/n/12 )\OML/cmm/m/it/12 d \OMS/cmsy/m/n/1
@@ -732,28 +732,28 @@ OML/cmm/m/it/12 KC[] \OMS/cmsy/m/n/12   [][] [] [] \OML/cmm/m/it/12 K[]\OT1/cmr
  []
 
 
-LaTeX Warning: Citation `FicksAnalytic' on page 99 undefined on input line 947.
+LaTeX Warning: Citation `FicksAnalytic' on page 99 undefined on input line 950.
 
 
 [99] <StepsandNoSteps.png, id=1068, 470.50781pt x 445.665pt>
 File: StepsandNoSteps.png Graphic file (type png)
 
 <use StepsandNoSteps.png>
-Package pdftex.def Info: StepsandNoSteps.png used on input line 959.
+Package pdftex.def Info: StepsandNoSteps.png used on input line 962.
 (pdftex.def)             Requested size: 329.35321pt x 311.96336pt.
  [100] [101] [102 <C:/Users/Richard/Desktop/Thesis/Intro/StepsandNoSteps.png>] 
 [103]
 <OutgassingSim.png, id=1100, 819.8128pt x 496.85625pt>
 File: OutgassingSim.png Graphic file (type png)
  <use OutgassingSim.png>
-Package pdftex.def Info: OutgassingSim.png used on input line 1014.
+Package pdftex.def Info: OutgassingSim.png used on input line 1017.
 (pdftex.def)             Requested size: 245.94572pt x 149.05801pt.
 
 [104] <LUXOutgassing.png, id=1108, 435.87843pt x 360.59718pt>
 File: LUXOutgassing.png Graphic file (type png)
 
 <use LUXOutgassing.png>
-Package pdftex.def Info: LUXOutgassing.png used on input line 1025.
+Package pdftex.def Info: LUXOutgassing.png used on input line 1028.
 (pdftex.def)             Requested size: 305.11282pt x 252.4163pt.
 
 
@@ -764,7 +764,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: CH3T_fid_rate_new.png Graphic file (type png)
 
 <use CH3T_fid_rate_new.png>
-Package pdftex.def Info: CH3T_fid_rate_new.png used on input line 1033.
+Package pdftex.def Info: CH3T_fid_rate_new.png used on input line 1036.
 (pdftex.def)             Requested size: 278.2376pt x 210.78606pt.
 
 
@@ -773,7 +773,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <TritiumRvZ.pdf, id=1117, 562.1pt x 421.575pt>
 File: TritiumRvZ.pdf Graphic file (type pdf)
  <use TritiumRvZ.pdf>
-Package pdftex.def Info: TritiumRvZ.pdf used on input line 1040.
+Package pdftex.def Info: TritiumRvZ.pdf used on input line 1043.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
  [106 <C:/Users/Richard/Desktop/Thesis/Intro/LUXOutgassing.png>]
 
@@ -784,64 +784,64 @@ ers/Richard/Desktop/Thesis/Intro/TritiumRvZ.pdf>]
 <TritiumSpectrum.pdf, id=1148, 562.1pt x 421.575pt>
 File: TritiumSpectrum.pdf Graphic file (type pdf)
  <use TritiumSpectrum.pdf>
-Package pdftex.def Info: TritiumSpectrum.pdf used on input line 1050.
+Package pdftex.def Info: TritiumSpectrum.pdf used on input line 1053.
 (pdftex.def)             Requested size: 238.89363pt x 179.17021pt.
 
 <TritiumThreshold.pdf, id=1149, 562.1pt x 421.575pt>
 File: TritiumThreshold.pdf Graphic file (type pdf)
 
 <use TritiumThreshold.pdf>
-Package pdftex.def Info: TritiumThreshold.pdf used on input line 1056.
+Package pdftex.def Info: TritiumThreshold.pdf used on input line 1059.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 
 
 LaTeX Warning: Reference `TritumERBand' on page 109 undefined on input line 106
-1.
+4.
 
 [109 <C:/Users/Richard/Desktop/Thesis/Intro/TritiumSpectrum.pdf> <C:/Users/Rich
 ard/Desktop/Thesis/Intro/TritiumThreshold.pdf>] [110]
 <TritiumERBand.pdf, id=1211, 562.1pt x 421.575pt>
 File: TritiumERBand.pdf Graphic file (type pdf)
  <use TritiumERBand.pdf>
-Package pdftex.def Info: TritiumERBand.pdf used on input line 1068.
+Package pdftex.def Info: TritiumERBand.pdf used on input line 1071.
 (pdftex.def)             Requested size: 196.73795pt x 147.55345pt.
 
 <TritiumLeakage.pdf, id=1212, 562.1pt x 421.575pt>
 File: TritiumLeakage.pdf Graphic file (type pdf)
  <use TritiumLeakage.pdf>
-Package pdftex.def Info: TritiumLeakage.pdf used on input line 1074.
+Package pdftex.def Info: TritiumLeakage.pdf used on input line 1077.
 (pdftex.def)             Requested size: 196.73795pt x 147.55345pt.
 
 [111 <C:/Users/Richard/Desktop/Thesis/Intro/TritiumERBand.pdf> <C:/Users/Richar
 d/Desktop/Thesis/Intro/TritiumLeakage.pdf>] [112] [113]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1091.
+(hyperref)                removing `math shift' on input line 1094.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1091.
+(hyperref)                removing `superscript' on input line 1094.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1091.
+(hyperref)                removing `math shift' on input line 1094.
 
 [114] <Kr83Decay.png, id=1256, 896.59969pt x 667.74469pt>
 File: Kr83Decay.png Graphic file (type png)
  <use Kr83Decay.png>
-Package pdftex.def Info: Kr83Decay.png used on input line 1096.
+Package pdftex.def Info: Kr83Decay.png used on input line 1099.
 (pdftex.def)             Requested size: 313.81459pt x 233.71414pt.
 
 <KrXvY.png, id=1257, 578.16pt x 433.62pt>
 File: KrXvY.png Graphic file (type png)
  <use KrXvY.png>
-Package pdftex.def Info: KrXvY.png used on input line 1105.
+Package pdftex.def Info: KrXvY.png used on input line 1108.
 (pdftex.def)             Requested size: 170.71652pt x 128.03589pt.
 
 <KrR2vz.png, id=1258, 578.16pt x 433.62pt>
 File: KrR2vz.png Graphic file (type png)
  <use KrR2vz.png>
-Package pdftex.def Info: KrR2vz.png used on input line 1107.
+Package pdftex.def Info: KrR2vz.png used on input line 1110.
 (pdftex.def)             Requested size: 170.71652pt x 128.03589pt.
  [115 <C:/Users/Richard/Desktop/Thesis/Intro/Kr83Decay.png>] [116 <C:/Users/Ric
 hard/Desktop/Thesis/Intro/KrXvY.png (PNG copy)> <C:/Users/Richard/Desktop/Thesi
@@ -850,36 +850,36 @@ s/Intro/KrR2vz.png (PNG copy)>] <KrS1_ZDep_Gaussians.png, id=1272, 337.26pt x 2
 File: KrS1_ZDep_Gaussians.png Graphic file (type png)
 
 <use KrS1_ZDep_Gaussians.png>
-Package pdftex.def Info: KrS1_ZDep_Gaussians.png used on input line 1126.
+Package pdftex.def Info: KrS1_ZDep_Gaussians.png used on input line 1129.
 (pdftex.def)             Requested size: 179.25244pt x 150.04721pt.
 
 <KrS1_ZDep.png, id=1273, 340.27126pt x 282.30469pt>
 File: KrS1_ZDep.png Graphic file (type png)
  <use KrS1_ZDep.png>
-Package pdftex.def Info: KrS1_ZDep.png used on input line 1128.
+Package pdftex.def Info: KrS1_ZDep.png used on input line 1131.
 (pdftex.def)             Requested size: 179.25244pt x 148.71616pt.
 
 
 LaTeX Warning: Reference `fig:KrypCalXYDep' on page 117 undefined on input line
- 1133.
+ 1136.
 
 [117 <C:/Users/Richard/Desktop/Thesis/Intro/KrS1_ZDep_Gaussians.png> <C:/Users/
 Richard/Desktop/Thesis/Intro/KrS1_ZDep.png>]
-Overfull \hbox (9.4198pt too wide) detected at line 1140
+Overfull \hbox (9.4198pt too wide) detected at line 1143
 [][]\OT1/cmr/m/n/12 1[] = []1[] [] [] \OML/cmm/m/it/12 :
  []
 
 <KrS1_XYDep.png, id=1282, 331.2375pt x 276.28218pt>
 File: KrS1_XYDep.png Graphic file (type png)
  <use KrS1_XYDep.png>
-Package pdftex.def Info: KrS1_XYDep.png used on input line 1145.
+Package pdftex.def Info: KrS1_XYDep.png used on input line 1148.
 (pdftex.def)             Requested size: 179.25244pt x 149.51054pt.
 
 <KrS1_XYDep_Norm.png, id=1283, 344.78813pt x 276.28218pt>
 File: KrS1_XYDep_Norm.png Graphic file (type png)
 
 <use KrS1_XYDep_Norm.png>
-Package pdftex.def Info: KrS1_XYDep_Norm.png used on input line 1147.
+Package pdftex.def Info: KrS1_XYDep_Norm.png used on input line 1150.
 (pdftex.def)             Requested size: 179.25244pt x 143.63805pt.
  [118] [119 <C:/Users/Richard/Desktop/Thesis/Intro/KrS1_XYDep.png> <C:/Users/Ri
 chard/Desktop/Thesis/Intro/KrS1_XYDep_Norm.png>]
@@ -887,7 +887,7 @@ chard/Desktop/Thesis/Intro/KrS1_XYDep_Norm.png>]
 File: KRS1_ResolutionImprovement.png Graphic file (type png)
 
 <use KRS1_ResolutionImprovement.png>
-Package pdftex.def Info: KRS1_ResolutionImprovement.png used on input line 1167
+Package pdftex.def Info: KRS1_ResolutionImprovement.png used on input line 1170
 .
 (pdftex.def)             Requested size: 248.4275pt x 177.8515pt.
 
@@ -895,7 +895,7 @@ Package pdftex.def Info: KRS1_ResolutionImprovement.png used on input line 1167
 File: CorrectedS1_Stability.png Graphic file (type png)
 
 <use CorrectedS1_Stability.png>
-Package pdftex.def Info: CorrectedS1_Stability.png used on input line 1173.
+Package pdftex.def Info: CorrectedS1_Stability.png used on input line 1176.
 (pdftex.def)             Requested size: 318.03041pt x 190.50204pt.
 
 
@@ -907,43 +907,43 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: KrS2_ZDep_Gaussians.png Graphic file (type png)
 
 <use KrS2_ZDep_Gaussians.png>
-Package pdftex.def Info: KrS2_ZDep_Gaussians.png used on input line 1189.
+Package pdftex.def Info: KrS2_ZDep_Gaussians.png used on input line 1192.
 (pdftex.def)             Requested size: 179.25244pt x 144.02943pt.
 
 <KrS2_ZDep.png, id=1318, 336.50719pt x 277.035pt>
 File: KrS2_ZDep.png Graphic file (type png)
  <use KrS2_ZDep.png>
-Package pdftex.def Info: KrS2_ZDep.png used on input line 1191.
+Package pdftex.def Info: KrS2_ZDep.png used on input line 1194.
 (pdftex.def)             Requested size: 179.25244pt x 147.57184pt.
 
 
 LaTeX Warning: Reference `fig:KrypCalXYDep' on page 122 undefined on input line
- 1196.
+ 1199.
 
 [122 <C:/Users/Richard/Desktop/Thesis/Intro/KrS2_ZDep_Gaussians.png> <C:/Users/
 Richard/Desktop/Thesis/Intro/KrS2_ZDep.png>]
-Overfull \hbox (9.4198pt too wide) detected at line 1203
+Overfull \hbox (9.4198pt too wide) detected at line 1206
 [][]\OT1/cmr/m/n/12 2[] = []2[] [] [] \OML/cmm/m/it/12 :
  []
 
 <KrS2_XYDep.png, id=1328, 343.2825pt x 269.50688pt>
 File: KrS2_XYDep.png Graphic file (type png)
  <use KrS2_XYDep.png>
-Package pdftex.def Info: KrS2_XYDep.png used on input line 1208.
+Package pdftex.def Info: KrS2_XYDep.png used on input line 1211.
 (pdftex.def)             Requested size: 179.25244pt x 140.72833pt.
 
 <KrS2_XYDep_Norm.png, id=1329, 343.2825pt x 271.76532pt>
 File: KrS2_XYDep_Norm.png Graphic file (type png)
 
 <use KrS2_XYDep_Norm.png>
-Package pdftex.def Info: KrS2_XYDep_Norm.png used on input line 1210.
+Package pdftex.def Info: KrS2_XYDep_Norm.png used on input line 1213.
 (pdftex.def)             Requested size: 179.25244pt x 141.90762pt.
  [123]
 <KRS2_ResolutionImprovement.png, id=1337, 341.77687pt x 234.8775pt>
 File: KRS2_ResolutionImprovement.png Graphic file (type png)
 
 <use KRS2_ResolutionImprovement.png>
-Package pdftex.def Info: KRS2_ResolutionImprovement.png used on input line 1230
+Package pdftex.def Info: KRS2_ResolutionImprovement.png used on input line 1233
 .
 (pdftex.def)             Requested size: 239.24217pt x 164.41312pt.
 
@@ -954,7 +954,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: CorrectedS2_Stability.png Graphic file (type png)
 
 <use CorrectedS2_Stability.png>
-Package pdftex.def Info: CorrectedS2_Stability.png used on input line 1236.
+Package pdftex.def Info: CorrectedS2_Stability.png used on input line 1239.
 (pdftex.def)             Requested size: 280.95178pt x 160.12445pt.
 
 
@@ -970,96 +970,118 @@ LaTeX Warning: Text page 125 contains only floats.
 <RadonSelection.png, id=1363, 578.16pt x 433.62pt>
 File: RadonSelection.png Graphic file (type png)
  <use RadonSelection.png>
-Package pdftex.def Info: RadonSelection.png used on input line 1249.
+Package pdftex.def Info: RadonSelection.png used on input line 1252.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 [127 <C:/Users/Richard/Desktop/Thesis/Intro/RadonSelection.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1257
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1260
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1257.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1260.
 
  [128]
 <RadonLifetimeResults.png, id=1378, 578.16pt x 433.62pt>
 File: RadonLifetimeResults.png Graphic file (type png)
 
 <use RadonLifetimeResults.png>
-Package pdftex.def Info: RadonLifetimeResults.png used on input line 1272.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+Package pdftex.def Info: RadonLifetimeResults.png used on input line 1275.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+ [129 <C:/Users/Richard/Desktop/Thesis/Intro/RadonLifetimeResults.png (PNG copy
+)>] [130] [131] [132]
+<PMTxPMT_Fiducial_logy.png, id=1417, 578.16pt x 433.62pt>
+File: PMTxPMT_Fiducial_logy.png Graphic file (type png)
 
-Overfull \hbox (13.51765pt too wide) in paragraph at lines 1292--1292
+<use PMTxPMT_Fiducial_logy.png>
+Package pdftex.def Info: PMTxPMT_Fiducial_logy.png used on input line 1337.
+(pdftex.def)             Requested size: 179.25244pt x 134.43404pt.
+
+<PMTxPMT_NoFiducial_logy.png, id=1418, 578.16pt x 433.62pt>
+File: PMTxPMT_NoFiducial_logy.png Graphic file (type png)
+
+<use PMTxPMT_NoFiducial_logy.png>
+Package pdftex.def Info: PMTxPMT_NoFiducial_logy.png used on input line 1339.
+(pdftex.def)             Requested size: 179.25244pt x 134.43404pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+ [133 <C:/Users/Richard/Desktop/Thesis/Intro/PMTxPMT_Fiducial_logy.png (PNG cop
+y)> <C:/Users/Richard/Desktop/Thesis/Intro/PMTxPMT_NoFiducial_logy.png (PNG cop
+y)>]
+Overfull \hbox (13.51765pt too wide) in paragraph at lines 1364--1364
 []\OT1/cmr/bx/n/17.28 Calibration of the LUX De-tec-tor in a nonuni-
  []
 
-[129 <C:/Users/Richard/Desktop/Thesis/Intro/RadonLifetimeResults.png (PNG copy)
->] [130] [131]
-Underfull \hbox (badness 2460) in paragraph at lines 1335--1336
+[134] [135] [136]
+Underfull \hbox (badness 2460) in paragraph at lines 1407--1408
 []\OT1/cmr/m/n/12 Wu, et al. \OT1/cmr/m/it/12 Monthly No-tices of the Royal As-
 tro-nom-i-cal So-ci-ety
  []
 
-[132]
+[137]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [133]
-Underfull \hbox (badness 10000) in paragraph at lines 1378--1379
+ [138]
+Underfull \hbox (badness 10000) in paragraph at lines 1450--1451
 []\OT1/cmr/m/n/12 Kurki-Suonio, Cos-mo-log-i-cal Per-tur-ba-tion The-ory. (2015
 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
+Underfull \hbox (badness 10000) in paragraph at lines 1452--1453
 []\OT1/cmr/m/n/12 Hu. CMB In-tro-duc-tion. (2001) back-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 1386--1387
+Underfull \hbox (badness 3735) in paragraph at lines 1458--1459
 []\OT1/cmr/m/n/12 Fermi-LAT Col-lab-o-ra-tion. Fermi LAT Search for Dark Mat-te
 r
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1386--1387
+Underfull \hbox (badness 1688) in paragraph at lines 1458--1459
 \OT1/cmr/m/n/12 in Gamma-ray Lines and the In-clu-sive Pho-ton Spec-trum. (2012
 )
  []
 
-[134] [135]pdfTeX warning (ext4): destination with the same identifier (name{ci
+[139] [140]pdfTeX warning (ext4): destination with the same identifier (name{ci
 te.Lewin}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1421 \bibitem{Lewin}
+l.1493 \bibitem{Lewin}
                         D Lewin and P F Smith.  Review of mathematics, numer...
-[136]
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1434
+[141]
+Underfull \hbox (badness 10000) in paragraph at lines 1505--1506
 []\OT1/cmr/m/n/12 J Bal-a-jthy. Re-sults of the Large CH4 In-jec-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1434
+Underfull \hbox (badness 10000) in paragraph at lines 1505--1506
 \OT1/cmr/m/n/12 from April 2015. LUX Doc-u-ment Database. (2015)
  []
 
 
-Overfull \hbox (14.84027pt too wide) in paragraph at lines 1433--1434
+Overfull \hbox (14.84027pt too wide) in paragraph at lines 1505--1506
 \OT1/cmr/m/n/12 http://teacher.pas.rochester.edu:8080/wiki/bin/view/Lux/LuxDB00
 000445 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1440.
-[137]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1440.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1512.
+[142]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1512.
  (C:\Users\Richard\Desktop\Thesis\Intro\Introduction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1440.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1440.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1512.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1512.
 
 Package rerunfilecheck Info: File `Introduction.out' has not changed.
 (rerunfilecheck)             Checksum: 7A023DDB4ECF10DA7CC9103718F445F5;4803.
@@ -1070,20 +1092,20 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1440.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1512.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 754 ({)
+### simple group (level 1) entered at line 757 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8536 strings out of 494045
- 127428 string characters out of 3145963
- 220572 words of memory out of 3000000
- 11257 multiletter control sequences out of 15000+200000
+ 8570 strings out of 494045
+ 128031 string characters out of 3145963
+ 221151 words of memory out of 3000000
+ 11271 multiletter control sequences out of 15000+200000
  15830 words of font info for 59 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 37i,13n,40p,2558b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,40p,2558b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
@@ -1102,9 +1124,9 @@ x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Introduction.pdf (137 pages, 7626029 bytes).
+Output written on Introduction.pdf (142 pages, 7711615 bytes).
 PDF statistics:
- 1585 PDF objects out of 1728 (max. 8388607)
- 437 named destinations out of 1000 (max. 500000)
- 746 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1637 PDF objects out of 1728 (max. 8388607)
+ 455 named destinations out of 1000 (max. 500000)
+ 756 words of extra memory for PDF output out of 10000 (max. 10000000)
 

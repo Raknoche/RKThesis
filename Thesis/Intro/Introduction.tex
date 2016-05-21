@@ -18,6 +18,9 @@
 \author{Richard Knoche}
 \maketitle
 
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+
+
 \tableofcontents
 
 \section{Introduction to Dark Matter}
@@ -1113,7 +1116,7 @@ Once injected, the $^{83m}$Kr mixes uniformly throughout the active volume in a 
 The short half life causes the calibration source to be removed from the LUX detector in a matter of hours, allowing for calibration of the S1 and S2 signals on a weekly basis.  This is a crucial property of the calibration source, since the purity of the liquid xenon, and therefore the z-dependence of the S2 signal, changes on a weekly basis.  It is also important that the $^{83m}$Kr is an inert noble gas, a property which prevents temporary attenuation of the S1 and S2 signals during injection of the calibration source. 
 
 
-\subsection{S1 Corrections}
+\subsection{S1 Corrections}\label{S1SignalCorr}
 
 We first measure the Z dependence of the $^{83m}$Kr S1 pulse areas by slicing the detector into drift time bins with widths defined such that each bin has roughly 300 events.  A Gaussian distribution is fit to the S1 spectra of each bin to determine the location of the spectra means. A second order polynomial is used to determine the S1 Z dependence between and outside of each drift time bin. A detector inefficiency correction for the Z direction is defined by taking the ratio of the S1  pulse area at the center of the detector (defined as $z_c$) to the S1 pulse area as a function of Z as described in the equation
 \begin{equation}
@@ -1269,7 +1272,7 @@ We wish to determine the electron lifetime value which has the highest likelihoo
 After running the maximum likelihood method on all of the LUX detector's Run03 data sets we see that the attenuated Gaussian PDF is in better agreement with the z-slice method from Section \ref{S2SignalCorr}. (Figure \ref{fig:RadonLifetimeResults}) In either case, the results of the maximum likelihood fit from Radon data fall within one sigma of the results from $^{83m}$Kr calibrations. 
 
 \begin{figure}[h]\centering
-\includegraphics[scale=0.5]{RadonLifetimeResults.png}
+\includegraphics[scale=0.6]{RadonLifetimeResults.png}
 \caption{A comparison of the calculated electron lifetimes based on the maximum likelihood method with an attenuated Gaussian PDF (in blue) and corrected Gaussian PDF (in red).  The electron lifetime measured from $^{83m}$Kr calibrations is shown in black.}
 \label{fig:RadonLifetimeResults}
 \end{figure}
@@ -1278,11 +1281,80 @@ After running the maximum likelihood method on all of the LUX detector's Run03 d
 
 \subsection{A PMT-by-PMT approach to S1 Corrections}
 
-stuff
+The S1 correction method presented in Section \ref{S1SignalCorr} improves the detector's resolution by normalizing the summed S1 signal to the center of the detector.  While this method is used in the final LUX data analysis, it is possible to improve the detector's S1 resolution further by defining a light collection map on a PMT-by-PMT basis.  For each S1 event we define the position corrected S1 signal using the weighted arithmetic mean of each PMT's spatially normalized S1 measurement, given by
+\begin{equation} \label{WeightedMean}
+S1_{\mbox{corrected}} = \frac{\sum_{j=1}^{j=122} S1^{\prime}_{j} W_{j}} {\sum_{j=1}^{j=122} W_{j}},
+\end{equation}
+where $S1^{\prime}_{j}$ is the spatially normalized S1 signal of the $j$th PMT and $W_j$ is the weight given to $j$th PMT's measurement.
+
+Since we want the corrected S1 signal to be spatially uniform, the spatially normalized S1 signal for each PMT is given by
+\begin{equation}
+S1^{\prime}_{j} = S1_{\mbox{sc}} \frac{S1_j}{\langle S1 \rangle_{j}}
+\end{equation}
+where $S1_{\mbox{sc}}$ is the summed $^{83m}$Kr S1 signal at the center of the detector, $S1_j$ is the S1 signal of the $j$th PMT, and $\langle S1 \rangle_{j}$ is the average $^{83m}$Kr S1 signal recorded in the vicinity of the S1 event by the $j$th PMT.  It is useful to think of the $ \frac{S1_j}{\langle S1 \rangle_{j}}$ term as measuring the strength of the $S1_j$ signal as a fraction of the average $^{83m}$Kr $S1_j$ signal, and the $S1_{\mbox{sc}}$ term as a normalization constant which scales the fractional signal to the equivalent $S1$ size at the center of the detector.
+
+The weights of the arithmetic mean are given by relative variance of each PMT's measurement,
+\begin{equation}
+W_j=\frac{{\langle S1 \rangle_{j}}^2}{\sigma_j^2},
+\end{equation}
+where $\sigma_j^2$ is the variance of the S1 signal in $j$th PMT in the vicinity of the event.  It is important to use the relative variance of each PMT for the weights, since the absolute variance grows larger with the size of the S1 signal and would therefore give lower weight to PMTs which observe a stronger S1 signal.  Equation \ref{WeightedMean} then becomes
+\begin{equation} \label{WeightedMean2}
+S1_{\mbox{corrected}} = S1_{\mbox{sc}} \frac{\sum_{j=1}^{j=122} \frac{S1_j}{\langle S1 \rangle_{j}} \frac{{\langle S1 \rangle_{j}^2}}{\sigma_j^2}} {\sum_{j=1}^{j=122} \frac{{\langle S1 \rangle_{j}}^2}{\sigma_j^2}}.
+\end{equation}
+
+It is difficult to measure the relative variance of the $j$th PMT at all points in the detector, since doing so involves interpolating small values from two different three dimensional maps of  $\sigma_j^2$ and $\langle S1 \rangle_{j}$.  Instead, we can achieve the same result by normalizing the S1$j$ signal to the value of S1$_{\mbox{sc}}$ prior to calculating the arithmetic mean.  In this case, the normalized S1$_{\text{N},j}$ signal is calculated by scaling the raw S1$_j$ signal by a normalization factor
+\begin{equation}
+S1_{\text{N},j}=\frac{S1_{\mbox{sc}}}{\langle S1 \rangle_{j}} S1_j.
+\end{equation}
+Consequently, the standard deviation and mean of the S1$j$ signal are scaled by the same factor, such that
+\begin{equation}
+\sigma_{\text{N},j} = \frac{S1_{\mbox{sc}}}{\langle S1 \rangle_{j}} \sigma_j
+\end{equation}
+\begin{equation}
+\langle S1 \rangle_{\text{N},j} = \frac{S1_{\mbox{sc}}}{\langle S1 \rangle_{j}} \langle S1 \rangle_{j} = S1_{\mbox{sc}}.
+\end{equation}
+Using the normalized $S1_{\text{N},j}$ signal, equation \ref{WeightedMean2} becomes
+\begin{equation} \label{WeightedMean3}
+S1_{\mbox{corrected}} = S1_{\mbox{sc}} \frac{\sum_{j=1}^{j=122} \frac{S1_{\text{N},j}}{\langle S1_{\text{N},j} \rangle}\frac{1}{ \sigma_{\text{N},j}^2}}{ \sum_{j=1}^{j=122} \frac{1}{\sigma_{\text{N},j}^2}}
+\end{equation}
+In practice, Equation \ref{WeightedMean3} is easier to implement and more accurate than Equation \ref{WeightedMean2}, since it requires fewer interpolations of the mean and variance maps from the $^{83m}$Kr data.
+
+It is worth noting that if the S1$_j$ distributions are Poissonian, Equation \ref{WeightedMean2} (and Equation \ref{WeightedMean3}) reduces to the S1 correction method described in Section \ref{S1SignalCorr}.  In this case 
+\begin{equation}
+\sigma_{j}^2 = \langle S1 \rangle_{j}
+\end{equation}
+so Equation \ref{WeightedMean2} becomes
+\begin{equation}
+S1_{\mbox{corrected}} = S1_{\mbox{sc}} \frac{\sum_{j=1}^{j=122} S1_j}{\sum_{j=1}^{j=122} \langle S1 \rangle_{j}} = S1_{\mbox{sc}} \frac{S1}{\langle S1 \rangle}
+\end{equation}
+Where $S1$ is the sum of all of the PMT signals for the event and $\langle S1 \rangle$ is the average of the sum of the PMT signals for $^{83m}$Kr events. Therefore, this PMT-by-PMT method is only beneficial if significant non-Poissonian noise is present in the PMT signals.
+
+Figure \ref{PMTxPMTResult} shows the result of applying the PMT-by-PMT method to a $^{83m}$Kr data set in the LUX detector.  Within the fiducial volume the resolution of the S1 signal improves by 13\% over the standard correction method from section \ref{S1SignalCorr}.  Outside of the fiducial volume, the interpolations of the variance and mean maps become extrapolations.  This leads to significant inaccuracies in the weighted mean measurement, causing non-Gaussian tails to appear in the S1 distribution.  Therefore, for events within the fiducial volume the PMT-by-PMT method is an improvement over the standard correction method, but for events outside of the fiducial volume the less complex standard correction method is ideal.
+
+
+\begin{figure} [h!]
+\centering
+\subfloat{{\includegraphics[width=6.3cm]{PMTxPMT_Fiducial_logy.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.3cm]{PMTxPMT_NoFiducial_logy.png} }}
+\caption{ The $^{83m}$Kr corrected S1 spectrum after applying the PMT-by-PMT method (in red) and after applying the standard correction method from Section \ref{S1SignalCorr} (in black).  The events within the fiducial volume are shown on the left, and all of the events are shown on the right.}
+\label{PMTxPMTResult}
+\end{figure}
+
 
 \section{Energy Scale Calibrations} \label{CombinedEnergyModel}
 
 %Discuss recombination physics and the ability to turn the now (emphasis on this, since it is how we transition from the previous section) corrected data into an combined energy scale.  Then basically cover recombination physics (prob in Attila's thesis) and Doke plot from my Doke plot write up.
+
+Recombination physics model  during an event (2.1.2 in Mock)
+Gain factors G1and G2, which convert S1 and S2 to number of photons and electrons
+Uncorrected signals produce spatial dependence in G1 and G2, corrected signals can be described by one value of G1 and one value of G2.  
+Probably need to talk about SE size here too… number of photoelectrons detected per extracted electron… maybe show some plots and discuss dependence of SE size on things like pressure, gas gap, extraction field.. etc
+	Combined energy model E=W
+	Doke plot method
+	Doke plot Result
+	Tritium Chi2 method and result
+
 
 \subsection{Recombination Physics} \label{RecombSec} 
 \subsection{Doke Plot}
