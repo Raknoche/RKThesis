@@ -3,58 +3,63 @@
 \contentsline {subsubsection}{\numberline {1.1.1}Mass Measurements from Galactic Rotation Curves}{5}{subsubsection.1.1.1}
 \contentsline {subsubsection}{\numberline {1.1.2}Mass Measurements from x-ray Gases}{9}{subsubsection.1.1.2}
 \contentsline {subsubsection}{\numberline {1.1.3}Gravitational Lensing}{11}{subsubsection.1.1.3}
-\contentsline {subsubsection}{\numberline {1.1.4}Cosmological Evidence}{21}{subsubsection.1.1.4}
-\contentsline {subsection}{\numberline {1.2}Dark Matter Candidates}{27}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}The $\Lambda $CDM Model}{27}{subsubsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}Nonbaryonic Dark Matter}{31}{subsubsection.1.2.2}
-\contentsline {subsubsection}{\numberline {1.2.3}WIMPs and SUSY}{33}{subsubsection.1.2.3}
-\contentsline {subsubsection}{\numberline {1.2.4}Axions and Axinos}{36}{subsubsection.1.2.4}
-\contentsline {subsubsection}{\numberline {1.2.5}Gravitons and Gravitinos}{37}{subsubsection.1.2.5}
-\contentsline {subsubsection}{\numberline {1.2.6}WIMPzillas}{37}{subsubsection.1.2.6}
-\contentsline {section}{\numberline {2}Searching for WIMPs}{38}{section.2}
-\contentsline {subsection}{\numberline {2.1}Indirect Detection Experiments}{38}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Gamma-Ray Experiments}{39}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Neutrino Experiments}{40}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Positron Experiments}{41}{subsubsection.2.1.3}
-\contentsline {subsection}{\numberline {2.2}WIMP creation in Colliders}{43}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Direct Detection Experiments}{44}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}The WIMP Recoil Spectrum}{44}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Backgrounds in Direct Detection Experiments}{51}{subsubsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3}Direct Detection Methods}{54}{subsubsection.2.3.3}
-\contentsline {section}{\numberline {3}The LUX Detector}{59}{section.3}
-\contentsline {subsection}{\numberline {3.1}Detector Internals}{62}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Cryostats}{62}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}PMT Arrays, PTFE Structure, and Electric Field Cage}{62}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}Cryogenics}{66}{subsubsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.4}Instrumentation}{67}{subsubsection.3.1.4}
-\contentsline {subsection}{\numberline {3.2}External Support Systems}{69}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Gas Circulation and Purification System}{69}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Gas Sampling System}{70}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Water Tank and Muon Veto System}{72}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Calibration Systems}{73}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}Detector Electronics}{76}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Science Results}{78}{subsection.3.4}
-\contentsline {section}{\numberline {4}Tritium as a Calibration Source}{78}{section.4}
-\contentsline {subsection}{\numberline {4.1}Tritiated Methane Injection System}{81}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Triated Methane Removal}{84}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Gas Phase Experiments}{85}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Liquid Phase Experiments}{88}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Outgassing Experiements}{95}{subsubsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.4}Simulating Outgassing in LUX}{98}{subsubsection.4.2.4}
-\contentsline {subsection}{\numberline {4.3}ER Band Calibration of the LUX Detector}{104}{subsection.4.3}
-\contentsline {section}{\numberline {5}Signal Corrections in the LUX Detector}{112}{section.5}
-\contentsline {subsection}{\numberline {5.1}Use of $^{83m}$Kr in Signal Corrections}{114}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}S1 Corrections}{116}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}S2 Corrections}{121}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Radon as a measure of Electron Lifetime}{126}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}A PMT-by-PMT approach to S1 Corrections}{130}{subsection.5.5}
-\contentsline {section}{\numberline {6}Energy Scale Calibrations}{134}{section.6}
-\contentsline {subsection}{\numberline {6.1}Recombination Physics}{135}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Doke Plot}{135}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Tritium Chi2 Method}{135}{subsection.6.3}
-\contentsline {section}{\numberline {7}Calibration of the LUX Detector in a nonuniform Field}{135}{section.7}
-\contentsline {subsection}{\numberline {7.1}Source of nonuniform Field}{135}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Issues arising from nonuniform Field}{135}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Removing field effects from data with theory}{135}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Removing field effects from data with Monte Carlo}{135}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Electron Recoil Calibration in a nonuniform Field}{135}{subsection.7.5}
+\contentsline {subsubsection}{\numberline {1.1.4}Cosmological Evidence}{22}{subsubsection.1.1.4}
+\contentsline {subsection}{\numberline {1.2}Dark Matter Candidates}{28}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}The $\Lambda $CDM Model}{28}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Nonbaryonic Dark Matter}{32}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}WIMPs and SUSY}{34}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Axions and Axinos}{37}{subsubsection.1.2.4}
+\contentsline {subsubsection}{\numberline {1.2.5}Gravitons and Gravitinos}{38}{subsubsection.1.2.5}
+\contentsline {subsubsection}{\numberline {1.2.6}WIMPzillas}{38}{subsubsection.1.2.6}
+\contentsline {section}{\numberline {2}Searching for WIMPs}{39}{section.2}
+\contentsline {subsection}{\numberline {2.1}Indirect Detection Experiments}{39}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Gamma-Ray Experiments}{40}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Neutrino Experiments}{41}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Positron Experiments}{42}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}WIMP creation in Colliders}{44}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Direct Detection Experiments}{45}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}The WIMP Recoil Spectrum}{45}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Backgrounds in Direct Detection Experiments}{52}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Direct Detection Methods}{55}{subsubsection.2.3.3}
+\contentsline {section}{\numberline {3}The LUX Detector}{60}{section.3}
+\contentsline {subsection}{\numberline {3.1}Detector Internals}{63}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Cryostats}{63}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}PMT Arrays, PTFE Structure, and Electric Field Cage}{63}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Cryogenics}{67}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}Instrumentation}{68}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}External Support Systems}{70}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Gas Circulation and Purification System}{70}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Gas Sampling System}{71}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Water Tank and Muon Veto System}{73}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Calibration Systems}{74}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}Detector Electronics}{77}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Science Results}{79}{subsection.3.4}
+\contentsline {section}{\numberline {4}Tritium as a Calibration Source}{79}{section.4}
+\contentsline {subsection}{\numberline {4.1}Tritiated Methane Injection System}{82}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Triated Methane Removal}{85}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Gas Phase Experiments}{86}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Liquid Phase Experiments}{89}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Outgassing Experiements}{96}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Simulating Outgassing in LUX}{99}{subsubsection.4.2.4}
+\contentsline {subsection}{\numberline {4.3}ER Band Calibration of the LUX Detector}{105}{subsection.4.3}
+\contentsline {section}{\numberline {5}Signal Corrections in the LUX Detector}{113}{section.5}
+\contentsline {subsection}{\numberline {5.1}Use of $^{83m}$Kr in Signal Corrections}{115}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}S1 Corrections}{117}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}S2 Corrections}{122}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Radon as a measure of Electron Lifetime}{127}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}A PMT-by-PMT approach to S1 Corrections}{131}{subsection.5.5}
+\contentsline {section}{\numberline {6}Energy Scale Calibrations}{135}{section.6}
+\contentsline {subsection}{\numberline {6.1}Combined Energy Model}{135}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Doke Plot Analysis of g$_1$ and g$_2$}{138}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Doke Plot Systematic Errors}{141}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Doke Plot Results}{143}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Recombination Fluctuations from Doke Plot Data}{146}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Light Yield from Doke Plot Data}{150}{subsubsection.6.2.4}
+\contentsline {subsection}{\numberline {6.3}Tritium Chi2 Method}{152}{subsection.6.3}
+\contentsline {section}{\numberline {7}Calibration of the LUX Detector in a nonuniform Field}{152}{section.7}
+\contentsline {subsection}{\numberline {7.1}Recombination Physics}{152}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Source of nonuniform Field}{153}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Issues arising from nonuniform Field}{153}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Removing field effects from data with theory}{153}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Removing field effects from data with Monte Carlo}{153}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.6}Electron Recoil Calibration in a nonuniform Field}{153}{subsection.7.6}

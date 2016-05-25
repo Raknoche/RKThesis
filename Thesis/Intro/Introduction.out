@@ -49,12 +49,17 @@
 \BOOKMARK [2][-]{subsection.5.4}{Radon as a measure of Electron Lifetime}{section.5}% 49
 \BOOKMARK [2][-]{subsection.5.5}{A PMT-by-PMT approach to S1 Corrections}{section.5}% 50
 \BOOKMARK [1][-]{section.6}{Energy Scale Calibrations}{}% 51
-\BOOKMARK [2][-]{subsection.6.1}{Recombination Physics}{section.6}% 52
-\BOOKMARK [2][-]{subsection.6.2}{Doke Plot}{section.6}% 53
-\BOOKMARK [2][-]{subsection.6.3}{Tritium Chi2 Method}{section.6}% 54
-\BOOKMARK [1][-]{section.7}{Calibration of the LUX Detector in a nonuniform Field}{}% 55
-\BOOKMARK [2][-]{subsection.7.1}{Source of nonuniform Field}{section.7}% 56
-\BOOKMARK [2][-]{subsection.7.2}{Issues arising from nonuniform Field}{section.7}% 57
-\BOOKMARK [2][-]{subsection.7.3}{Removing field effects from data with theory}{section.7}% 58
-\BOOKMARK [2][-]{subsection.7.4}{Removing field effects from data with Monte Carlo}{section.7}% 59
-\BOOKMARK [2][-]{subsection.7.5}{Electron Recoil Calibration in a nonuniform Field}{section.7}% 60
+\BOOKMARK [2][-]{subsection.6.1}{Combined Energy Model}{section.6}% 52
+\BOOKMARK [2][-]{subsection.6.2}{Doke Plot Analysis of g1 and g2}{section.6}% 53
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Doke Plot Systematic Errors}{subsection.6.2}% 54
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Doke Plot Results}{subsection.6.2}% 55
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Recombination Fluctuations from Doke Plot Data}{subsection.6.2}% 56
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Light Yield from Doke Plot Data}{subsection.6.2}% 57
+\BOOKMARK [2][-]{subsection.6.3}{Tritium Chi2 Method}{section.6}% 58
+\BOOKMARK [1][-]{section.7}{Calibration of the LUX Detector in a nonuniform Field}{}% 59
+\BOOKMARK [2][-]{subsection.7.1}{Recombination Physics}{section.7}% 60
+\BOOKMARK [2][-]{subsection.7.2}{Source of nonuniform Field}{section.7}% 61
+\BOOKMARK [2][-]{subsection.7.3}{Issues arising from nonuniform Field}{section.7}% 62
+\BOOKMARK [2][-]{subsection.7.4}{Removing field effects from data with theory}{section.7}% 63
+\BOOKMARK [2][-]{subsection.7.5}{Removing field effects from data with Monte Carlo}{section.7}% 64
+\BOOKMARK [2][-]{subsection.7.6}{Electron Recoil Calibration in a nonuniform Field}{section.7}% 65
