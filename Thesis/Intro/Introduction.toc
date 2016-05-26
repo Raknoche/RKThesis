@@ -49,17 +49,17 @@
 \contentsline {subsection}{\numberline {5.4}Radon as a measure of Electron Lifetime}{127}{subsection.5.4}
 \contentsline {subsection}{\numberline {5.5}A PMT-by-PMT approach to S1 Corrections}{131}{subsection.5.5}
 \contentsline {section}{\numberline {6}Energy Scale Calibrations}{135}{section.6}
-\contentsline {subsection}{\numberline {6.1}Combined Energy Model}{135}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Doke Plot Analysis of g$_1$ and g$_2$}{138}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Doke Plot Systematic Errors}{141}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Doke Plot Results}{143}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Recombination Fluctuations from Doke Plot Data}{146}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Light Yield from Doke Plot Data}{150}{subsubsection.6.2.4}
-\contentsline {subsection}{\numberline {6.3}Tritium Chi2 Method}{152}{subsection.6.3}
-\contentsline {section}{\numberline {7}Calibration of the LUX Detector in a nonuniform Field}{152}{section.7}
-\contentsline {subsection}{\numberline {7.1}Recombination Physics}{152}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Source of nonuniform Field}{153}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Issues arising from nonuniform Field}{153}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Removing field effects from data with theory}{153}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Removing field effects from data with Monte Carlo}{153}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Electron Recoil Calibration in a nonuniform Field}{153}{subsection.7.6}
+\contentsline {subsection}{\numberline {6.1}Recombination Physics}{135}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Combined Energy Model}{138}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Doke Plot Analysis of g$_1$ and g$_2$}{141}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Doke Plot Systematic Errors}{144}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Doke Plot Results}{146}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3}Recombination Fluctuations from Doke Plot Data}{149}{subsubsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.4}Light Yield from Doke Plot Data}{153}{subsubsection.6.3.4}
+\contentsline {subsection}{\numberline {6.4}Tritium $\chi ^2$ Analysis of g$_1$ and g$_2$}{155}{subsection.6.4}
+\contentsline {section}{\numberline {7}Calibration of the LUX Detector in a nonuniform Field}{157}{section.7}
+\contentsline {subsection}{\numberline {7.1}Source of nonuniform Field}{157}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Issues arising from nonuniform Field}{157}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Removing field effects from data with theory}{157}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Removing field effects from data with Monte Carlo}{157}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Electron Recoil Calibration in a nonuniform Field}{157}{subsection.7.5}

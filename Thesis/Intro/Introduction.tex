@@ -1345,7 +1345,91 @@ Figure \ref{PMTxPMTResult} shows the result of applying the PMT-by-PMT method to
 \section{Energy Scale Calibrations} \label{CombinedEnergyModel}
 %Discuss recombination physics and the ability to turn the now (emphasis on this, since it is how we transition from the previous section) corrected data into an combined energy scale.  Then basically cover recombination physics (prob in Attila's thesis) and Doke plot from my Doke plot write up.
 
-The correction methods discussed in Chapter \ref{StandardCalibrations} allow us to use two spatially independent gain factors to convert the S1 and S2 signals into the number of photons and the number of electrons produced by an event anywhere in the detector. In this chapter, we will discuss a combined energy model which uses these two measurements to determine the energy deposited during an event before detailing two methods for measuring the gain factors which are used in the model.  
+The correction methods discussed in Chapter \ref{StandardCalibrations} allow us to use two spatially independent gain factors to convert the S1 and S2 signals into the number of photons and the number of electrons produced by an event anywhere in the detector. In this chapter, we will discuss the physics that leads to the S1 and S2 signals before presenting a combined energy model which uses these two observables to determine the energy deposited during an event. 
+
+
+\subsection{Recombination Physics} \label{RecombSec} 
+
+%MERGE THIS SECTION WITH THE ONE BELOW IT
+
+Energy from a particle interaction produces excited xenon atoms, ionized xenon atoms, and heat.  The heat released in the interaction is not observed in LUX. Heat is released by soft elastic recoils with xenon atoms. For electron recoil events this lost energy is negligible, but for nuclear recoil it is not.
+
+\begin{figure}[h]\centering
+\includegraphics[scale=0.3]{InteractionPhysics.png}
+\caption{Depiction of particle interaction and the production of xenon excitons, ionized xenon, electron, photons, and heat. \cite{Phelps}}
+\label{fig:InteractionPhysics}
+\end{figure}
+
+
+%S1 signal 
+
+excited xenon ( Xe$^*$) atom combines with a ground state xenon atom to form a xenon dimer Xe$^*_2$
+
+Dimer relaxes to two ground state Xe atoms, producing a 178 nm VUV photon as scintillation light (S1)
+
+Free electrons have a chance to recombine with the positively charge xenon ions, producing additional excitons and more S1 light. 
+
+With the probability of an ion recombining represented as $R$, the number of photons produced in an interaction is given by the initial number of excitons produced plus the number of ions which recombine,
+\begin{equation}
+N_\gamma = N_{ex} + R \times N_i = N_ion \times (\alpha + R).
+\end{equation}
+
+The probability of recombination depends on the electric field, a property which is significant for chapter ??
+
+
+%S2 signal
+
+Free electrons which do not recombine drift to the liquid surface and produce S2
+
+The number of electrons produced in an interaction is given by the fraction of ions which do not recombine,
+\begin{equation}
+N_e = N_i(1-R)
+\end{equation}
+
+Nuclear recoils are more densely ionizing than electron recoil, leading to more recombination, and therefore more S1 and less S2 signal.  This allows for discrimination discussed in section ??
+
+%Make sure this section covers S2=g2*n_e=g2*(1-R)*N_ion, S1=g1*n_photons=g1*(N_ex + R*N_ion)=g1*(\alpha + R)*N_ion... show this after g1 and g2 are discussed, and reference the above equations
+
+
+%This gets into the energy model... need to merge it with the section below
+
+The total energy deposited is given by
+\begin{equation}
+E = \mathcal{L}^{-1} W (N_{ex} + N_i)
+\end{equation}
+where $N_{ex}$ is the number of excitons created, $N_i$ is the number of ions created, $\mathcal{L}$ is the Lindhard factor which compensates for heat loss, $W$ and is work function for the creation of excitons and ions.
+
+%Talk about linhard factor here
+For ER events, L equals one, for NR events L ranges between 0.1 and 0.2.
+
+Sometimes, experiments use the effective Lindhard factor $L_{eff}$ (also known as relative scintillation efficiency), defined as the ratio of zero-field light yields of ER and NR events
+\begin{equation}
+L_{eff} = \frac{N_{\gamma,NR} E_{ER}}{N_{\gamma,ER} E_{ER}}
+\end{equation}
+where the energy is typically chosen to be a 122 keV gamma.
+
+
+%Other relevant equations that will be useful for Krypcal...
+
+In terms of the exciton to ion ratio given by 
+\begin{equation}
+\alpha \equiv \frac{ N_{ex}}{N_i}
+\end{equation}
+we can write the number of ions and number of excitons produced in an interaction as
+\begin{equation}
+N_i= \frac{E \mathcal{L}}{W (\alpha + 1)}
+\end{equation}
+\begin{equation}
+N_{ex}=\alpha N_i.
+\end{equation}
+
+
+%Random shit... maybe useful when talking about SE size later on with g2
+number of photons produced is given by
+\begin{equation}
+\frac{n_{ph}}{x} = (0.140 \frac{E_e}{N} \times 10^{17} -0.474) \times N \times 10^{-17}
+\end{equation}
+where $n_{ph}$ is the number of photons produced per ionization electron, x is the mean free path of the electron to produce one photon in the xenon gas, $E_e$ is the electric field in V/cm, and $N$ is the number density of the gas in atoms/cm$^3$.
 
 
 \subsection{Combined Energy Model}
@@ -1607,15 +1691,30 @@ $^{137}$Cs & 661.6 & 4.07$\pm$ 0.03 & 33.1$\pm$ 0.9\\
 
 %Maybe plot LY v Energy Here
 
-\subsection{Tritium Chi2 Method}
-	Tritium Chi2 method and result
+\subsection{Tritium $\chi^2$ Analysis of g$_1$ and g$_2$}
+
+LUX's CH$_3$T calibration source produces a wide beta spectrum which continuously spans energies from the detector's threshold up to 18.6 keV.  We can take advantage of the wide energy spectrum to measure the g$_1$ and g$_2$ gain factors by varying g$_1$ and g$_2$ in a two dimensional $\chi^2$ fit until data matches the expected tritium beta spectrum.  References \cite{TritiumSpec,TritiumSpec2,TritiumSpec3} derive an expression for the density of energy states accessible to the electron in a beta decay.  In terms of the kinetic energy of the electron, $T$, it is given by
+\begin{equation} \label{TritiumBetaShape}
+\frac{dN(T,Z)}{dT} = C(T^2 + 2Tm_e)^{1/2}(T+m_e)(Q-T)^2F(T,Z)
+\end{equation}
+where $Q_T=18.6 keV$ is the maximum kinetic energy of the electron, $m_e=511 keV$ is the mass of the electron, $C$ is a normalization constant, $Z=2$ is the nuclear charge for tritium, and 
+\begin{equation}
+F(T,Z) = 2\pi \frac{\alpha}{\left( \frac{\gamma^2 -1 }{\gamma^2}\right) ^{1/2}} 
+\end{equation}
+is the Coulomb correction due to nuclear charge with using $\alpha=1/137$ as the fine structure constant, and
+\begin{equation}
+\gamma = \frac{T+m_e}{m_e}
+\end{equation}
+as the energy to rest mass ratio.
+
+Before using equation \ref{TritiumBetaShape} to produce the expected tritium beta spectrum in the LUX detector, we need to smear the distribution to model effects from the detector's resolution and recombination variation.  This is accomplished by drawing the true energy of events from the distribution described by \ref{TritiumBetaShape} and feeding them into the NEST simulation package.  NEST produces simulated S1 and S2 signals for the corresponding energy deposition, which in turn provide a simulated tritium energy spectrum for the LUX detector using equation \ref{EnergyOne}.
+
+Once we have a simulated model for the tritium energy spectrum in LUX we can minimize a two dimensional $\chi^2$ fit between the data and simulation to find the optimal values of g$_1$ and g$_2$.  The optimized CH$_3$T energy spectrum for the largest CH$_3$ calibration in LUX's Run03 data taking campaign is shown in Figure \ref{TritiumSpectrum}.	The result of g1=0.115 $\pm$ 0.005 phd/photon, g2= 12.1 $\pm$ 0.9 phd/electron, and EE = 50.9\% $\pm$ 3.8\% is in close agreement with the Doke plot results from section \ref{DokePlot}.
 
 
 \section{Calibration of the LUX Detector in a nonuniform Field} \label{Run04Corrections}
 
 %Put the LUX Run04 KrypCal note here...
-\subsection{Recombination Physics} \label{RecombSec} 
-Recombination physics model  during an event (2.1.2 in Mock)
 \subsection{Source of nonuniform Field}
 \subsection{Issues arising from nonuniform Field}
 \subsection{Removing field effects from data with theory}
@@ -1762,6 +1861,16 @@ Astroparticle Physics, 1996.
 \bibitem{Dobi} A Dobi.  Measurement of the Electron Recoil Band of the LUX Dark Matter Detector With a Tritium Calibration Source.  Ph.D. thesis.  University of Maryland.  (2014)
 
 \bibitem{Doke} T. Doke, A. Hitachi, S. Kubota, A. Nakamoto, and T. Takahashi. Estimation of Fano factors in liquid argon, krypton, xenon and xenon-doped liquid argon. Nucl.Instrum.Meth., 134:353–357, 1976. doi:10.1016/0029-554X(76)90292-5.
+
+\bibitem{TritiumSpec} J.  J.  Simpson.   Measurement  of  the energy  spectrum  of
+$^3$H  to determine the antineutrino mass. Phys. Rev. D, 23:649-662, Feb 1981. doi:10.1103/PhysRevD.23.649.
+
+\bibitem{TritiumSpec2} P Venkataramaiah, K Gopala, A Basavaraju, S S Suryanarayana,
+and H Sanjeeviah. A simple relation for the fermi function. Journal of Physics G: Nuclear Physics, 11(3):359, 1985.
+
+\bibitem{TritiumSpec3} A Dobi.  Tritium Beta Shape. LUX DocDB. (2015) http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000402/TritiumBetaShape.pdf
+
+\bibitem{Phelps} P Phelps.  The LUX Dark Matter Experiment: Detector Performance and Energy Calibration.  Ph.D. thesis.  Case Western Reserve University.  (August 2014)
 
 \end{thebibliography}
 

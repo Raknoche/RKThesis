@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  25 MAY 2016 16:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.5)  26 MAY 2016 17:45
 entering extended mode
 **Introduction.tex
 (C:\Users\Richard\Desktop\Thesis\Intro\Introduction.tex
@@ -415,7 +415,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3])
 \tf@toc=\write4
  [4] [5]
-<RotationCurve2.png, id=362, 466.74374pt x 421.575pt>
+<RotationCurve2.png, id=363, 466.74374pt x 421.575pt>
 File: RotationCurve2.png Graphic file (type png)
  <use RotationCurve2.png>
 Package pdftex.def Info: RotationCurve2.png used on input line 37.
@@ -1007,169 +1007,227 @@ Package pdftex.def Info: PMTxPMT_NoFiducial_logy.png used on input line 1339.
 (pdftex.def)             Requested size: 179.25244pt x 134.43404pt.
  [134 <C:/Users/Richard/Desktop/Thesis/Intro/PMTxPMT_Fiducial_logy.png (PNG cop
 y)> <C:/Users/Richard/Desktop/Thesis/Intro/PMTxPMT_NoFiducial_logy.png (PNG cop
-y)>] [135] [136]
+y)>]
+<InteractionPhysics.png, id=1459, 1238.37656pt x 694.84593pt>
+File: InteractionPhysics.png Graphic file (type png)
+
+<use InteractionPhysics.png>
+Package pdftex.def Info: InteractionPhysics.png used on input line 1358.
+(pdftex.def)             Requested size: 371.51584pt x 208.45538pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[135] [136 <C:/Users/Richard/Desktop/Thesis/Intro/InteractionPhysics.png>]
+Overfull \hbox (2.19345pt too wide) in paragraph at lines 1405--1406
+[]\OT1/cmr/m/n/12 Sometimes, ex-per-i-ments use the ef-fec-tive Lind-hard fac-t
+or $\OML/cmm/m/it/12 L[]$ \OT1/cmr/m/n/12 (also known
+ []
+
+[137] [138] [139]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1393.
+(hyperref)                removing `math shift' on input line 1477.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1393.
+(hyperref)                removing `subscript' on input line 1477.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1393.
+(hyperref)                removing `math shift' on input line 1477.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1393.
+(hyperref)                removing `math shift' on input line 1477.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1393.
+(hyperref)                removing `subscript' on input line 1477.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1393.
+(hyperref)                removing `math shift' on input line 1477.
 
-[137]
+[140]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1413.
+(caption)                particular \caption on input line 1497.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (6.04253pt too wide) in paragraph at lines 1400--1413
+Overfull \hbox (6.04253pt too wide) in paragraph at lines 1484--1497
  [] 
  []
 
-[138] [139]
-<Monoenergetic_gamma_sources.png, id=1510, 334.24875pt x 238.8925pt>
+[141] [142]
+<Monoenergetic_gamma_sources.png, id=1535, 334.24875pt x 238.8925pt>
 File: Monoenergetic_gamma_sources.png Graphic file (type png)
 
 <use Monoenergetic_gamma_sources.png>
-Package pdftex.def Info: Monoenergetic_gamma_sources.png used on input line 144
-1.
+Package pdftex.def Info: Monoenergetic_gamma_sources.png used on input line 152
+5.
 (pdftex.def)             Requested size: 334.24792pt x 238.8919pt.
- [140 <C:/Users/Richard/Desktop/Thesis/Intro/Monoenergetic_gamma_sources.png>]
-<SESizes.png, id=1517, 578.16pt x 433.62pt>
+ [143 <C:/Users/Richard/Desktop/Thesis/Intro/Monoenergetic_gamma_sources.png>]
+<SESizes.png, id=1542, 578.16pt x 433.62pt>
 File: SESizes.png Graphic file (type png)
  <use SESizes.png>
-Package pdftex.def Info: SESizes.png used on input line 1453.
+Package pdftex.def Info: SESizes.png used on input line 1537.
 (pdftex.def)             Requested size: 231.2599pt x 173.44492pt.
- [141 <C:/Users/Richard/Desktop/Thesis/Intro/SESizes.png (PNG copy)>]
-<S1Variation.png, id=1523, 578.16pt x 433.62pt>
+ [144 <C:/Users/Richard/Desktop/Thesis/Intro/SESizes.png (PNG copy)>]
+<S1Variation.png, id=1548, 578.16pt x 433.62pt>
 File: S1Variation.png Graphic file (type png)
  <use S1Variation.png>
-Package pdftex.def Info: S1Variation.png used on input line 1463.
+Package pdftex.def Info: S1Variation.png used on input line 1547.
 (pdftex.def)             Requested size: 231.2599pt x 173.44492pt.
 
-<S2Variation.png, id=1524, 578.16pt x 433.62pt>
+<S2Variation.png, id=1549, 578.16pt x 433.62pt>
 File: S2Variation.png Graphic file (type png)
  <use S2Variation.png>
-Package pdftex.def Info: S2Variation.png used on input line 1471.
+Package pdftex.def Info: S2Variation.png used on input line 1555.
 (pdftex.def)             Requested size: 231.2599pt x 173.44492pt.
- [142 <C:/Users/Richard/Desktop/Thesis/Intro/S1Variation.png (PNG copy)>] [143 
+ [145 <C:/Users/Richard/Desktop/Thesis/Intro/S1Variation.png (PNG copy)>] [146 
 <C:/Users/Richard/Desktop/Thesis/Intro/S2Variation.png (PNG copy)>]
-<DokePlot.png, id=1538, 880.03781pt x 689.57625pt>
+<DokePlot.png, id=1564, 880.03781pt x 689.57625pt>
 File: DokePlot.png Graphic file (type png)
  <use DokePlot.png>
-Package pdftex.def Info: DokePlot.png used on input line 1489.
+Package pdftex.def Info: DokePlot.png used on input line 1573.
 (pdftex.def)             Requested size: 264.01338pt x 206.87447pt.
 
-<DokeTrianglePlot.png, id=1539, 397.485pt x 397.485pt>
+<DokeTrianglePlot.png, id=1565, 397.485pt x 397.485pt>
 File: DokeTrianglePlot.png Graphic file (type png)
 
 <use DokeTrianglePlot.png>
-Package pdftex.def Info: DokeTrianglePlot.png used on input line 1497.
+Package pdftex.def Info: DokeTrianglePlot.png used on input line 1581.
 (pdftex.def)             Requested size: 198.742pt x 198.742pt.
- [144 <C:/Users/Richard/Desktop/Thesis/Intro/DokePlot.png>] <WS_Spectrum.png, i
-d=1545, 578.16pt x 433.62pt>
+ [147 <C:/Users/Richard/Desktop/Thesis/Intro/DokePlot.png>] <WS_Spectrum.png, i
+d=1571, 578.16pt x 433.62pt>
 File: WS_Spectrum.png Graphic file (type png)
  <use WS_Spectrum.png>
-Package pdftex.def Info: WS_Spectrum.png used on input line 1506.
+Package pdftex.def Info: WS_Spectrum.png used on input line 1590.
 (pdftex.def)             Requested size: 231.2599pt x 173.44492pt.
 
-[145 <C:/Users/Richard/Desktop/Thesis/Intro/DokeTrianglePlot.png> <C:/Users/Ric
-hard/Desktop/Thesis/Intro/WS_Spectrum.png (PNG copy)>] [146]
-<EnergyFluctuations.png, id=1559, 578.16pt x 433.62pt>
+[148 <C:/Users/Richard/Desktop/Thesis/Intro/DokeTrianglePlot.png> <C:/Users/Ric
+hard/Desktop/Thesis/Intro/WS_Spectrum.png (PNG copy)>] [149]
+<EnergyFluctuations.png, id=1584, 578.16pt x 433.62pt>
 File: EnergyFluctuations.png Graphic file (type png)
 
 <use EnergyFluctuations.png>
-Package pdftex.def Info: EnergyFluctuations.png used on input line 1549.
+Package pdftex.def Info: EnergyFluctuations.png used on input line 1633.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
- [147]
-<QuantaFluctuations.png, id=1564, 578.16pt x 433.62pt>
+ [150]
+<QuantaFluctuations.png, id=1589, 578.16pt x 433.62pt>
 File: QuantaFluctuations.png Graphic file (type png)
 
 <use QuantaFluctuations.png>
-Package pdftex.def Info: QuantaFluctuations.png used on input line 1556.
+Package pdftex.def Info: QuantaFluctuations.png used on input line 1640.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
- [148 <C:/Users/Richard/Desktop/Thesis/Intro/EnergyFluctuations.png (PNG copy)>
+ [151 <C:/Users/Richard/Desktop/Thesis/Intro/EnergyFluctuations.png (PNG copy)>
  <C:/Users/Richard/Desktop/Thesis/Intro/QuantaFluctuations.png (PNG copy)>]
-Overfull \hbox (11.55902pt too wide) in paragraph at lines 1565--1579
+Overfull \hbox (11.55902pt too wide) in paragraph at lines 1649--1663
  [][] 
  []
 
-[149] [150] [151]
-Overfull \hbox (13.51765pt too wide) in paragraph at lines 1614--1614
+[152] [153] [154]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\chi' on input line 1694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1694.
+
+[155]
+Overfull \hbox (13.51765pt too wide) in paragraph at lines 1715--1715
 []\OT1/cmr/bx/n/17.28 Calibration of the LUX De-tec-tor in a nonuni-
  []
 
-[152] [153] [154]
-Underfull \hbox (badness 2460) in paragraph at lines 1658--1659
+[156] [157] [158]
+Underfull \hbox (badness 2460) in paragraph at lines 1757--1758
 []\OT1/cmr/m/n/12 Wu, et al. \OT1/cmr/m/it/12 Monthly No-tices of the Royal As-
 tro-nom-i-cal So-ci-ety
  []
 
-[155]
+[159]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1701--1702
+ [160]
+Underfull \hbox (badness 10000) in paragraph at lines 1800--1801
 []\OT1/cmr/m/n/12 Kurki-Suonio, Cos-mo-log-i-cal Per-tur-ba-tion The-ory. (2015
 )
  []
 
-[156]
-Underfull \hbox (badness 10000) in paragraph at lines 1703--1704
+
+Underfull \hbox (badness 10000) in paragraph at lines 1802--1803
 []\OT1/cmr/m/n/12 Hu. CMB In-tro-duc-tion. (2001) back-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 1709--1710
+Underfull \hbox (badness 3735) in paragraph at lines 1808--1809
 []\OT1/cmr/m/n/12 Fermi-LAT Col-lab-o-ra-tion. Fermi LAT Search for Dark Mat-te
 r
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1709--1710
+Underfull \hbox (badness 1688) in paragraph at lines 1808--1809
 \OT1/cmr/m/n/12 in Gamma-ray Lines and the In-clu-sive Pho-ton Spec-trum. (2012
 )
  []
 
-[157] [158]pdfTeX warning (ext4): destination with the same identifier (name{ci
+[161] [162]pdfTeX warning (ext4): destination with the same identifier (name{ci
 te.Lewin}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1744 \bibitem{Lewin}
+l.1843 \bibitem{Lewin}
                         D Lewin and P F Smith.  Review of mathematics, numer...
-[159]
-Underfull \hbox (badness 10000) in paragraph at lines 1756--1757
+[163]
+Underfull \hbox (badness 10000) in paragraph at lines 1855--1856
 []\OT1/cmr/m/n/12 J Bal-a-jthy. Re-sults of the Large CH4 In-jec-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1756--1757
+Underfull \hbox (badness 10000) in paragraph at lines 1855--1856
 \OT1/cmr/m/n/12 from April 2015. LUX Doc-u-ment Database. (2015)
  []
 
 
-Overfull \hbox (14.84027pt too wide) in paragraph at lines 1756--1757
+Overfull \hbox (14.84027pt too wide) in paragraph at lines 1855--1856
 \OT1/cmr/m/n/12 http://teacher.pas.rochester.edu:8080/wiki/bin/view/Lux/LuxDB00
 000445 
  []
@@ -1177,16 +1235,26 @@ Overfull \hbox (14.84027pt too wide) in paragraph at lines 1756--1757
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
-[160]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1769.
- [161]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1769.
+[164]
+Underfull \hbox (badness 10000) in paragraph at lines 1871--1872
+[]\OT1/cmr/m/n/12 A Dobi. Tri-tium Beta Shape. LUX DocDB. (2015)
+ []
+
+
+Overfull \hbox (109.65318pt too wide) in paragraph at lines 1871--1872
+\OT1/cmr/m/n/12 http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB0000040
+2/TritiumBetaShape.pdf 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1878.
+[165]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1878.
  (C:\Users\Richard\Desktop\Thesis\Intro\Introduction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1769.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1769.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1878.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1878.
 
 Package rerunfilecheck Info: File `Introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 253FD435D9431AE6E236120C475ED1ED;5262.
+(rerunfilecheck)             Checksum: 776E2BAF8C28D3458C8B9BD0779F6437;5274.
 
 
 LaTeX Warning: There were undefined references.
@@ -1194,17 +1262,17 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1769.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1878.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 757 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8702 strings out of 494045
- 130121 string characters out of 3145963
- 223344 words of memory out of 3000000
- 11338 multiletter control sequences out of 15000+200000
+ 8733 strings out of 494045
+ 130605 string characters out of 3145963
+ 223712 words of memory out of 3000000
+ 11348 multiletter control sequences out of 15000+200000
  15830 words of font info for 59 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  37i,13n,40p,2558b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1226,9 +1294,9 @@ x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Introduction.pdf (161 pages, 8640669 bytes).
+Output written on Introduction.pdf (165 pages, 8773942 bytes).
 PDF statistics:
- 1814 PDF objects out of 2073 (max. 8388607)
- 511 named destinations out of 1000 (max. 500000)
- 841 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1861 PDF objects out of 2073 (max. 8388607)
+ 531 named destinations out of 1000 (max. 500000)
+ 846 words of extra memory for PDF output out of 10000 (max. 10000000)
 
