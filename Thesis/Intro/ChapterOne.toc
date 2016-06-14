@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Introduction to Dark Matter}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Evidence for Dark Matter}{2}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Mass Measurements from Galactic Rotation Curves}{2}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Mass Measurements from x-ray Gases}{5}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Gravitational Lensing}{7}{subsubsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.4}Cosmological Evidence}{17}{subsubsection.1.1.4}
+\contentsline {subsection}{\numberline {1.2}Dark Matter Candidates}{23}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}The $\Lambda $CDM Model}{23}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Nonbaryonic Dark Matter}{26}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}WIMPs and SUSY}{28}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Axions and Axinos}{30}{subsubsection.1.2.4}
+\contentsline {subsubsection}{\numberline {1.2.5}Gravitons and Gravitinos}{31}{subsubsection.1.2.5}
+\contentsline {subsubsection}{\numberline {1.2.6}WIMPzillas}{31}{subsubsection.1.2.6}

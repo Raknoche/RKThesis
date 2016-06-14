@@ -1,0 +1,22 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Introduction.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: TitlePage.aux
+A level-1 auxiliary file: Acknowledgments.aux
+The style file: plain.bst
+Database file #1: ThesisBibtex.bib
+Warning--I'm ignoring Refregier's extra "year" field
+--line 440 of file ThesisBibtex.bib
+Warning--I didn't find a database entry for "JonOutgassingTwo"
+Warning--I didn't find a database entry for "VERITAS"
+Warning--I didn't find a database entry for "MethaneDiffusion"
+Warning--I didn't find a database entry for "FicksAnalytic"
+Name 1 in "{Battaner} E., and {Florido} E." has a comma at the end for entry Battaner
+while executing---line 1049 of file plain.bst
+Name 1 in "J Balajthy, and C Hall" has a comma at the end for entry JonOutgassing
+while executing---line 1049 of file plain.bst
+Name 1 in "J Balajthy, and C Hall" has a comma at the end for entry JonOutgassing
+while executing---line 1090 of file plain.bst
+Name 1 in "{Battaner} E., and {Florido} E." has a comma at the end for entry Battaner
+while executing---line 1090 of file plain.bst
+Warning--can't use both volume and number fields in Robertson
+(There were 4 error messages)

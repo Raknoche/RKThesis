@@ -92,13 +92,13 @@
 
 
 
-In recent decades it has been discovered that the luminous matter which scientists have studied for centuries is only a small fraction of the total composition of the universe.  There is strong evidence of dark baryonic matter (a few percent), nonbaryonic hot dark matter ($\sim$0.1\%-1.5\%), non baryonic cold dark matter ($\sim$25\%), and dark energy ($\sim$70\%) components to the universe, where the percentages are as a total fraction of their contribution to the universe's total composition.  While we know a large amount about the ``normal" matter which contributes $ \lesssim $ 4\% of the universe's total composition, we know very little about these larger components.  In particular, while we understand certain characteristics of the cold dark matter component, there is no consensus on its composition.  Before examining the experiments which seek to answer this question we will first discuss what is currently known about the nonbaryonic dark matter component.
+In recent decades it has been discovered that the luminous matter which scientists have studied for centuries is only a small fraction of the total composition of the universe.  There is strong evidence of dark baryonic matter (a few percent), nonbaryonic hot dark matter ($\sim$0.1\%-1.5\%), non baryonic cold dark matter ($\sim$27\%), and dark energy ($\sim$68\%) components to the universe, where the percentages are as a fraction of their total contribution to the universe's composition.  While we know a large amount about the ``normal" matter which contributes $ \lesssim $ 5\% of the universe's total composition, we know very little about these larger components.  In particular, while we understand certain characteristics of the cold dark matter component, there is no consensus on its composition.  Before examining the experiments which seek to answer this question we will first discuss what is currently known about the nonbaryonic dark matter component.
 
 \subsection{Evidence for Dark Matter}
 
 \subsubsection{Mass Measurements from Galactic Rotation Curves}
 
-In the early 1930's Fritz Zwicky was the first to use the Virial theorem to determine the total mass of the Coma cluster of galaxies.   measured the rotational velocity of eight galaxies in the Coma Cluster. In his examination, Zwicky found that the velocities at large radii were too high to be consistent with the Newtonian prediction arising from the visible matter alone \cite{Zwicky}. This discrepancy was reinforced in the 1970's, when further data on the rotational velocity of spiral galaxies began to be collected.  Instead of the rotational velocity falling off as $\propto 1/\sqrt{r}$ beyond the radius of visible matter as one would expect, the rotational velocity rises for small radii, then asymptotes to a constant $ v \simeq 100-300 \; km/s $ for large radii in most galaxies \cite{Persic,Battaner,Binney}.  The most widely accepted explanation of this phenomenon is that the disk galaxies are immersed in a dark matter (DM) halo such that $ M(r)/r $ remains constant at large radii.  Such a halo could form from a self gravitating ball of ideal gas at a uniform temperature.
+In the early 1930's Fritz Zwicky was the first to use the Virial theorem to determine the total mass of the Coma cluster of galaxies.  In his examination, Zwicky found that the velocities at large radii were too high to be consistent with the Newtonian prediction arising from the visible matter alone \cite{Zwicky}. This discrepancy was reinforced in the 1970's, when further data on the rotational velocity of spiral galaxies began to be collected.  Instead of the rotational velocity falling off as $\propto 1/\sqrt{r}$ beyond the radius of visible matter as one would expect, the rotational velocity rises for small radii, then asymptotes to a constant $ v \simeq 100-300 \; km/s $ for large radii in most galaxies \cite{Persic,Battaner,Binney}.  The most widely accepted explanation of this phenomenon is that the disk galaxies are immersed in a dark matter (DM) halo such that $ M(r)/r $ remains constant at large radii.  Such a halo could form from an isotropic sphere of ideal gas at a uniform temperature.
 
 \begin{center}
 \includegraphics[scale=.7]{RotationCurve2.png}
@@ -120,9 +120,9 @@ where $\mathbf{F}_{ji}$ is the force that particle $j$ applies on particle $i$. 
  \end{equation}
 Using the law of gravitation to apply equation \ref{VirialTheorem4} to a cluster of galaxies, the Virial theorem becomes
 \begin{equation} \label{VirialTheorem5}
- \sum_{i=1}^{N} \langle m_i v^2_i \rangle = \sum_{i}^{N} \sum_{j<i} \langle  \frac{Gm_im_j}{r_{ij}} \rangle
+ \sum_{i=1}^{N} \langle m_i v^2_i \rangle = \sum_{i}^{N} \sum_{j<i} \left\langle  \frac{Gm_im_j}{r_{ij}} \right\rangle
  \end{equation}
-where G is the gravitational constant.  The left hand side of this equation is the total mass, $M$, of the cluster of galaxies multiplied by the time and mass averaged squared velocity.  The right hand side is approximately equal to $\frac{GM^2}{R}$, where $R$ is the radius of the galaxy cluster.  Rearranging equation ??, we arrive at an equation which relates the total mass of the galaxy cluster to the mean square velocity
+where G is the gravitational constant.  The left hand side of this equation is the total mass, $M$, of the cluster of galaxies multiplied by the time and mass averaged squared velocity.  The right hand side is approximately equal to $\frac{GM^2}{R}$, where $R$ is the radius of the galaxy cluster.  Rearranging equation \ref{VirialTheorem5}, we arrive at an equation which relates the total mass of the galaxy cluster to the mean square velocity
 \begin{equation} \label{VirialTheorem6}
  M \approx \frac{ \langle v^2 \rangle R }{G}
 \end{equation} 
@@ -148,22 +148,25 @@ The total mass of a dynamically relaxed galaxy cluster can be measured from the 
 \end{equation}
 where $P$ is the pressure of the gas in a cluster, $G$ is the gravitational constant, $M(r)$ is the mass of the galaxy cluster at a particular radius, and $\rho$ is the density of the gas in the cluster.  From the ideal gas law we know that
 \begin{equation} \label{HEq2}
-P=(\frac{\rho}{\mu m_H})kT
+P=\left(\frac{\rho}{\mu m_H}\right)kT
 \end{equation}
 where $\mu$ is the mean molecular weight ($\sim$0.6 for an ionized plasma), $m_H$ is the mass of the hydrogen atom, and k is Boltzman's constant.  Plugging this into equation \ref{HEq1} yields
 \begin{equation} \label{HEq3}
-(\frac{k}{\mu m_H})(T\frac{d\rho}{dr} + \rho\frac{dT}{dr})=-(\frac{GM(r)}{r^2})\rho
+\frac{k}{\mu m_H}\left(T\frac{d\rho}{dr} + \rho\frac{dT}{dr} \right)=-\frac{GM(r)}{r^2}\rho
 \end{equation}
 Solving equation \ref{HEq3} for $M(r)$ produces a measurement of the cluster's mass from x-ray gas density and temperatures
 \begin{equation} \label{HEq4}
-M(r) = -\frac{kT}{\mu m_H G}(\frac{d \; ln(\rho)}{d \; ln(r)} + \frac{d \; ln(T)}{d \; ln(r)})r
+M(r) = -\frac{kT}{\mu m_H G}\left(\frac{d \; \text{ln}(\rho)}{d \; \text{ln}(r)} + \frac{d \; \text{ln}(T)}{d \; \text{ln}(r)}\right)r
 \end{equation}
-where the logarithms were introduced using the fact that $\frac{r}{t}\frac{dT}{dr}=\frac{\frac{dT}{T}}{\frac{dr}{r}}=\frac{ d \; ln{T}}{d \; ln{r} }$. 
+where the logarithms were introduced using the fact that 
+\begin{equation}
+\frac{r}{t}\frac{dT}{dr}=\frac{\frac{dT}{T}}{\frac{dr}{r}}=\frac{ d \; \text{ln}{T}}{d \; \text{ln}{r} }.
+\end{equation} 
 This mass measurement technique is complicated by the fact that the gas density and temperature of a galaxy cluster has spatial variation, as well as the fact that x-ray emission measurements are a two-dimensional projection of a three-dimensional object, which  produces complications when integrating x-ray spectra along lines of sight through the cluster. One method for simplifying the mass measurement, called the beta model, is to assume the cluster is made of isothermal, spherically symmetric gas.  In this case the density of the gas traces the density of the gravitational mass, such that
 \begin{equation} \label{HBeta1}
-\rho_{gas}(r) = \rho_0(1 + \frac{r}{r_c})^{-3\beta/2}
+\rho_{gas}(r) = \rho_0 \left(1 + \frac{r}{r_c}\right)^{-3\beta/2}
 \end{equation}
-where $r_c$ is the core radius, $\rho_0$ is the central density, and $\beta$ is a slope parameter.  \cite{Vikhlinin}  The core radius $r_c$ is defined using the intensity of x-ray observations such that $I(r_c)=\frac{1}{2}I(0)$, or more generally to be the radius at which $\frac{d^2 \; ln(I)}{d \; ln(r)^2}$ is maximized. In this model the mass measurement reduces to a derivation of the spatial density profile by determining the best fit parameters of $r_c$ and $\beta$ to the x-ray observations.  When this mass measurement technique is compared to mass measurements from luminous matter alone more evidence for dark matter arises. For example, using this technique the Virgo Cluster has been measured to have a total mass (within r $<$ 1.8Mpc) between $1.5 \times 10^{14} M_{\odot}$ and $5.5 \times10^{14} M_{\odot}$. \cite{Paradijs} Comparing this to the mass measured from x-ray luminosity yields a ratio of
+where $r_c$ is the core radius, $\rho_0$ is the central density, and $\beta$ is a slope parameter.  \cite{Vikhlinin}  The core radius $r_c$ is defined using the intensity of x-ray observations such that $I(r_c)=\frac{1}{2}I(0)$, or more generally to be the radius at which $\frac{d^2 \; \text{ln}(I)}{d \; \text{ln}(r)^2}$ is maximized. In this model the mass measurement reduces to a derivation of the spatial density profile by determining the best fit parameters of $r_c$ and $\beta$ to the x-ray observations.  When this mass measurement technique is compared to mass measurements from luminous matter alone more evidence for dark matter arises. For example, using this technique the Virgo Cluster has been measured to have a total mass (within r $<$ 1.8Mpc) between $1.5 \times 10^{14} M_{\odot}$ and $5.5 \times10^{14} M_{\odot}$. \cite{Paradijs} Comparing this to the mass measured from x-ray luminosity yields a ratio of
 \begin{equation} \label{betamodelmass}
 \frac{M_{lum}}{M_{total}} \approx \frac{4.75 \times 10^{13} M_{\odot}}{3.5 \times 10^{14} M_{\odot}} = 0.14
 \end{equation}
@@ -171,31 +174,31 @@ where $r_c$ is the core radius, $\rho_0$ is the central density, and $\beta$ is 
 \subsubsection{Gravitational Lensing}
 
 
-Gravitational lensing provides an independent method for measuring the mass of galaxy clusters and other astronomical objects.  Gravitational lensing can be divided into two categories -- strong lensing and weak lensing.  Strong lensing, in which a background light source is distorted into arcs around a massive foreground object, is a rare phenomenon which requires a light source and a very massive lens to be nearly in line with the observer.  When such a situation occurs the mass of the lens can be inferred from the angular width of the arc of light which is produced.  We now turn to general relativity to derive the equation which produces this mass measurement.
+Gravitational lensing provides an independent method for measuring the mass of galaxy clusters and other astronomical objects.  Gravitational lensing can be divided into two categories -- strong lensing and weak lensing.  Strong lensing, in which a background light source is distorted into arcs around a massive foreground object, is a rare phenomenon which requires a light source and a very massive lens to be nearly in line with the observer.  When such a situation occurs the mass of the lens can be inferred from the angular width of the arc of light which is produced.  We turn to general relativity to derive the equation which produces this mass measurement.
 
 The geodesic equation, which describes the path that a free particle travels, is given by
 \begin{equation} \label{geodesic}
-\frac{d}{d\tau}(g_{aj} \frac{dx^j}{d\tau})-\frac{1}{2}\frac{\partial g_{ij}}{\partial x^a} \frac{dx^i}{d\tau}\frac{dx^j}{d\tau} = 0
+\frac{d}{d\tau} \left(g_{aj} \frac{dx^j}{d\tau} \right)-\frac{1}{2}\frac{\partial g_{ij}}{\partial x^a} \frac{dx^i}{d\tau}\frac{dx^j}{d\tau} = 0
 \end{equation}
 where $g_{\alpha j}$ is a metric, $\tau$ is the proper time, and $x$ is the four dimensional coordinate vector. For a spacetime in a vacuum outside of a spherically symmetric mass the appropriate metric to use is the Schwarzschild metric.  With units of $c=1$ it is given by
 \begin{equation} \label{s-metric}
-ds^2 = -(1-\frac{2GM}{r})dt^2 + (1-\frac{2GM}{r})^{-1}dr^2+r^2 d \theta^2 + r^2 sin^2 \theta d\phi^2.
+ds^2 = -\left(1-\frac{2GM}{r}\right)dt^2 + \left(1-\frac{2GM}{r}\right)^{-1}dr^2+r^2 d \theta^2 + r^2 sin^2 \theta d\phi^2.
 \end{equation}
 From the $t$ component of the geodesic equation we know that
 \begin{equation} \label{geodesic-t}
-\frac{d}{d \tau}(g_{tj}\frac{dx^j}{d\tau}) - \frac{1}{2} \frac{\partial g_{ij}}{dt} \frac{dx^i}{d\tau} \frac{dx^j}{d \tau} =0.
+\frac{d}{d \tau} \left(g_{tj}\frac{dx^j}{d\tau}\right) - \frac{1}{2} \frac{\partial g_{ij}}{\partial t} \frac{dx^i}{d\tau} \frac{dx^j}{d \tau} =0.
 \end{equation}
 The Schwarzschild metric does not depend on time, and is diagonal, therefore
 \begin{equation} \label{geodesic-t-reduced}
-\frac{d}{d \tau}(g_{tj}\frac{dx^j}{d\tau}) = \frac{d}{d \tau}(g_{tt}\frac{dt}{d\tau}) = -\frac{d}{d \tau}((1-\frac{2GM}{r})\frac{dt}{d\tau}) = 0.
+\frac{d}{d \tau} \left(g_{tj}\frac{dx^j}{d\tau} \right) = \frac{d}{d \tau} \left(g_{tt}\frac{dt}{d\tau}\right) = -\frac{d}{d \tau}\left( \left(1-\frac{2GM}{r}\right)\frac{dt}{d\tau}\right) = 0.
 \end{equation}
 Equation \ref{geodesic-t} is true if the quantity inside of the derivative is constant, leading us to the first constant of motion
 \begin{equation}\label{first com}
-E=(1-\frac{2GM}{r})\frac{dt}{d\tau}.
+E=\left(1-\frac{2GM}{r}\right)\frac{dt}{d\tau}.
 \end{equation}
 We now turn to the $\phi$ component of the geodesic equation
 \begin{equation} \label{geodesic-phi}
-\frac{d}{d \tau}(g_{\phi j}\frac{dx^j}{d\tau}) = \frac{d}{d \tau}(g_{\phi \phi}\frac{d\phi}{d\tau}) = -\frac{d}{d \tau}(r^2 sin^2 \theta \frac{d\phi}{d\tau}) = 0
+\frac{d}{d \tau}\left(g_{\phi j}\frac{dx^j}{d\tau}\right) = \frac{d}{d \tau}\left(g_{\phi \phi}\frac{d\phi}{d\tau}\right) = -\frac{d}{d \tau}\left(r^2 sin^2 \theta \frac{d\phi}{d\tau}\right) = 0
 \end{equation}
 where we have once again used the fact that the metric does not depend on time and is diagonal to simplify the equation.  From this we arrive at the second constant of motion
 \begin{equation} \label{second com}
@@ -212,7 +215,7 @@ l=r^2sin^2\theta \frac{d\phi}{d \tau}
 %\end{equation}
 Returning to the Schwarzschild metric, for a photon $ds^2$=0, and if we assume motion in the equatorial plane $\theta=\pi/2$ and $d \theta =0$, such that
 \begin{equation} \label{photon metric}
--(1-\frac{2GM}{r})dt^2 + (1-\frac{2GM}{r})^{-1}dr^2+r^2 d\phi^2=0.
+-\left(1-\frac{2GM}{r} \right)dt^2 + \left(1-\frac{2GM}{r} \right)^{-1}dr^2+r^2 d\phi^2=0.
 \end{equation}
 From the two constants of motion we know that
 \begin{equation} \label{dphi}
@@ -220,51 +223,52 @@ d\phi^2=\frac{l^2}{r^4 sin^4 \theta} d\tau^2
 \end{equation}
 and
 \begin{equation} \label{dt}
-dt^2=E^2(1-\frac{2GM}{r})^{-2}d\tau^2
+dt^2=E^2\left(1-\frac{2GM}{r}\right)^{-2}d\tau^2
 \end{equation}
 Plugging equations \ref{dphi} and \ref{dt} into equation \ref{photon metric} and simplifying yields
 \begin{equation} \label{dr2}
-dr^2=[E^2 - (1-\frac{2GM}{r}) \frac{l^2}{r^2}]d\tau^2
+dr^2= \left[E^2 - \left(1-\frac{2GM}{r}\right) \frac{l^2}{r^2}\right]d\tau^2
 \end{equation} 
 Finally, by dividing equation \ref{dr2} by \ref{dphi} we arrive at the equation of motion for light traveling in a Schwarzschild spacetime in polar coordinates
 \begin{equation} \label{polar eqm}
-(\frac{1}{r^2} \frac{dr}{d \phi})^2 = (\frac{E}{l})^2 - (1-\frac{2GM}{r})\frac{1}{r^2} \equiv (\frac{1}{b})^2 - (1-\frac{2GM}{r})\frac{1}{r^2}
+\left(\frac{1}{r^2} \frac{dr}{d \phi} \right)^2 = \left(\frac{E}{l} \right)^2 - \left(1-\frac{2GM}{r}\right)\frac{1}{r^2} \equiv \left(\frac{1}{b}\right)^2 - \left(1-\frac{2GM}{r}\right)\frac{1}{r^2}
 \end{equation}
-The quantity $b \equiv l/E$ is known as the impact parameter.  It represent the perpendicular distance between the center of attraction and the particle's initial trajectory.  To determine the change in the direction of light due to a gravitational field we must integrate $\frac{d\phi}{dr}dr $ from the minimum distance the light travels by the massive object, denoted as $R$, and then multiply by a factor of 2 to account for the symmetrical motion of the particle during its approach to the object. Note that at a distance $R$ the light is moving tagentially, such that $\frac{dr}{dt}=0$ and equation \ref{polar eqm} becomes
+The quantity $b \equiv l/E$ is known as the impact parameter, which represents the perpendicular distance between the center of attraction and the particle's initial trajectory.  To determine the change in the direction of light due to a gravitational field we must integrate $\frac{d\phi}{dr}dr $ from the minimum distance the light travels by the massive object, denoted as $R$, and then multiply by a factor of 2 to account for the symmetrical motion of the particle during its approach to the object. Note that at a distance $R$ the light is moving tagentially, such that $\frac{dr}{dt}=0$ and equation \ref{polar eqm} becomes
 \begin{equation} 
-\frac{1}{b^2} = (1-\frac{2GM}{R})\frac{1}{R^2}.
+\frac{1}{b^2} = \left(1-\frac{2GM}{R}\right)\frac{1}{R^2}.
 \end{equation} 
 Therefore, we can rewrite equation \ref{polar eqm} for any value of $r$ as
 \begin{equation} \label{polar eqm-R}
-(\frac{1}{r^2} \frac{dr}{d \phi})^2 = (1-\frac{2GM}{R})\frac{1}{R^2} - (1-\frac{2GM}{r})\frac{1}{r^2}.
+\left(\frac{1}{r^2} \frac{dr}{d \phi}\right)^2 = \left(1-\frac{2GM}{R}\right)\frac{1}{R^2} - \left(1-\frac{2GM}{r}\right)\frac{1}{r^2}.
 \end{equation}
 Making the convenient substitution of $u \equiv R/r$, where $0 \leq u \leq 1$ in equation \ref{polar eqm-R} yields 
 \begin{equation} \label{polar eqm-u}
-(\frac{du}{d\phi})^2 = 1- u^2 - \frac{2GM}{r}(1-u^3).
+\left(\frac{du}{d\phi} \right)^2 = 1- u^2 - \frac{2GM}{r}(1-u^3).
 \end{equation}
 From this we can find an equation for the infinitesimal variation $d\phi$ in terms of $du$
 \begin{equation} \label{dphi eqm}
-d\phi = \frac{(1-u^2)^{-1/2}du}{[1 - \frac{2GM}{R}(1-u^3)(1-u^2)^{-1}]^{-1/2}}.
+d\phi = \frac{(1-u^2)^{-1/2}du}{\left[1 - \frac{2GM}{R}(1-u^3)(1-u^2)^{-1}\right]^{-1/2}}.
 \end{equation}
-A further substitution of $u \equiv cos\alpha$, where $0 \leq \alpha \leq \pi/2$, leads (after some simplification) to the equation
+A further substitution of $u \equiv \cos(\alpha)$, where $0 \leq \alpha \leq \pi/2$, leads (after some simplification) to the equation
 \begin{equation} \label{final eqm}
-d\phi = [1-\frac{2GM}{R}(cos\alpha + \frac{1}{1+cos\alpha})]^{-1/2}] d\alpha.
+d\phi = \left[1-\frac{2GM}{R}\left(\cos(\alpha) + \frac{1}{1+\cos(\alpha)}\right)\right]^{-1/2} d\alpha.
 \end{equation}
+\newpage
 In most cases, the quantity $M/R<<1$, so we can use the approximation $(1+x)^n \approx 1+nx$ for small x in equation \ref{final eqm} such that
 \begin{equation}
-d\phi = [1 + \frac{GM}{R}(cos\alpha + \frac{1}{1+cos\alpha})]d\alpha.
+d\phi = \left[1 + \frac{GM}{R} \left(\cos(\alpha) + \frac{1}{1+\cos(\alpha)}\right)\right]d\alpha.
 \end{equation}
-This is known as the "weak field" limit.  Integrating this expression from $0 \leq \alpha \leq pi/2$ and multiplying by 2 to account for the two symmetrical legs of the light's trajectory provides an expression for the total azimuthal angle of the light.
+This is known as the "weak field" limit.  Integrating this expression from $0 \leq \alpha \leq \pi/2$ and multiplying by 2 to account for the two symmetrical legs of the light's trajectory provides an expression for the total azimuthal angle of the light.
 \begin{equation} \label{polar angle}
-\phi = 2 \int_{0}^{\pi/2} [1 + \frac{GM}{R}(cos\alpha + \frac{1}{1+cos\alpha})] d\alpha = \pi + \frac{4GM}{R}.
+\phi = 2 \int_{0}^{\pi/2} \left[1 + \frac{GM}{R} \left(\cos(\alpha) + \frac{1}{1+\cos(\alpha)}\right)\right] d\alpha = \pi + \frac{4GM}{R}.
 \end{equation}
 Noting that the first term, $\pi$, is the azimuthal angle of the light if no mass were present, we arrive at an equation that relates the angle of deflection of light to the total mass of the gravitational object. 
 \begin{equation} \label{final GR}
-\Delta \phi = \phi - \pi = \frac{4GM}{R} 
+\Delta \phi = \phi - \pi = \frac{4GM}{R} .
 \end{equation}
 
 
-In practice, we must go one step further to turn astronomical observations of gravitational lensing into a mass measurement.  Any observation of a lensed light source involves an observer viewing an image of the object after it passes by a gravitational lens.  This situation is depicted in Figure \ref{lensfigure}. THIS IS NOT THE RIGHT REFERENCE... NOT SURE WHY! To measure the mass of a lens we seek to relate the source position to the image position. Using the small angle approximation for $\theta$ and $\beta$ we can arrive at
+In practice, we must go one step further to turn astronomical observations of gravitational lensing into a mass measurement.  Any observation of a lensed light source involves an observer viewing an image of the object after it passes by a gravitational lens.  This situation is depicted in Figure \ref{fig:lensfigure}. To measure the mass of a lens we seek to relate the source position to the image position. Using the small angle approximation for $\theta$ and $\beta$ we can arrive at
 \begin{equation} \label{lens eq 1}
 D_S \theta = D_S\beta + D_{LS} \Delta \phi.
 \end{equation}
@@ -276,21 +280,22 @@ This is a quadratic equation with roots
 \begin{equation} \label{lens roots}
 \theta = \frac{ \beta \pm \sqrt{ \beta^2 + 4 \theta^2_E}}{2}
 \end{equation}
-where $\theta_E = (4GM \frac{D_{LS}}{D_S D_L})^{1/2}$ is the angular size of the "Einstein ring" that forms when the source and lens are perfectly aligned.  If the quantities $D_{LS}$, $D_L$, and $\beta$ are known, equation \ref{lens roots} can be used to measure the mass of the lens by measure the angle of deflection $\theta$. \cite{Bin-Nun} In the handful of cases in which this mass measurement has been carried out, it has been found to be consistent with dark matter models. \cite{Xiang} %Maybe put something like M_lum/M_tot < ?? here to be consistent with other sections
+where $\theta_E = \left(4GM \frac{D_{LS}}{D_S D_L} \right)^{1/2}$ is the angular size of the "Einstein ring" that forms when the source and lens are perfectly aligned.  If the quantities $D_{LS}$, $D_L$, and $\beta$ are known, equation \ref{lens roots} can be used to measuring the mass of the lens by measure the angle of deflection $\theta$. \cite{Bin-Nun} In the handful of cases in which this mass measurement has been carried out, it has been found to be consistent with dark matter models. \cite{Wu} %Maybe put something like M_lum/M_tot < ?? here to be consistent with other sections
 
 
-\begin{center} \label{lensfigure}
-\includegraphics[scale=0.5]{LensEqFigure.png}
+\begin{center} 
+\includegraphics[scale=0.4]{LensEqFigure.png}
 \captionof{figure}{A source emits light at position S.  The light is deflected by a massive lens at L, and causes the image seen by the observer to appear at an angle $\theta$.  D$_{LS}$, D$_L$, $\theta$, and $\beta$ are, respectively, the distance from the lens plane to the source plane, the distance from the lens plane to the observer, the angle of the image relative to the observer, and the angle of the source relative to the observer. \cite{Bin-Nun} }
+\label{fig:lensfigure}
 \end{center}
  
-Although there are only a few cases in which strong gravitational lensing can be observed, there are numerous cases of weak gravitational lensing.  Weak lensing occurs when the lensing mass isn't large enough for strong lensing, or if the source of light is not directly aligned with the lensing mass, resulting in a shear distortion of the image.  Measuring the mass of a weak lens is complicated by the fact that each light source has a unique, intrinsic ellipticity which typically dwarfs the magnitude of the image distortion.  This intrinsic ellipticity is known as ``shape noise" in weak gravitational lensing studies.  In cases where many sources are lensed by the same object, the distortion from the lens can be measured by averaging over the many source images, taking advantage of their random intrinsic orientation.  In these cases, the measured shear distortion results from photons being deflected by mass fluctuations along the line of sight.  In this case, the two dimensional lens equation (analogous to equation \ref{lens eq 2}) in vector format is
+Although there are only a few cases in which strong gravitational lensing can be observed, there are numerous cases of weak gravitational lensing.  Weak lensing occurs when the lensing mass isn't large enough for strong lensing, or if the source of light is not directly aligned with the lensing mass, resulting in a shear distortion of the image.  Measuring the mass of a weak lens is complicated by the fact that each light source has a unique, intrinsic ellipticity which typically dwarfs the magnitude of the image distortion.  This intrinsic ellipticity is known as ``shape noise'' in weak gravitational lensing studies.  In cases where many sources are lensed by the same object, the distortion from the lens can be measured by averaging over the many source images, taking advantage of their random intrinsic orientation.  In these cases, the measured shear distortion results from photons being deflected by mass fluctuations along the line of sight.  In this case, the two dimensional lens equation (analogous to equation \ref{lens eq 2}) in vector format is
 \begin{equation} \label{2D lens}
 \boldsymbol{\beta} = \boldsymbol{\theta} - \frac{D_{LS}}{D_S} \Delta \boldsymbol{\phi}(\boldsymbol{\xi})
 \end{equation}
 where $\boldsymbol{\xi}=D_{S}\boldsymbol{\theta}$ is the impact parameter.  The deflection angle can be calculated by integrating the 3D gravitational potential, $\boldsymbol{\Phi}(\mathbf{r})$, along the line of sight such that
 \begin{equation} \label{3D angle}
-\Delta \boldsymbol{\phi}(\boldsymbol{\xi}) = 2 \int \nabla_\perp \boldsymbol{\Phi}(\mathbf{r})dz = \nabla_\perp(2\int \boldsymbol{\Phi}(\mathbf{r}) dz) \equiv \nabla_\perp V.
+\Delta \boldsymbol{\phi}(\boldsymbol{\xi}) = 2 \int \nabla_\perp \boldsymbol{\Phi}(\mathbf{r})dz = \nabla_\perp \left(2\int \boldsymbol{\Phi}(\mathbf{r}) dz \right) \equiv \nabla_\perp V.
 \end{equation}
 Assuming the angle between the image and the observer, $\boldsymbol{\theta}$, is small equation \ref{2D lens} can be approximated with a first order Taylor series as
 \begin{equation} \label{lens taylor}
@@ -303,19 +308,19 @@ A_{ij}=\frac{ \partial \beta_i}{\partial \theta_j} = \delta_{ij} - \frac{ \parti
 \end{equation}
 are the elements of a Jacobian distortion matrix, $\mathbf{A}$, which describes the isotropic dilation and anisotropic distortion due to convergence and shear effects.  The distortion matrix can be written in terms of the convergence, $\kappa$, which increases the size of the image while conserving brightness, and the shear, $\gamma$, which distorts the the image tangentially around the lens.  
 \begin{equation} \label{dist mat}
-A_{ij}=(1-\kappa)(\begin{matrix} 1 & 0 \\ 0 & 1 \end{matrix}) - \gamma(\begin{matrix} cos2\phi & sin2\phi \\ sin2\phi & -cos2\phi \end{matrix}) 
+A_{ij}=(1-\kappa) \left(\begin{matrix} 1 & 0 \\ 0 & 1 \end{matrix} \right) - \gamma \left(\begin{matrix} \cos(2\phi) & \sin(2\phi) \\ \sin(2\phi) & -\cos(2\phi) \end{matrix} \right) 
 \end{equation}
 Equations \ref{dist matrix elements} and \ref{dist mat} offer a relationship between the observable quantities $\kappa$ and $\gamma$, and the gravitational potential $V$.
 \begin{equation} \label{gamma1}
-\gamma_1 \equiv \gamma cos 2\phi= \frac{1}{2}[\frac{ \partial ^2 V(\boldsymbol{\theta})}{\partial \theta_1^2} - \frac{ \partial^2 V(\boldsymbol{\theta})}{\partial \theta_2^2}]
+\gamma_1 \equiv \gamma cos 2\phi= \frac{1}{2} \left[\frac{ \partial ^2 V(\boldsymbol{\theta})}{\partial \theta_1^2} - \frac{ \partial^2 V(\boldsymbol{\theta})}{\partial \theta_2^2} \right]
 \end{equation}
 \begin{equation} \label{gamma2}
-\gamma_2 \equiv \gamma sin 2\phi = \frac{ \partial^2 V(\boldsymbol{\theta})}{\partial \theta_1 \partial \theta_2}
+\gamma_2 \equiv \gamma \sin (2\phi) = \frac{ \partial^2 V(\boldsymbol{\theta})}{\partial \theta_1 \partial \theta_2}
 \end{equation}
 \begin{equation} \label{kappa}
 \kappa = \frac{1}{2} \nabla^2 V(\boldsymbol{\theta})
 \end{equation}
-where equation \ref{gamma1} comes from $A_{11}-A_{22}$, equation \ref{gamma2} comes from $A_{12}-A_{21}$, and equation \ref{kappa} comes from $tr(A)$.  Since $\kappa$ is equal to half the laplacian of the projected gravitational potential, $V$, it is directly proportional to the mass density of the lens.  The shear component $\gamma_1$ corresponds to elongation and compression along the $x$ and $y$ directions, and the component $\gamma_2$ describes elongation and compression along the diagonal $x=y$ and $x=-y$ directions.  In the case of weak lensing, the mass measurement then reduces to a measurement of the shear and convergence produced by the lens. \cite{Pires}. As with strong gravitational lensing, weak gravitational lensing mass measurements have been found to be consistent with dark matter models. \cite{Xiang}
+where equation \ref{gamma1} comes from $A_{11}-A_{22}$, equation \ref{gamma2} comes from $A_{12}-A_{21}$, and equation \ref{kappa} comes from $tr(A)$.  Since $\kappa$ is equal to half the laplacian of the projected gravitational potential, $V$, it is directly proportional to the mass density of the lens.  The shear component $\gamma_1$ corresponds to elongation and compression along the $x$ and $y$ directions, and the component $\gamma_2$ describes elongation and compression along the diagonal $x=y$ and $x=-y$ directions.  In the case of weak lensing, the mass measurement then reduces to a measurement of the shear and convergence produced by the lens. \cite{Pires}. As with strong gravitational lensing, weak gravitational lensing mass measurements have been found to be consistent with dark matter models. \cite{Wu}
 
 
 \begin{center} \label{lensfigure}
@@ -339,18 +344,19 @@ One of the most famous instances of weak lensing evidence for dark matter is a c
 
 \subsubsection{Cosmological Evidence}
 
-The early universe was filled with a hot, dense plasma of electrons and baryons.  At this time photons scattered off of the free electrons, restricting their movement across the universe.  As the universe cooled below the binding energy of hydrogen (13.6 eV) protons and electrons began to combine, forming neutral hydrogen atoms.  At this point in time, known as the recombination epoch,  photons and electrons decoupled and the photons began traveling with a mean free path the size of the universe.  These photons produce the Cosmic Microwave Background (CMB) that we see today. (Figure \ref{CMB_Planck})  The radiation is extremely isotropic and exhibits a black-body spectrum at a red shifted temperature of 2.72 K.  The frequency spectrum, temperature fluctuations, and polarization of the CMB all contain a vast amount of information about the formation of the universe.  Here, we focus on just one of these properties. 
+The early universe was filled with a hot, dense plasma of electrons and baryons.  At this time photons scattered off of the free electrons, restricting their movement across the universe.  As the universe cooled below the binding energy of hydrogen (13.6 eV) protons and electrons began to combine, forming neutral hydrogen atoms.  At this point in time, known as the recombination epoch,  photons and electrons decoupled and the photons began traveling with a mean free path the size of the universe.  These photons produce the Cosmic Microwave Background (CMB) that we see today. (Figure \ref{fig:CMB_Planck})  The radiation is extremely isotropic and exhibits a black-body spectrum at a red shifted temperature of 2.72 K.  The frequency spectrum, temperature fluctuations, and polarization of the CMB all contain a vast amount of information about the formation of the universe.  Here, we focus on just one of these properties. 
 
 
 
-\begin{center} \label{CMB_Planck}
+\begin{center} 
 \includegraphics[scale=0.3]{CMB_Planck.jpg}
 \captionof{figure}{The latest measurement of the CMB temperature anistropies from Planck data.  \cite{Planck} }
+\label{fig:CMB_Planck}
 \end{center} 
 
 In 2003 the WMAP satellite observed small (1 part in 10,000) fluctuations in the average temperature of the CMB.  We see these temperature fluctuations projected on a 2D spherical surface, so it is typical to expand them in terms of spherical harmonics defined by
 \begin{equation}\label{Ylm}
-Y_{lm}=\sqrt{\frac{2l+1}{4\pi} \frac{(l-m)!}{(l+m)!}}P_l^m(cos\theta)e^{im\phi}
+Y_{lm}=\sqrt{\frac{2l+1}{4\pi} \frac{(l-m)!}{(l+m)!}}P_l^m(\cos\theta)e^{im\phi}
 \end{equation}
 where $l=0,...,\infty$, $-l \le m \le l$, and $P_l^m$ are associated Legendre polynomials.  The temperature fluctuations can then be written as
 \begin{equation}\label{dTdT0}
@@ -381,32 +387,31 @@ where we have used the the closure relation
 in the last step of equation \ref{powerspec}. \cite{Kurki-Suonio}
 
 
-Cosmological models predict the variance of the $a_{lm}$ expansion coefficients, and therefore predict the angular power spectrum and the contribution of each multipole to the temperature variance.  By measuring the angular power spectrum of the CMB and comparing to the $C_l$ values predicted by each model we can learn about the composition of the universe.  The temperature fluctuations of the CMB are typically plotted as $l(l+1)C_l/(2\pi)$ with units of $\mu K^2$ versus the multipoles $l$ as shown in Figure \ref{PS_Planck}.
+Cosmological models predict the variance of the $a_{lm}$ expansion coefficients, and therefore predict the angular power spectrum and the contribution of each multipole to the temperature variance.  By measuring the angular power spectrum of the CMB and comparing to the $C_l$ values predicted by each model we can learn about the composition of the universe.  The temperature fluctuations of the CMB are typically plotted in terms of $D_l \equiv l(l+1)C_l/(2\pi)$ with units of $\mu K^2$ versus the multipoles $l$ as shown in Figure \ref{fig:PS_Planck}.
 
-\begin{center} \label{PS_Planck}
+\begin{center} 
 \includegraphics[scale=0.4]{PS_Planck.png}
 \captionof{figure}{The power spectrum of temperature fluctuations from the CMB based on data from Planck. \cite{Planck} }
+\label{fig:PS_Planck}
 \end{center} 
 
 
-To understand the wealth of information present in Figure \ref{PS_Planck} we must first understand the origin of the temperature fluctuations in the early universe.  Prior to recombination the primordial plasma consisted of anistropic regions of varying density. Overdense regions of matter would gravitationally attract more matter.  As this happened, heat from photons scattering off of free electrons would produce an increase in pressure, counteracting the force of gravity and pushing baryonic matter away from the high density regions.  As these two processes competed they produced oscillations in the distribution of baryonic matter, which we refer to as Baryon acoustic oscillations (BAO).  After recombination the photons diffused through the baryonic matter, removing the source of pressure, ending the oscillating process, and leaving a shell of overdense baryonic matter at the origin of the anisotropy and at a fixed radius called the sound horizon.
+To understand the wealth of information present in Figure \ref{fig:PS_Planck} we must first understand the origin of the temperature fluctuations in the early universe.  Prior to recombination the primordial plasma consisted of anistropic regions of varying density. Overdense regions of matter would gravitationally attract more matter.  As this happened, heat from photons scattering off of free electrons would produce an increase in pressure, counteracting the force of gravity and pushing baryonic matter away from the high density regions.  As these two processes competed they produced oscillations in the distribution of baryonic matter, which we refer to as Baryon acoustic oscillations (BAO).  After recombination the photons diffused through the baryonic matter, removing the source of pressure, ending the oscillating process, and leaving a shell of overdense baryonic matter at the origin of the anisotropy and at a fixed radius called the sound horizon.
 
-The first peak in Figure \ref{PS_Planck} details the curvature of the universe. If the universe had positive curvature the light from the CMB would be magnified, shifting the first peak to lower multipole in Figure \ref{PS_Planck}.  Likewise, in a negatively curved universe the scale of the temperature fluctuations in the CMB would appear diminished, shifting the first peak to higher multipole.  The observed location of the first peak, close to $l\sim$200, turns out to be consistent with a flat universe.  
+The first peak in Figure \ref{fig:PS_Planck} details the curvature of the universe. If the universe had positive curvature the light from the CMB would be magnified, shifting the first peak to lower multipole in Figure \ref{fig:PS_Planck}.  Likewise, in a negatively curved universe the scale of the temperature fluctuations in the CMB would appear diminished, shifting the first peak to higher multipole.  The observed location of the first peak, close to $l\sim$200, turns out to be consistent with a flat universe.  
 
-The second peak in Figure \ref{PS_Planck} details the amount of baryonic matter in the universe.  Baryons add mass to the system during the oscillating process described above.  This additonal inertia forces the primordial plasma to travel farther before recoiling back to the center of the anistropy, much like adding a mass to the end of a spring.  The odd numbered peaks in Figure \ref{CMB_Planck} are associated with how far the plasma compresses during BAO and are enhanced by the presence of additional baryons, as shown in Figure \ref{BAO}.  The even numbered peaks are associated with how far the plasma rebounds during BAO and are unaffected by the presence of additional baryons.  Therefore, the presence of baryons enhances the size of the odd peaks over the even peaks such that a smaller second peak in Figure \ref{PS_Planck} corresponds to a larger amount of baryonic matter in the universe.  The latest results from Planck indicate that baryonic matter makes up 4.9\% of the universe.
+The second peak in Figure \ref{fig:PS_Planck} details the amount of baryonic matter in the universe.  Baryons add mass to the system during the oscillating process described above.  This additonal inertia forces the primordial plasma to travel farther before recoiling back to the center of the anistropy, much like adding a mass to the end of a spring.  The odd numbered peaks in Figure \ref{fig:PS_Planck} are associated with how far the plasma compresses during BAO and are enhanced by the presence of additional baryons, as shown in Figure \ref{BAO}.  The even numbered peaks are associated with how far the plasma rebounds during BAO and are unaffected by the presence of additional baryons.  Therefore, the presence of baryons enhances the size of the odd peaks over the even peaks such that a smaller second peak in Figure \ref{fig:PS_Planck} corresponds to a larger amount of baryonic matter in the universe.  The latest results from Planck indicate that baryonic matter makes up 4.9\% of the universe.
 
 
-\begin{center} \label{BAO}
+\begin{center} 
 \includegraphics[scale=0.7]{BAO.png}
 \captionof{figure}{A depiction of the effect of baryons on the oscillating plasma during BAO.  The mass of the baryons loads down the plasma, producing an asymmetry in the oscillations in which the plasma compresses further toward the minimum of the potential well. Since the CMB power spectrum does not care about the sign of the fluctuation, we see that the odd numbered peaks become enhanced over the even numbered peaks.  \cite{Whu} }
+\label{BAO}
 \end{center} 
 
-The third peak in Figure \ref{PS_Planck} details the amount of dark matter in the universe.  Since the very early universe was dominated by photon-baryon interactions, the outward pressure caused the gravitational potential of the BAO system to decay in such a way that it drove the amplitude of oscillations higher.  With higher dark matter density this driving effect is diminished and the overall magnitude of the peaks becomes smaller.  Although this effects all of the peaks in Figure \ref{PS_Planck} it is only distinguishable in the third peak.  Furthermore, as with ordinary matter, dark matter was gravitational attracted to areas with higher density.  Since dark matter does not interact through the electromagnetic force it was unaffected by the increasing photon pressure which produced acoustic oscillations in baryons.  As a result, a higher density of dark matter corresponded to a larger gravitational potential well for baryons to fall into during their oscillations, increasing the amplification of BAO on the odd numbered peaks.  Therefore, the height of the third peak tells us the amount of dark matter that is present in the universe. \cite{Whu} The Planck observations indicates that dark matter makes up 26.8\% of the universe.  The remaining 68.3\% of the universe is made up of dark energy. \cite{Planck}
+The third peak in Figure \ref{fig:PS_Planck} details the amount of dark matter in the universe.  Since the very early universe was dominated by photon-baryon interactions, the outward pressure caused the gravitational potential of the BAO system to decay in such a way that it drove the amplitude of oscillations higher.  With higher dark matter density this driving effect is diminished and the overall magnitude of the peaks becomes smaller.  Although this effects all of the peaks in Figure \ref{fig:PS_Planck} it is only distinguishable in the third peak.  Furthermore, as with ordinary matter, dark matter was gravitational attracted to areas with higher density.  Since dark matter does not interact through the electromagnetic force it was unaffected by the increasing photon pressure which produced acoustic oscillations in baryons.  As a result, a higher density of dark matter corresponded to a larger gravitational potential well for baryons to fall into during their oscillations, increasing the amplification of BAO on the odd numbered peaks.  Therefore, the height of the third peak tells us the amount of dark matter that is present in the universe. \cite{Whu} The Planck observations indicates that dark matter makes up 26.8\% of the universe.  The remaining 68.3\% of the universe is made up of dark energy. \cite{Planck}
 
 
-%INCLUDE COBE MAP AND COBE POWER SPECTRUM
-
-%This should be in the next chapter -- Dark Matter Candidates
 \subsection{Dark Matter Candidates}
 
 \subsubsection{The $\Lambda$CDM Model}
@@ -453,12 +458,12 @@ If $\Omega$ is larger than unity the universe is spatially closed, and if $\Omeg
 \Omega_x = \frac{\rho_x}{\rho_c}.
 \end{equation}
 
-Detailed cosmological studies have concluded that all the luminous matter in the universe has a density parameter of $\Omega_{lum} \lesssim 0.01$.  This information, combined  with the fact that analysis of galactic rotational velocities implies $> $90\% of the mass in galaxies is dark leads to the conclusion that $\Omega_{DM} \geq 0.09$.  This is only a lower limit on the dark matter density parameter, since most rotation curves remain flat out to the largest radii at which they can be measured and it can be assumed that the DM halos extend even further out.
+Detailed cosmological studies have concluded that all the luminous matter in the universe has a density parameter of $\Omega_{lum} \lesssim 0.01$.  This information, combined  with the fact that analysis of galactic rotational velocities implies $> $90\% of the mass in galaxies is dark leads to the conclusion that $\Omega_{DM} \geq 0.09$.  This is only a lower limit on the dark matter density parameter, since most rotation curves remain flat out to the largest radii at which they can be measured and it can be assumed that the DM halos extend even farther out.
 
 
 With $\Omega_{DM} \geq 0.1$ it is possible that baryonic DM alone could be responsible for the dark matter halos.  However, other analyses eliminate this possibility. Direct searches for massive compact halo objects (MACHOs) utilizing microlensing have determined that $<$25\% of the dark halos could be due to baryonic dark matter within the mass range of $ 2 \times 10^{-7} M_{sun} < M < 1 M_{sun} $ at a 95\% confidence limit \cite{EROS,Alcock}. Furthermore, data from the Hubble Deep Field Space Telescope suggests dark matter halos consist of $\leq$5\% white dwarfs.
 
-With baryonic dark matter being ruled out as the sole component of dark matter halos we now investigate the other density parameter components. Big Bang nucleosynthesis models constrain the amount of baryonic matter in the universe to $\Omega_b \approx 0.045$ (where b stands for baryons) \cite{Tytler}.  Additionally, analysis of velocity flows, x-ray emissions temperatures, and gravitational lensing in large clusters and superclusters of galaxies suggests that the total matter component of the universe has density parameter $\Omega_m \approx 0.2-0.3$.  One can combine this information, assuming $h=0.7$ to find that
+With baryonic dark matter being ruled out as the sole component of dark matter halos we now investigate the other density parameter components. Big Bang nucleosynthesis models constrain the amount of baryonic matter in the universe to $\Omega_b \approx 0.045$ (where b stands for baryons) \cite{Tytler}.  Additionally, analysis of velocity flows, x-ray emissions temperatures, and gravitational lensing in large clusters and superclusters of galaxies suggests that the total matter component of the universe has density parameter $\Omega_m \approx 0.2-0.3$.  One can combine this information, assuming $h=0.7$ to find density parameters that are consistent with the Planck observation of
 \[\Omega_b = 4.9\% \]
 \[\Omega_{nbm} = 26.8\% \]
 \[\Omega_\Lambda = 68.3\%\]
@@ -469,8 +474,9 @@ where $\Omega_b$ is the baryonic density of the universe, $\Omega_{nbm}$ is the 
 With $\Omega_{nbm} = 26.8\% $ it is intriguing to look at the particles which have been proposed to explain this contribution to the total density parameter. One such particle is the standard-model neutrino.  The neutrino is an electrically neutral, weakly interacting particle with a nearly zero mass.  Neutrinos exist in three distinct flavors -- the electron neutrino ($\nu_e$), the muon neutrino ($\nu_\mu$), and the tau neutrino ($\nu_\tau$).  It is known that neutrinos oscillate between these three flavors, with each flavor state being a super position of three neutrino states of definite mass ($\nu_1$,$\nu_2$, and $\nu_3$).  Experiments studying solar neutrino oscillations have determined the squared mass difference between what is known as the solar neutrino doublet ($\nu_1$ and $\nu_2$) to be $\delta m^2 = (7.66 \pm 0.35) \times 10^{-5} eV^2$, while experiments studying atmospheric neutrino oscillations have determined the remaining squared mass difference between the solar neutrino doublet and $\nu_3$ to be $\pm (2.38 \pm 0.27) \times 10^{-3} eV^2$ up to an unknown sign \cite{Robertson}.  This sign ambiguity leads to two possible hierarchies for the neutrino mass states. (Figure \ref{neutrinos})  If we assume the normal hierarchy to be true, we can set a lower limit on the most massive neutrino state to be $ m_{\nu_3} \gtrsim 0.05$ eV.
 
 \begin{center}
-\includegraphics[scale=0.4]{neutrinos.png} \label{neutrinos}
-\captionof{figure}{The two hierarchies of neutrino mass states.  Black, teal, and red indicated the three flavors of neutrinos, while one, two, and three indicated the three mass states. Reproduced from Reference \cite{Parke}.}
+\includegraphics[scale=0.4]{neutrinos.png}
+\captionof{figure}{The two hierarchies of neutrino mass states.  Black, teal, and red indicated the three flavors of neutrinos, while one, two, and three indicated the three mass states. \cite{Parke}}
+\label{neutrinos}
 \end{center}
 
 
@@ -544,11 +550,22 @@ Experiments such as ATLAS and CMS are using the Large Hadron Collider (LHC) bene
 
 
 \subsection{Direct Detection Experiments}
-If dark matter interacts through the weak force, then it should be possible to observe WIMPs via nuclear recoils in direct detection experiments. During these events, a WIMP will scatter off of a target nucleus in the detector, producing a signal in the range of 1-100 keV. \cite{Lewin}   Direct detection experiments typically observe ionization, scintillation, or low temperature phonons produced during the event (or a combination of the three), although more recent experiments have developed an acoustic method of detection based on producing bubbles in a superheated fluid at the cite of a recoil.  These signals are susceptible to both nuclear recoil and electron recoil backgrounds so detailed, in situ, calibrations are required to characterize the detector's response to each type of event.  In this section, we will first review the WIMP recoil spectrum before discussing the different types of direct detection experiments in detail.  In the following chapter we will describe the one particular experiment, the LUX detector, in great detail before reviewing standard calibration techniques in chapter \ref{StandardCalibrations}.
+If dark matter interacts through the weak force, then it should be possible to observe WIMPs via nuclear recoils in direct detection experiments. During these events, a WIMP will scatter off of a target nucleus in the detector, producing a signal in the range of 1-100 keV. \cite{Lewin}   Direct detection experiments typically observe ionization, scintillation, or low temperature phonons produced during the event (or a combination of the three), although more recent experiments have developed an acoustic method of detection based on producing bubbles in a superheated fluid at the cite of a recoil.  These signals are susceptible to both nuclear recoil and electron recoil backgrounds so detailed, in situ, calibrations are required to characterize the detector's response to each type of event.  In this section, we will review the canonical halo model and derive an expression for the WIMP recoil spectrum before discussing different types of direct detection experiments in detail.  The following chapter we will be devoted to one particular direct detection experiment, the LUX detector.
+
+\subsubsection{The Canonical Halo Model}
+
+The canonical halo model treats dark matter as an isothermal spherical distribution that behaves as a non-interacting ideal gas.  The spherical shape of the distribution implies no rotational movement in the bulk of the distribution, otherwise it would flatten into a disk.  The velocity of a WIMP relative to the galactic center, $v_0$, can be approximated by the orbital velocity at a given radius from the galactic center. At the location of the sun, $r \approx 8.5 $ kpc, and $v_0 \approx 220$ km/s. \cite{Piffl}
+
+The local number density of WIMPs is given by
+\begin{equation}
+n_\chi = \frac{\rho_\chi}{M_\chi}
+\end{equation}
+where $\rho_\chi$ is the density of WIMPs in the local vicinity, and $M_\chi$ is the mass of a WIMP particle. The local density of the dark matter halo is estimated to be 0.3 $< \rho_\chi <$ 0.7 GeV/cm$^{3}$ \cite{Gates}.  Assuming the value of $\rho_{\chi} = 0.4$ GeV/cm$^{3}$ from reference \cite{Lewin} we see that $n_\chi = 0.004 $ per cm$^3$ for a WIMP mass of 100 GeV.  With an average WIMP velocity of $v_0=220$ km/s, this is equivalent to a flux of $\phi_\chi \approx 10^7 M_\chi s^{-1} cm^{-2}$, or roughly half a billion WIMPs of $M_\chi = 100$ GeV passing through your hand every second.
+
 
 \subsubsection{The WIMP Recoil Spectrum}
 
-Lewin and Smith provide a standard derivation of the expected WIMP recoil spectrum in reference \cite{Lewin}.  Their derivation begins with the differential particle density is given by 
+Lewin and Smith provide a standard derivation of the expected WIMP recoil spectrum in reference \cite{Lewin}.  Their derivation begins with the differential particle density given by 
 \begin{equation}
 dn=\frac{n_0}{k} f(\mathbf{v},\mathbf{v_E}) d^3\mathbf{v}
 \end{equation}
@@ -560,6 +577,14 @@ where $v_{esc}$ is the local escape velocity, so that
 \begin{equation}
 \int_0^{v_esc}dn \equiv n_0.
 \end{equation}
+
+Note that an annual modulation is induced in the velocity of the earth relative to the dark matter particles, and subsequently induced in the event rate of WIMPs in terrestrial detectors as well, due to the velocity of earth around the sun.  This modulation is given by 
+\begin{equation}
+v_E = v_0 + 15cos(2\pi \frac{T - 152.5}{365.25})
+\end{equation}
+where $T$ is measured in days from June 2nd, and $v_0 \approx 220$ km/s is the velocity of the sun around the galactic center. The DAMA/Libra collaboration has claimed a detection a dark matter signal with annual modulation with 8.2 $\sigma$ significance.  However, many dark matter experiments have since ruled this result out, so it is likely due some other unidentified modulating phenomenon in the data.
+%R. Bernabei et al.  Final model independent result of DAMA/LIBRA-phase1. European Physical Journal C, 73:2648, 2013. doi:10.1140/epjc/s10052-013-2648-7.
+
 We treat the dark matter as a non-interacting ideal gas so that we can assume a Maxwellian dark matter velocity distribution given by
 \begin{equation}
 f(\mathbf{v},\mathbf{v_E})=e^{(-v+v_{E})^2/v_0^2}.
@@ -2544,180 +2569,9 @@ The variation in the ER band, although expected, is not ideal for detector calib
 LUX Run04 data is complicated by a nonuniform electric field in the detector.  The variation of the electric field in space and time produces variation in the recombination of S1 and S2 events as a function of energy, time, space, and recoil type.  If this recombination variation is not properly separated from detector inefficiency effects in $^{83m}$Kr data, the KrypCal corrections produce data which has poor energy reconstruction with unreasonably high extraction efficiency estimates, worsened energy resolution, and widened ER bands.  We have developed multiple methods to relate the strength of the field effect in S1 and S2 data to the $^{83m}$Kr S1a/S1b ratio.  These two relationships can be used to separate the field effects from detector inefficiency effects prior to producing KrypCal corrections from $^{83m}$Kr calibrations taken at any point in time.  This process results in better energy reconstruction with g1 and extraction efficiency values close to our expectations,  improved energy resolution, and improved ER band width.  However, since the field effects remain in the corrected data, a spatial and time dependence remain in the corrected S1 and S2 signal, leading to complications in calibrating the corrected ER band over time.
 
 \singlespacing
-\begin{thebibliography}{1}
 
-\bibitem{Zwicky} Zwicky.  \emph{Helv. Phys. Acta} 6:110 (1933)
-\bibitem{Persic} Persic, Salucci, Stel.  \emph{Mon. Not. R. Astron. Soc.} 281:27 (1996)
-\bibitem{Battaner} Battaner, Florido.  \emph{Fund. Cosmic Phys.} 21:1 (2000)
-\bibitem{Binney} Binney, Tremaine. \emph{Galactic Dynamics}. Princeton, NJ: Princeton Univ. Press (1988)
-\bibitem{Javorsek} Javorsek II, Fischbach. \emph{The Astrophysical Journal} 568:1-8 (2002)
-\bibitem{EROS} EROS Collab.  \emph{Astron. Astrophys.} 400:951 (2003)
-\bibitem{Alcock} Alcock, et al. (MACHO collab.)  \emph{Ap. J.} 542:281 (2000)
-\bibitem{Tytler} Tytler, et al. \emph{Ap. J.} 617:1-28 (2004)
-\bibitem{Spergel} Spergel, et al. \emph{Ap. J. Suppl.} 148:175 (2003)
-\bibitem{Robertson} Robertson. \emph{J. Phys.:Conf. Ser.} 173:012016 (2009)
-\bibitem{Parke} Parke.  \emph{FERMILAB-CONF-06-248-T} (2006)
-\bibitem{Pastor} Pastor.  \emph{Physics of Particles and Nuclei} 42(4):628-640 (2012)
-\bibitem{Kolb} Kolb, Turner. \emph{The Early Universe}.  Cambridge, MA: Perseus (1994)
-\bibitem{Jungman} Jungman, Kamionkowski, Griest.  \emph{Phys. Rep.} 267:195 (1996)
-\bibitem{Goldberg} Goldberg.  \emph{Phys. Rev. Lett.} 50:1419 (1983)
-\bibitem{Ellis} Ellis, et al. Nucl. \emph{Phys. B} 238:453 (1984)
-\bibitem{Bennett} Bennett, et al. \emph{Ap. J. Suppl.} 148:1 (2003)
-\bibitem{Arnowitt} Arnowitt, Dutta, Hu. \emph{Beyond The Desert '03}, Castle Ringberg, Germany (June 2003), hep-ph/0310103
-\bibitem{Roszkowski} Roszkowski.  \emph{Pramana} 62:1 (2004) hep-ph/0404052
-\bibitem{Baluni} Baluni. \emph{Phys. Rev. D} 19, 2227 (1979)
-\bibitem{Chung} Chung, et al.  \emph{Phys. Rev. D} 59:023501 (1999) arXiv:hep-ph/9802238
-\bibitem{Goodman} Goodman, Witten. \emph{Phys. Rev. D} 31:3059 (1985)
-\bibitem{Lewin} Lewin, Smith. \emph{Astropart. Phys.} 6:87 (1996)
-\bibitem{Shan} Shan. \emph{JCAP} 1107:005 (2011)
-\bibitem{Gaitskell} Gaitskell.  \emph{Annu. Rev. Nucl. Part. Sci.} 54:315-359 (2004)
-\bibitem{McKinsey} McKinsey, et al.  \emph{Journal of Physics: Conference Series} 203:012026 (2010) 
-\bibitem{Fiorucci} Fiorucci, et al.  \emph{AIP Conference Proceedings} 1200:977 (2010)
-\bibitem{Kastens} Kastens, et al. \emph{Phys. Rev. C} 80:045809 (2009)
-
-\bibitem{D'Amico} D'Amico, Guido, et al. arXiv:0907.1912[astro-ph.CP] 
-\bibitem{Wu} Wu, et al.  \emph{Monthly Notices of the Royal Astronomical Society} 301(3):861-971.  arXiv:astro-ph/9808179
-\bibitem{Griest} Griest, et al.  \emph{Phys. Rept.} 333:167-182 (2000) 
-\bibitem{Aprile} E. Aprile, T.Doke. \emph{Rev. Mod. Phys.} 82:2053-2097 (2010)
-\bibitem{Miyake} Miyake, et al.  \emph{J. vac. Sci. technol. A.} 1:1446-1451 (1983)
-\bibitem{Piche} R. Piche. \emph{Partial Differential Equations} Tampere University of Technology.
-\bibitem{ComaZ} B. Ryden, "Introduction to Cosmology," San Francisco, USA: Addison-Wesley (2003).
-\bibitem{Paradijs} Paradijs J, Bleeker J. X-Ray Spectroscopy in Astrophysics. Springer (1999) Page 33
-\bibitem{Vikhlinin}
-Vikhlinin A, et al. Chandra Sample of Nearby Relaxed Galaxy Clusters: Mass, Gas Fraction, And Mass-Temperature Relation.  Astrophys. J. 640 (2006) 691-709. Jul 2005. arXiv:astro-ph/0507092
-\bibitem{Bin-Nun} Bin-Nun, Amitai Yisrael, “Gravitational Lensing with a Large Deflection Angle as a Probe of General Relativity and the Galactic Center” (2010). Publicly accessible Penn Dissertations. Paper 252.
-\bibitem{Xiang} Wu, Xiang-Ping, A comparison of different cluster mass estimates: consistency of discrepancy? (1998)
-
-%@article{Wu:1998ju,
-%      author         = "Wu, Xiang-Ping and Chiueh, Tzihong and Fang, Li-Zhi and
- %                       Xue, Yan-Jie",
-  %    title          = "{A comparison of different cluster mass estimates:
-   %                     consistency or discrepancy ?}",
-  %    journal        = "Mon. Not. Roy. Astron. Soc.",
-  %    volume         = "301",
-  %    year           = "1998",
-  %    pages          = "861",
-  %    doi            = "10.1046/j.1365-8711.1998.02055.x",
-  %    eprint         = "astro-ph/9808179",
-  %    archivePrefix  = "arXiv",
-  %    primaryClass   = "astro-ph",
-  %    SLACcitation   = "%%CITATION = ASTRO-PH/9808179;%%"
-%}
-
-\bibitem{Schneider} Schneider, P. Extragalactic Astronomy and Cosmology: An Introduction. Berlin: Springer. (2006)
-
-\bibitem{Pires} Pires, S, et al.  Light on Dark Matter with Weak Gravitational Lensing. (2009)  	arXiv:0908.4157
-
-
-%@MISC{Pires_lighton,
-%    author = {S. Pires and J. -l. Starck and A. Réfrégier},
-%    title = {LIGHT ON DARK MATTER WITH WEAK GRAVITATIONAL LENSING 1 Light on Dark Matter with Weak %Gravitational Lensing},
-%    year = {}
-%}
-
-\bibitem{Refregier} Refregier, A. Weak Gravitational Lensing by Large-Scale Structure.  Annual Reviews of Astronomy and Astrophysics.  (2003) 41:645-668
-
-\bibitem{Clowe} Clowe, et al.  A Direct Empirical Proof of the Existence of Dark Matter.  Astrophys. J. 648:L109-L113. (2006)  	arXiv:astro-ph/0608407
-
-\bibitem{Kurki-Suonio} Kurki-Suonio, Cosmological Perturbation Theory. (2015) http://theory.physics.helsinki.fi/~cpt/Cosmo12.pdf
-
-\bibitem{Whu} Hu. CMB Introduction.  (2001) background.uchicago.edu/~whu/intermediate/map1.html
-
-\bibitem{Planck} Plank Collaboration.  Planck 2013 Results.   	A\&A 571, A15 (2014)	arXiv: 	arXiv:1303.5075
-
-\bibitem{Begeman} Begeman, Broeils, and Sanders, 1991, MNRAS, 249, 523
-
-\bibitem{Fermi-LAT} Fermi-LAT Collaboration.  Fermi LAT Search for Dark Matter in Gamma-ray Lines and the Inclusive Photon Spectrum. (2012) arXiv:1205.2739
-
-\bibitem{Knapp} Knapp, et al.  Extensive Air Shower Simulations at the Highest Energies.  Astropart. Phys. 19 (2003) 77. arXiv:astro-ph/0206414
-
-\bibitem{HESS} The H.E.S.S. Collaboration.  Search for a Dark Matter annihilation signal from the Galactic Center halo with H.E.S.S. Phys.Rev.Lett.106:161301 (2011)  	arXiv:1103.3266
-
-\bibitem{VERITAS} The VERITAS Collaboration. The VERITAS Dark Matter Program. (2013) arXiv:1303.1406 
-
-\bibitem{IceCube} IceCube Collaboration. Search for dark matter annihilations in the Sun with the 79-string IceCube detector. Phys. Rev. Lett. 110, 131302 (2013) arXiv:1212.4097 
-
-\bibitem{IceCube2} IceCube Collaboration. IceCube Search for Dark Matter Annihilation in nearby Galaxies and Galaxy Clusters. Phys. Rev. D88 (2013) 122001 arXiv:1307.3473
-
-\bibitem{Cheng}  H. C. Cheng, J. L. Feng and K. T. Matchev, Phys. Rev. Lett.89, 211301 (2002) [arXiv:hep-ph/0207125].
-
-\bibitem{Kamionkowsk} M. Kamionkowski and M. S. Turner, Phys. Rev. D
-43, 1774 (1991).
-
-\bibitem{Stecker} Stecker, F. W. 1970, Ap\&SS, 6, 377
-
-\bibitem{PEBS} PEBS Collaboration.   %http://www1b.physik.rwthaachen.de/~pebs/?PEBS_physics:Positron_fraction
-
-\bibitem{FermiPositron} The Fermi LAT Collaboration, Measurement of Separate Cosmic-Ray Electron and Positron Spectra with the Fermi Large Area Telescope, Phys.Rev.Lett. 108 (Jan., 2012) 011103, [arXiv:1109.0521].
-
-\bibitem{PamelaPositron} PAMELA Collaboration.  The cosmic-ray positron energy spectrum measured by PAMELA.  Phys. Rev. Lett. 111 (2013) 081102  	arXiv:1308.0133 
-
-\bibitem{AMSPositron} The AMS Collaboration, High statistics measurement of the positron fraction in primary cosmic rays of 0.5-500 gev with the alpha magnetic spectrometer on the international space station, Phys. Rev. Lett.113(Sep, 2014) 121101
-
-\bibitem{Serpico} P. Serpico. Astrophysical models for the origin of the positron "excess". 10.1016/j.astropartphys.2011.08.007  	arXiv:1108.4827
-
-\bibitem{Bertone} Bertone, et al. Particle Dark Matter: Evidence, Candidates and Constraints. Phys.Rept.405:279-390,2005 arXiv:hep-ph/0404175
-
-\bibitem{Beltran} Beltran, et al.  Maverick dark matter at colliders.  JHEP 1009:037,2010 arXiv:1002.4137
-
-\bibitem{ATLAS} The ATLAS Collaboration. Search for dark matter candidates and large extra dimensions in events with a jet and missing transverse momentum with the ATLAS detector. JHEP 1304 (2013) 075 arXiv:1210.4491 
-
-\bibitem{Lewin}  D Lewin and P F Smith.  Review of mathematics, numerical factors, and
-corrections for dark matter experiments based on elastic nuclear recoil.
-Astroparticle Physics, 1996.
-
-\bibitem{PauloThesis} P Br\'as. Finding a needle in a haystack: Background studies and WIMP detection efficiency in LUX. (2015)
-
-\bibitem{LuxDetector} D Akerib, et al.  The Large Underground Xenon (LUX) Experiment.  http://arxiv.org/pdf/1211.3788v2.pdf
-
-\bibitem{BradleyThesis} A Bradley. LUX Thermosyphon Cryogenics and Radon-Related Backgrounds for the First WIMP Result. %http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxRequiredReading/AWB_PhDThesis_20140120.pdf
-
-\bibitem{JonOutgassing} J Balajthy, and C Hall. Simulations of CH3T Diffusion into Plastic Parts of the LUX Detector. LUX Document Database. (2013) http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000481
-
-\bibitem{JonOutgassingTwo} J Balajthy.  Results of the Large CH4 Injection from April 2015.  LUX Document Database. (2015) http://teacher.pas.rochester.edu:8080/wiki/bin/view/Lux/LuxDB00000445
-
-\bibitem{TritiumPaper} D Akerib et al.  Tritium calibration of the LUX dark matter experiment.  	Phys. Rev. D 93, 072009 (2016)  http://arxiv.org/abs/1512.03133
-
-\bibitem{Dahl} C E Dahl.  The physics of background discrimination in liquid xenon, and first results from Xenon10 in the hunt for WIMP dark matter.  Ph.D. thesis.  Princeton.  (May 2009)
-
-\bibitem{Dobi} A Dobi.  Measurement of the Electron Recoil Band of the LUX Dark Matter Detector With a Tritium Calibration Source.  Ph.D. thesis.  University of Maryland.  (2014)
-
-\bibitem{Doke} T. Doke, A. Hitachi, S. Kubota, A. Nakamoto, and T. Takahashi. Estimation of Fano factors in liquid argon, krypton, xenon and xenon-doped liquid argon. Nucl.Instrum.Meth., 134:353–357, 1976. doi:10.1016/0029-554X(76)90292-5.
-
-\bibitem{TritiumSpec} J.  J.  Simpson.   Measurement  of  the energy  spectrum  of
-$^3$H  to determine the antineutrino mass. Phys. Rev. D, 23:649-662, Feb 1981. doi:10.1103/PhysRevD.23.649.
-
-\bibitem{TritiumSpec2} P Venkataramaiah, K Gopala, A Basavaraju, S S Suryanarayana,
-and H Sanjeeviah. A simple relation for the fermi function. Journal of Physics G: Nuclear Physics, 11(3):359, 1985.
-
-\bibitem{TritiumSpec3} A Dobi.  Tritium Beta Shape. LUX DocDB. (2015) http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000402/TritiumBetaShape.pdf
-
-\bibitem{Phelps} P Phelps.  The LUX Dark Matter Experiment: Detector Performance and Energy Calibration.  Ph.D. thesis.  Case Western Reserve University.  (August 2014)
-
-%These are from KrypCal Note.. might be repeats
-
-
-\bibitem{GridCond} Wing To.  Collections of presentations and documentations of the grid conditioning and the radial field.  \url{http://teacher.pas.rochester.edu:8080/wiki/bin/view/Lux/LuxDB00000387}
-
-\bibitem{Dever} J. Dever, et al. Degradation of Spacecraft Materials.e-print:  \url{http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040112017.pdf}
-
-\bibitem{ScottsMap} Scott Hertel.  Describing September 2014 with an Axisymmetric Field Model. \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000446}
-
-\bibitem{LuciesMap} Lucie Tvrnikova.  Run04 3D Electric Field Fits.  \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000428/160112_MH_6x7.pdf}
-
-\bibitem{FieldOverTime} Tomasz Biesiadzinski.  Evolution of the Observed Detector Wall. \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000406/TB_field-wall_update_150519.pdf}
-
-\bibitem{PositionRecon} Scott Stephenson.  Position Corrections. \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/AnalysisMeeting150818/20150818_PositionCorrection_ScottStephenson.pdf} 
-
-\bibitem{RecombSource} Matthew Szydagis. Enhancement of NEST capabilities for low-energy recoils in liquid xenon. \url{http://iopscience.iop.org/article/10.1088/1748-0221/8/10/C10003/pdf}
-
-\bibitem{KrDecaySource} Kastens, et al.  Calibration of a Liquid Xenon Detector with $^{83}$Kr$^m$.  Phys.Rev.C80:045809, 2009. \url{http://arxiv.org/abs/0905.1766}
-
-\bibitem{Manalaysay} Manalaysay, et al.  Spatially uniform calibration of liquid xenon detector at low energies using $^{83m}$Kr. Rev. Sci. Instrum. 81, 073303 (2010) \url{http://arxiv.org/pdf/0908.0616v2.pdf}
-
-
-\end{thebibliography}
-
+\bibliographystyle{plain}
+\bibliography{ThesisBibtex}
 
 \end{document}
 
