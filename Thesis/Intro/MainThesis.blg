@@ -13,4 +13,5 @@ while executing---line 1049 of file plain.bst
 Name 1 in "{Battaner} E., and {Florido} E." has a comma at the end for entry Battaner
 while executing---line 1090 of file plain.bst
 Warning--can't use both volume and number fields in Robertson
+Warning--can't use both volume and number fields in AxionReview
 (There were 2 error messages)

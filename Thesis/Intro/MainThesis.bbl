@@ -50,12 +50,6 @@ M~Ackermann, Marco Ajello, A~Allafort, WB~Atwood, L~Baldini, G~Barbiellini,
   the fermi large area telescope.
 \newblock {\em Physical Review Letters}, 108(1):011103, 2012.
 
-\bibitem{Planck}
-PAR Ade, N~Aghanim, C~Armitage-Caplan, M~Arnaud, M~Ashdown, F~Atrio-Barandela,
-  J~Aumont, C~Baccigalupi, Anthony~J Banday, RB~Barreiro, et~al.
-\newblock Planck 2013 results. xv. cmb power spectra and likelihood.
-\newblock {\em Astronomy \& Astrophysics}, 571:A15, 2014.
-
 \bibitem{EROS}
 C~Afonso, JN~Albert, J~Andersen, R~Ansari, {\'E}~Aubourg, P~Bareyre,
   JP~Beaulieu, G~Blanc, X~Charlot, F~Couchot, et~al.
@@ -68,11 +62,6 @@ Charles Alcock, RA~Allsman, David~R Alves, TS~Axelrod, Andrew~C Becker,
 \newblock The macho project: microlensing results from 5.7 years of large
   magellanic cloud observations.
 \newblock {\em The Astrophysical Journal}, 542(1):281, 2000.
-
-\bibitem{Arnowitt}
-Richard Arnowitt, Bhaskar Dutta, and Bo~Hu.
-\newblock Dark matter, muon g-2 and other susy constraints.
-\newblock In {\em Beyond the Desert 2003}, pages 25--41. Springer, 2004.
 
 \bibitem{Baluni}
 Varouzhan Baluni.
@@ -91,12 +80,11 @@ Maria Beltran, Dan Hooper, Edward~W Kolb, Zosia~AC Krusberg, and Tim~MP Tait.
 \newblock Maverick dark matter at colliders.
 \newblock {\em Journal of High Energy Physics}, 2010(9):1--17, 2010.
 
-\bibitem{Bennett}
-CL~Bennett, M~Halpern, G~Hinshaw, N~Jarosik, A~Kogut, M~Limon, SS~Meyer,
-  L~Page, DN~Spergel, GS~Tucker, et~al.
-\newblock First year wilkinson microwave anisotropy probe (wmap) observations:
-  Preliminary maps and basic results.
-\newblock {\em The Astrophysical Journal Supplement Series}, 148(1):1, 2003.
+\bibitem{Belyanin}
+Alexey Belyanin.
+\newblock Physics of stellar interiors.
+\newblock \url{http://people.physics.tamu.edu/belyanin/astr314/lecture11.pdf}.
+\newblock Accessed: 2016-06-27.
 
 \bibitem{Bertone}
 Gianfranco Bertone, Dan Hooper, and Joseph Silk.
@@ -144,10 +132,22 @@ PEBS Collaboration.
   2010.
 \newblock Accessed: 2016-06-14.
 
+\bibitem{Planck}
+Planck Collaboration et~al.
+\newblock Planck 2015 results. xiii. cosmological parameters. arxiv preprint.
+\newblock {\em arXiv}, 1502, 2015.
+
 \bibitem{PamelaPositron}
 The~PAMELA Collaboration.
 \newblock The cosmic-ray positron energy spectrum measured by pamela.
 \newblock {\em Physical Review Letters}, 111(1):081102, 2013.
+
+\bibitem{Littleh}
+Darren~J Croton.
+\newblock Damn you, little h!(or, real-world applications of the hubble
+  constant using observed and simulated data).
+\newblock {\em Publications of the Astronomical Society of Australia}, 30:e052,
+  2013.
 
 \bibitem{Battaner}
 {Battaner} E. and {Florido} E.
@@ -160,6 +160,11 @@ John Ellis, John~S Hagelin, Dimitri~V Nanopoulos, K~Olive, and Mark Srednicki.
 \newblock Supersymmetric relics from the big bang.
 \newblock {\em Nuclear Physics B}, 238(2):453--476, 1984.
 
+\bibitem{HubbleConstraints}
+Chris Flynn, Andrew Gould, and John~N Bahcall.
+\newblock Hubble deep field constraint on baryonic dark matter.
+\newblock {\em The Astrophysical Journal Letters}, 466(2):L55, 1996.
+
 \bibitem{Gates}
 Evalyn~I Gates, Geza Gyuk, and Michael~S Turner.
 \newblock The local halo density.
@@ -169,6 +174,12 @@ Evalyn~I Gates, Geza Gyuk, and Michael~S Turner.
 H~Goldberg.
 \newblock Constraint on the photino mass from cosmology.
 \newblock {\em Physical Review Letters}, 50(19):1419, 1983.
+
+\bibitem{Golwala}
+S.~Golwala.
+\newblock {\em Exclusion Limits on the WIMP-Nucleaon Elastic-Scattering Cross
+  Section from the Cryogenic Dark Matter Search}.
+\newblock PhD thesis, University of Chicago, 2000.
 
 \bibitem{Whu}
 Wayne Hu.
@@ -258,6 +269,12 @@ RG~Hamish Robertson.
 \newblock In {\em Journal of Physics: Conference Series}, volume 173, page
   012016. IOP Publishing, 2009.
 
+\bibitem{AxionReview}
+Leslie~J Rosenberg.
+\newblock Dark-matter qcd-axion searches.
+\newblock In {\em Journal of Physics: Conference Series}, volume 203, page
+  012008. IOP Publishing, 2010.
+
 \bibitem{ComaZ}
 Barbara~Sue Ryden.
 \newblock {\em Introduction to cosmology}, volume~4.
@@ -315,6 +332,11 @@ Xiang-Ping Wu, Tzihong Chiueh, Li-Zhi Fang, and Yan-Jie Xue.
   discrepancy?
 \newblock {\em Monthly Notices of the Royal Astronomical Society},
   301(3):861--871, 1998.
+
+\bibitem{EinsteinGrav}
+Anthony Zee.
+\newblock {\em Einstein gravity in a nutshell}.
+\newblock Princeton University Press, 2013.
 
 \bibitem{Zwicky}
 F.~{Zwicky}.
