@@ -56,6 +56,14 @@ C~Afonso, JN~Albert, J~Andersen, R~Ansari, {\'E}~Aubourg, P~Bareyre,
 \newblock Limits on galactic dark matter with 5 years of eros smc data.
 \newblock {\em Astronomy \& Astrophysics}, 400(3):951--956, 2003.
 
+\bibitem{LuxDetector}
+DS~Akerib, X~Bai, S~Bedikian, E~Bernard, A~Bernstein, A~Bolozdynya, A~Bradley,
+  D~Byram, SB~Cahn, C~Camp, et~al.
+\newblock The large underground xenon (lux) experiment.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  704:111--126, 2013.
+
 \bibitem{Alcock}
 Charles Alcock, RA~Allsman, David~R Alves, TS~Axelrod, Andrew~C Becker,
   DP~Bennett, Kem~H Cook, N~Dalal, Andrew~John Drake, KC~Freeman, et~al.
@@ -180,6 +188,11 @@ S.~Golwala.
 \newblock {\em Exclusion Limits on the WIMP-Nucleaon Elastic-Scattering Cross
   Section from the Cryogenic Dark Matter Search}.
 \newblock PhD thesis, University of Chicago, 2000.
+
+\bibitem{DMCross}
+Dan Hooper and Lisa Goodenough.
+\newblock Dark matter annihilation in the galactic center.
+\newblock {\em Physics Letters B}, 697(5):412--428, 2011.
 
 \bibitem{Whu}
 Wayne Hu.
