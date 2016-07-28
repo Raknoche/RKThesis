@@ -56,6 +56,12 @@ C~Afonso, JN~Albert, J~Andersen, R~Ansari, {\'E}~Aubourg, P~Bareyre,
 \newblock Limits on galactic dark matter with 5 years of eros smc data.
 \newblock {\em Astronomy \& Astrophysics}, 400(3):951--956, 2003.
 
+\bibitem{TritiumPaper}
+DS~Akerib, HM~Ara{\'u}jo, X~Bai, AJ~Bailey, J~Balajthy, P~Beltrame, EP~Bernard,
+  A~Bernstein, TP~Biesiadzinski, EM~Boulton, et~al.
+\newblock Tritium calibration of the lux dark matter experiment.
+\newblock {\em Phys. Rev. D}, 93:072009, 2016.
+
 \bibitem{LuxDetector}
 DS~Akerib, X~Bai, S~Bedikian, E~Bernard, A~Bernstein, A~Bolozdynya, A~Bradley,
   D~Byram, SB~Cahn, C~Camp, et~al.
@@ -70,6 +76,22 @@ Charles Alcock, RA~Allsman, David~R Alves, TS~Axelrod, Andrew~C Becker,
 \newblock The macho project: microlensing results from 5.7 years of large
   magellanic cloud observations.
 \newblock {\em The Astrophysical Journal}, 542(1):281, 2000.
+
+\bibitem{JonOutgassingTwo}
+J~Balajthy.
+\newblock April 2015 ch4 injection results.
+\newblock
+  \url{https://docs.google.com/presentation/d/16VfGTd5lYoIk9AkkJypX6qpJ5SujgQQt8d0YEjFinCo/edit#slide=id.gae573feed_0_5},
+  2015.
+\newblock Accessed: 2016-06-14.
+
+\bibitem{JonOutgassing}
+J~Balajthy and C~Hall.
+\newblock Simulations of ch3t diffusion into plastic parts of the lux detector.
+  lux document database.
+\newblock
+  \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000481}, 2013.
+\newblock Accessed: 2016-06-14.
 
 \bibitem{Baluni}
 Varouzhan Baluni.

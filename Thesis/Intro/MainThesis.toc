@@ -35,3 +35,11 @@
 \contentsline {subsubsection}{\numberline {3.2.4}Calibration Systems}{66}{subsubsection.3.2.4}
 \contentsline {subsection}{\numberline {3.3}Detector Electronics}{68}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Science Results}{70}{subsection.3.4}
+\contentsline {section}{\numberline {4}Tritium as a Calibration Source}{71}{section.4}
+\contentsline {subsection}{\numberline {4.1}Tritiated Methane Injection System}{73}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Triated Methane Removal}{75}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Gas Phase Experiments}{76}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Liquid Phase Experiments}{78}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Outgassing Experiements}{85}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Simulating Outgassing in LUX}{87}{subsubsection.4.2.4}
+\contentsline {subsection}{\numberline {4.3}ER Band Calibration of the LUX Detector}{94}{subsection.4.3}
