@@ -179,6 +179,32 @@ Darren~J Croton.
 \newblock {\em Publications of the Astronomical Society of Australia}, 30:e052,
   2013.
 
+\bibitem{Dahl}
+C.E. Dahl.
+\newblock {\em The physics of background discrimination in liquid xenon, and
+  first results from Xenon10 in the hunt for WIMP dark matter}.
+\newblock PhD thesis, Princeton University, 2009.
+
+\bibitem{Dobi}
+A.~Dobi.
+\newblock {\em Measurement of the Electron Recoil Band of the LUX Dark Matter
+  Detector With a Tritium Calibration Source}.
+\newblock PhD thesis, University of Maryland, 2014.
+
+\bibitem{TritiumSpec3}
+A.~Dobi.
+\newblock Tritium beta shape.
+\newblock
+  \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000402/TritiumBetaShape.pdf},
+  2015.
+\newblock Accessed: 2016-06-14.
+
+\bibitem{Doke}
+Tadayoshi Doke, Akira Hitachi, Shinzou Kubota, A~Nakamoto, and Tan Takahashi.
+\newblock Estimation of fano factors in liquid argon, krypton, xenon and
+  xenon-doped liquid argon.
+\newblock {\em Nuclear Instruments and Methods}, 134(2):353--357, 1976.
+
 \bibitem{Battaner}
 {Battaner} E. and {Florido} E.
 \newblock {The rotation curve of spiral galaxies and its cosmological
@@ -281,6 +307,12 @@ M.~{Persic}, P.~{Salucci}, and F.~{Stel}.
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, 281:27--47,
   July 1996.
 
+\bibitem{Phelps}
+P.~Phelps.
+\newblock {\em The LUX Dark Matter Experiment: Detector Performance and Energy
+  Calibration}.
+\newblock PhD thesis, Case Western Reserve University, 2014.
+
 \bibitem{Piffl}
 Til Piffl, C~Scannapieco, J~Binney, Matthias Steinmetz, R-D Scholz, MEK
   Williams, RS~de~Jong, G~Kordopatis, G~Matijevi{\v{c}}, O~Bienaym{\'e}, et~al.
@@ -327,6 +359,12 @@ Chung-Lin Shan.
 \newblock {\em Journal of Cosmology and Astroparticle Physics}, 2011(07):005,
   2011.
 
+\bibitem{TritiumSpec}
+JJ~Simpson.
+\newblock Measurement of the $\beta$-energy spectrum of h 3 to determine the
+  antineutrino mass.
+\newblock {\em Physical Review D}, 23(3):649, 1981.
+
 \bibitem{Spergel}
 David~N Spergel, Licia Verde, Hiranya~V Peiris, E~Komatsu, MR~Nolta,
   CL~Bennett, M~Halpern, G~Hinshaw, N~Jarosik, A~Kogut, et~al.
@@ -353,6 +391,17 @@ David Tytler, David Kirkman, John~M O’Meara, Nao Suzuki, Adam Orin, Dan
 Jan van Paradijs and Johan~AM Bleeker.
 \newblock X-ray spectroscopy in astrophysics.
 \newblock In {\em X-Ray Spectroscopy in Astrophysics}, volume 520, 1999.
+
+\bibitem{TritiumSpec2}
+P~Venkataramaiah, K~Gopala, A~Basavaraju, SS~Suryanarayana, and H~Sanjeeviah.
+\newblock A simple relation for the fermi function.
+\newblock {\em Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
+
+\bibitem{VerbusThesis}
+J~Verbus.
+\newblock {\em An Absolute Calibration of Sub-1 keV Nuclear Recoils in Liquid
+  Xenon Using D-D Neutron Scattering Kinematics in the LUX Detector}.
+\newblock PhD thesis, Brown University, 2016.
 
 \bibitem{Vikhlinin}
 Alexey Vikhlinin, A~Kravtsov, W~Forman, C~Jones, M~Markevitch, SS~Murray, and
