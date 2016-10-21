@@ -50,12 +50,6 @@ M~Ackermann, Marco Ajello, A~Allafort, WB~Atwood, L~Baldini, G~Barbiellini,
   the fermi large area telescope.
 \newblock {\em Physical Review Letters}, 108(1):011103, 2012.
 
-\bibitem{Planck}
-PAR Ade, N~Aghanim, C~Armitage-Caplan, M~Arnaud, M~Ashdown, F~Atrio-Barandela,
-  J~Aumont, C~Baccigalupi, Anthony~J Banday, RB~Barreiro, et~al.
-\newblock Planck 2013 results. xv. cmb power spectra and likelihood.
-\newblock {\em Astronomy \& Astrophysics}, 571:A15, 2014.
-
 \bibitem{EROS}
 C~Afonso, JN~Albert, J~Andersen, R~Ansari, {\'E}~Aubourg, P~Bareyre,
   JP~Beaulieu, G~Blanc, X~Charlot, F~Couchot, et~al.
@@ -87,6 +81,14 @@ Charles Alcock, RA~Allsman, David~R Alves, TS~Axelrod, Andrew~C Becker,
 Richard Arnowitt, Bhaskar Dutta, and Bo~Hu.
 \newblock Dark matter, muon g-2 and other susy constraints.
 \newblock In {\em Beyond the Desert 2003}, pages 25--41. Springer, 2004.
+
+\bibitem{JonOutgassingTwo}
+J~Balajthy.
+\newblock April 2015 ch4 injection results.
+\newblock
+  \url{https://docs.google.com/presentation/d/16VfGTd5lYoIk9AkkJypX6qpJ5SujgQQt8d0YEjFinCo/edit#slide=id.gae573feed_0_5},
+  2015.
+\newblock Accessed: 2016-06-14.
 
 \bibitem{JonOutgassing}
 J~Balajthy and C~Hall.
@@ -173,6 +175,11 @@ PEBS Collaboration.
   \url{http://www1b.physik.rwth-aachen.de/~pebs/?PEBS_physics:Positron_fraction},
   2010.
 \newblock Accessed: 2016-06-14.
+
+\bibitem{Planck}
+Planck Collaboration et~al.
+\newblock Planck 2015 results. xiii. cosmological parameters. arxiv preprint.
+\newblock {\em arXiv}, 1502, 2015.
 
 \bibitem{PamelaPositron}
 The~PAMELA Collaboration.

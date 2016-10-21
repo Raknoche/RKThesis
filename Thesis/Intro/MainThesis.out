@@ -36,24 +36,25 @@
 \BOOKMARK [2][-]{subsection.3.3}{Detector Electronics}{section.3}% 36
 \BOOKMARK [2][-]{subsection.3.4}{Science Results}{section.3}% 37
 \BOOKMARK [1][-]{section.4}{Tritium as a Calibration Source}{}% 38
-\BOOKMARK [2][-]{subsection.4.1}{Tritiated Methane Injection System}{section.4}% 39
+\BOOKMARK [2][-]{subsection.4.1}{Motivation for a Tritium Calibration Source}{section.4}% 39
 \BOOKMARK [2][-]{subsection.4.2}{Triated Methane Removal}{section.4}% 40
 \BOOKMARK [3][-]{subsubsection.4.2.1}{Gas Phase Experiments}{subsection.4.2}% 41
 \BOOKMARK [3][-]{subsubsection.4.2.2}{Liquid Phase Experiments}{subsection.4.2}% 42
 \BOOKMARK [3][-]{subsubsection.4.2.3}{Outgassing Experiements}{subsection.4.2}% 43
 \BOOKMARK [3][-]{subsubsection.4.2.4}{Simulating Outgassing in LUX}{subsection.4.2}% 44
-\BOOKMARK [2][-]{subsection.4.3}{ER Band Calibration of the LUX Detector}{section.4}% 45
-\BOOKMARK [1][-]{section.5}{Signal Corrections in the LUX Detector}{}% 46
-\BOOKMARK [2][-]{subsection.5.1}{Use of 83mKr in Signal Corrections}{section.5}% 47
-\BOOKMARK [2][-]{subsection.5.2}{S1 Corrections}{section.5}% 48
-\BOOKMARK [2][-]{subsection.5.3}{S2 Corrections}{section.5}% 49
-\BOOKMARK [2][-]{subsection.5.4}{Radon as a measure of Electron Lifetime}{section.5}% 50
-\BOOKMARK [2][-]{subsection.5.5}{A PMT-by-PMT approach to S1 Corrections}{section.5}% 51
-\BOOKMARK [1][-]{section.6}{Energy Scale Calibrations}{}% 52
-\BOOKMARK [2][-]{subsection.6.1}{Combined Energy Model}{section.6}% 53
-\BOOKMARK [2][-]{subsection.6.2}{Doke Plot Analysis of g1 and g2}{section.6}% 54
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Doke Plot Systematic Errors}{subsection.6.2}% 55
-\BOOKMARK [3][-]{subsubsection.6.2.2}{Doke Plot Results}{subsection.6.2}% 56
-\BOOKMARK [3][-]{subsubsection.6.2.3}{Recombination Fluctuations from Doke Plot Data}{subsection.6.2}% 57
-\BOOKMARK [3][-]{subsubsection.6.2.4}{Light Yield from Doke Plot Data}{subsection.6.2}% 58
-\BOOKMARK [2][-]{subsection.6.3}{Tritium 2 Analysis of g1 and g2}{section.6}% 59
+\BOOKMARK [2][-]{subsection.4.3}{Injection of Tritiated methane into LUX}{section.4}% 45
+\BOOKMARK [2][-]{subsection.4.4}{ER Band Calibration of the LUX Detector}{section.4}% 46
+\BOOKMARK [1][-]{section.5}{Signal Corrections in the LUX Detector}{}% 47
+\BOOKMARK [2][-]{subsection.5.1}{Use of 83mKr in Signal Corrections}{section.5}% 48
+\BOOKMARK [2][-]{subsection.5.2}{S1 Corrections}{section.5}% 49
+\BOOKMARK [2][-]{subsection.5.3}{S2 Corrections}{section.5}% 50
+\BOOKMARK [2][-]{subsection.5.4}{Radon as a measure of Electron Lifetime}{section.5}% 51
+\BOOKMARK [2][-]{subsection.5.5}{A PMT-by-PMT approach to S1 Corrections}{section.5}% 52
+\BOOKMARK [1][-]{section.6}{Energy Scale Calibrations}{}% 53
+\BOOKMARK [2][-]{subsection.6.1}{Combined Energy Model}{section.6}% 54
+\BOOKMARK [2][-]{subsection.6.2}{Doke Plot Analysis of g1 and g2}{section.6}% 55
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Doke Plot Systematic Errors}{subsection.6.2}% 56
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Doke Plot Results}{subsection.6.2}% 57
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Recombination Fluctuations from Doke Plot Data}{subsection.6.2}% 58
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Light Yield from Doke Plot Data}{subsection.6.2}% 59
+\BOOKMARK [2][-]{subsection.6.3}{Tritium 2 Analysis of g1 and g2}{section.6}% 60

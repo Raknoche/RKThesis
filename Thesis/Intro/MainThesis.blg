@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: MainThesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: MainThesis.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: TitlePage.aux
 A level-1 auxiliary file: Acknowledgments.aux
@@ -8,21 +10,62 @@ A level-1 auxiliary file: ChapterThree.aux
 A level-1 auxiliary file: ChapterFour.aux
 A level-1 auxiliary file: ChapterFive.aux
 A level-1 auxiliary file: ChapterSix.aux
-The style file: plain.bst
+The style file: unsrt.bst
+Illegal, another \bibstyle command---line 44 of file MainThesis.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
 Database file #1: ThesisBibtex.bib
 Warning--I'm ignoring Refregier's extra "year" field
 --line 440 of file ThesisBibtex.bib
 Warning--I didn't find a database entry for "Fermit-LAT"
-Warning--I didn't find a database entry for "MethaneDiffusion"
 Warning--I didn't find a database entry for "FicksAnalytic"
-Name 1 in "{Battaner} E., and {Florido} E." has a comma at the end for entry Battaner
-while executing---line 1049 of file plain.bst
-Name 1 in "J Balajthy, and C Hall" has a comma at the end for entry JonOutgassing
-while executing---line 1049 of file plain.bst
-Name 1 in "J Balajthy, and C Hall" has a comma at the end for entry JonOutgassing
-while executing---line 1090 of file plain.bst
-Name 1 in "{Battaner} E., and {Florido} E." has a comma at the end for entry Battaner
-while executing---line 1090 of file plain.bst
-Warning--can't use both volume and number fields in Robertson
 Warning--can't use both volume and number fields in AxionReview
-(There were 4 error messages)
+Name 1 in "{Battaner} E., and {Florido} E." has a comma at the end for entry Battaner
+while executing---line 944 of file unsrt.bst
+Warning--can't use both volume and number fields in Robertson
+Warning--empty title in MethaneDiffusion
+Name 1 in "J Balajthy, and C Hall" has a comma at the end for entry JonOutgassing
+while executing---line 944 of file unsrt.bst
+You've used 74 entries,
+            1791 wiz_defined-function locations,
+            952 strings with 17188 characters,
+and the built_in function-call counts, 16725 in all, are:
+= -- 1338
+> -- 996
+< -- 7
++ -- 367
+- -- 293
+* -- 1258
+:= -- 2846
+add.period$ -- 229
+call.type$ -- 74
+change.case$ -- 65
+chr.to.int$ -- 0
+cite$ -- 77
+duplicate$ -- 668
+empty$ -- 1534
+format.name$ -- 293
+if$ -- 3587
+int.to.chr$ -- 0
+int.to.str$ -- 74
+missing$ -- 63
+newline$ -- 378
+num.names$ -- 74
+pop$ -- 163
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 265
+stack$ -- 0
+substring$ -- 909
+swap$ -- 119
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 144
+width$ -- 76
+write$ -- 817
+(There were 3 error messages)

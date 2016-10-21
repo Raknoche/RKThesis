@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Introduction.aux
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Introduction.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: TitlePage.aux
 A level-1 auxiliary file: Acknowledgments.aux
@@ -6,8 +8,6 @@ The style file: plain.bst
 Database file #1: ThesisBibtex.bib
 Warning--I'm ignoring Refregier's extra "year" field
 --line 440 of file ThesisBibtex.bib
-Warning--I didn't find a database entry for "JonOutgassingTwo"
-Warning--I didn't find a database entry for "VERITAS"
 Warning--I didn't find a database entry for "MethaneDiffusion"
 Warning--I didn't find a database entry for "FicksAnalytic"
 Name 1 in "{Battaner} E., and {Florido} E." has a comma at the end for entry Battaner
@@ -19,4 +19,45 @@ while executing---line 1090 of file plain.bst
 Name 1 in "{Battaner} E., and {Florido} E." has a comma at the end for entry Battaner
 while executing---line 1090 of file plain.bst
 Warning--can't use both volume and number fields in Robertson
+You've used 72 entries,
+            2118 wiz_defined-function locations,
+            981 strings with 17802 characters,
+and the built_in function-call counts, 26046 in all, are:
+= -- 2410
+> -- 1687
+< -- 7
++ -- 684
+- -- 600
+* -- 2054
+:= -- 4571
+add.period$ -- 228
+call.type$ -- 72
+change.case$ -- 494
+chr.to.int$ -- 0
+cite$ -- 73
+duplicate$ -- 786
+empty$ -- 1740
+format.name$ -- 600
+if$ -- 5189
+int.to.chr$ -- 0
+int.to.str$ -- 72
+missing$ -- 58
+newline$ -- 373
+num.names$ -- 144
+pop$ -- 467
+preamble$ -- 1
+purify$ -- 427
+quote$ -- 0
+skip$ -- 564
+stack$ -- 0
+substring$ -- 1245
+swap$ -- 117
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 284
+warning$ -- 1
+while$ -- 214
+width$ -- 74
+write$ -- 803
 (There were 4 error messages)
