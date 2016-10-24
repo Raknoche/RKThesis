@@ -84,6 +84,19 @@ P.~Phelps.
   Calibration}.
 \newblock PhD thesis, Case Western Reserve University, 2014.
 
+\bibitem{ScottsMap}
+S.~Hertel.
+\newblock Describing september 2014 with an axisymmetric field model.
+\newblock
+  \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000446}, 2014.
+\newblock Accessed: 2016-06-14.
+
+\bibitem{RecombSource}
+Matthew Szydagis, Adalyn Fyhrie, Daniel Thorngren, and Mani Tripathi.
+\newblock Enhancement of nest capabilities for simulating low-energy recoils in
+  liquid xenon.
+\newblock {\em Journal of Instrumentation}, 8(10):C10003, 2013.
+
 \bibitem{Zwicky}
 F.~{Zwicky}.
 \newblock {Republication of: The redshift of extragalactic nebulae}.
@@ -382,6 +395,11 @@ P~Br\'as.
   detection efficiency in LUX}.
 \newblock PhD thesis, Universidade De Coimbra, 2015.
 
+\bibitem{TeflonActivationEnergy}
+S~Pauly.
+\newblock Permeability and diffusion data.
+\newblock {\em Wiley Database of Polymer Properties}, 1989.
+
 \bibitem{Dobi:2010ai}
 A.~Dobi, D.~S. Leonard, C.~Hall, L.~Kaufman, T.~Langford, S.~Slutsky, and Y.~R.
   Yen.
@@ -391,11 +409,6 @@ A.~Dobi, D.~S. Leonard, C.~Hall, L.~Kaufman, T.~Langford, S.~Slutsky, and Y.~R.
 \bibitem{MethaneDiffusion}
 Miyake et~al.
 \newblock {\em J. Vac. Sci. Technol.}, A1:1446--1451, 1983.
-
-\bibitem{TeflonActivationEnergy}
-S~Pauly.
-\newblock Permeability and diffusion data.
-\newblock {\em Wiley Database of Polymer Properties}, 1989.
 
 \bibitem{JonOutgassing}
 J~Balajthy and C~Hall.
@@ -447,5 +460,51 @@ A.~Dobi.
   \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000402/TritiumBetaShape.pdf},
   2015.
 \newblock Accessed: 2016-06-14.
+
+\bibitem{GridCond}
+W.~To.
+\newblock Collections of presentations and documentations of the grid
+  conditioning and the radial field.
+\newblock
+  \url{http://teacher.pas.rochester.edu:8080/wiki/bin/view/Lux/LuxDB00000387},
+  2015.
+\newblock Accessed: 2016-06-14.
+
+\bibitem{Dever}
+Joyce Dever, Bruce Banks, Kim de~Groh, and Sharon Miller.
+\newblock Degradation of spacecraft materials.
+\newblock {\em Handbook of environmental degradation of materials}, pages
+  465--501, 2005.
+
+\bibitem{LuciesMap}
+L.~Tvrnikova.
+\newblock Run04 3d electric field fits.
+\newblock
+  \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000428/160112_MH_6x7.pdf},
+  2015.
+\newblock Accessed: 2016-06-14.
+
+\bibitem{FieldOverTime}
+T.~Biesiadzinski.
+\newblock Evolution of the observed detector wall.
+\newblock
+  \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000406/TB_field-wall_update_150519.pdf},
+  2015.
+\newblock Accessed: 2016-06-14.
+
+\bibitem{PositionRecon}
+S.~Stephenson.
+\newblock Position corrections.
+\newblock
+  \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/AnalysisMeeting150818/20150818_PositionCorrection_ScottStephenson.pdf},
+  2015.
+\newblock Accessed: 2016-06-14.
+
+\bibitem{Manalaysay}
+A~Manalaysay, T~Marrod{\'a}n Undagoitia, A~Askin, L~Baudis, A~Behrens,
+  AD~Ferella, A~Kish, O~Lebeda, R~Santorelli, D~V{\'e}nos, et~al.
+\newblock Spatially uniform calibration of a liquid xenon detector at low
+  energies using k83mr.
+\newblock {\em Review of Scientific Instruments}, 81(7):073303, 2010.
 
 \end{thebibliography}
