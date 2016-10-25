@@ -27,45 +27,45 @@ Warning--can't use both volume and number fields in Robertson
 Warning--empty title in MethaneDiffusion
 Name 1 in "J Balajthy, and C Hall" has a comma at the end for entry JonOutgassing
 while executing---line 944 of file unsrt.bst
-You've used 82 entries,
+You've used 84 entries,
             1791 wiz_defined-function locations,
-            999 strings with 18797 characters,
-and the built_in function-call counts, 18350 in all, are:
-= -- 1477
-> -- 1079
+            1009 strings with 19092 characters,
+and the built_in function-call counts, 18689 in all, are:
+= -- 1508
+> -- 1091
 < -- 8
-+ -- 399
-- -- 317
-* -- 1341
-:= -- 3108
-add.period$ -- 258
-call.type$ -- 82
-change.case$ -- 73
++ -- 404
+- -- 320
+* -- 1361
+:= -- 3168
+add.period$ -- 264
+call.type$ -- 84
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 85
-duplicate$ -- 729
-empty$ -- 1699
-format.name$ -- 317
-if$ -- 3955
+cite$ -- 87
+duplicate$ -- 745
+empty$ -- 1733
+format.name$ -- 320
+if$ -- 4028
 int.to.chr$ -- 0
-int.to.str$ -- 82
-missing$ -- 66
-newline$ -- 423
-num.names$ -- 82
-pop$ -- 198
+int.to.str$ -- 84
+missing$ -- 67
+newline$ -- 433
+num.names$ -- 84
+pop$ -- 201
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 296
+skip$ -- 302
 stack$ -- 0
-substring$ -- 977
-swap$ -- 136
+substring$ -- 995
+swap$ -- 138
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 157
-width$ -- 84
-write$ -- 910
+while$ -- 160
+width$ -- 86
+write$ -- 932
 (There were 3 error messages)
