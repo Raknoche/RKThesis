@@ -136,5 +136,26 @@ A trigger builder is connected to the DDC-8’s and takes $<$1 $\mu$second to ge
 
 \subsection{Science Results}
 
-PUT RUN04 RESULT IF (OR RUN03 IF RUN04 ISNT AVAILABLE)
+Between September 11, 2014  and May 2, 2016 LUX collected 332 live days of data, resulting in a $3.35 \times 10^4$ kg-day exposure.  Within this data, single scatter events were selected following a number of conditions.  Each selected event had a single S1 signal followed by a single S2 signal, was observed by at least 2 PMTs in coincidence, and had the majority of the pulses' areas within the S1 and S2 trigger windows (to remove triggers from single electrons following large S2 events).  A minimum S2 size of 200 phd was also required to remove events with poor XY position reconstruction.  A fiducial volume was defined between 40 and 300 $\mu$seconds, and 3.0 cm radially inward from the measured PTFE surface position at any given time.  This resulted in an average fiducial volume of 102.5 kg.
 
+A series of CH$_3$T calibrations were used to measure the detector's response to electron recoil events over 16 space and time bins.  These calibrations are detailed in Chapters~\ref{TritiumChapter} and~\ref{CombinedEnergyModel}, and were used to tune the electric field magnitude and the recombination fluctuation parameters used in a Noble Element Simulation Technique (NEST) model.  Similarly, a DD source was used to calibrate the detector's response to nuclear recoil events.  The selected WIMP search events are shown in conjunction with the measured ER and NR bands in Figure~\ref{Run4Events}.  
+
+ \begin{figure} 
+\includegraphics[scale=.4]{Run4events.png} 
+\captionof{figure}{Selected events in LUX's Run4 data collection.  The mean of the ER and NR bands are indicated in blue and red,  respectively.  The 10\% and 90\% contours of those bands are indicated with dashed lines.  The scale of the variation between the 16 ER and NR models is shown by indicating the extema boundaries with thinner dashed lines.  Green curves indicate the energy countours, with extrema models also present as dashed lines.  Events within 1 cm of the radial fiducial volume are indicated as unfilled circles to convery their low WIMP signal probability relative to the background model.}
+\label{Run4Events}
+\end{figure}
+
+The 16 ER and 16 NR models were used to model signal and background events for a profile likelihood ratio (PLR) analysis. The background model for the PLR consisted of three classes of events:  events with typical light and charge yields, events in close proximity to the PTFE walls, and accidental coincidences of isolated S1 and S2 pulses.  Events with typical light and charge yields were modeled by assaying the compton scattering of $\gamma$ rays, as well as the rate of $\beta$ decays in detector materials.  Nuclear recoil backgrounds, including those from detector components, cosmic muons, and coherent scattering of $^8$B neutrinos were estimated through radioactivity screening data, simulations, and tests for multiple scatter neutron events. 
+
+Events within 1 mm of the PTFE walls can exhibit a loss of charge to the PTFE.  While the majority of these events are excluded by the fiducial volume, uncertainity in the S2 position reconstruction causes inward leakage from these wall events.  This population appears with low log10(S2) in Figure~\ref{Run4Events}.
+
+ Isolated S1 and S2 pulses appear rarerly in the data, but can occur close enough in time to resemble a single-scatter energy deposition in the LXe.  The rate of accidental coincidences was measured from WIMP-search data, and the results were included in the PLR model.
+
+The WIMP signal model was produced using a standard Maxwellian velocity distribution, with a local WIMP density of 0.3 GeV/cm$^3$, an escape velocity of 544 km/s, an average WIMP velocity of 220 km/s, and the earth’s seasonal velocity being 245 km/s with respect to the galactic center.  The result from the PLR analysis show no evidence of WIMP nuclear recoils.  At a WIMP mass of 50  GeV $c^{-2}$ , spin-independent WIMP-nucleon cross sections above $2.2\times10^{-46}$ cm$^2$ are excluded at the 90\% confidence level (Figure~\ref{Run4Limit}).  This result improves the the limits set by the Run3 analysis by a factor of four~\cite{Akerib:2015rjg}.
+
+ \begin{figure} 
+\includegraphics[scale=.4]{Run4Limit.png} 
+\captionof{figure}{Upper limits on the spin-idependent WIMP-nucleon cross section at the 90\% confidence level. The 332 day Run4 result is show in a grey line, and the combined Run3 and Run4 result is shown in a black line.  The one and two $\sigma$ ranges of background-only trials for the combined result are shown in green and yellow, respecitvely.  Historical limits are also included and labeled on the plot.  }
+\label{Run4Limit}
+\end{figure}
