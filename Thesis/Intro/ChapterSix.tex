@@ -1,8 +1,7 @@
 
 \section{Energy Scale Calibrations} \label{CombinedEnergyModel}
-%Discuss recombination physics and the ability to turn the now (emphasis on this, since it is how we transition from the previous section) corrected data into an combined energy scale.  Then basically cover recombination physics (prob in Attila's thesis) and Doke plot from my Doke plot write up.
 
-The correction methods discussed in Chapter~\ref{StandardCalibrations} allow us to use two spatially independent gain factors to convert the S1 and S2 signals into the number of photons and the number of electrons produced by an event anywhere in the detector. In this chapter, we will present a combined energy model which uses the number of photons and electrons produced to determine the energy deposited during an event before discussing methods to measure the individual gain factors. 
+The correction methods discussed in Chapter~\ref{StandardCalibrations} allow us to use two spatially independent gain factors to convert the S1 and S2 signals into the number of photons and the number of electrons produced by an event anywhere in the detector. In this chapter, we will present a combined energy model which uses the number of photons and electrons produced to determine the energy deposited during an event before discussing methods to measure the individual gain factors.  The results presented here were used in LUX's Run3 reanalysis, with similar methods used in the Run4 analysis~\cite{Akerib:2015rjg}.
 
 
 \subsection{Combined Energy Model} \label{RecombSec} 
@@ -20,12 +19,12 @@ The excited xenon atoms combine with ground state xenon atoms to form xenon dime
 \begin{equation}
 N_\gamma = N_{ex} + R N_i = N_{i}  (\alpha + R).
 \end{equation}
-where $N_\gamma$ is the number of photons, $N_{ex}$ is the number of excitons, $N_i$ is the number of ions, and $\alpha \equiv \frac{N_{ex}}{N_i}$ is the exciton to ion ratio. 
+where $N_\gamma$ is the number of photons, $N_{ex}$ is the number of excitons, $N_i$ is the number of ions, and $\alpha \equiv \frac{N_{ex}}{N_i}$ is the initial exciton to ion ratio. 
 
 
 %S2 signal
 
-Free electrons which do not recombine drift to the liquid surface where the accelerate through the extraction field and produce the S2 signal.  The number of electrons produced in an interaction is given by the fraction of ions which do not recombine,
+Free electrons which do not recombine drift under the applied electric field to the liquid surface where the accelerate through the extraction field and produce the S2 signal.  The number of electrons produced in an interaction is given by the fraction of ions which do not recombine,
 \begin{equation}
 N_e = N_i(1-R).
 \end{equation}
@@ -51,72 +50,70 @@ g(\epsilon)=3\epsilon^{0.15} + 0.7\epsilon^{0.6} +\epsilon
 \end{equation}
 \begin{equation}
 \epsilon = 11.5 \times E_{nr} \times Z^{-7/3}.
-\end{equation}  For ER events, L equals one, and for NR events L ranges between 0.1 and 0.2.
-
-Sometimes, experiments use the effective Lindhard factor $L_{eff}$ (also known as relative scintillation efficiency), defined as the ratio of zero-field light yields of ER and NR events
-\begin{equation}
-L_{eff} = \frac{N_{\gamma,NR} E_{ER}}{N_{\gamma,ER} E_{ER}}
-\end{equation}
-where the energy is typically chosen to be a 122 keV gamma.
+\end{equation}  For ER events, $\mathcal{L}$ equals one, and for NR events $\mathcal{L}$ ranges between 0.1 and 0.2.
 
 From Equation~\ref{EnergyOne} we see that the same number of electron and photons can produce different energy reconstruction depending on the type of recoil interaction.  To avoid ambiguity, the energy of an event is typically referred to in units of kilo electron-volts electron recoil equivalent (keVee) or kilo electron-volts nuclear recoil equivalent.  All of the data presented in this thesis is a product of electron recoil calibration sources, so it should be assumed that we are using units of electron-volts electron recoil equivalent unless other wise stated.
 
 To make use of our combined energy model, we need to convert the S1 and S2 observables from units of photons detected (phd) to the number of photons and electrons produced by the interaction.  We do so by defining two gain factors.  The gain factor for the S1 signal is referred to as g$_1$, and is given by the ratio of the average numbers of photons produced by an interaction to the observed S1 signal,
 \begin{equation}
-\langle n_\gamma \rangle = \frac{ \langle S1 \rangle }{g_1}.
+\langle N_\gamma \rangle = \frac{ \langle S1 \rangle }{g_1}.
 \end{equation}
 Note that the g$_1$ gain factor allows the S1 signal to be written in terms of the number of photons produced
 \begin{equation}
-S1=g_1 n_\gamma = g_1 (N_{ex} + R N_i) = g_1 * (\alpha + R) N_i
+S1=g_1 N_\gamma = g_1 (N_{ex} + R N_i) = g_1  (\alpha + R) N_i
 \end{equation}
 The size of g$_1$ is dependent on the light collection efficiency in the detector, and can be thought of as the probability of a photon from an interaction striking a PMT and producing a photo electron. 
 
 The gain factor for the S2 signal is referred to as g$_2$, and is given by the ratio of the average numbers of electrons produced by an interaction to the observed S2 signal.  
 \begin{equation}
-\langle n_e \rangle = \frac{ \langle S2 \rangle }{g_2}
+\langle N_e \rangle = \frac{ \langle S2 \rangle }{g_2}
 \end{equation}
 As with the S1 signal, g$_2$ allows us to write the S2 signal in terms of the number of electrons produced by an interaction,
 \begin{equation}
-S2=g2 n_e=g_2 (1-R) N_i
+S2=g_2 N_e=g_2 (1-R) N_i
 \end{equation}
-The size of g$_2$ is dependent on the efficiency at which electrons are extracted from the liquid xenon at the surface (the extraction efficiency), and the number of photo electrons detected per extracted electron (the single electron size).  
+The size of g$_2$ is dependent on the efficiency at which electrons are extracted from the liquid xenon at the surface (the extraction efficiency), and the number of photo electrons detected per extracted electron (the single electron size), such that
+\begin{equation}
+g_2 = SE \times EE
+\end{equation}
+where $SE$ is the single electron size, and $EE$ is the electron extraction efficiency.  
 
 \subsection{Doke Plot Analysis of g$_1$ and g$_2$}
 
-The gain factors g$_1$ and g$_2$ can be calculated by requiring that the combined energy model reproduce the true energy of two or more electron recoil sources that produce different light and charge yields.  In electron recoil events, the light yield and charge yield is a dependent on both the energy of an event, and the strength of the electric field in which the event occurred.  Therefore the same electron recoil source taken at two different drift field settings can be used to determine the value of $g_1$ and $g_2$ alone. Table~\ref{sources} lists the eight sources which were selected to measure $g_1$ and $g_2$ in LUX's Run03 campaign.  
+The gain factors g$_1$ and g$_2$ can be measured in data by requiring that the combined energy model reproduce the true energy of two or more electron recoil sources that produce different light and charge yields.  In electron recoil events, the light yield and charge yield is a dependent on both the energy of an event, and the strength of the electric field in which the event occurred.  Therefore the same electron recoil source taken at two different drift field settings can be used to determine the value of $g_1$ and $g_2$ alone. Table~\ref{sources} lists the eight sources which were selected to measure $g_1$ and $g_2$ in LUX's Run3 campaign.  
 
 
 \begin{center}
 \begin{tabular}{ | c| c | c | c | }
 \hline
 Source & Energy [keV] & Decay Type & Data \\ \hline
-$^{127}$Xe & 5.3 & L shell x-ray & Run03 Data \\ \hline
-$^{83m}$Kr & 41.55 & IC & Run03 Calibrations \\  \hline
-$^{131}$Xe & 163.9 & IC & Early Run03 Data \\  \hline
-$^{127}$Xe & 208.3 (203 $\gamma$ and 5.3 x-ray) & $\gamma$-emission & Run03 Data \\  \hline
-$^{129}$Xe & 236.1 & IC & Early Run03 Data  \\  \hline
-$^{127}$Xe & 409 (375 $\gamma$ + 33.8 x-ray) & $\gamma$-emission & Run03 Data \\  \hline
+$^{127}$Xe & 5.3 & L shell x-ray & Run3 Data \\ \hline
+$^{83m}$Kr & 41.55 & IC & Run3 Calibrations \\  \hline
+$^{131m}$Xe & 163.9 & IC & Early Run3 Data \\  \hline
+$^{127}$Xe & 208.3 (203 $\gamma$ and 5.3 x-ray) & $\gamma$-emission & Run3 Data \\  \hline
+$^{129m}$Xe & 236.1 & IC & Early Run3 Data  \\  \hline
+$^{127}$Xe & 409 (375 $\gamma$ + 33.8 x-ray) & $\gamma$-emission & Run3 Data \\  \hline
 $^{214}$Bi & 609 & $\gamma$-emission & Detector Background \\  \hline
-$^{137}$Cs & 661.6 & $\gamma$-emission & Run03 Calibrations \\
+$^{137}$Cs & 661.6 & $\gamma$-emission & Run3 Calibrations \\
 \hline
 \end{tabular}
-\captionof{table}{Table of sources used in the Doke plot analysis..}
+\captionof{table}{Table of sources used in the Doke plot analysis.}
 \label{sources}
 \end{center}
 
-We use a Doke plot technique to ensure the combined energy model reproduces the true energy of all eight sources~\cite{Doke,Dobi}.  Solving Equation~\ref{EnergyOne} for $\frac{S1}{E}$, we find
+We use a Doke plot technique to ensure the combined energy model reproduces the true energy of all eight sources~\cite{Doke,Dobi}.  Solving Equation~\ref{EnergyOne} for $\frac{\langle S1 \rangle}{E}$, we find
 \begin{equation}\label{four}
-\frac{S1}{E} = \frac{g_1}{W} - \frac{S2}{E}\frac{g_1}{g_2}
+\frac{\langle S1 \rangle}{E} = \frac{g_1}{W} - \frac{S2}{E}\frac{g_1}{g_2}
 \end{equation}
 which is the equation of a line with
 \begin{subequations}
 \begin{align}
-y=\frac{S1}{E} \; , \; x=\frac{S2}{E} \\
+y=\frac{\langle S1 \rangle}{E} \; , \; x=\frac{\langle S2 \rangle}{E} \\
 b=\frac{g_1}{W} \\
 m=\frac{g_1}{g_2}=\frac{b \times W}{g_2}
 \end{align}
 \end{subequations}
-This motivates the creation of a "Doke Plot" in which we plot the mean light yield, $\frac{S1}{E}$, versus the mean charge yield, $\frac{S2}{E}$, for each line source to find the best fit for
+This motivates the creation of a "Doke Plot" in which we plot the mean light yield, $\frac{\langle S1 \rangle}{E}$, versus the mean charge yield, $\frac{\langle S2 \rangle}{E}$, for each line source to find the best fit for
 \begin{subequations}\label{six}
 \begin{align}
 g_1 = b \times W \\
@@ -124,34 +121,36 @@ g_2 = \frac{b \times W}{m}
 \end{align}
 \end{subequations}
 
-Diagonal cuts chosen by eye were used for initial event selection of the sources in Table~\ref{sources}. Next, we fit a rotated two dimensional Gaussian distribution to the corrected S1 and S2 spectra of each source to determine the mean and sigma of the S1 and S2 populations. Once the standard deviation of each population is determined, we refit the data using only events within $\pm$2$\sigma$ of the S1 and S2 Gaussians means to eliminate tails caused by backgrounds.  A linear fit of $\frac{\langle S1 \rangle}{E} = m \frac{\langle S2 \rangle}{E} + b$ is performed using the refit Gaussian means.  Once an initial best fit for $g_1$ and $g_2$ is found, we can produce a combined energy scale using Equation~\ref{EnergyOne}.  This combined energy spectrum has significantly better resolution than the individual S1 and S2 spectra, and allows us to improve our initial event selection by placing a $\pm$2$\sigma$ cut around the energy peaks.  We then refit S1 and S2 spectra once more with the improved event selection, and find new values for the best fit of $g_1$ and $g_2$.  This process of producing an energy spectrum to improve event selection is iterated five times, but quickly converges after the second iteration.
+In Run3, diagonal cuts chosen by eye were used for initial event selection of the sources in Table~\ref{sources}. Next, we fit a rotated two dimensional Gaussian distribution to the corrected S1 and S2 spectra of each source to determine the mean and sigma of the S1 and S2 populations. Once the standard deviation of each population is determined, we refit the data using only events within $\pm$2$\sigma$ of the S1 and S2 Gaussian means to become tolerant to tails caused by backgrounds.  A linear fit of $\frac{\langle S1 \rangle}{E} = m \frac{\langle S2 \rangle}{E} + b$ is performed using the refit Gaussian means.  
+
+Once an initial best fit for $g_1$ and $g_2$ is found, we can produce a combined energy scale using Equation~\ref{EnergyOne}.  This combined energy spectrum has significantly better resolution than the individual S1 and S2 spectra, and allows us to improve our initial event selection by placing a $\pm$2$\sigma$ cut around the energy peaks.  We then refit S1 and S2 spectra once more with the improved event selection, and find new values for the best fit of $g_1$ and $g_2$.  This process of producing an energy spectrum to improve event selection is iterated five times, but quickly converges after the second iteration.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=1]{Monoenergetic_gamma_sources.png}
-\caption{S1 versus S2 density plot for all data that was used in Run03 Doke plot analysis.}
+\caption{S1 versus S2 density plot for all data that was used in Run3 Doke plot analysis.}
 \label{alleventselection}
 \end{figure}
 
 
 \subsubsection{Doke Plot Systematic Errors}
 
-There are a number of systematic errors on the S1 and S2 signals that must be considered when constructing the Doke plot.  One such error comes from the variation in single electron size over time, shown in Figure~\ref{SESizes}. The Doke plot uses data from many sources taken at different points in time, and therefore each point on the plot has a different single electron size.  Since we seek one value of g$_2$ which describes the all of the data, and since g$_2$ is equal to the extraction efficiency times the single electron size, the variation in single electron size must be included in the S2 error bars.
+There are a number of systematic errors on the S1 and S2 signals that must be considered when constructing the Doke plot.  One such error comes from the variation in single electron size over time, shown in Figure~\ref{SESizes}. These variations can be introduced by changing detector conditions, such as variations in the detector's liquid level, or changes in the detector's pressure.  The Doke plot uses data from many sources taken at different points in time, and therefore each point on the plot has a different single electron size.  Since we seek one value of g$_2$ which describes the all of the data, and since g$_2$ is equal to the extraction efficiency times the single electron size, the variation in single electron size must be included in the S2 error bars.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{SESizes.png}
-\caption{Single electron sizes for all $^{83m}$Kr data sets over the course of LUX's Run03 data taking campaign.}
+\caption{Single electron sizes for all $^{83m}$Kr data sets over the course of LUX's Run3 data taking campaign.  The single electron size for each data set is found by fitting a skew Gaussian to the single electron spectrum.}
 \label{SESizes}
 \end{figure}
 
 
-Another source of error is introduced by variations in the position dependent pulse area corrections.  Systematic variations in the correction maps lead to variation in the corrected S1 and S2 signals over time.  This adds a systematic error to all of our data points in the Doke plot which can be measured using the standard deviation of the corrected $^{83m}$Kr S1 and S2 peaks over time.  We assume that the size of this systematic error scales linearly with S1 and S2 size for the non-$^{83m}$Kr data points. 
+Another source of error is introduced by variations in the position dependent pulse area corrections.  Systematic variations in the correction maps lead to variation in the corrected S1 and S2 signals over time.  This adds a 0.8\% systematic error to all of our S1 data, and a 2.4\% systematic error to all of our S2 data in the Doke plot, which was measured using the standard deviation of the corrected $^{83m}$Kr S1 and S2 peaks over time.  We assume that the size of this systematic error scales linearly with S1 and S2 size for the non-$^{83m}$Kr data points.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{S1Variation.png}
-\caption{Corrected S1 peaks for all $^{83m}$Kr data sets at 170 V/cm field strength.  The step near data set 20 is due to an update of the S1 XYZ corrections map.  This effect is accounted for in our systematic errors}
+\caption{Corrected S1 peaks for all Run3 $^{83m}$Kr data sets at 170 V/cm field strength.  The step near data set 20 is due to an update of the S1 XYZ corrections map.  This effect is accounted for in our systematic errors}
 \label{S1Variation}
 \end{figure}
 
@@ -159,25 +158,43 @@ Another source of error is introduced by variations in the position dependent pu
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{S2Variation.png}
-\caption{Corrected S2 peaks for all $^{83m}$Kr data sets at 170 V/cm field strength.}
+\caption{Corrected S2 peaks for all Run3 $^{83m}$Kr data sets at 170 V/cm field strength.}
 \label{S2Variation}
 \end{figure}
 
-Additionally, there is a small difference in the measurement of $n_e=\frac{S2}{SE}$ for each Doke plot point when using both PMT arrays or using the bottom PMT array only. The number of electrons produced by a particle interaction is independent of how many PMTs observe the interaction, so this discrepancy can only be due to systematic errors which are likely produced by the PMT arrays saturating at high energies.  The size of this discrepancy is also included in the systematic error  of each point. 
+Additionally, there is a small difference in the measurement of $N_e=\frac{S2}{SE}$ for each Doke plot point when using both PMT arrays or using the bottom PMT array only. The number of electrons produced by a particle interaction is independent of how many PMTs observe the interaction, so this discrepancy can only be due to systematic errors which are likely produced by the PMT arrays saturating at high energies.  The size of this discrepancy is also included in the systematic error  of each point, and is tabulated in Table~\ref{DokeTopBotDiff}. 
+
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{| c |>{\centering\arraybackslash} p{70mm}|}
+\hline
+Source & Percent difference between both and bottom array Measurement \\ \hline
+$^{83m}$Kr  & 4.2 \\ \hline
+$^{131m}$Xe & 2.4\\ \hline
+$^{127}$Xe & 4.8\\ \hline
+$^{129m}$Xe & 3.3\\ \hline
+$^{127}$Xe & 2.1\\ \hline
+$^{214}$Bi & 5.3\\ \hline
+$^{137}$Cs & 5.5\\ \hline
+\end{tabular}
+\caption{Percent discrepancies between $N_e$ for each Doke plot source, as measured by both PMT arrays, or the bottom PMT array only.}
+\label{DokeTopBotDiff}
+\end{table}
+\end{center}
 
 \subsubsection{Doke Plot Results}
 
 
 The Doke plot produced by the analysis described in the preceding sections is shown
-in Figure~\ref{DokePlot}.  The best fit parameters for the Doke plot are high correlated.  To account for this the errors on the fit are calculated using a Markov chain Monte Carlo.  The covariance matrix produced after five thousand trials is used as for error measurement on each parameter.  We get a best fit of $g_1= 0.117 \pm 0.003$ and $g_2=12.1 \pm 0.8$.  This value of $g_2$ corresponds to an extraction efficiency of $EE = 0.491 \pm 0.032$.
+in Figure~\ref{DokePlot}.  The best fit parameters for the Doke plot are high correlated.  To account for this the errors on the fit are calculated using a Markov chain Monte Carlo.  We get a best fit of $g_1= 0.117 \pm 0.003$ and $g_2=12.1 \pm 0.8$.  This value of $g_2$ corresponds to an extraction efficiency of $EE = 0.491 \pm 0.032$.
 
-In Figure~\ref{Run03EnergySpectrum} we use the best fit parameters from the Doke plot to produce energy spectra for each line source used in this analysis.  Sources that are below the line on the Doke plot have energy peaks that are lower than expected, and sources that are higher than the line on the Doke plot have energy peaks that are higher than expected.
+In Figure~\ref{Run3EnergySpectrum} we use the best fit parameters from the Doke plot to produce energy spectra for each line source used in this analysis.  Sources that are below the line on the Doke plot have energy peaks that are lower than expected, and sources that are higher than the line on the Doke plot have energy peaks that are higher than expected.
 
 %Show final Doke plot here
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.3]{DokePlot.png}
-\caption{The Doke plot from this analysis.  The red faded red lines indicate the result of each MCMC trial, while the dark red line indicates the best fit result.  The energy of each source is indicated by the point's color.}
+\caption{The Doke plot from LUX's Run3 reanalysis~\cite{Akerib:2015rjg}.  The red faded red lines indicate the result of each MCMC trial, while the dark red line indicates the best fit result.  The energy of each source is indicated by the point's color.}
 \label{DokePlot}
 \end{figure}
 
@@ -193,24 +210,40 @@ In Figure~\ref{Run03EnergySpectrum} we use the best fit parameters from the Doke
 %Show energy spectrum here
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{WS_Spectrum.png}
-\caption{The energy spectrum of LUX's Run03 data after using the g$_1$ and g$_2$ values from the Doke plot analysis}
-\label{Run03EnergySpectrum}
+\includegraphics[scale=0.6]{WS_Spectrum.png}
+\caption{The energy spectrum of LUX's Run3 data after using the g$_1$ and g$_2$ values from the Doke plot analysis}
+\label{Run3EnergySpectrum}
 \end{figure}
 
 
-\newpage 
+\begin{figure} 
+\centering
+\subfloat{{\includegraphics[width=6.7cm]{KrPeak.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.7cm]{Xe131Peak.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.7cm]{Xe127Peak.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.7cm]{Xe129Peak.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.7cm]{Xe127_2_Peak.png} }}
+\qquad
+\subfloat{{\includegraphics[width=6.7cm]{Bi214Peak.png} }}
+\caption{ Close ups of individual Doke plot peaks.  Data is shown in blue, fits are shown in black, and the expected energy shown in red.  Each histogram contains a label to indicating the energy spectrum being shown.}
+\label{fig:DokeCloseUps}
+\end{figure}
+
 
 \subsubsection{Recombination Fluctuations from Doke Plot Data}
 
-Using the methods from cite{Dobi} and the data from this Doke plot analysis we can determine recombination fluctuations ($\sigma_{R}$) as well as fluctuations in counting photons ($\sigma_{n_{\gamma Det}}$) and electrons ($\sigma_{n_{e Det}}$) due to detector resolution.  The relevant equations are
+Using the methods from \cite{Dobi} and the data from this Doke plot analysis we can determine recombination fluctuations ($\sigma_{R}$) as well as fluctuations in counting photons ($\sigma_{n_{\gamma Det}}$) and electrons ($\sigma_{n_{e Det}}$) due to detector resolution.  The relevant equations are
 
-\[\sigma_{R}^2 = \frac{1}{2}( \sigma_{n_{\gamma Det}}^2 + \sigma_{n_{e Det}}^2 - \frac{\sigma_{E}^2}{W^2}) = \frac{1}{2}(\frac{\sigma_{S1}^2}{g_{1}^2} + \frac{\sigma_{S2}^2}{g_{2}^2} - \frac{\sigma_{E}^2}{W^2}) \]
+\[\sigma_{R}^2 = \frac{1}{2}( \sigma_{n_{\gamma Det}}^2 + \sigma_{n_{e Det}}^2 - \frac{\sigma_{E}^2}{W^2}) = \frac{1}{2}(\frac{\sigma_{S1}^2}{g_{1}^2} + \frac{\sigma_{S2}^2}{g_{2}^2} - \frac{\sigma_{E}^2}{W^2} -2\sigma_{R}^2) \]
 \[ \sigma_{n_{\gamma Det}}^2 = \frac{\sigma_{S1}^2}{g_{1}^2} - \sigma_{R}^2 \]
 \[ \sigma_{n_{e Det}}^2 = \frac{\sigma_{S2}^2}{g_{2}^2} - \sigma_{R}^2 \]
 
 
-where $\frac{\sigma_{S1}^2}{g_{1}^2}$, $\frac{\sigma_{S2}^2}{g_{2}^2}$, and $\frac{\sigma_{E}^2}{W^2}$ can be measured with Gaussian fits to the S1, S2, and energy spectra for each point on the Doke plot.  The results of this analysis are shown in Table~\ref{SigR}.  The results included here are the outcome after setting the fitting window by eye in a way which eliminates the most background events while maintaining the majority of each spectrum's peak.  
+where $\frac{\sigma_{S1}^2}{g_{1}^2}$, $\frac{\sigma_{S2}^2}{g_{2}^2}$, and $\frac{\sigma_{E}^2}{W^2}$ can be measured with Gaussian fits to the S1, S2, and energy spectra for each point on the Doke plot.  The results of this analysis are shown in Table~\ref{SigR}.  The results included here are the outcome after setting the fitting window by eye in a way which eliminates the most background events while maintaining the majority of each spectrum's peak.  An more in depth version of this analysis which includes improved event selection is detailed in reference~\ref{akerib2016signal}.
 
 \begin{center}
 \begin{table}[H]
@@ -228,7 +261,7 @@ $^{214}$Bi & 609 & 1667 $\pm$ 304 & 2147 $\pm$ 100 & 3353 $\pm$ 120\\  \hline
 $^{137}$Cs & 661.6 & 1979 $\pm$ 158 & 1248 $\pm$ 82 & 2314 $\pm$ 84\\ 
 \hline
 \end{tabular}
-\caption{Extracted fluctuations from Doke plot data in units of quanta.}
+\caption{Extracted fluctuations from the Run3 Doke plot data in units of quanta, as measured by both PMT arrays at 180 V/cm.}
 \label{SigR}
 \end{table}
 \end{center}
@@ -237,18 +270,18 @@ $^{137}$Cs & 661.6 & 1979 $\pm$ 158 & 1248 $\pm$ 82 & 2314 $\pm$ 84\\
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{EnergyFluctuations.png}
-\caption{Measured values of $\sigma_{R}$, $\sigma_{n_{\gamma Det}}$, and $\sigma_{n_{e Det}}$ versus energy.}
+\caption{Measured values of $\sigma_{R}$, $\sigma_{n_{\gamma Det}}$, and $\sigma_{n_{e Det}}$ versus energy in Run3 at 180 V/cm.}
 \label{EnergyFluc}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{QuantaFluctuations.png}
-\caption{Measured values of $\sigma_{R}$, $\sigma_{n_{\gamma Det}}$, and $\sigma_{n_{e Det}}$ versus photons, electrons, and ions, respectively.}
+\caption{Measured values of $\sigma_{R}$, $\sigma_{n_{\gamma Det}}$, and $\sigma_{n_{e Det}}$ versus photons, electrons, and ions, respectively. Data collected in Run3 at 180 V/cm.}
 \label{QuantaFluc}
 \end{figure}
 
-This study was repeated using the bottom PMT array only, while keeping both the cuts and fitting windows exactly the same.  The results are shown in Table~\ref{SigRBot}.  As expected the variance from recombination fluctuations appears independent of which PMTs are used in the analysis.  However, the slope of $\sigma_{n_{\gamma Det}}$ and $\sigma_{n_{e Det}}$ versus number of quanta is much more shallow when using the bottom PMT array only.  This could represent a systematic error, but it may also suggest that the top array of PMTs is contributing a significant amount of noise, or that the overall variance due to detector resolution is proportional to the number of PMTs which are used.  
+This study was repeated using the bottom PMT array only, while keeping both the cuts and fitting windows exactly the same.  The results are shown in Table~\ref{SigRBot}.  As expected, the variance from recombination fluctuations appears independent of which PMTs are used in the analysis.  However, the slope of $\sigma_{n_{\gamma Det}}$ and $\sigma_{n_{e Det}}$ versus number of quanta is much more shallow when using the bottom PMT array only.  This could represent a systematic error, but it may also suggest that the top array of PMTs is contributing a significant amount of noise, or that the overall variance due to detector resolution is proportional to the number of PMTs which are used.  
 
 \begin{center}
 \begin{table}[H]
@@ -266,7 +299,7 @@ $^{214}$Bi & 609 & 1811 $\pm$ 312 & 2101 $\pm$ 100 & 3253 $\pm$ 180\\  \hline
 $^{137}$Cs & 661.6 & 2235 $\pm$ 74.9 & 773.1 $\pm$ 136.5 & 1657 $\pm$ 94\\ 
 \hline
 \end{tabular}
-\caption{Extracted fluctuations from Doke plot data in units of quanta when using the bottom array only.}
+\caption{Extracted fluctuations from Run3 Doke plot data in units of quanta when using the bottom array only at 180 V/cm.}
 \label{SigRBot}
 \end{table}
 \end{center}
@@ -274,7 +307,7 @@ $^{137}$Cs & 661.6 & 2235 $\pm$ 74.9 & 773.1 $\pm$ 136.5 & 1657 $\pm$ 94\\
 
 \subsubsection{Light Yield from Doke Plot Data}
 
-The light yield in terms of $\frac{S1}{keV}$ and $\frac{photons}{keV}$ for each line source is easily obtainable from the Gaussian fits used in the Doke plot analysis and is included in~\ref{LY}.  In the case of $^{83m}$Kr two S1s (32.1 keV and 9.5 keV) are typically merged into one 41.55 keV S1 pulse by the data processing module.  The second of the two decays will occur with varying amounts of recombination depending on the amount of time between the first and second decay.  This recombination variation makes the combined 41.55 keV S1 pulse undesirable for measuring light yield.  Instead, we search for events where the two S1s occur far enough apart in time that data processing separates them into two S1 pulses.  A Gaussian fit is then used to determine the light yield from the 32.1 keV $^{83m}$Kr S1, resulting in 5.69 $\pm$ 0.03 $\frac{S1}{keV}$ and 46.3 $\pm$ 1.16 $\frac{photons}{keV}$. Note that the $^{127}$Xe 208.3 keV line in~\ref{LY} is still a result of two decays that are combined in our data processing, and this may affect the LY measurement for that point.
+The light yield in terms of $\frac{S1}{keV}$ and $\frac{photons}{keV}$ for each line source is easily obtainable from the Gaussian fits used in the Doke plot analysis and is included in~\ref{LY}.  In the case of $^{83m}$Kr two S1s (32.1 keV and 9.5 keV) are typically merged into one 41.55 keV S1 pulse by the data processing module.  The second of the two decays will occur with varying amounts of recombination depending on the amount of time between the first and second decay.  This recombination variation makes the combined 41.55 keV S1 pulse undesirable for measuring light yield.  Instead, we search for events where the two S1s occur far enough apart in time that data processing separates them into two S1 pulses.  A Gaussian fit is then used to determine the light yield from the 32.1 keV $^{83m}$Kr S1, resulting in 5.69 $\pm$ 0.03 $\frac{S1}{keV}$ and 46.3 $\pm$ 1.16 $\frac{photons}{keV}$. Note that the $^{127}$Xe 208.3 keV line in Table~\ref{LY} is still a result of two decays that are combined in our data processing, and this may affect the LY measurement for that point.
 
 \begin{center}
 \begin{table}[H]
@@ -290,7 +323,7 @@ $^{214}$Bi & 609 & 4.21$\pm$ 0.03 & 34.2$\pm$ 0.9\\  \hline
 $^{137}$Cs & 661.6 & 4.07$\pm$ 0.03 & 33.1$\pm$ 0.9\\ 
 \hline
 \end{tabular}
-\caption{Light yield measurements from Doke plot data.}
+\caption{Light yield measurements from Run3 Doke plot data at 180 V/cm.}
 \label{LY}
 \end{table}
 \end{center}
@@ -303,7 +336,7 @@ LUX's CH$_3$T calibration source produces a wide beta spectrum which continuousl
 \begin{equation} \label{TritiumBetaShape}
 \frac{dN(T,Z)}{dT} = C(T^2 + 2Tm_e)^{1/2}(T+m_e)(Q-T)^2F(T,Z)
 \end{equation}
-where $Q_T=18.6 keV$ is the maximum kinetic energy of the electron, $m_e=511 keV$ is the mass of the electron, $C$ is a normalization constant, $Z=2$ is the nuclear charge for tritium, and 
+where $Q_T=18.6 keV$ is the maximum kinetic energy of the electron, $m_e=511 keV$ is the mass of the electron, $C$ is a normalization constant, $Z=2$ is the nuclear charge for the helium-3 daughter ion, and 
 \begin{equation}
 F(T,Z) = 2\pi \frac{\alpha}{\left( \frac{\gamma^2 -1 }{\gamma^2}\right) ^{1/2}} 
 \end{equation}
@@ -315,4 +348,4 @@ as the energy to rest mass ratio.
 
 Before using Equation~\ref{TritiumBetaShape} to produce the expected tritium beta spectrum in the LUX detector, we need to smear the distribution to model effects from the detector's resolution and recombination variation.  This is accomplished by drawing the true energy of events from the distribution described by~\ref{TritiumBetaShape} and feeding them into the NEST simulation package.  NEST produces simulated S1 and S2 signals for the corresponding energy deposition, which in turn provide a simulated tritium energy spectrum for the LUX detector using Equation~\ref{EnergyOne}.
 
-Once we have a simulated model for the tritium energy spectrum in LUX we can minimize a two dimensional $\chi^2$ fit between the data and simulation to find the optimal values of g$_1$ and g$_2$.  The optimized CH$_3$T energy spectrum for the largest CH$_3$ calibration in LUX's Run03 data taking campaign is shown in Figure~\ref{TritiumSpectrum}.	The result of g1=0.115 $\pm$ 0.005 phd/photon, g2= 12.1 $\pm$ 0.9 phd/electron, and EE = 50.9\% $\pm$ 3.8\% is in close agreement with the Doke plot results from Section~\ref{DokePlot}.
+Once we have a simulated model for the tritium energy spectrum in LUX we can minimize a two dimensional $\chi^2$ fit between the data and simulation to find the optimal values of g$_1$ and g$_2$.  The optimized CH$_3$T energy spectrum for the largest CH$_3$T calibration in LUX's Run3 data taking campaign is shown in Figure~\ref{TritiumSpectrum}.	The result of g1=0.115 $\pm$ 0.005 phd/photon, g2= 12.1 $\pm$ 0.9 phd/electron, and EE = 50.9\% $\pm$ 3.8\% is in close agreement with the Doke plot results from Section~\ref{DokePlot}.

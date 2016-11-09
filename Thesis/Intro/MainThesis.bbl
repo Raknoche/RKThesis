@@ -84,6 +84,12 @@ P.~Phelps.
   Calibration}.
 \newblock PhD thesis, Case Western Reserve University, 2014.
 
+\bibitem{Akerib:2015rjg}
+D.~S. Akerib et~al.
+\newblock {Improved Limits on Scattering of Weakly Interacting Massive
+  Particles from Reanalysis of 2013 LUX Data}.
+\newblock {\em Phys. Rev. Lett.}, 116(16):161301, 2016.
+
 \bibitem{ScottsMap}
 S.~Hertel.
 \newblock Describing september 2014 with an axisymmetric field model.
@@ -259,11 +265,6 @@ Daniel~JH Chung, Edward~W Kolb, and Antonio Riotto.
 \newblock Superheavy dark matter.
 \newblock {\em Physical Review D}, 59(2):023501, 1998.
 
-\bibitem{Bertone}
-Gianfranco Bertone, Dan Hooper, and Joseph Silk.
-\newblock Particle dark matter: Evidence, candidates and constraints.
-\newblock {\em Physics Reports}, 405(5):279--390, 2005.
-
 \bibitem{DMCross}
 Dan Hooper and Lisa Goodenough.
 \newblock Dark matter annihilation in the galactic center.
@@ -394,12 +395,6 @@ P~Br\'as.
 \newblock {\em Finding a needle in a haystack: Background studies and WIMP
   detection efficiency in LUX}.
 \newblock PhD thesis, Universidade De Coimbra, 2015.
-
-\bibitem{Akerib:2015rjg}
-D.~S. Akerib et~al.
-\newblock {Improved Limits on Scattering of Weakly Interacting Massive
-  Particles from Reanalysis of 2013 LUX Data}.
-\newblock {\em Phys. Rev. Lett.}, 116(16):161301, 2016.
 
 \bibitem{TeflonActivationEnergy}
 S~Pauly.

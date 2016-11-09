@@ -8,7 +8,7 @@ As electrons travel from the interaction site to the liquid surface they are abs
 In the final data analysis, we wish to know the average number of photons and electrons produced by recoil interactions of both types, as well as the fluctuations around those averages.  It is possible to define position dependent gain factors which convert the S1 signals and S2 signals to number of photons and number of electrons, respectively, but it is more convenient to normalize the S1 and S2 signals to one location in the detector.   Likewise, one could define position and time dependent ER and NR bands to track discrimination over time, but it is more convenient to normalize the data such that the ER band and NR bands are constant at all times and all locations in the detector.  In LUX we choose to normalize the S1 signal to the center of the detector, and the S2 signal to the top of the detector.  The choice to normalize the S1 signal to the center of the detector is arbitrary since the position dependence of the S1 signal has little time dependence, while the choice to normalize the S2 signal to the top of the detector is convenient for circumventing the time dependence inherent at deeper locations in the detector due to varying amount of electron absorbing impurities in the liquid xenon.  Once the S1 and S2 signals are uniform throughout the detector we can define one position independent gain factor for each of the detector signals.  Removing the position dependence of the S1 and S2 signals also results in increased energy resolution of the S1 and S2 spectra, as well as a narrowing of the ER and NR band widths.
 
 
-Note that a non-uniform drift field can also introduce position dependence to the S1 and S2 signals.  However, this effect changes the actual number of photons and electrons produced during a recoil interaction, rather than the detector's efficiency of collecting those photons and electrons.  In this chapter we will assume a uniform drift field is present in the detector, as was generally the case in LUX Run3 when the field varried by less than 8\%. We will discuss signal corrections for a detector with a nonuniform electric field in Chapter~\ref{Run04Corrections}.
+Note that a non-uniform drift field can also introduce position dependence to the S1 and S2 signals.  However, this effect changes the actual number of photons and electrons produced during a recoil interaction, rather than the detector's efficiency of collecting those photons and electrons.  In this chapter we will assume a uniform drift field is present in the detector, as was generally the case in LUX Run3 when the field varied by less than 8\%. We will discuss signal corrections for a detector with a nonuniform electric field in Chapter~\ref{Run04Corrections}.
 
 \subsection{Use of $^{83m}$Kr in Signal Corrections} \label{KrSource}
 
@@ -20,7 +20,7 @@ The LUX detector's $^{83m}$Kr calibration source is a powerful tool to measure c
 \label{KrDecayScheme}
 \end{figure}
 
-Once injected, the $^{83m}$Kr mixes uniformly throughout the active volume in a matter of minutes (Figure~\ref{fig:KrMixing}). The monoenergetic peak of the $^{83m}$Kr events can be measured at any point in the detector to determine the position dependence of the S1 and S2 signals.
+Once injected, the $^{83m}$Kr mixes uniformly throughout the active volume in a matter of minutes (Figure~\ref{fig:KrMixing}). The mono-energetic peak of the $^{83m}$Kr events can be measured at any point in the detector to determine the position dependence of the S1 and S2 signals.
 
 \begin{figure} 
 \centering
@@ -82,18 +82,18 @@ In this case, the corrected S1 pulse areas are produced by multiplying the raw, 
 \end{equation}
 The detector inefficiency effects in the S1 signal are due to the unchanging internal geometry of the detector, as well as the slowly changing PMT quantum efficiencies of the PMTs, which remain constant for many months.  Therefore, the S1 correction maps vary by only a few percent over time and a single high stats three dimensional correction map can be applied to data over a long period of time.  In the case of LUX Run3, the three dimensional S1 corrections map was only updated once, and each version was used for a span of roughly two months.
 
-Figure~\ref{KrS1Improvement} show the $^{83m}$Kr S1 spectrum from one particular data set before and after pulse area corrections are applied. In this data set the corrections improve the S1 resolution resolution by 35\%, and shifts the mean by 2\%.  Similar improvements in resolution are seen in all $^{83m}$Kr data sets.  The corrected S1 pulse areas are also found to be extremely uniform over time, with the corrected $^{83m}$Kr S1 varying by less than 0.6\% over the course of the LUX detector's Run03 data taking campaign (Figure~\ref{KrS1Stability}).
+Figure~\ref{KrS1Improvement} show the $^{83m}$Kr S1 spectrum from one particular data set before and after pulse area corrections are applied. In this data set the corrections improve the S1 resolution resolution by 35\%, and shifts the mean by 2\%.  Similar improvements in resolution are seen in all $^{83m}$Kr data sets.  The corrected S1 pulse areas are also found to be extremely uniform over time, with the corrected $^{83m}$Kr S1 varying by less than 0.6\% over the course of the LUX detector's Run3 data taking campaign (Figure~\ref{KrS1Stability}).
 
 
 \begin{figure} [!h]
 \includegraphics[scale=.75]{KRS1_ResolutionImprovement.png} 
-\captionof{figure}{The $^{83m}$Kr S1 spectrum with no corrections applied (blue), z dependent corrections applied (red), and three dimensional xyz dependent corrections applied (green). Data from lux10\_20130510T1250.}
+\captionof{figure}{The $^{83m}$Kr S1 spectrum with no corrections applied (blue), z dependent corrections applied (red), and three dimensional XYZ dependent corrections applied (green). Data from lux10\_20130510T1250.}
 \label{KrS1Improvement}
 \end{figure}
 
 \begin{figure} [!h]
 \includegraphics[scale=.35]{CorrectedS1_Stability.png} 
-\captionof{figure}{The corrected $^{83m}$Kr S1 mean over the duration of LUX's Run03 data taking campaign. The dashed blue line indicates the mean of the corrected $^{83m}$Kr S1 spectrum over time, and the grey band indicates one standard deviation around the mean.}
+\captionof{figure}{The corrected $^{83m}$Kr S1 mean over the duration of LUX's Run3 data taking campaign. The dashed blue line indicates the mean of the corrected $^{83m}$Kr S1 spectrum over time, and the grey band indicates one standard deviation around the mean.}
 \label{KrS1Stability}
 \end{figure}
 
@@ -145,23 +145,23 @@ The z-dependence of the S2 signal is a function of the liquid xenon purity, whic
 
 \newpage
 
-Figure~\ref{KrS2Improvement} shows the $^{83m}$Kr S2 spectrum from one particular data set before and after pulse area corrections are applied. In this data set the corrections improve the S2 resolution by 22\%, and shifts the mean by 21\%.  The large shift in the $^{83m}$Kr S2 mean is a result of the corrections "adding in" the electrons which were absorbed by impurities in the liquid xenon as they traveled to the surface.  Note that the resolution improvement and the shift of the mean are larger in data sets which have worse xenon purity.  As with the corrected S1 signal, the corrected S2 pulse areas are found to be extremely uniform over time, with the corrected $^{83m}$Kr S2 varying by less than 2\% over the course of the LUX detector's Run03 data taking campaign (Figure~\ref{KrS2Stability}).  Note that this reflects the fundamental stability of the anode and gas gain.  Only the liquid xenon purity seems to vary.
+Figure~\ref{KrS2Improvement} shows the $^{83m}$Kr S2 spectrum from one particular data set before and after pulse area corrections are applied. In this data set the corrections improve the S2 resolution by 22\%, and shifts the mean by 21\%.  The large shift in the $^{83m}$Kr S2 mean is a result of the corrections "adding in" the electrons which were absorbed by impurities in the liquid xenon as they traveled to the surface.  Note that the resolution improvement and the shift of the mean are larger in data sets which have worse xenon purity.  As with the corrected S1 signal, the corrected S2 pulse areas are found to be extremely uniform over time, with the corrected $^{83m}$Kr S2 varying by less than 2\% over the course of the LUX detector's Run3 data taking campaign (Figure~\ref{KrS2Stability}).  Note that this reflects the fundamental stability of the anode and gas gain.  Only the liquid xenon purity seems to vary.
 
 \begin{figure} [!h]
 \includegraphics[scale=.7]{KRS2_ResolutionImprovement.png} 
-\captionof{figure}{The $^{83m}$Kr S2 spectrum with no corrections applied (blue), z dependent corrections applied (red), and xyz dependent corrections applied (green). Data from lux10\_20130510T1250.}
+\captionof{figure}{The $^{83m}$Kr S2 spectrum with no corrections applied (blue), z dependent corrections applied (red), and XYZ dependent corrections applied (green). Data from lux10\_20130510T1250.}
 \label{KrS2Improvement}
 \end{figure}
 
 \begin{figure} [!h]
 \includegraphics[scale=.3]{CorrectedS2_Stability.png} 
-\captionof{figure}{The corrected $^{83m}$Kr S2 mean over the duration of LUX's Run03 data taking campaign.  The dashed blue line indicates the mean of the corrected $^{83m}$Kr S2 spectrum over time, and the grey band indicates one standard deviation around the mean.}
+\captionof{figure}{The corrected $^{83m}$Kr S2 mean over the duration of LUX's Run3 data taking campaign.  The dashed blue line indicates the mean of the corrected $^{83m}$Kr S2 spectrum over time, and the grey band indicates one standard deviation around the mean.}
 \label{KrS2Stability}
 \end{figure}
 
 \subsection{Future use of $^{83m}$Kr-Based Signal Corrections}
 
-The previous sections described the primary techniques used during the LUX Run3 data analysis.  The monoenergetic peak of the $^{83m}$Kr calibration source provides a powerful tool to track signal variations throughout the detector, and the short half life allows for frequent calibration.  In the next generation of dark matter detectors, it's possible that $^{83m}$Kr's short half life will become a hindrance, since the source may not have time to mix uniformly throughout the larger detector volumes.  In this case, a longer lived calibration source, such as $^{131m}Xe$, may be used in a similar manner.  These more persistent sources must decay at a high energy to avoid contributing to the WIMP search backgrounds, leading to complications involving PMT saturation which are not present in the standard $^{83m}$Kr source.
+The previous sections described the primary techniques used during the LUX Run3 data analysis.  The mono-energetic peak of the $^{83m}$Kr calibration source provides a powerful tool to track signal variations throughout the detector, and the short half life allows for frequent calibration.  In the next generation of dark matter detectors, it's possible that $^{83m}$Kr's short half life will become a hindrance, since the source may not have time to mix uniformly throughout the larger detector volumes.  In this case, a longer lived calibration source, such as $^{131m}Xe$, may be used in a similar manner.  These more persistent sources must decay at a high energy to avoid contributing to the WIMP search backgrounds, leading to complications involving PMT saturation which are not present in the standard $^{83m}$Kr source.
 
 In the following sections, we will describe a number of alternative signal correction techniques.  Although most of these additional methods were not used in the final Run3 analysis, they can improve the quality of future LUX analyses, and serve as a proof of concept for the next generation of dark matter detectors.
 
@@ -193,7 +193,7 @@ In either case, the PDF is evaluated for each event.  The likelihood of observin
 \end{equation}
 We wish to determine the electron lifetime value which has the highest likelihood of producing the observed data.  For convenience, we choose to minimize the negative of the log of the likelihood function with respect to $\lambda$, since it is less computationally expensive to minimize a summation than it is to maximize a product.  
 
-After running the maximum likelihood method on all of the LUX detector's Run03 data sets we see that the attenuated Gaussian PDF is in better agreement with the z-slice method from Section~\ref{S2SignalCorr}. (Figure~\ref{fig:RadonLifetimeResults}) In either case, the results of the maximum likelihood fit from Radon data fall within one sigma of the results from $^{83m}$Kr calibrations. 
+After running the maximum likelihood method on all of the LUX detector's Run3 data sets we see that the attenuated Gaussian PDF is in better agreement with the z-slice method from Section~\ref{S2SignalCorr}. (Figure~\ref{fig:RadonLifetimeResults}) In either case, the results of the maximum likelihood fit from Radon data fall within one sigma of the results from $^{83m}$Kr calibrations. 
 
 \begin{figure}[h]\centering
 \includegraphics[scale=0.6]{RadonLifetimeResults.png}
@@ -201,7 +201,7 @@ After running the maximum likelihood method on all of the LUX detector's Run03 d
 \label{fig:RadonLifetimeResults}
 \end{figure}
 
-The radon lifetime measurements described here are most useful following a circulation outage, since $^{83m}$Kr calibration data may not be available to measure any sudden drops in xenon purity.   Only two circulation stops occurred during LUX's Run3 data taking campaign, so the radon lifetime measurements only recovered a few days of livetime for the final Run3 analysis~\cite{Phelps}.  Circulation outages were far more common in LUX's Run4 data analysis, but complications from the non-uniform drift field at the time made the radon source a poor predictor of the detector's electron lifetime.  In particular, since most electrons recombine during an alpha interaction, small variations in the detector's electric field (and subsequentally the electron's recombination rate) result in large variations in radon S2 signal.  
+The radon lifetime measurements described here are most useful following a circulation outage, since $^{83m}$Kr calibration data may not be available to measure any sudden drops in xenon purity.   Only two circulation stops occurred during LUX's Run3 data taking campaign, so the radon lifetime measurements only recovered a few days of livetime for the final Run3 analysis~\cite{Phelps}.  Circulation outages were far more common in LUX's Run4 data analysis, but complications from the non-uniform drift field at the time made the radon source a poor predictor of the detector's electron lifetime.  In particular, since most electrons recombine during an alpha interaction, small variations in the detector's electric field (and subsequently the electron's recombination rate) result in large variations in radon S2 signal.  
 
 LUX's successor, LZ, plans to use a persistent $^{131m}$Xe calibration source to produce signal corrections.  With an ever-present calibration source, it is unlikely that $^{222}$Rn would be used as more than a cross check of the standard electron lifetime measurements.  The stringent LZ backgrounds limits (less than 0.67 mHz of $^{222}$Rn activity) also make the techniques presented in this section less useful, since over 25 times the amount of data shown here would be needed to  produce similar precision.
 
@@ -272,4 +272,4 @@ The techniques presented in this section were never used in published LUX result
 
 \subsection{Signal Corrections Summary}
 
-In this chapter, we discussed the standard techniques that were used to produce signal corrections in LUX's Run3 data.  The most impactful methods centered around $^{83m}$Kr data, due to the usefulness of the source's short lived monoenergetic signal.  We also discussed two alternative correction methods, which did not have a signficant impact on the current LUX analysis, but may be useful in future.  In Chapter~\ref{Run04Corrections}, we'll find that the non-uniform Run4 drift field introduces signifanct complications to the $^{83m}$Kr data, which must be accounted for before the methods of this chapter can be applied to that data.  
+In this chapter, we discussed the standard techniques that were used to produce signal corrections in LUX's Run3 data.  The most impactful methods centered around $^{83m}$Kr data, due to the usefulness of the source's short lived mono-energetic signal.  We also discussed two alternative correction methods, which did not have a significant impact on the current LUX analysis, but may be useful in future.  In Chapter~\ref{Run04Corrections}, we'll find that the non-uniform Run4 drift field introduces significant complications to the $^{83m}$Kr data, which must be accounted for before the methods of this chapter can be applied to that data.  
