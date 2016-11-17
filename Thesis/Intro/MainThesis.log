@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 NOV 2016 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 NOV 2016 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,6 +22,9 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
@@ -793,26 +796,23 @@ LaTeX Warning: Label `fig:KrypCal_S2ZDep' multiply defined.
 
 LaTeX Warning: Label `fig:KrypCal_S1ZDep' multiply defined.
 
-
-LaTeX Warning: Label `fig:KrypCalFieldStrength' multiply defined.
-
 ) (./ChapterEight.aux))
 \openout1 = `MainThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -852,7 +852,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \c@FBLTpage=\count147
 )
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring OFF on input line 66.
+Package hyperref Info: Link coloring OFF on input line 75.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -862,9 +862,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (./MainThesis.out) (./MainThesis.out)
 \@outlinefile=\write3
@@ -991,17 +991,17 @@ Overfull \hbox (9.4379pt too wide) in paragraph at lines 67--67
  S2 from the Septem- 
  []
 
-[12] [13] [14] [15] [16])
+[12] [13] [14] [15] [16] [17])
 \tf@lof=\write6
 \openout6 = `MainThesis.lof'.
 
- [17]
+ [18]
 \openout2 = `ChapterOne.aux'.
 
  (./ChapterOne.tex [1
 
 ]
-<RotationCurve2.png, id=1280, 466.74374pt x 421.575pt>
+<RotationCurve2.png, id=1294, 466.74374pt x 421.575pt>
 File: RotationCurve2.png Graphic file (type png)
 
 <use RotationCurve2.png>
@@ -1014,7 +1014,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [2] [3 <./RotationCurve2.png>] [4] [5] [6] [7] [8] [9] [10] [11] [12]
-<LensEqFigure.png, id=1410, 432.11438pt x 645.16031pt>
+<LensEqFigure.png, id=1424, 432.11438pt x 645.16031pt>
 File: LensEqFigure.png Graphic file (type png)
  <use LensEqFigure.png>
 Package pdftex.def Info: LensEqFigure.png used on input line 214.
@@ -1039,7 +1039,7 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 221.
 
-[15] <GammaOneGammaTwo.png, id=1443, 813.0375pt x 633.86812pt>
+[15] <GammaOneGammaTwo.png, id=1456, 813.0375pt x 633.86812pt>
 File: GammaOneGammaTwo.png Graphic file (type png)
 
 <use GammaOneGammaTwo.png>
@@ -1051,7 +1051,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 255.
 See the caption package documentation for explanation.
 
-[16] <bulletcluster.jpg, id=1456, 335.00156pt x 228.855pt>
+[16] <bulletcluster.jpg, id=1469, 335.00156pt x 228.855pt>
 File: bulletcluster.jpg Graphic file (type jpg)
 
 <use bulletcluster.jpg>
@@ -1064,7 +1064,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [17 <./GammaOneGammaTwo.png>] [18 <./bulletcluster.jpg>]
-<CMB_Planck.jpg, id=1469, 1114.1625pt x 557.08125pt>
+<CMB_Planck.jpg, id=1482, 1114.1625pt x 557.08125pt>
 File: CMB_Planck.jpg Graphic file (type jpg)
  <use CMB_Planck.jpg>
 Package pdftex.def Info: CMB_Planck.jpg used on input line 279.
@@ -1076,7 +1076,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [19 <./CMB_Planck.jpg>] [20]
-<PS_Planck.png, id=1490, 1017.04968pt x 542.77782pt>
+<PS_Planck.png, id=1503, 1017.04968pt x 542.77782pt>
 File: PS_Planck.png Graphic file (type png)
  <use PS_Planck.png>
 Package pdftex.def Info: PS_Planck.png used on input line 323.
@@ -1087,7 +1087,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 324.
 See the caption package documentation for explanation.
 
-[21 <./PS_Planck.png>] [22] <BAO.png, id=1510, 542.77782pt x 209.28188pt>
+[21 <./PS_Planck.png>] [22] <BAO.png, id=1523, 542.77782pt x 209.28188pt>
 File: BAO.png Graphic file (type png)
 
 <use BAO.png>
@@ -1112,7 +1112,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 347.
 
-[24] [25] [26] [27] <neutrinos.png, id=1566, 943.27406pt x 503.63156pt>
+[24] [25] [26] [27] <neutrinos.png, id=1579, 943.27406pt x 503.63156pt>
 File: neutrinos.png Graphic file (type png)
 
 <use neutrinos.png>
@@ -1125,7 +1125,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [28 <./neutrinos.png>] [29] [30] [31] [32]
-<AxionSearch.jpg, id=1608, 95.8782pt x 78.65385pt>
+<AxionSearch.jpg, id=1621, 95.8782pt x 78.65385pt>
 File: AxionSearch.jpg Graphic file (type jpg)
  <use AxionSearch.jpg>
 Package pdftex.def Info: AxionSearch.jpg used on input line 440.
@@ -1147,7 +1147,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Citation `Fermit-LAT' on page 37 undefined on input line 15.
 
 [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
-<Recoil-spectrum.png, id=1757, 822.82407pt x 619.56468pt>
+<Recoil-spectrum.png, id=1771, 822.82407pt x 619.56468pt>
 File: Recoil-spectrum.png Graphic file (type png)
 
 <use Recoil-spectrum.png>
@@ -1169,7 +1169,7 @@ Overfull \hbox (18.08284pt too wide) in paragraph at lines 200--201
 \openout2 = `ChapterThree.aux'.
 
  (./ChapterThree.tex
-<LUXevent.png, id=1800, 632.3625pt x 515.67656pt>
+<LUXevent.png, id=1813, 632.3625pt x 515.67656pt>
 File: LUXevent.png Graphic file (type png)
  <use LUXevent.png>
 Package pdftex.def Info: LUXevent.png used on input line 9.
@@ -1179,21 +1179,21 @@ Package pdftex.def Info: LUXevent.png used on input line 9.
 
 ]
 [57 <./LUXevent.png>]
-<GammaBackgrounds.png, id=1810, 536.75531pt x 508.90125pt>
+<GammaBackgrounds.png, id=1823, 536.75531pt x 508.90125pt>
 File: GammaBackgrounds.png Graphic file (type png)
 
 <use GammaBackgrounds.png>
 Package pdftex.def Info: GammaBackgrounds.png used on input line 17.
 (pdftex.def)             Requested size: 268.37698pt x 254.45pt.
  [58 <./GammaBackgrounds.png>]
-<LuxCryostat.png, id=1816, 871.00406pt x 658.71094pt>
+<LuxCryostat.png, id=1829, 871.00406pt x 658.71094pt>
 File: LuxCryostat.png Graphic file (type png)
  <use LuxCryostat.png>
 Package pdftex.def Info: LuxCryostat.png used on input line 31.
 (pdftex.def)             Requested size: 391.94821pt x 296.41718pt.
 
-[59 <./LuxCryostat.png>] [60]
-<LuxFieldCage.png, id=1829, 845.40843pt x 652.68843pt>
+[59] [60 <./LuxCryostat.png>] [61]
+<LuxFieldCage.png, id=1846, 845.40843pt x 652.68843pt>
 File: LuxFieldCage.png Graphic file (type png)
  <use LuxFieldCage.png>
 Package pdftex.def Info: LuxFieldCage.png used on input line 50.
@@ -1202,12 +1202,12 @@ Package pdftex.def Info: LuxFieldCage.png used on input line 50.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[61] [62 <./LuxFieldCage.png>] [63] [64]
+[62] [63 <./LuxFieldCage.png>] [64] [65]
 
-LaTeX Warning: Reference `BradleyThesis' on page 65 undefined on input line 76.
+LaTeX Warning: Reference `BradleyThesis' on page 66 undefined on input line 76.
 
 
-[65] <SAMdiagram.png, id=1853, 774.64406pt x 621.07031pt>
+[66] <SAMdiagram.png, id=1871, 774.64406pt x 621.07031pt>
 File: SAMdiagram.png Graphic file (type png)
  <use SAMdiagram.png>
 Package pdftex.def Info: SAMdiagram.png used on input line 90.
@@ -1216,7 +1216,7 @@ Package pdftex.def Info: SAMdiagram.png used on input line 90.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[66] <LuxWaterTank.png, id=1859, 855.94781pt x 609.02531pt>
+[67] <LuxWaterTank.png, id=1876, 855.94781pt x 609.02531pt>
 File: LuxWaterTank.png Graphic file (type png)
 
 <use LuxWaterTank.png>
@@ -1226,80 +1226,77 @@ Package pdftex.def Info: LuxWaterTank.png used on input line 101.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[67 <./SAMdiagram.png>]
-<LuxSourceTubes.png, id=1864, 309.40594pt x 646.66594pt>
+[68 <./SAMdiagram.png>]
+<LuxSourceTubes.png, id=1881, 309.40594pt x 646.66594pt>
 File: LuxSourceTubes.png Graphic file (type png)
 
 <use LuxSourceTubes.png>
 Package pdftex.def Info: LuxSourceTubes.png used on input line 111.
 (pdftex.def)             Requested size: 108.2937pt x 226.33646pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[68 <./LuxWaterTank.png>] [69 <./LuxSourceTubes.png>] [70] [71]
-<Run4events.png, id=1886, 1014.79124pt x 736.7525pt>
+ [69 <./LuxWaterTank.png>] [70 <./LuxSourceTubes.png>]
+[71] [72] <Run4events.png, id=1904, 1014.79124pt x 736.7525pt>
 File: Run4events.png Graphic file (type png)
- <use Run4events.png>
+
+<use Run4events.png>
 Package pdftex.def Info: Run4events.png used on input line 144.
 (pdftex.def)             Requested size: 405.9093pt x 294.69577pt.
-
-[72] [73 <./Run4events.png>]
-<Run4Limit.png, id=1901, 1001.7425pt x 723.70375pt>
+ [73] [74 <./Run4events.png>]
+<Run4Limit.png, id=1922, 1001.7425pt x 723.70375pt>
 File: Run4Limit.png Graphic file (type png)
  <use Run4Limit.png>
 Package pdftex.def Info: Run4Limit.png used on input line 158.
 (pdftex.def)             Requested size: 400.6899pt x 289.47636pt.
 )
-[74] [75 <./Run4Limit.png>]
+[75] [76 <./Run4Limit.png>]
 \openout2 = `ChapterFour.aux'.
 
- (./ChapterFour.tex [76
+ (./ChapterFour.tex [77
 
 
-] [77] [78]
-<GasSystem.png, id=1931, 561.59813pt x 864.22874pt>
+] [78] [79]
+<GasSystem.png, id=1951, 561.59813pt x 864.22874pt>
 File: GasSystem.png Graphic file (type png)
  <use GasSystem.png>
 Package pdftex.def Info: GasSystem.png used on input line 27.
 (pdftex.def)             Requested size: 308.87993pt x 475.32727pt.
 
-[79] [80 <./GasSystem.png>]
-<GasPhaseRemoval_FlowRate.jpg, id=1944, 845.40843pt x 509.65407pt>
+[80] [81 <./GasSystem.png>]
+<GasPhaseRemoval_FlowRate.jpg, id=1964, 845.40843pt x 509.65407pt>
 File: GasPhaseRemoval_FlowRate.jpg Graphic file (type jpg)
 
 <use GasPhaseRemoval_FlowRate.jpg>
 Package pdftex.def Info: GasPhaseRemoval_FlowRate.jpg used on input line 37.
 (pdftex.def)             Requested size: 380.43027pt x 229.34221pt.
 
-<GasPhaseRemoval_RestTime.jpg, id=1945, 794.2172pt x 527.72156pt>
+<GasPhaseRemoval_RestTime.jpg, id=1965, 794.2172pt x 527.72156pt>
 File: GasPhaseRemoval_RestTime.jpg Graphic file (type jpg)
 
 <use GasPhaseRemoval_RestTime.jpg>
 Package pdftex.def Info: GasPhaseRemoval_RestTime.jpg used on input line 43.
 (pdftex.def)             Requested size: 317.68124pt x 211.08488pt.
- [81 <./GasPhaseRemoval_FlowRate.jpg>]
-<UMDInjectionSys.png, id=1951, 423.83344pt x 465.23813pt>
+ [82 <./GasPhaseRemoval_FlowRate.jpg>]
+[83 <./GasPhaseRemoval_RestTime.jpg>]
+<UMDInjectionSys.png, id=1976, 423.83344pt x 465.23813pt>
 File: UMDInjectionSys.png Graphic file (type png)
 
 <use UMDInjectionSys.png>
 Package pdftex.def Info: UMDInjectionSys.png used on input line 56.
 (pdftex.def)             Requested size: 254.302pt x 279.14502pt.
- [82 <./GasPhaseRemoval_RestTime.jpg>] [83 <./UMDInjectionSys.png>] <UMDCryo.pn
-g, id=1961, 219.82124pt x 416.30531pt>
+ [84 <./UMDInjectionSys.png>]
+<UMDCryo.png, id=1982, 219.82124pt x 416.30531pt>
 File: UMDCryo.png Graphic file (type png)
-
-<use UMDCryo.png>
+ <use UMDCryo.png>
 Package pdftex.def Info: UMDCryo.png used on input line 67.
 (pdftex.def)             Requested size: 153.87381pt x 291.41173pt.
- [84] [85 <./UMDCryo.png>]
-<UMDspectra.png, id=1977, 727.518pt x 277.035pt>
+ [85]
+[86 <./UMDCryo.png>] <UMDspectra.png, id=1997, 727.518pt x 277.035pt>
 File: UMDspectra.png Graphic file (type png)
- <use UMDspectra.png>
+
+<use UMDspectra.png>
 Package pdftex.def Info: UMDspectra.png used on input line 91.
 (pdftex.def)             Requested size: 363.75812pt x 138.51715pt.
 
-<ResidualBackgroundCorrected_SystemErr.png, id=1978, 1120.185pt x 409.53pt>
+<ResidualBackgroundCorrected_SystemErr.png, id=1998, 1120.185pt x 409.53pt>
 File: ResidualBackgroundCorrected_SystemErr.png Graphic file (type png)
 
 <use ResidualBackgroundCorrected_SystemErr.png>
@@ -1311,85 +1308,84 @@ Overfull \hbox (30.69302pt too wide) in paragraph at lines 122--123
  [][] 
  []
 
-
+[87 <./UMDspectra.png>] [88]
 Overfull \hbox (8.01881pt too wide) in paragraph at lines 128--129
 \T1/cmr/m/n/12 To more ac-cu-rately model the LUX de-tec-tor we sur-rounded our
  PMTs with polyethy-
  []
 
-[86 <./UMDspectra.png>] [87] [88 <./ResidualBackgroundCorrected_SystemErr.png>]
-<Outgassing_TimeHisto_Log.jpg, id=1997, 762.59906pt x 568.37344pt>
+[89 <./ResidualBackgroundCorrected_SystemErr.png>]
+<Outgassing_TimeHisto_Log.jpg, id=2018, 762.59906pt x 568.37344pt>
 File: Outgassing_TimeHisto_Log.jpg Graphic file (type jpg)
 
 <use Outgassing_TimeHisto_Log.jpg>
 Package pdftex.def Info: Outgassing_TimeHisto_Log.jpg used on input line 131.
 (pdftex.def)             Requested size: 266.91367pt x 198.93369pt.
 
-<Steps_Overlay.png, id=1998, 698.61pt x 473.77pt>
+<Steps_Overlay.png, id=2019, 698.61pt x 473.77pt>
 File: Steps_Overlay.png Graphic file (type png)
  <use Steps_Overlay.png>
 Package pdftex.def Info: Steps_Overlay.png used on input line 137.
 (pdftex.def)             Requested size: 244.51715pt x 165.82198pt.
 
-[89 <./Outgassing_TimeHisto_Log.jpg>]
-<Cesium_TimeHisto.jpg, id=2004, 773.89125pt x 359.3425pt>
+[90 <./Outgassing_TimeHisto_Log.jpg>]
+<Cesium_TimeHisto.jpg, id=2025, 773.89125pt x 359.3425pt>
 File: Cesium_TimeHisto.jpg Graphic file (type jpg)
 
 <use Cesium_TimeHisto.jpg>
 Package pdftex.def Info: Cesium_TimeHisto.jpg used on input line 145.
 (pdftex.def)             Requested size: 270.866pt x 125.77174pt.
- [90 <./Steps_Overlay.png>] [91 <./Cesium_TimeHisto.jpg>] [92] <StepsandNoSteps
-.png, id=2028, 470.50781pt x 445.665pt>
+ [91 <./Steps_Overlay.png>] [92 <./Cesium_TimeHisto.jpg>] [93] <StepsandNoSteps
+.png, id=2047, 470.50781pt x 445.665pt>
 File: StepsandNoSteps.png Graphic file (type png)
 
 <use StepsandNoSteps.png>
 Package pdftex.def Info: StepsandNoSteps.png used on input line 192.
 (pdftex.def)             Requested size: 329.35321pt x 311.96336pt.
- [93] [94 <./StepsandNoSteps.png>] [95]
-<OutgassingSim.png, id=2053, 819.8128pt x 496.85625pt>
+ [94] [95 <./StepsandNoSteps.png>] [96] [97]
+<OutgassingSim.png, id=2079, 819.8128pt x 496.85625pt>
 File: OutgassingSim.png Graphic file (type png)
  <use OutgassingSim.png>
 Package pdftex.def Info: OutgassingSim.png used on input line 250.
 (pdftex.def)             Requested size: 245.94572pt x 149.05801pt.
 
-[96] [97 <./OutgassingSim.png (PNG copy)>] [98]
-<TritiumPlumbing.png, id=2071, 640.64343pt x 455.45157pt>
+[98 <./OutgassingSim.png (PNG copy)>] [99]
+<TritiumPlumbing.png, id=2091, 640.64343pt x 455.45157pt>
 File: TritiumPlumbing.png Graphic file (type png)
 
 <use TritiumPlumbing.png>
 Package pdftex.def Info: TritiumPlumbing.png used on input line 271.
 (pdftex.def)             Requested size: 384.38902pt x 273.27304pt.
- [99 <./TritiumPlumbing.png>]
-<LUXOutgassing.png, id=2077, 435.87843pt x 360.59718pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[100] [101 <./TritiumPlumbing.png>]
+<LUXOutgassing.png, id=2102, 435.87843pt x 360.59718pt>
 File: LUXOutgassing.png Graphic file (type png)
 
 <use LUXOutgassing.png>
 Package pdftex.def Info: LUXOutgassing.png used on input line 285.
 (pdftex.def)             Requested size: 305.11282pt x 252.4163pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[100] <CH3T_fid_rate_new.png, id=2084, 397.485pt x 301.125pt>
+ [102 <./LUXOutgassing.png>]
+<CH3T_fid_rate_new.png, id=2109, 397.485pt x 301.125pt>
 File: CH3T_fid_rate_new.png Graphic file (type png)
 
 <use CH3T_fid_rate_new.png>
 Package pdftex.def Info: CH3T_fid_rate_new.png used on input line 293.
 (pdftex.def)             Requested size: 278.2376pt x 210.78606pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<TritiumRvZ.pdf, id=2086, 562.1pt x 421.575pt>
+ <TritiumRvZ.pdf, id=2111, 562.1pt x 421.575pt>
 File: TritiumRvZ.pdf Graphic file (type pdf)
- <use TritiumRvZ.pdf>
+
+<use TritiumRvZ.pdf>
 Package pdftex.def Info: TritiumRvZ.pdf used on input line 300.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
- [101 <./LUXOutgassing.png>]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<TritiumSpectrum.pdf, id=2093, 562.1pt x 421.575pt>
+[103 <./CH3T_fid_rate_new.png>]
+<TritiumSpectrum.pdf, id=2119, 562.1pt x 421.575pt>
 File: TritiumSpectrum.pdf Graphic file (type pdf)
  <use TritiumSpectrum.pdf>
 Package pdftex.def Info: TritiumSpectrum.pdf used on input line 309.
@@ -1398,7 +1394,7 @@ Package pdftex.def Info: TritiumSpectrum.pdf used on input line 309.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<TritiumThreshold.pdf, id=2094, 562.1pt x 421.575pt>
+<TritiumThreshold.pdf, id=2120, 562.1pt x 421.575pt>
 File: TritiumThreshold.pdf Graphic file (type pdf)
 
 <use TritiumThreshold.pdf>
@@ -1408,17 +1404,14 @@ Package pdftex.def Info: TritiumThreshold.pdf used on input line 315.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[102 <./CH3T_fid_rate_new.png>] [103 <./TritiumRvZ.pdf> <./TritiumSpectrum.pdf>
-] <TritiumERBand.pdf, id=2131, 562.1pt x 421.575pt>
+[104 <./TritiumRvZ.pdf>] [105 <./TritiumSpectrum.pdf> <./TritiumThreshold.pdf>]
+<TritiumERBand.pdf, id=2190, 562.1pt x 421.575pt>
 File: TritiumERBand.pdf Graphic file (type pdf)
  <use TritiumERBand.pdf>
 Package pdftex.def Info: TritiumERBand.pdf used on input line 326.
 (pdftex.def)             Requested size: 196.73795pt x 147.55345pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<TritiumLeakage.pdf, id=2132, 562.1pt x 421.575pt>
+<TritiumLeakage.pdf, id=2191, 562.1pt x 421.575pt>
 File: TritiumLeakage.pdf Graphic file (type pdf)
  <use TritiumLeakage.pdf>
 Package pdftex.def Info: TritiumLeakage.pdf used on input line 332.
@@ -1427,14 +1420,14 @@ Package pdftex.def Info: TritiumLeakage.pdf used on input line 332.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [104 <./TritiumThreshold.pdf>] [105 <./TritiumERBand.pdf> <./TritiumLeakage.p
-df>]
+) [106 <./TritiumERBand.pdf>] [107 <./TritiumLeakage.pdf>]
 \openout2 = `ChapterFive.aux'.
 
- (./ChapterFive.tex [106
+ (./ChapterFive.tex
+[108
 
 
-] [107]
+] [109]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 13.
@@ -1447,7 +1440,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 13.
 
-<Kr83Decay.png, id=2210, 896.59969pt x 667.74469pt>
+<Kr83Decay.png, id=2235, 896.59969pt x 667.74469pt>
 File: Kr83Decay.png Graphic file (type png)
  <use Kr83Decay.png>
 Package pdftex.def Info: Kr83Decay.png used on input line 18.
@@ -1456,18 +1449,18 @@ Package pdftex.def Info: Kr83Decay.png used on input line 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<KrXvY.png, id=2212, 578.16pt x 433.62pt>
+<KrXvY.png, id=2237, 578.16pt x 433.62pt>
 File: KrXvY.png Graphic file (type png)
  <use KrXvY.png>
 Package pdftex.def Info: KrXvY.png used on input line 27.
 (pdftex.def)             Requested size: 170.71652pt x 128.03589pt.
 
-<KrR2vz.png, id=2213, 578.16pt x 433.62pt>
+<KrR2vz.png, id=2238, 578.16pt x 433.62pt>
 File: KrR2vz.png Graphic file (type png)
  <use KrR2vz.png>
 Package pdftex.def Info: KrR2vz.png used on input line 29.
 (pdftex.def)             Requested size: 170.71652pt x 128.03589pt.
- [108] [109 <./Kr83Decay.png>] <KrS1_ZDep_Gaussians.png, id=2226, 337.26pt x 28
+ [110] [111 <./Kr83Decay.png>] <KrS1_ZDep_Gaussians.png, id=2250, 337.26pt x 28
 2.30469pt>
 File: KrS1_ZDep_Gaussians.png Graphic file (type png)
 
@@ -1475,35 +1468,38 @@ File: KrS1_ZDep_Gaussians.png Graphic file (type png)
 Package pdftex.def Info: KrS1_ZDep_Gaussians.png used on input line 48.
 (pdftex.def)             Requested size: 179.25244pt x 150.04721pt.
 
-<KrS1_ZDep.png, id=2227, 340.27126pt x 282.30469pt>
+<KrS1_ZDep.png, id=2251, 340.27126pt x 282.30469pt>
 File: KrS1_ZDep.png Graphic file (type png)
  <use KrS1_ZDep.png>
 Package pdftex.def Info: KrS1_ZDep.png used on input line 50.
 (pdftex.def)             Requested size: 179.25244pt x 148.71616pt.
 
-[110 <./KrXvY.png (PNG copy)> <./KrR2vz.png (PNG copy)>]
-<KrS1_XYDep.png, id=2237, 331.2375pt x 276.28218pt>
+[112 <./KrXvY.png (PNG copy)> <./KrR2vz.png (PNG copy)>] [113 <./KrS1_ZDep_Gaus
+sians.png> <./KrS1_ZDep.png>]
+<KrS1_XYDep.png, id=2268, 331.2375pt x 276.28218pt>
 File: KrS1_XYDep.png Graphic file (type png)
  <use KrS1_XYDep.png>
 Package pdftex.def Info: KrS1_XYDep.png used on input line 67.
 (pdftex.def)             Requested size: 179.25244pt x 149.51054pt.
 
-<KrS1_XYDep_Norm.png, id=2238, 344.78813pt x 276.28218pt>
+<KrS1_XYDep_Norm.png, id=2269, 344.78813pt x 276.28218pt>
 File: KrS1_XYDep_Norm.png Graphic file (type png)
 
 <use KrS1_XYDep_Norm.png>
 Package pdftex.def Info: KrS1_XYDep_Norm.png used on input line 69.
 (pdftex.def)             Requested size: 179.25244pt x 143.63805pt.
- [111 <./KrS1_ZDep_Gaussians.png> <./KrS1_ZDep.png>]
-[112 <./KrS1_XYDep.png> <./KrS1_XYDep_Norm.png>]
-<KRS1_ResolutionImprovement.png, id=2258, 331.2375pt x 237.13594pt>
+ [114 <./KrS1_XYDep.png> <./KrS1_XYDep_Norm.png>]
+<KRS1_ResolutionImprovement.png, id=2281, 331.2375pt x 237.13594pt>
 File: KRS1_ResolutionImprovement.png Graphic file (type png)
 
 <use KRS1_ResolutionImprovement.png>
 Package pdftex.def Info: KRS1_ResolutionImprovement.png used on input line 89.
 (pdftex.def)             Requested size: 248.4275pt x 177.8515pt.
 
-<CorrectedS1_Stability.png, id=2259, 908.64468pt x 544.28343pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<CorrectedS1_Stability.png, id=2282, 908.64468pt x 544.28343pt>
 File: CorrectedS1_Stability.png Graphic file (type png)
 
 <use CorrectedS1_Stability.png>
@@ -1513,35 +1509,34 @@ Package pdftex.def Info: CorrectedS1_Stability.png used on input line 95.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[113 <./KRS1_ResolutionImprovement.png>]
-<KrS2_ZDep_Gaussians.png, id=2266, 344.78813pt x 277.035pt>
+[115] [116 <./KRS1_ResolutionImprovement.png> <./CorrectedS1_Stability.png>]
+<KrS2_ZDep_Gaussians.png, id=2296, 344.78813pt x 277.035pt>
 File: KrS2_ZDep_Gaussians.png Graphic file (type png)
 
 <use KrS2_ZDep_Gaussians.png>
 Package pdftex.def Info: KrS2_ZDep_Gaussians.png used on input line 110.
 (pdftex.def)             Requested size: 179.25244pt x 144.02943pt.
 
-<KrS2_ZDep.png, id=2267, 336.50719pt x 277.035pt>
+<KrS2_ZDep.png, id=2297, 336.50719pt x 277.035pt>
 File: KrS2_ZDep.png Graphic file (type png)
  <use KrS2_ZDep.png>
 Package pdftex.def Info: KrS2_ZDep.png used on input line 112.
 (pdftex.def)             Requested size: 179.25244pt x 147.57184pt.
- [114 <./CorrectedS1_Stability.png>] [115 <./KrS2_ZDep_Gaussians.png> <./KrS2_Z
-Dep.png>]
-<KrS2_XYDep.png, id=2284, 343.2825pt x 269.50688pt>
+ [117 <./KrS2_ZDep_Gaussians.png> <./KrS2_ZDep.png>]
+<KrS2_XYDep.png, id=2308, 343.2825pt x 269.50688pt>
 File: KrS2_XYDep.png Graphic file (type png)
  <use KrS2_XYDep.png>
 Package pdftex.def Info: KrS2_XYDep.png used on input line 129.
 (pdftex.def)             Requested size: 179.25244pt x 140.72833pt.
 
-<KrS2_XYDep_Norm.png, id=2285, 343.2825pt x 271.76532pt>
+<KrS2_XYDep_Norm.png, id=2309, 343.2825pt x 271.76532pt>
 File: KrS2_XYDep_Norm.png Graphic file (type png)
 
 <use KrS2_XYDep_Norm.png>
 Package pdftex.def Info: KrS2_XYDep_Norm.png used on input line 131.
 (pdftex.def)             Requested size: 179.25244pt x 141.90762pt.
- [116 <./KrS2_XYDep.png> <./KrS2_XYDep_Norm.png>]
-<KRS2_ResolutionImprovement.png, id=2297, 341.77687pt x 234.8775pt>
+ [118 <./KrS2_XYDep.png> <./KrS2_XYDep_Norm.png>]
+[119] <KRS2_ResolutionImprovement.png, id=2327, 341.77687pt x 234.8775pt>
 File: KRS2_ResolutionImprovement.png Graphic file (type png)
 
 <use KRS2_ResolutionImprovement.png>
@@ -1549,7 +1544,7 @@ Package pdftex.def Info: KRS2_ResolutionImprovement.png used on input line 151.
 
 (pdftex.def)             Requested size: 239.24217pt x 164.41312pt.
 
-<CorrectedS2_Stability.png, id=2298, 936.49875pt x 533.74406pt>
+<CorrectedS2_Stability.png, id=2328, 936.49875pt x 533.74406pt>
 File: CorrectedS2_Stability.png Graphic file (type png)
 
 <use CorrectedS2_Stability.png>
@@ -1559,6 +1554,7 @@ Package pdftex.def Info: CorrectedS2_Stability.png used on input line 157.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[120 <./KRS2_ResolutionImprovement.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 162.
@@ -1571,22 +1567,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 162.
 
-[117 <./KRS2_ResolutionImprovement.png>] [118 <./CorrectedS2_Stability.png>]
+[121 <./CorrectedS2_Stability.png>]
 
-LaTeX Warning: Reference `LuxSaturation' on page 119 undefined on input line 17
+LaTeX Warning: Reference `LuxSaturation' on page 122 undefined on input line 17
 2.
 
-<RadonSelection.png, id=2313, 578.16pt x 433.62pt>
+<RadonSelection.png, id=2342, 578.16pt x 433.62pt>
 File: RadonSelection.png Graphic file (type png)
  <use RadonSelection.png>
 Package pdftex.def Info: RadonSelection.png used on input line 176.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[119] [120 <./RadonSelection.png (PNG copy)>]
-<RadonLifetimeResults.png, id=2327, 578.16pt x 433.62pt>
+[122] [123 <./RadonSelection.png (PNG copy)>]
+<RadonLifetimeResults.png, id=2355, 578.16pt x 433.62pt>
 File: RadonLifetimeResults.png Graphic file (type png)
 
 <use RadonLifetimeResults.png>
@@ -1596,31 +1589,31 @@ Package pdftex.def Info: RadonLifetimeResults.png used on input line 199.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[121] [122 <./RadonLifetimeResults.png (PNG copy)>] [123] [124]
+[124] [125 <./RadonLifetimeResults.png (PNG copy)>] [126] [127]
 Overfull \hbox (76.45201pt too wide) in paragraph at lines 259--260
 []\T1/cmr/m/n/12 Figure []52[] shows the re-sult of ap-ply-ing the PMT-by-PMT m
 ethod to the lux10_20130510T1250
  []
 
-[125] <PMTxPMT_Fiducial_logy.png, id=2374, 578.16pt x 433.62pt>
+[128] <PMTxPMT_Fiducial_logy.png, id=2403, 578.16pt x 433.62pt>
 File: PMTxPMT_Fiducial_logy.png Graphic file (type png)
 
 <use PMTxPMT_Fiducial_logy.png>
 Package pdftex.def Info: PMTxPMT_Fiducial_logy.png used on input line 264.
 (pdftex.def)             Requested size: 179.25244pt x 134.43404pt.
 
-<PMTxPMT_NoFiducial_logy.png, id=2375, 578.16pt x 433.62pt>
+<PMTxPMT_NoFiducial_logy.png, id=2404, 578.16pt x 433.62pt>
 File: PMTxPMT_NoFiducial_logy.png Graphic file (type png)
 
 <use PMTxPMT_NoFiducial_logy.png>
 Package pdftex.def Info: PMTxPMT_NoFiducial_logy.png used on input line 266.
 (pdftex.def)             Requested size: 179.25244pt x 134.43404pt.
-) [126 <./PMTxPMT_Fiducial_logy.png (PNG copy)> <./PMTxPMT_NoFiducial_logy.png 
-(PNG copy)>] [127]
+ [129 <./PMTxPMT_Fiducial_logy.png (PNG copy)> <./PMTxPMT_NoFiducial_logy.png (
+PNG copy)>]) [130]
 \openout2 = `ChapterSix.aux'.
 
  (./ChapterSix.tex
-<InteractionPhysics.png, id=2392, 1238.37656pt x 694.84593pt>
+<InteractionPhysics.png, id=2420, 1238.37656pt x 694.84593pt>
 File: InteractionPhysics.png Graphic file (type png)
 
 <use InteractionPhysics.png>
@@ -1630,10 +1623,10 @@ Package pdftex.def Info: InteractionPhysics.png used on input line 13.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[128
+[131
 
 
-] [129 <./InteractionPhysics.png>] [130] [131]
+] [132 <./InteractionPhysics.png>] [133] [134]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 81.
@@ -1663,111 +1656,110 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 100.
 See the caption package documentation for explanation.
 
-[132] [133]
-<Monoenergetic_gamma_sources.png, id=2451, 334.24875pt x 238.8925pt>
+[135] [136]
+<Monoenergetic_gamma_sources.png, id=2479, 334.24875pt x 238.8925pt>
 File: Monoenergetic_gamma_sources.png Graphic file (type png)
 
 <use Monoenergetic_gamma_sources.png>
 Package pdftex.def Info: Monoenergetic_gamma_sources.png used on input line 130
 .
 (pdftex.def)             Requested size: 334.24792pt x 238.8919pt.
- [134]
-<SESizes.png, id=2460, 578.16pt x 433.62pt>
+ [137]
+<SESizes.png, id=2489, 578.16pt x 433.62pt>
 File: SESizes.png Graphic file (type png)
  <use SESizes.png>
 Package pdftex.def Info: SESizes.png used on input line 142.
 (pdftex.def)             Requested size: 231.2599pt x 173.44492pt.
- [135 <./Monoenergetic_gamma_sources.png>] <S1Variation.png, id=2465, 578.16pt 
+ [138 <./Monoenergetic_gamma_sources.png>] <S1Variation.png, id=2494, 578.16pt 
 x 433.62pt>
 File: S1Variation.png Graphic file (type png)
 
 <use S1Variation.png>
 Package pdftex.def Info: S1Variation.png used on input line 152.
 (pdftex.def)             Requested size: 231.2599pt x 173.44492pt.
- [136 <./SESizes.png (PNG copy)>]
-<S2Variation.png, id=2470, 578.16pt x 433.62pt>
+ [139 <./SESizes.png (PNG copy)>]
+<S2Variation.png, id=2499, 578.16pt x 433.62pt>
 File: S2Variation.png Graphic file (type png)
  <use S2Variation.png>
 Package pdftex.def Info: S2Variation.png used on input line 160.
 (pdftex.def)             Requested size: 231.2599pt x 173.44492pt.
- [137 <./S1Variation.png (PNG copy)> <./S2Variation.png (PNG copy)>]
-<DokePlot.png, id=2478, 880.03781pt x 689.57625pt>
+ [140 <./S1Variation.png (PNG copy)> <./S2Variation.png (PNG copy)>]
+<DokePlot.png, id=2507, 880.03781pt x 689.57625pt>
 File: DokePlot.png Graphic file (type png)
  <use DokePlot.png>
 Package pdftex.def Info: DokePlot.png used on input line 196.
 (pdftex.def)             Requested size: 264.01338pt x 206.87447pt.
- [138]
-<DokeTrianglePlot.png, id=2486, 397.485pt x 397.485pt>
+ [141]
+<DokeTrianglePlot.png, id=2514, 397.485pt x 397.485pt>
 File: DokeTrianglePlot.png Graphic file (type png)
 
 <use DokeTrianglePlot.png>
 Package pdftex.def Info: DokeTrianglePlot.png used on input line 204.
 (pdftex.def)             Requested size: 198.742pt x 198.742pt.
- <WS_Spectrum.png, id=2487, 578.16pt x 433.62pt>
+ <WS_Spectrum.png, id=2515, 578.16pt x 433.62pt>
 File: WS_Spectrum.png Graphic file (type png)
 
 <use WS_Spectrum.png>
 Package pdftex.def Info: WS_Spectrum.png used on input line 213.
 (pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
- [139 <./DokePlot.png> <./DokeTrianglePlot.png>]
-<KrPeak.png, id=2493, 578.16pt x 433.62pt>
+ [142 <./DokePlot.png> <./DokeTrianglePlot.png>]
+<KrPeak.png, id=2521, 578.16pt x 433.62pt>
 File: KrPeak.png Graphic file (type png)
  <use KrPeak.png>
 Package pdftex.def Info: KrPeak.png used on input line 221.
 (pdftex.def)             Requested size: 190.63338pt x 142.96933pt.
 
-<Xe131Peak.png, id=2494, 578.16pt x 433.62pt>
+<Xe131Peak.png, id=2522, 578.16pt x 433.62pt>
 File: Xe131Peak.png Graphic file (type png)
  <use Xe131Peak.png>
 Package pdftex.def Info: Xe131Peak.png used on input line 223.
 (pdftex.def)             Requested size: 190.63338pt x 142.96933pt.
 
-<Xe127Peak.png, id=2495, 578.16pt x 433.62pt>
+<Xe127Peak.png, id=2523, 578.16pt x 433.62pt>
 File: Xe127Peak.png Graphic file (type png)
  <use Xe127Peak.png>
 Package pdftex.def Info: Xe127Peak.png used on input line 225.
 (pdftex.def)             Requested size: 190.63338pt x 142.96933pt.
 
-<Xe129Peak.png, id=2496, 578.16pt x 433.62pt>
+<Xe129Peak.png, id=2524, 578.16pt x 433.62pt>
 File: Xe129Peak.png Graphic file (type png)
  <use Xe129Peak.png>
 Package pdftex.def Info: Xe129Peak.png used on input line 227.
 (pdftex.def)             Requested size: 190.63338pt x 142.96933pt.
 
-<Xe127_2_Peak.png, id=2497, 578.16pt x 433.62pt>
+<Xe127_2_Peak.png, id=2525, 578.16pt x 433.62pt>
 File: Xe127_2_Peak.png Graphic file (type png)
  <use Xe127_2_Peak.png>
 Package pdftex.def Info: Xe127_2_Peak.png used on input line 229.
 (pdftex.def)             Requested size: 190.63338pt x 142.96933pt.
 
-<Bi214Peak.png, id=2498, 578.16pt x 433.62pt>
+<Bi214Peak.png, id=2526, 578.16pt x 433.62pt>
 File: Bi214Peak.png Graphic file (type png)
  <use Bi214Peak.png>
 Package pdftex.def Info: Bi214Peak.png used on input line 231.
 (pdftex.def)             Requested size: 190.63338pt x 142.96933pt.
+ [143 <./WS_Spectrum.png (PNG copy)>] [144 <./KrPeak.png (PNG copy)> <./Xe131Pe
+ak.png (PNG copy)> <./Xe127Peak.png (PNG copy)> <./Xe129Peak.png (PNG copy)> <.
+/Xe127_2_Peak.png (PNG copy)> <./Bi214Peak.png (PNG copy)>]
 
-
-LaTeX Warning: Reference `akerib2016signal' on page 140 undefined on input line
+LaTeX Warning: Reference `akerib2016signal' on page 145 undefined on input line
  246.
 
-[140 <./WS_Spectrum.png (PNG copy)>] [141 <./KrPeak.png (PNG copy)> <./Xe131Pea
-k.png (PNG copy)> <./Xe127Peak.png (PNG copy)> <./Xe129Peak.png (PNG copy)> <./
-Xe127_2_Peak.png (PNG copy)> <./Bi214Peak.png (PNG copy)>]
-<EnergyFluctuations.png, id=2515, 578.16pt x 433.62pt>
+[145] <EnergyFluctuations.png, id=2549, 578.16pt x 433.62pt>
 File: EnergyFluctuations.png Graphic file (type png)
 
 <use EnergyFluctuations.png>
 Package pdftex.def Info: EnergyFluctuations.png used on input line 272.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
- [142]
-<QuantaFluctuations.png, id=2520, 578.16pt x 433.62pt>
+
+<QuantaFluctuations.png, id=2550, 578.16pt x 433.62pt>
 File: QuantaFluctuations.png Graphic file (type png)
 
 <use QuantaFluctuations.png>
 Package pdftex.def Info: QuantaFluctuations.png used on input line 279.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
- [143 <./EnergyFluctuations.png (PNG copy)> <./QuantaFluctuations.png (PNG copy
-)>] [144]
+ [146 <./EnergyFluctuations.png (PNG copy)>]
+[147 <./QuantaFluctuations.png (PNG copy)>] [148]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 333.
@@ -1808,14 +1800,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 333.
 
-[145]) [146] [147]
+[149]) [150]
 \openout2 = `ChapterSeven.aux'.
 
- (./ChapterSeven.tex [148
+ (./ChapterSeven.tex [151
 
 
-] [149]
-<Run04Corrections/Sep2014_Field_Detailed.png, id=2577, 1053.1847pt x 702.37407p
+] [152]
+<Run04Corrections/Sep2014_Field_Detailed.png, id=2606, 1053.1847pt x 702.37407p
 t>
 File: Run04Corrections/Sep2014_Field_Detailed.png Graphic file (type png)
  <use Run04Corrections/Sep2014_Field_Detailed.png>
@@ -1823,18 +1815,12 @@ Package pdftex.def Info: Run04Corrections/Sep2014_Field_Detailed.png used on in
 put line 22.
 (pdftex.def)             Requested size: 421.26642pt x 280.94466pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 23.
-See the caption package documentation for explanation.
-
-
 Overfull \hbox (3.01274pt too wide) in paragraph at lines 22--23
- [] 
+ [][] 
  []
 
-[150 <./Run04Corrections/Sep2014_Field_Detailed.png>] [151]
-<Run04Corrections/Sep2014_Field.png, id=2596, 520.19344pt x 625.58719pt>
+[153 <./Run04Corrections/Sep2014_Field_Detailed.png>] [154]
+<Run04Corrections/Sep2014_Field.png, id=2624, 520.19344pt x 625.58719pt>
 File: Run04Corrections/Sep2014_Field.png Graphic file (type png)
 
 <use Run04Corrections/Sep2014_Field.png>
@@ -1843,12 +1829,9 @@ Package pdftex.def Info: Run04Corrections/Sep2014_Field.png used on input line
 (pdftex.def)             Requested size: 260.09607pt x 312.79283pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 37.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[152 <./Run04Corrections/Sep2014_Field.png>]
-<Run04Corrections/Recomb.png, id=2605, 816.80156pt x 673.01437pt>
+<Run04Corrections/Recomb.png, id=2629, 816.80156pt x 673.01437pt>
 File: Run04Corrections/Recomb.png Graphic file (type png)
 
 <use Run04Corrections/Recomb.png>
@@ -1856,11 +1839,10 @@ Package pdftex.def Info: Run04Corrections/Recomb.png used on input line 42.
 (pdftex.def)             Requested size: 326.71483pt x 269.20097pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 43.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[153 <./Run04Corrections/Recomb.png>]
+[155] [156 <./Run04Corrections/Sep2014_Field.png>] [157 <./Run04Corrections/Rec
+omb.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 52.
@@ -1873,7 +1855,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 52.
 
-[154] [155]
+[158
+
+] [159] [160]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 64.
@@ -1886,8 +1870,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 64.
 
-[156]
-<Run04Corrections/TritiumDetectorInefficiency_Cuts.png, id=2632, 578.16pt x 433
+
+<Run04Corrections/TritiumDetectorInefficiency_Cuts.png, id=2665, 578.16pt x 433
 .62pt>
 File: Run04Corrections/TritiumDetectorInefficiency_Cuts.png Graphic file (type 
 png)
@@ -1897,12 +1881,11 @@ used on input line 69.
 (pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 70.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[157 <./Run04Corrections/TritiumDetectorInefficiency_Cuts.png (PNG copy)>]
-<Run04Corrections/TritiumDetectorInefficiency_RecombMap.png, id=2638, 578.16pt 
+[161] [162 <./Run04Corrections/TritiumDetectorInefficiency_Cuts.png (PNG copy)>
+]
+<Run04Corrections/TritiumDetectorInefficiency_RecombMap.png, id=2680, 578.16pt 
 x 433.62pt>
 File: Run04Corrections/TritiumDetectorInefficiency_RecombMap.png Graphic file (
 type png)
@@ -1911,13 +1894,8 @@ Package pdftex.def Info: Run04Corrections/TritiumDetectorInefficiency_RecombMap
 .png used on input line 84.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 85.
-See the caption package documentation for explanation.
-
-[158 <./Run04Corrections/TritiumDetectorInefficiency_RecombMap.png (PNG copy)>]
-[159] <Run04Corrections/LandauFits.png, id=2655, 578.16pt x 433.62pt>
+[163 <./Run04Corrections/TritiumDetectorInefficiency_RecombMap.png (PNG copy)>]
+[164] <Run04Corrections/LandauFits.png, id=2694, 578.16pt x 433.62pt>
 File: Run04Corrections/LandauFits.png Graphic file (type png)
 
 <use Run04Corrections/LandauFits.png>
@@ -1925,15 +1903,16 @@ Package pdftex.def Info: Run04Corrections/LandauFits.png used on input line 113
 .
 (pdftex.def)             Requested size: 190.63338pt x 142.96933pt.
 
-<Run04Corrections/CH3T_S2_ZDep.png, id=2656, 578.16pt x 433.62pt>
+<Run04Corrections/CH3T_S2_ZDep.png, id=2695, 578.16pt x 433.62pt>
 File: Run04Corrections/CH3T_S2_ZDep.png Graphic file (type png)
 
 <use Run04Corrections/CH3T_S2_ZDep.png>
 Package pdftex.def Info: Run04Corrections/CH3T_S2_ZDep.png used on input line 1
 15.
 (pdftex.def)             Requested size: 190.63338pt x 142.96933pt.
- [160]
-<Run04Corrections/CH3T_S2_XYDep.png, id=2663, 578.16pt x 433.62pt>
+ [165 <./Run04Corrections/LandauFits.png (PNG copy)> <./Run04Corrections/CH3T_S
+2_ZDep.png (PNG copy)>]
+<Run04Corrections/CH3T_S2_XYDep.png, id=2704, 578.16pt x 433.62pt>
 File: Run04Corrections/CH3T_S2_XYDep.png Graphic file (type png)
 
 <use Run04Corrections/CH3T_S2_XYDep.png>
@@ -1942,13 +1921,9 @@ Package pdftex.def Info: Run04Corrections/CH3T_S2_XYDep.png used on input line
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 128.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[161 <./Run04Corrections/LandauFits.png (PNG copy)> <./Run04Corrections/CH3T_S2
-_ZDep.png (PNG copy)>]
-<Run04Corrections/CH3T_S1_Threshold.png, id=2675, 578.16pt x 433.62pt>
+[166] <Run04Corrections/CH3T_S1_Threshold.png, id=2715, 578.16pt x 433.62pt>
 File: Run04Corrections/CH3T_S1_Threshold.png Graphic file (type png)
 
 <use Run04Corrections/CH3T_S1_Threshold.png>
@@ -1957,11 +1932,9 @@ ine 144.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 145.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[162 <./Run04Corrections/CH3T_S2_XYDep.png (PNG copy)>]
+[167 <./Run04Corrections/CH3T_S2_XYDep.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 150.
@@ -1974,8 +1947,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 150.
 
-[163 <./Run04Corrections/CH3T_S1_Threshold.png (PNG copy)>]
-<Run04Corrections/FieldEffectZ_S2Only.png, id=2690, 578.16pt x 433.62pt>
+[168 <./Run04Corrections/CH3T_S1_Threshold.png (PNG copy)>]
+<Run04Corrections/FieldEffectZ_S2Only.png, id=2730, 578.16pt x 433.62pt>
 File: Run04Corrections/FieldEffectZ_S2Only.png Graphic file (type png)
 
 <use Run04Corrections/FieldEffectZ_S2Only.png>
@@ -1984,12 +1957,9 @@ Package pdftex.def Info: Run04Corrections/FieldEffectZ_S2Only.png used on input
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 162.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[164 <./Run04Corrections/FieldEffectZ_S2Only.png (PNG copy)>]
-<Run04Corrections/GaussianFits.png, id=2696, 578.16pt x 433.62pt>
+<Run04Corrections/GaussianFits.png, id=2731, 578.16pt x 433.62pt>
 File: Run04Corrections/GaussianFits.png Graphic file (type png)
 
 <use Run04Corrections/GaussianFits.png>
@@ -1997,23 +1967,31 @@ Package pdftex.def Info: Run04Corrections/GaussianFits.png used on input line 1
 68.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/Kr_S2_ZDep.png, id=2697, 578.16pt x 433.62pt>
+<Run04Corrections/Kr_S2_ZDep.png, id=2732, 578.16pt x 433.62pt>
 File: Run04Corrections/Kr_S2_ZDep.png Graphic file (type png)
 
 <use Run04Corrections/Kr_S2_ZDep.png>
 Package pdftex.def Info: Run04Corrections/Kr_S2_ZDep.png used on input line 170
 .
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [165 <./Run04Corrections/GaussianFits.png (PNG copy)> <./Run04Corrections/Kr_S
-2_ZDep.png (PNG copy)>]
-<Run04Corrections/Kr_S2_XYDep.png, id=2705, 578.16pt x 433.62pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[169]
+
+LaTeX Warning: Text page 170 contains only floats.
+
+[170 <./Run04Corrections/FieldEffectZ_S2Only.png (PNG copy)> <./Run04Correction
+s/GaussianFits.png (PNG copy)> <./Run04Corrections/Kr_S2_ZDep.png (PNG copy)>]
+<Run04Corrections/Kr_S2_XYDep.png, id=2745, 578.16pt x 433.62pt>
 File: Run04Corrections/Kr_S2_XYDep.png Graphic file (type png)
 
 <use Run04Corrections/Kr_S2_XYDep.png>
 Package pdftex.def Info: Run04Corrections/Kr_S2_XYDep.png used on input line 18
 3.
 (pdftex.def)             Requested size: 260.16959pt x 195.1272pt.
- [166 <./Run04Corrections/Kr_S2_XYDep.png (PNG copy)>]
+ [171 <./Run04Corrections/Kr_S2_XYDep.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 190.
@@ -2026,723 +2004,709 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 190.
 
-[167] <Run04Corrections/s1a_s1b_sumpod.png, id=2718, 562.1pt x 421.575pt>
+
+LaTeX Warning: Citation `S1aS1bModuleNote' on page 172 undefined on input line 
+194.
+
+[172] <Run04Corrections/s1a_s1b_sumpod.png, id=2759, 562.1pt x 421.575pt>
 File: Run04Corrections/s1a_s1b_sumpod.png Graphic file (type png)
 
 <use Run04Corrections/s1a_s1b_sumpod.png>
 Package pdftex.def Info: Run04Corrections/s1a_s1b_sumpod.png used on input line
- 197.
+ 199.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
-
-<Run04Corrections/S1aS1bCut_Timing.png, id=2719, 578.16pt x 433.62pt>
+ [173 <./Run04Corrections/s1a_s1b_sumpod.png (PNG copy)>]
+<Run04Corrections/S1aS1bCut_Timing.png, id=2765, 578.16pt x 433.62pt>
 File: Run04Corrections/S1aS1bCut_Timing.png Graphic file (type png)
 
 <use Run04Corrections/S1aS1bCut_Timing.png>
 Package pdftex.def Info: Run04Corrections/S1aS1bCut_Timing.png used on input li
-ne 204.
-(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
+ne 208.
+(pdftex.def)             Requested size: 312.9803pt x 234.73357pt.
 
-<Run04Corrections/S1aS1bCut.png, id=2720, 578.16pt x 433.62pt>
+<Run04Corrections/S1aS1bCut.png, id=2766, 578.16pt x 433.62pt>
 File: Run04Corrections/S1aS1bCut.png Graphic file (type png)
 
 <use Run04Corrections/S1aS1bCut.png>
-Package pdftex.def Info: Run04Corrections/S1aS1bCut.png used on input line 206.
+Package pdftex.def Info: Run04Corrections/S1aS1bCut.png used on input line 210.
 
-(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[168 <./Run04Corrections/s1a_s1b_sumpod.png (PNG copy)>]
-<Run04Corrections/S1aGaussianFits.png, id=2728, 578.16pt x 433.62pt>
+(pdftex.def)             Requested size: 312.9803pt x 234.73357pt.
+ [174 <./Run04Corrections/S1aS1bCut_Timing.png (PNG copy)> <./Run04Corrections/
+S1aS1bCut.png (PNG copy)>]
+<Run04Corrections/S1aGaussianFits.png, id=2775, 578.16pt x 433.62pt>
 File: Run04Corrections/S1aGaussianFits.png Graphic file (type png)
 
 <use Run04Corrections/S1aGaussianFits.png>
 Package pdftex.def Info: Run04Corrections/S1aGaussianFits.png used on input lin
-e 221.
+e 224.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/S1aS1bZDep.png, id=2729, 578.16pt x 433.62pt>
+<Run04Corrections/S1aS1bZDep.png, id=2776, 578.16pt x 433.62pt>
 File: Run04Corrections/S1aS1bZDep.png Graphic file (type png)
 
 <use Run04Corrections/S1aS1bZDep.png>
-Package pdftex.def Info: Run04Corrections/S1aS1bZDep.png used on input line 223
+Package pdftex.def Info: Run04Corrections/S1aS1bZDep.png used on input line 226
 .
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
+ [175 <./Run04Corrections/S1aGaussianFits.png (PNG copy)> <./Run04Corrections/S
+1aS1bZDep.png (PNG copy)>]
+<Run04Corrections/S1aS1bvXY.png, id=2784, 578.16pt x 433.62pt>
+File: Run04Corrections/S1aS1bvXY.png Graphic file (type png)
+
+<use Run04Corrections/S1aS1bvXY.png>
+Package pdftex.def Info: Run04Corrections/S1aS1bvXY.png used on input line 237.
+
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[169 <./Run04Corrections/S1aS1bCut_Timing.png (PNG copy)> <./Run04Corrections/S
-1aS1bCut.png (PNG copy)>]
-<Run04Corrections/S1aS1bvXY.png, id=2737, 578.16pt x 433.62pt>
-File: Run04Corrections/S1aS1bvXY.png Graphic file (type png)
-
-<use Run04Corrections/S1aS1bvXY.png>
-Package pdftex.def Info: Run04Corrections/S1aS1bvXY.png used on input line 233.
-
-(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 234.
-See the caption package documentation for explanation.
-
-[170 <./Run04Corrections/S1aGaussianFits.png (PNG copy)> <./Run04Corrections/S1
-aS1bZDep.png (PNG copy)>] [171 <./Run04Corrections/S1aS1bvXY.png (PNG copy)>]
-<Run04Corrections/S1aS1bVField_XYDep.png, id=2751, 578.16pt x 433.62pt>
+[176] <Run04Corrections/S1aS1bVField_XYDep.png, id=2793, 578.16pt x 433.62pt>
 File: Run04Corrections/S1aS1bVField_XYDep.png Graphic file (type png)
 
 <use Run04Corrections/S1aS1bVField_XYDep.png>
 Package pdftex.def Info: Run04Corrections/S1aS1bVField_XYDep.png used on input 
-line 241.
+line 247.
 (pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 242.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Run04Corrections/S1aS1bvField_ZDep_3D_S2Only.png, id=2752, 578.16pt x 433.62pt
+<Run04Corrections/S1aS1bvField_ZDep_3D_S2Only.png, id=2794, 578.16pt x 433.62pt
 >
 File: Run04Corrections/S1aS1bvField_ZDep_3D_S2Only.png Graphic file (type png)
  <use Run04Corrections/S1aS1bvField_ZDep_3D_S2Only.png>
 Package pdftex.def Info: Run04Corrections/S1aS1bvField_ZDep_3D_S2Only.png used 
-on input line 247.
+on input line 253.
 (pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 248.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[172 <./Run04Corrections/S1aS1bVField_XYDep.png (PNG copy)>] [173 <./Run04Corre
-ctions/S1aS1bvField_ZDep_3D_S2Only.png (PNG copy)>] [174]
+[177 <./Run04Corrections/S1aS1bvXY.png (PNG copy)>] [178 <./Run04Corrections/S1
+aS1bVField_XYDep.png (PNG copy)>] [179 <./Run04Corrections/S1aS1bvField_ZDep_3D
+_S2Only.png (PNG copy)>] [180
 
-LaTeX Warning: Reference `KrAppen' on page 175 undefined on input line 281.
-
-[175]
-<Run04Corrections/S1aS1bvField_ZDep_3D.png, id=2789, 578.16pt x 433.62pt>
+] [181]
+<Run04Corrections/S1aS1bvField_ZDep_3D.png, id=2834, 578.16pt x 433.62pt>
 File: Run04Corrections/S1aS1bvField_ZDep_3D.png Graphic file (type png)
 
 <use Run04Corrections/S1aS1bvField_ZDep_3D.png>
 Package pdftex.def Info: Run04Corrections/S1aS1bvField_ZDep_3D.png used on inpu
-t line 284.
+t line 290.
 (pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
- [176 <./Run04Corrections/S1aS1bvField_ZDep_3D.png (PNG copy)>]
-<Run04Corrections/InferredS1Measure_Sep2015CH3T.png, id=2794, 578.16pt x 433.62
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Run04Corrections/InferredS1Measure_Sep2015CH3T.png, id=2835, 578.16pt x 433.62
 pt>
 File: Run04Corrections/InferredS1Measure_Sep2015CH3T.png Graphic file (type png
 )
  <use Run04Corrections/InferredS1Measure_Sep2015CH3T.png>
 Package pdftex.def Info: Run04Corrections/InferredS1Measure_Sep2015CH3T.png use
-d on input line 293.
+d on input line 299.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/InferredS1Measure_Feb2016CH3T.png, id=2795, 578.16pt x 433.62
+<Run04Corrections/InferredS1Measure_Feb2016CH3T.png, id=2836, 578.16pt x 433.62
 pt>
 File: Run04Corrections/InferredS1Measure_Feb2016CH3T.png Graphic file (type png
 )
  <use Run04Corrections/InferredS1Measure_Feb2016CH3T.png>
 Package pdftex.def Info: Run04Corrections/InferredS1Measure_Feb2016CH3T.png use
-d on input line 295.
+d on input line 301.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/InferredS1Measure_KrSpectra.png, id=2796, 578.16pt x 433.62pt
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Run04Corrections/InferredS1Measure_KrSpectra.png, id=2837, 578.16pt x 433.62pt
 >
 File: Run04Corrections/InferredS1Measure_KrSpectra.png Graphic file (type png)
  <use Run04Corrections/InferredS1Measure_KrSpectra.png>
 Package pdftex.def Info: Run04Corrections/InferredS1Measure_KrSpectra.png used 
-on input line 303.
+on input line 309.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/InferredS1Measure_KrSpectraZDep.png, id=2797, 578.16pt x 433.
+<Run04Corrections/InferredS1Measure_KrSpectraZDep.png, id=2838, 578.16pt x 433.
 62pt>
 File: Run04Corrections/InferredS1Measure_KrSpectraZDep.png Graphic file (type p
 ng)
  <use Run04Corrections/InferredS1Measure_KrSpectraZDep.png>
 Package pdftex.def Info: Run04Corrections/InferredS1Measure_KrSpectraZDep.png u
-sed on input line 305.
+sed on input line 311.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [177 <./Run04Corrections/InferredS1Measure_Sep2015CH3T.png (PNG copy)> <./Run0
-4Corrections/InferredS1Measure_Feb2016CH3T.png (PNG copy)> <./Run04Corrections/
-InferredS1Measure_KrSpectra.png (PNG copy)> <./Run04Corrections/InferredS1Measu
-re_KrSpectraZDep.png (PNG copy)>] [178] [179]
-<Run04Corrections/ManalaysayFieldQuenching.png, id=2826, 941.76843pt x 690.3290
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[182] [183 <./Run04Corrections/S1aS1bvField_ZDep_3D.png (PNG copy)> <./Run04Cor
+rections/InferredS1Measure_Sep2015CH3T.png (PNG copy)> <./Run04Corrections/Infe
+rredS1Measure_Feb2016CH3T.png (PNG copy)>] [184 <./Run04Corrections/InferredS1M
+easure_KrSpectra.png (PNG copy)> <./Run04Corrections/InferredS1Measure_KrSpectr
+aZDep.png (PNG copy)>] [185
+
+] [186]
+<Run04Corrections/ManalaysayFieldQuenching.png, id=2876, 941.76843pt x 690.3290
 6pt>
 File: Run04Corrections/ManalaysayFieldQuenching.png Graphic file (type png)
  <use Run04Corrections/ManalaysayFieldQuenching.png>
 Package pdftex.def Info: Run04Corrections/ManalaysayFieldQuenching.png used on 
-input line 332.
+input line 338.
 (pdftex.def)             Requested size: 282.5327pt x 207.10031pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 333.
-See the caption package documentation for explanation.
-
-
-<Run04Corrections/MatthewS1FieldEffectMeasurement.png, id=2827, 578.16pt x 433.
+<Run04Corrections/MatthewS1FieldEffectMeasurement.png, id=2877, 578.16pt x 433.
 62pt>
 File: Run04Corrections/MatthewS1FieldEffectMeasurement.png Graphic file (type p
 ng)
  <use Run04Corrections/MatthewS1FieldEffectMeasurement.png>
 Package pdftex.def Info: Run04Corrections/MatthewS1FieldEffectMeasurement.png u
-sed on input line 338.
+sed on input line 344.
 (pdftex.def)             Requested size: 231.2599pt x 173.44492pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 339.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[180 <./Run04Corrections/ManalaysayFieldQuenching.png> <./Run04Corrections/Matt
-hewS1FieldEffectMeasurement.png (PNG copy)>] [181]
-<Run04Corrections/CH3T_Sep2015_Energy_BothDirectMeasured.png, id=2844, 421.575p
+[187 <./Run04Corrections/ManalaysayFieldQuenching.png>]
+<Run04Corrections/CH3T_Sep2015_Energy_BothDirectMeasured.png, id=2889, 421.575p
 t x 316.18124pt>
 File: Run04Corrections/CH3T_Sep2015_Energy_BothDirectMeasured.png Graphic file 
 (type png)
 
 <use Run04Corrections/CH3T_Sep2015_Energy_BothDirectMeasured.png>
 Package pdftex.def Info: Run04Corrections/CH3T_Sep2015_Energy_BothDirectMeasure
-d.png used on input line 349.
+d.png used on input line 355.
 (pdftex.def)             Requested size: 184.9429pt x 138.71008pt.
 
-<Run04Corrections/CH3T_Feb2016_Energy_BothDirectMeasured.png, id=2845, 421.575p
+<Run04Corrections/CH3T_Feb2016_Energy_BothDirectMeasured.png, id=2890, 421.575p
 t x 316.18124pt>
 File: Run04Corrections/CH3T_Feb2016_Energy_BothDirectMeasured.png Graphic file 
 (type png)
 
 <use Run04Corrections/CH3T_Feb2016_Energy_BothDirectMeasured.png>
 Package pdftex.def Info: Run04Corrections/CH3T_Feb2016_Energy_BothDirectMeasure
-d.png used on input line 351.
+d.png used on input line 357.
 (pdftex.def)             Requested size: 184.9429pt x 138.71008pt.
 
-<Run04Corrections/KrEnergy_BothDirectMeasured.png, id=2848, 421.575pt x 316.181
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Run04Corrections/KrEnergy_BothDirectMeasured.png, id=2893, 421.575pt x 316.181
 24pt>
 File: Run04Corrections/KrEnergy_BothDirectMeasured.png Graphic file (type png)
  <use Run04Corrections/KrEnergy_BothDirectMeasured.png>
 Package pdftex.def Info: Run04Corrections/KrEnergy_BothDirectMeasured.png used 
-on input line 358.
+on input line 364.
 (pdftex.def)             Requested size: 184.9429pt x 138.71008pt.
 
-<Run04Corrections/KrEnergyZDep_BothDirectMeasured.png, id=2849, 421.575pt x 316
+<Run04Corrections/KrEnergyZDep_BothDirectMeasured.png, id=2894, 421.575pt x 316
 .18124pt>
 File: Run04Corrections/KrEnergyZDep_BothDirectMeasured.png Graphic file (type p
 ng)
  <use Run04Corrections/KrEnergyZDep_BothDirectMeasured.png>
 Package pdftex.def Info: Run04Corrections/KrEnergyZDep_BothDirectMeasured.png u
-sed on input line 360.
+sed on input line 366.
 (pdftex.def)             Requested size: 184.9429pt x 138.71008pt.
- [182 <./Run04Corrections/CH3T_Sep2015_Energy_BothDirectMeasured.png (PNG copy)
-> <./Run04Corrections/CH3T_Feb2016_Energy_BothDirectMeasured.png (PNG copy)> <.
-/Run04Corrections/KrEnergy_BothDirectMeasured.png (PNG copy)> <./Run04Correctio
-ns/KrEnergyZDep_BothDirectMeasured.png (PNG copy)>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[188 <./Run04Corrections/MatthewS1FieldEffectMeasurement.png (PNG copy)>]
+[189 <./Run04Corrections/CH3T_Sep2015_Energy_BothDirectMeasured.png (PNG copy)>
+ <./Run04Corrections/CH3T_Feb2016_Energy_BothDirectMeasured.png (PNG copy)> <./
+Run04Corrections/KrEnergy_BothDirectMeasured.png (PNG copy)> <./Run04Correction
+s/KrEnergyZDep_BothDirectMeasured.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 378.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\chi' on input line 378.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 378.
+(hyperref)                removing `math shift' on input line 384.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 378.
+(hyperref)                removing `\chi' on input line 384.
 
-[183] [184] [185] [186]
-<Run04Corrections/KrEnergy.png, id=2890, 578.16pt x 433.62pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 384.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 384.
+
+[190] [191] [192] [193]
+<Run04Corrections/KrEnergy.png, id=2940, 578.16pt x 433.62pt>
 File: Run04Corrections/KrEnergy.png Graphic file (type png)
 
 <use Run04Corrections/KrEnergy.png>
-Package pdftex.def Info: Run04Corrections/KrEnergy.png used on input line 405.
+Package pdftex.def Info: Run04Corrections/KrEnergy.png used on input line 411.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/KrEnergyZDep.png, id=2891, 578.16pt x 433.62pt>
+<Run04Corrections/KrEnergyZDep.png, id=2941, 578.16pt x 433.62pt>
 File: Run04Corrections/KrEnergyZDep.png Graphic file (type png)
 
 <use Run04Corrections/KrEnergyZDep.png>
 Package pdftex.def Info: Run04Corrections/KrEnergyZDep.png used on input line 4
-07.
+13.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [187 <./Run04Corrections/KrEnergy.png (PNG copy)> <./Run04Corrections/KrEnergy
-ZDep.png (PNG copy)>]
-<Run04Corrections/CH3T_Sep2015_Energy.png, id=2898, 421.575pt x 316.18124pt>
+
+<Run04Corrections/CH3T_Sep2015_Energy.png, id=2942, 421.575pt x 316.18124pt>
 File: Run04Corrections/CH3T_Sep2015_Energy.png Graphic file (type png)
 
 <use Run04Corrections/CH3T_Sep2015_Energy.png>
 Package pdftex.def Info: Run04Corrections/CH3T_Sep2015_Energy.png used on input
- line 416.
+ line 422.
 (pdftex.def)             Requested size: 184.9429pt x 138.71008pt.
 
-<Run04Corrections/CH3T_Feb2016_Energy.png, id=2899, 421.575pt x 316.18124pt>
+<Run04Corrections/CH3T_Feb2016_Energy.png, id=2943, 421.575pt x 316.18124pt>
 File: Run04Corrections/CH3T_Feb2016_Energy.png Graphic file (type png)
 
 <use Run04Corrections/CH3T_Feb2016_Energy.png>
 Package pdftex.def Info: Run04Corrections/CH3T_Feb2016_Energy.png used on input
- line 418.
+ line 424.
 (pdftex.def)             Requested size: 184.9429pt x 138.71008pt.
- [188 <./Run04Corrections/CH3T_Sep2015_Energy.png (PNG copy)> <./Run04Correctio
-ns/CH3T_Feb2016_Energy.png (PNG copy)>]
-<Run04Corrections/StrengthOfFieldEffectOverlay.png, id=2910, 578.16pt x 433.62p
+ [194 <./Run04Corrections/KrEnergy.png (PNG copy)> <./Run04Corrections/KrEnergy
+ZDep.png (PNG copy)> <./Run04Corrections/CH3T_Sep2015_Energy.png (PNG copy)> <.
+/Run04Corrections/CH3T_Feb2016_Energy.png (PNG copy)>]
+<Run04Corrections/StrengthOfFieldEffectOverlay.png, id=2955, 578.16pt x 433.62p
 t>
 File: Run04Corrections/StrengthOfFieldEffectOverlay.png Graphic file (type png)
 
  <use Run04Corrections/StrengthOfFieldEffectOverlay.png>
 Package pdftex.def Info: Run04Corrections/StrengthOfFieldEffectOverlay.png used
- on input line 437.
+ on input line 443.
 (pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 438.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[189 <./Run04Corrections/StrengthOfFieldEffectOverlay.png (PNG copy)>] [190]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 450.
-
+[195] [196 <./Run04Corrections/StrengthOfFieldEffectOverlay.png (PNG copy)>]
+[197]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 450.
+(hyperref)                removing `math shift' on input line 456.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 450.
+(hyperref)                removing `superscript' on input line 456.
 
 
-<Run04Corrections/KrypCal_FieldEffect.png, id=2928, 511.15968pt x 408.02437pt>
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 456.
+
+
+<Run04Corrections/KrypCal_FieldEffect.png, id=2978, 511.15968pt x 408.02437pt>
 File: Run04Corrections/KrypCal_FieldEffect.png Graphic file (type png)
 
 <use Run04Corrections/KrypCal_FieldEffect.png>
 Package pdftex.def Info: Run04Corrections/KrypCal_FieldEffect.png used on input
- line 460.
+ line 466.
 (pdftex.def)             Requested size: 255.57921pt x 204.01169pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 461.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[191] [192 <./Run04Corrections/KrypCal_FieldEffect.png (PNG copy)>]
-<Run04Corrections/S2F_GaussianFits.png, id=2942, 578.16pt x 433.62pt>
+[198] [199 <./Run04Corrections/KrypCal_FieldEffect.png (PNG copy)>]
+<Run04Corrections/S2F_GaussianFits.png, id=2991, 578.16pt x 433.62pt>
 File: Run04Corrections/S2F_GaussianFits.png Graphic file (type png)
 
 <use Run04Corrections/S2F_GaussianFits.png>
 Package pdftex.def Info: Run04Corrections/S2F_GaussianFits.png used on input li
-ne 479.
+ne 484.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/S2F_ZDep.png, id=2943, 578.16pt x 433.62pt>
+<Run04Corrections/S2F_ZDep.png, id=2992, 578.16pt x 433.62pt>
 File: Run04Corrections/S2F_ZDep.png Graphic file (type png)
 
 <use Run04Corrections/S2F_ZDep.png>
-Package pdftex.def Info: Run04Corrections/S2F_ZDep.png used on input line 481.
+Package pdftex.def Info: Run04Corrections/S2F_ZDep.png used on input line 486.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/S1F_GaussianFits.png, id=2944, 578.16pt x 433.62pt>
+<Run04Corrections/S1F_GaussianFits.png, id=2993, 578.16pt x 433.62pt>
 File: Run04Corrections/S1F_GaussianFits.png Graphic file (type png)
 
 <use Run04Corrections/S1F_GaussianFits.png>
 Package pdftex.def Info: Run04Corrections/S1F_GaussianFits.png used on input li
-ne 488.
+ne 493.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/S1F_ZDep.png, id=2945, 578.16pt x 433.62pt>
+<Run04Corrections/S1F_ZDep.png, id=2994, 578.16pt x 433.62pt>
 File: Run04Corrections/S1F_ZDep.png Graphic file (type png)
 
 <use Run04Corrections/S1F_ZDep.png>
-Package pdftex.def Info: Run04Corrections/S1F_ZDep.png used on input line 490.
-(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [193 <./Run04Corrections/S2F_GaussianFits.png (PNG copy)> <./Run04Corrections/
-S2F_ZDep.png (PNG copy)>] [194 <./Run04Corrections/S1F_GaussianFits.png (PNG co
-py)> <./Run04Corrections/S1F_ZDep.png (PNG copy)>] <Run04Corrections/S2F_XYDep.
-png, id=2961, 421.575pt x 316.18124pt>
-File: Run04Corrections/S2F_XYDep.png Graphic file (type png)
-
-<use Run04Corrections/S2F_XYDep.png>
-Package pdftex.def Info: Run04Corrections/S2F_XYDep.png used on input line 504.
-
-(pdftex.def)             Requested size: 184.9429pt x 138.71008pt.
-
-<Run04Corrections/S1F_XYDep.png, id=2962, 578.16pt x 433.62pt>
-File: Run04Corrections/S1F_XYDep.png Graphic file (type png)
-
-<use Run04Corrections/S1F_XYDep.png>
-Package pdftex.def Info: Run04Corrections/S1F_XYDep.png used on input line 506.
-
-(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [195 <./Run04Corrections/S2F_XYDep.png (PNG copy)> <./Run04Corrections/S1F_XYD
-ep.png (PNG copy)>] [196]
-<Run04Corrections/GoodLifetimeFit.png, id=2978, 578.16pt x 433.62pt>
-File: Run04Corrections/GoodLifetimeFit.png Graphic file (type png)
-
-<use Run04Corrections/GoodLifetimeFit.png>
-Package pdftex.def Info: Run04Corrections/GoodLifetimeFit.png used on input lin
-e 524.
-(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
-
-<Run04Corrections/BadLifetimeFit.png, id=2979, 578.16pt x 433.62pt>
-File: Run04Corrections/BadLifetimeFit.png Graphic file (type png)
-
-<use Run04Corrections/BadLifetimeFit.png>
-Package pdftex.def Info: Run04Corrections/BadLifetimeFit.png used on input line
- 526.
-(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [197 <./Run04Corrections/GoodLifetimeFit.png (PNG copy)> <./Run04Corrections/B
-adLifetimeFit.png (PNG copy)>]
-<Run04Corrections/LUX_eLifetime_Kr2p22.png, id=2986, 578.16pt x 433.62pt>
-File: Run04Corrections/LUX_eLifetime_Kr2p22.png Graphic file (type png)
-
-<use Run04Corrections/LUX_eLifetime_Kr2p22.png>
-Package pdftex.def Info: Run04Corrections/LUX_eLifetime_Kr2p22.png used on inpu
-t line 535.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 536.
-See the caption package documentation for explanation.
-
-[198 <./Run04Corrections/LUX_eLifetime_Kr2p22.png (PNG copy)>]
-<Run04Corrections/SESizeExample.png, id=2994, 578.16pt x 433.62pt>
-File: Run04Corrections/SESizeExample.png Graphic file (type png)
-
-<use Run04Corrections/SESizeExample.png>
-Package pdftex.def Info: Run04Corrections/SESizeExample.png used on input line 
-548.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 549.
-See the caption package documentation for explanation.
-
-<Run04Corrections/SEXYSizeExample.png, id=2995, 578.16pt x 433.62pt>
-File: Run04Corrections/SEXYSizeExample.png Graphic file (type png)
-
-<use Run04Corrections/SEXYSizeExample.png>
-Package pdftex.def Info: Run04Corrections/SEXYSizeExample.png used on input lin
-e 554.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 555.
-See the caption package documentation for explanation.
-
-[199 <./Run04Corrections/SESizeExample.png (PNG copy)>]
-<Run04Corrections/S1aS1bToField_Overlay.png, id=3002, 578.16pt x 433.62pt>
-File: Run04Corrections/S1aS1bToField_Overlay.png Graphic file (type png)
-
-<use Run04Corrections/S1aS1bToField_Overlay.png>
-Package pdftex.def Info: Run04Corrections/S1aS1bToField_Overlay.png used on inp
-ut line 564.
-(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 565.
-See the caption package documentation for explanation.
-
-[200 <./Run04Corrections/SEXYSizeExample.png (PNG copy)>]
-<Run04Corrections/KrypCalFieldMap.png, id=3007, 578.16pt x 433.62pt>
-File: Run04Corrections/KrypCalFieldMap.png Graphic file (type png)
-
-<use Run04Corrections/KrypCalFieldMap.png>
-Package pdftex.def Info: Run04Corrections/KrypCalFieldMap.png used on input lin
-e 571.
-(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
-
-<Run04Corrections/KrypCalFieldMapError.png, id=3008, 578.16pt x 433.62pt>
-File: Run04Corrections/KrypCalFieldMapError.png Graphic file (type png)
-
-<use Run04Corrections/KrypCalFieldMapError.png>
-Package pdftex.def Info: Run04Corrections/KrypCalFieldMapError.png used on inpu
-t line 573.
-(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [201 <./Run04Corrections/S1aS1bToField_Overlay.png (PNG copy)> <./Run04Correct
-ions/KrypCalFieldMap.png (PNG copy)> <./Run04Corrections/KrypCalFieldMapError.p
-ng (PNG copy)>]
-File: Run04Corrections/KrEnergy.png Graphic file (type png)
-
-<use Run04Corrections/KrEnergy.png>
-Package pdftex.def Info: Run04Corrections/KrEnergy.png used on input line 591.
-(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
-File: Run04Corrections/KrEnergyZDep.png Graphic file (type png)
- <use Run04Corrections/KrEnergyZDep.png>
-Package pdftex.def Info: Run04Corrections/KrEnergyZDep.png used on input line 5
-93.
+Package pdftex.def Info: Run04Corrections/S1F_ZDep.png used on input line 495.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[202]
-<Run04Corrections/KrypCal_2p22_AllCH3TEnergy.png, id=3023, 555.57562pt x 717.43
+[200 <./Run04Corrections/S2F_GaussianFits.png (PNG copy)> <./Run04Corrections/S
+2F_ZDep.png (PNG copy)>] [201 <./Run04Corrections/S1F_GaussianFits.png (PNG cop
+y)> <./Run04Corrections/S1F_ZDep.png (PNG copy)>]
+<Run04Corrections/S2F_XYDep.png, id=3012, 421.575pt x 316.18124pt>
+File: Run04Corrections/S2F_XYDep.png Graphic file (type png)
+
+<use Run04Corrections/S2F_XYDep.png>
+Package pdftex.def Info: Run04Corrections/S2F_XYDep.png used on input line 509.
+
+(pdftex.def)             Requested size: 184.9429pt x 138.71008pt.
+
+<Run04Corrections/S1F_XYDep.png, id=3013, 578.16pt x 433.62pt>
+File: Run04Corrections/S1F_XYDep.png Graphic file (type png)
+
+<use Run04Corrections/S1F_XYDep.png>
+Package pdftex.def Info: Run04Corrections/S1F_XYDep.png used on input line 511.
+
+(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
+ [202 <./Run04Corrections/S2F_XYDep.png (PNG copy)> <./Run04Corrections/S1F_XYD
+ep.png (PNG copy)>]
+<Run04Corrections/GoodLifetimeFit.png, id=3021, 578.16pt x 433.62pt>
+File: Run04Corrections/GoodLifetimeFit.png Graphic file (type png)
+
+<use Run04Corrections/GoodLifetimeFit.png>
+Package pdftex.def Info: Run04Corrections/GoodLifetimeFit.png used on input lin
+e 529.
+(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
+
+<Run04Corrections/BadLifetimeFit.png, id=3022, 578.16pt x 433.62pt>
+File: Run04Corrections/BadLifetimeFit.png Graphic file (type png)
+
+<use Run04Corrections/BadLifetimeFit.png>
+Package pdftex.def Info: Run04Corrections/BadLifetimeFit.png used on input line
+ 531.
+(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Run04Corrections/LUX_eLifetime_Kr2p22.png, id=3023, 578.16pt x 433.62pt>
+File: Run04Corrections/LUX_eLifetime_Kr2p22.png Graphic file (type png)
+
+<use Run04Corrections/LUX_eLifetime_Kr2p22.png>
+Package pdftex.def Info: Run04Corrections/LUX_eLifetime_Kr2p22.png used on inpu
+t line 540.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[203] [204 <./Run04Corrections/GoodLifetimeFit.png (PNG copy)> <./Run04Correcti
+ons/BadLifetimeFit.png (PNG copy)> <./Run04Corrections/LUX_eLifetime_Kr2p22.png
+ (PNG copy)>]
+<Run04Corrections/SESizeExample.png, id=3040, 578.16pt x 433.62pt>
+File: Run04Corrections/SESizeExample.png Graphic file (type png)
+
+<use Run04Corrections/SESizeExample.png>
+Package pdftex.def Info: Run04Corrections/SESizeExample.png used on input line 
+553.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Run04Corrections/SEXYSizeExample.png, id=3041, 578.16pt x 433.62pt>
+File: Run04Corrections/SEXYSizeExample.png Graphic file (type png)
+
+<use Run04Corrections/SEXYSizeExample.png>
+Package pdftex.def Info: Run04Corrections/SEXYSizeExample.png used on input lin
+e 559.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[205] [206 <./Run04Corrections/SESizeExample.png (PNG copy)> <./Run04Correction
+s/SEXYSizeExample.png (PNG copy)>]
+<Run04Corrections/S1aS1bToField_Overlay.png, id=3052, 578.16pt x 433.62pt>
+File: Run04Corrections/S1aS1bToField_Overlay.png Graphic file (type png)
+
+<use Run04Corrections/S1aS1bToField_Overlay.png>
+Package pdftex.def Info: Run04Corrections/S1aS1bToField_Overlay.png used on inp
+ut line 569.
+(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
+
+<Run04Corrections/KrypCalFieldMap.png, id=3053, 578.16pt x 433.62pt>
+File: Run04Corrections/KrypCalFieldMap.png Graphic file (type png)
+
+<use Run04Corrections/KrypCalFieldMap.png>
+Package pdftex.def Info: Run04Corrections/KrypCalFieldMap.png used on input lin
+e 576.
+(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
+
+<Run04Corrections/KrypCalFieldMapError.png, id=3054, 578.16pt x 433.62pt>
+File: Run04Corrections/KrypCalFieldMapError.png Graphic file (type png)
+
+<use Run04Corrections/KrypCalFieldMapError.png>
+Package pdftex.def Info: Run04Corrections/KrypCalFieldMapError.png used on inpu
+t line 578.
+(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[207
+
+ <./Run04Corrections/S1aS1bToField_Overlay.png (PNG copy)>]
+File: Run04Corrections/KrEnergy.png Graphic file (type png)
+
+<use Run04Corrections/KrEnergy.png>
+Package pdftex.def Info: Run04Corrections/KrEnergy.png used on input line 596.
+(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
+File: Run04Corrections/KrEnergyZDep.png Graphic file (type png)
+ <use Run04Corrections/KrEnergyZDep.png>
+Package pdftex.def Info: Run04Corrections/KrEnergyZDep.png used on input line 5
+98.
+(pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[208 <./Run04Corrections/KrypCalFieldMap.png (PNG copy)> <./Run04Corrections/Kr
+ypCalFieldMapError.png (PNG copy)>]
+<Run04Corrections/KrypCal_2p22_AllCH3TEnergy.png, id=3068, 555.57562pt x 717.43
 031pt>
 File: Run04Corrections/KrypCal_2p22_AllCH3TEnergy.png Graphic file (type png)
  <use Run04Corrections/KrypCal_2p22_AllCH3TEnergy.png>
 Package pdftex.def Info: Run04Corrections/KrypCal_2p22_AllCH3TEnergy.png used o
-n input line 603.
+n input line 607.
 (pdftex.def)             Requested size: 388.90027pt x 502.1978pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[209]
 
-<Run04Corrections/KrSpectraWithoutFieldCorrection.png, id=3026, 578.16pt x 433.
+LaTeX Warning: Text page 210 contains only floats.
+
+[210 <./Run04Corrections/KrypCal_2p22_AllCH3TEnergy.png>]
+<Run04Corrections/KrSpectraWithoutFieldCorrection.png, id=3082, 578.16pt x 433.
 62pt>
 File: Run04Corrections/KrSpectraWithoutFieldCorrection.png Graphic file (type p
 ng)
  <use Run04Corrections/KrSpectraWithoutFieldCorrection.png>
 Package pdftex.def Info: Run04Corrections/KrSpectraWithoutFieldCorrection.png u
-sed on input line 613.
+sed on input line 617.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/KrSpectraZDepWithoutFieldCorrection.png, id=3027, 578.16pt x 
+<Run04Corrections/KrSpectraZDepWithoutFieldCorrection.png, id=3083, 578.16pt x 
 433.62pt>
 File: Run04Corrections/KrSpectraZDepWithoutFieldCorrection.png Graphic file (ty
 pe png)
  <use Run04Corrections/KrSpectraZDepWithoutFieldCorrection.png>
 Package pdftex.def Info: Run04Corrections/KrSpectraZDepWithoutFieldCorrection.p
-ng used on input line 615.
+ng used on input line 619.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Run04Corrections/TritumSpectrumWithoutFieldCorrection_Sep2015.png, id=3028, 57
+<Run04Corrections/TritumSpectrumWithoutFieldCorrection_Sep2015.png, id=3084, 57
 8.16pt x 433.62pt>
 File: Run04Corrections/TritumSpectrumWithoutFieldCorrection_Sep2015.png Graphic
  file (type png)
 
 <use Run04Corrections/TritumSpectrumWithoutFieldCorrection_Sep2015.png>
 Package pdftex.def Info: Run04Corrections/TritumSpectrumWithoutFieldCorrection_
-Sep2015.png used on input line 623.
+Sep2015.png used on input line 627.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/TritumSpectrumWithoutFieldCorrection_Feb2016.png, id=3029, 57
+<Run04Corrections/TritumSpectrumWithoutFieldCorrection_Feb2016.png, id=3085, 57
 8.16pt x 433.62pt>
 File: Run04Corrections/TritumSpectrumWithoutFieldCorrection_Feb2016.png Graphic
  file (type png)
 
 <use Run04Corrections/TritumSpectrumWithoutFieldCorrection_Feb2016.png>
 Package pdftex.def Info: Run04Corrections/TritumSpectrumWithoutFieldCorrection_
-Feb2016.png used on input line 625.
+Feb2016.png used on input line 629.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[203]
-
-LaTeX Warning: Text page 204 contains only floats.
-
-[204 <./Run04Corrections/KrypCal_2p22_AllCH3TEnergy.png>] [205 <./Run04Correcti
-ons/KrSpectraWithoutFieldCorrection.png (PNG copy)> <./Run04Corrections/KrSpect
-raZDepWithoutFieldCorrection.png (PNG copy)> <./Run04Corrections/TritumSpectrum
-WithoutFieldCorrection_Sep2015.png (PNG copy)> <./Run04Corrections/TritumSpectr
-umWithoutFieldCorrection_Feb2016.png (PNG copy)>]
+[211 <./Run04Corrections/KrSpectraWithoutFieldCorrection.png (PNG copy)> <./Run
+04Corrections/KrSpectraZDepWithoutFieldCorrection.png (PNG copy)> <./Run04Corre
+ctions/TritumSpectrumWithoutFieldCorrection_Sep2015.png (PNG copy)> <./Run04Cor
+rections/TritumSpectrumWithoutFieldCorrection_Feb2016.png (PNG copy)>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 647.
+(caption)                particular \caption on input line 651.
 See the caption package documentation for explanation.
 
 
-<Run04Corrections/KrypCal_2p22_Threshold.png, id=3051, 564.60938pt x 746.03719p
+<Run04Corrections/KrypCal_2p22_Threshold.png, id=3096, 564.60938pt x 746.03719p
 t>
 File: Run04Corrections/KrypCal_2p22_Threshold.png Graphic file (type png)
  <use Run04Corrections/KrypCal_2p22_Threshold.png>
 Package pdftex.def Info: Run04Corrections/KrypCal_2p22_Threshold.png used on in
-put line 655.
+put line 659.
 (pdftex.def)             Requested size: 395.22386pt x 522.22246pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 656.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[206] [207 <./Run04Corrections/KrypCal_2p22_Threshold.png>]
-<Run04Corrections/GuschinEE.png, id=3064, 835.62187pt x 497.60907pt>
+[212]
+
+LaTeX Warning: Text page 213 contains only floats.
+
+[213 <./Run04Corrections/KrypCal_2p22_Threshold.png>]
+<Run04Corrections/GuschinEE.png, id=3109, 835.62187pt x 497.60907pt>
 File: Run04Corrections/GuschinEE.png Graphic file (type png)
 
 <use Run04Corrections/GuschinEE.png>
-Package pdftex.def Info: Run04Corrections/GuschinEE.png used on input line 666.
+Package pdftex.def Info: Run04Corrections/GuschinEE.png used on input line 670.
 
 (pdftex.def)             Requested size: 417.8099pt x 248.80392pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 667.
-See the caption package documentation for explanation.
-
-[208 <./Run04Corrections/GuschinEE.png>]
-<Run04Corrections/S2ZDep_WithoutFieldCorrection.png, id=3069, 578.16pt x 433.62
+ [214 <./Run04Corrections/GuschinEE.png>]
+<Run04Corrections/S2ZDep_WithoutFieldCorrection.png, id=3114, 578.16pt x 433.62
 pt>
 File: Run04Corrections/S2ZDep_WithoutFieldCorrection.png Graphic file (type png
 )
  <use Run04Corrections/S2ZDep_WithoutFieldCorrection.png>
 Package pdftex.def Info: Run04Corrections/S2ZDep_WithoutFieldCorrection.png use
-d on input line 679.
+d on input line 683.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/S2ZDep_WithFieldCorrection.png, id=3070, 578.16pt x 433.62pt>
+<Run04Corrections/S2ZDep_WithFieldCorrection.png, id=3115, 578.16pt x 433.62pt>
 File: Run04Corrections/S2ZDep_WithFieldCorrection.png Graphic file (type png)
 <use Run04Corrections/S2ZDep_WithFieldCorrection.png>
 Package pdftex.def Info: Run04Corrections/S2ZDep_WithFieldCorrection.png used o
-n input line 681.
+n input line 685.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [209 <./Run04Corrections/S2ZDep_WithoutFieldCorrection.png (PNG copy)> <./Run0
+ [215 <./Run04Corrections/S2ZDep_WithoutFieldCorrection.png (PNG copy)> <./Run0
 4Corrections/S2ZDep_WithFieldCorrection.png (PNG copy)>]
-<Run04Corrections/DDPeaks_NoFieldCorrections.png, id=3080, 578.16pt x 433.62pt>
+<Run04Corrections/DDPeaks_NoFieldCorrections.png, id=3126, 578.16pt x 433.62pt>
 File: Run04Corrections/DDPeaks_NoFieldCorrections.png Graphic file (type png)
 <use Run04Corrections/DDPeaks_NoFieldCorrections.png>
 Package pdftex.def Info: Run04Corrections/DDPeaks_NoFieldCorrections.png used o
-n input line 693.
+n input line 697.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/DDPeaks.png, id=3081, 578.16pt x 433.62pt>
+<Run04Corrections/DDPeaks.png, id=3127, 578.16pt x 433.62pt>
 File: Run04Corrections/DDPeaks.png Graphic file (type png)
 
 <use Run04Corrections/DDPeaks.png>
-Package pdftex.def Info: Run04Corrections/DDPeaks.png used on input line 695.
+Package pdftex.def Info: Run04Corrections/DDPeaks.png used on input line 699.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [210 <./Run04Corrections/DDPeaks_NoFieldCorrections.png (PNG copy)> <./Run04Co
-rrections/DDPeaks.png (PNG copy)>]
-Overfull \hbox (0.4724pt too wide) in alignment at lines 702--721
+
+Overfull \hbox (0.4724pt too wide) in alignment at lines 706--725
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 721
+Underfull \vbox (badness 10000) detected at line 725
  []
 
-
-Overfull \hbox (0.4724pt too wide) in alignment at lines 724--743
+[216 <./Run04Corrections/DDPeaks_NoFieldCorrections.png (PNG copy)> <./Run04Cor
+rections/DDPeaks.png (PNG copy)>]
+Overfull \hbox (0.4724pt too wide) in alignment at lines 728--747
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 743
+Underfull \vbox (badness 10000) detected at line 747
  []
 
-[211]
-<Run04Corrections/NRBand_ZDep_NoFieldCorr_WithoutUpperLower.png, id=3095, 578.1
+[217]
+<Run04Corrections/NRBand_ZDep_NoFieldCorr_WithoutUpperLower.png, id=3141, 578.1
 6pt x 433.62pt>
 File: Run04Corrections/NRBand_ZDep_NoFieldCorr_WithoutUpperLower.png Graphic fi
 le (type png)
 
 <use Run04Corrections/NRBand_ZDep_NoFieldCorr_WithoutUpperLower.png>
 Package pdftex.def Info: Run04Corrections/NRBand_ZDep_NoFieldCorr_WithoutUpperL
-ower.png used on input line 754.
+ower.png used on input line 758.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/NRBand_ZDep_WithoutUpperLower.png, id=3096, 578.16pt x 433.62
+<Run04Corrections/NRBand_ZDep_WithoutUpperLower.png, id=3142, 578.16pt x 433.62
 pt>
 File: Run04Corrections/NRBand_ZDep_WithoutUpperLower.png Graphic file (type png
 )
  <use Run04Corrections/NRBand_ZDep_WithoutUpperLower.png>
 Package pdftex.def Info: Run04Corrections/NRBand_ZDep_WithoutUpperLower.png use
-d on input line 756.
+d on input line 760.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [212 <./Run04Corrections/NRBand_ZDep_NoFieldCorr_WithoutUpperLower.png (PNG co
+ [218 <./Run04Corrections/NRBand_ZDep_NoFieldCorr_WithoutUpperLower.png (PNG co
 py)> <./Run04Corrections/NRBand_ZDep_WithoutUpperLower.png (PNG copy)>]
-<Run04Corrections/Sep2015_VoxelizedBands_WithUpperLower.png, id=3104, 578.16pt 
+<Run04Corrections/Sep2015_VoxelizedBands_WithUpperLower.png, id=3150, 578.16pt 
 x 433.62pt>
 File: Run04Corrections/Sep2015_VoxelizedBands_WithUpperLower.png Graphic file (
 type png)
  <use Run04Corrections/Sep2015_VoxelizedBands_WithUpperLower.png>
 Package pdftex.def Info: Run04Corrections/Sep2015_VoxelizedBands_WithUpperLower
-.png used on input line 780.
+.png used on input line 784.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/OverlayOfAll2015ERBands.png, id=3105, 578.16pt x 433.62pt>
+<Run04Corrections/OverlayOfAll2015ERBands.png, id=3151, 578.16pt x 433.62pt>
 File: Run04Corrections/OverlayOfAll2015ERBands.png Graphic file (type png)
 
 <use Run04Corrections/OverlayOfAll2015ERBands.png>
 Package pdftex.def Info: Run04Corrections/OverlayOfAll2015ERBands.png used on i
-nput line 782.
+nput line 786.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [213 <./Run04Corrections/Sep2015_VoxelizedBands_WithUpperLower.png (PNG copy)>
+ [219 <./Run04Corrections/Sep2015_VoxelizedBands_WithUpperLower.png (PNG copy)>
  <./Run04Corrections/OverlayOfAll2015ERBands.png (PNG copy)>]
-<Run04Corrections/PowerLawExponent.png, id=3113, 578.16pt x 433.62pt>
+<Run04Corrections/PowerLawExponent.png, id=3159, 578.16pt x 433.62pt>
 File: Run04Corrections/PowerLawExponent.png Graphic file (type png)
 
 <use Run04Corrections/PowerLawExponent.png>
 Package pdftex.def Info: Run04Corrections/PowerLawExponent.png used on input li
-ne 791.
+ne 795.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
 
-<Run04Corrections/PowerLawCoefficient.png, id=3114, 578.16pt x 433.62pt>
+<Run04Corrections/PowerLawCoefficient.png, id=3160, 578.16pt x 433.62pt>
 File: Run04Corrections/PowerLawCoefficient.png Graphic file (type png)
 
 <use Run04Corrections/PowerLawCoefficient.png>
 Package pdftex.def Info: Run04Corrections/PowerLawCoefficient.png used on input
- line 793.
+ line 797.
 (pdftex.def)             Requested size: 184.9429pt x 138.70168pt.
- [214 <./Run04Corrections/PowerLawExponent.png (PNG copy)> <./Run04Corrections/
-PowerLawCoefficient.png (PNG copy)>] <Run04Corrections/Feb2015_ERPrediction.png
-, id=3121, 578.16pt x 433.62pt>
+
+<Run04Corrections/Feb2015_ERPrediction.png, id=3161, 578.16pt x 433.62pt>
 File: Run04Corrections/Feb2015_ERPrediction.png Graphic file (type png)
 
 <use Run04Corrections/Feb2015_ERPrediction.png>
 Package pdftex.def Info: Run04Corrections/Feb2015_ERPrediction.png used on inpu
-t line 801.
+t line 805.
 (pdftex.def)             Requested size: 260.16959pt x 195.1272pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 802.
-See the caption package documentation for explanation.
-
-<Run04Corrections/Sep2015_ERPrediction.png, id=3124, 578.16pt x 433.62pt>
+<Run04Corrections/Sep2015_ERPrediction.png, id=3164, 578.16pt x 433.62pt>
 File: Run04Corrections/Sep2015_ERPrediction.png Graphic file (type png)
 
 <use Run04Corrections/Sep2015_ERPrediction.png>
 Package pdftex.def Info: Run04Corrections/Sep2015_ERPrediction.png used on inpu
-t line 807.
+t line 811.
 (pdftex.def)             Requested size: 260.16959pt x 195.1272pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 808.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Run04Corrections/Feb2016_ERPrediction.png, id=3127, 578.16pt x 433.62pt>
+<Run04Corrections/Feb2016_ERPrediction.png, id=3167, 578.16pt x 433.62pt>
 File: Run04Corrections/Feb2016_ERPrediction.png Graphic file (type png)
 
 <use Run04Corrections/Feb2016_ERPrediction.png>
 Package pdftex.def Info: Run04Corrections/Feb2016_ERPrediction.png used on inpu
-t line 813.
+t line 817.
 (pdftex.def)             Requested size: 260.16959pt x 195.1272pt.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 814.
-See the caption package documentation for explanation.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[215 <./Run04Corrections/Feb2015_ERPrediction.png (PNG copy)> <./Run04Correctio
-ns/Sep2015_ERPrediction.png (PNG copy)>]) [216 <./Run04Corrections/Feb2016_ERPr
-ediction.png (PNG copy)>] [217]
+[220 <./Run04Corrections/PowerLawExponent.png (PNG copy)> <./Run04Corrections/P
+owerLawCoefficient.png (PNG copy)> <./Run04Corrections/Feb2015_ERPrediction.png
+ (PNG copy)>]
+
+LaTeX Warning: Text page 221 contains only floats.
+
+[221 <./Run04Corrections/Sep2015_ERPrediction.png (PNG copy)> <./Run04Correctio
+ns/Feb2016_ERPrediction.png (PNG copy)>]) [222]
 \openout2 = `ChapterEight.aux'.
 
- (./ChapterEight.tex [218
+ (./ChapterEight.tex [223
 
 
-]) [219]
-(./MainThesis.bbl
+])
+[224] (./MainThesis.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 35.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [220
+) [225
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--80
@@ -2756,46 +2720,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--99
  LuxDB00000446$[]\T1/cmr/m/n/12 ,
  []
 
-[221] [222] [223]
+[226] [227] [228]
 Underfull \hbox (badness 6412) in paragraph at lines 318--324
 []\T1/cmr/m/n/12 PEBS Col-lab-o-ra-tion.  Positron frac-tion.  []$\T1/cmtt/m/n/
 12 http : / / www1b . physik .
  []
 
-[224] [225]
-Underfull \hbox (badness 1902) in paragraph at lines 495--501
+[229] [230] [231]
+Underfull \hbox (badness 1902) in paragraph at lines 500--506
 []\T1/cmr/m/n/12 T. Biesi-adzin-ski.  Evo-lu-tion of the ob-served de-tec-tor w
 all.  []$\T1/cmtt/m/n/12 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--501
+Underfull \hbox (badness 10000) in paragraph at lines 500--506
 \T1/cmtt/m/n/12 / / teacher . pas . rochester . edu : 8080 / wiki / pub / Lux /
  LuxDB00000406 /
  []
 
-[226]
-Underfull \hbox (badness 10000) in paragraph at lines 503--509
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--514
 []\T1/cmr/m/n/12 S. Stephen-son.  Po-si-tion cor-rec-tions.  []$\T1/cmtt/m/n/12
  http : / / teacher . pas .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--509
+Underfull \hbox (badness 10000) in paragraph at lines 508--514
 \T1/cmtt/m/n/12 rochester . edu : 8080 / wiki / pub / Lux / AnalysisMeeting1508
 18 / 20150818 _
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
- [227]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+ [232]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
  (./MainThesis.aux (./Abstract.aux) (./TitlePage.aux)
 (./Acknowledgments.aux) (./ChapterOne.aux) (./ChapterTwo.aux)
 (./ChapterThree.aux) (./ChapterFour.aux) (./ChapterFive.aux) (./ChapterSix.aux)
 (./ChapterSeven.aux) (./ChapterEight.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
 Package rerunfilecheck Info: File `MainThesis.out' has not changed.
 (rerunfilecheck)             Checksum: D59B6DED202BCCB1F65953A3D7ABBADD;8442.
 
@@ -2805,13 +2769,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 12020 strings out of 493014
- 187073 string characters out of 6133351
- 352669 words of memory out of 5000000
- 14334 multiletter control sequences out of 15000+600000
+ 12050 strings out of 493014
+ 187789 string characters out of 6133351
+ 353920 words of memory out of 5000000
+ 14353 multiletter control sequences out of 15000+600000
  24742 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,51p,2001b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2842,10 +2806,10 @@ st/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/cm-super/sftt1200.pfb>
-Output written on MainThesis.pdf (246 pages, 14439272 bytes).
+Output written on MainThesis.pdf (252 pages, 14443050 bytes).
 PDF statistics:
- 3481 PDF objects out of 3580 (max. 8388607)
- 2956 compressed objects within 30 object streams
- 805 named destinations out of 1000 (max. 500000)
+ 3523 PDF objects out of 3580 (max. 8388607)
+ 2991 compressed objects within 30 object streams
+ 812 named destinations out of 1000 (max. 500000)
  1523 words of extra memory for PDF output out of 10000 (max. 10000000)
 

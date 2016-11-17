@@ -1,5 +1,15 @@
 \documentclass[a4paper,12pt]{article}
 
+\usepackage{placeins}
+
+\let\Oldsection\section
+\renewcommand{\section}{\FloatBarrier\Oldsection}
+
+\let\Oldsubsection\subsection
+\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
+
+\let\Oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
 
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -10,7 +20,6 @@
 \usepackage{caption}
 \usepackage{rotating}
 \usepackage{hyperref}
-
 \usepackage{hyperref}
 \usepackage{verbatim}
 \usepackage{mathtools}
