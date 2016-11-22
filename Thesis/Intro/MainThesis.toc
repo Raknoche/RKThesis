@@ -77,23 +77,23 @@
 \contentsline {subsubsection}{\numberline {7.2.8}Expectation for G1}{189}{subsubsection.7.2.8}
 \contentsline {subsubsection}{\numberline {7.2.9}Measuring the S1a/S1b Ratio to S1 Field Effect Relationship with $\chi ^2$ Fitting Methods}{190}{subsubsection.7.2.9}
 \contentsline {subsubsection}{\numberline {7.2.10}Summary of S1a/S1b Ratio to Field Effect Measurements}{195}{subsubsection.7.2.10}
-\contentsline {subsection}{\numberline {7.3}Producing Detector Inefficiency Corrections in KrypCal}{196}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.3}Producing Detector Inefficiency Corrections in KrypCal}{197}{subsection.7.3}
 \contentsline {subsubsection}{\numberline {7.3.1}Mapping S1a/S1b}{197}{subsubsection.7.3.1}
 \contentsline {subsubsection}{\numberline {7.3.2}Removing the field effect from $^{83m}$Kr Data}{198}{subsubsection.7.3.2}
 \contentsline {subsubsection}{\numberline {7.3.3}Measuring Detector Inefficiencies}{199}{subsubsection.7.3.3}
 \contentsline {subsubsection}{\numberline {7.3.4}Additional Output from the Corrections Module: Electron Lifetime}{203}{subsubsection.7.3.4}
 \contentsline {subsubsection}{\numberline {7.3.5}Additional Output from the Corrections Module: Single Electron Size}{205}{subsubsection.7.3.5}
 \contentsline {subsubsection}{\numberline {7.3.6}Additional Output from the Corrections Module: Electric Field Maps}{207}{subsubsection.7.3.6}
-\contentsline {subsection}{\numberline {7.4}Results of the KrypCal Corrections}{208}{subsection.7.4}
-\contentsline {subsubsection}{\numberline {7.4.1}Energy Spectra}{208}{subsubsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4}Results of the KrypCal Corrections}{209}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}Energy Spectra}{209}{subsubsection.7.4.1}
 \contentsline {subsubsection}{\numberline {7.4.2}Energy Threshold}{212}{subsubsection.7.4.2}
-\contentsline {subsubsection}{\numberline {7.4.3}G1 and EE}{214}{subsubsection.7.4.3}
-\contentsline {subsubsection}{\numberline {7.4.4}Lifetime Estimates}{215}{subsubsection.7.4.4}
-\contentsline {subsubsection}{\numberline {7.4.5}Energy Resolution}{216}{subsubsection.7.4.5}
-\contentsline {subsubsection}{\numberline {7.4.6}Nuclear Recoil Band}{217}{subsubsection.7.4.6}
-\contentsline {subsubsection}{\numberline {7.4.7}Electron Recoil Band}{218}{subsubsection.7.4.7}
-\contentsline {subsection}{\numberline {7.5}Conclusions}{222}{subsection.7.5}
-\contentsline {section}{\numberline {8}Beyond LUX}{223}{section.8}
-\contentsline {subsection}{\numberline {8.1}Future LUX Analyses}{223}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Signal Corrections in the LZ Detector}{223}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Calibrations of the LZ Detector}{224}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {7.4.3}G1 and EE}{215}{subsubsection.7.4.3}
+\contentsline {subsubsection}{\numberline {7.4.4}Lifetime Estimates}{216}{subsubsection.7.4.4}
+\contentsline {subsubsection}{\numberline {7.4.5}Energy Resolution}{217}{subsubsection.7.4.5}
+\contentsline {subsubsection}{\numberline {7.4.6}Nuclear Recoil Band}{218}{subsubsection.7.4.6}
+\contentsline {subsubsection}{\numberline {7.4.7}Electron Recoil Band}{219}{subsubsection.7.4.7}
+\contentsline {subsection}{\numberline {7.5}Conclusions}{223}{subsection.7.5}
+\contentsline {section}{\numberline {8}Beyond LUX}{224}{section.8}
+\contentsline {subsection}{\numberline {8.1}Future LUX Analyses}{224}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Signal Corrections in the LZ Detector}{224}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Calibrations of the LZ Detector}{225}{subsection.8.3}

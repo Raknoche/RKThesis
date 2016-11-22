@@ -82,7 +82,7 @@ where $E$ is the energy of the event in keV, $N_q$ is the number of quanta, $N_{
 
 \begin{figure} [!h]
 \includegraphics[scale=0.5]{Run04Corrections/TritiumDetectorInefficiency_RecombMap.png}
-\captionof{figure}{Two dimensional map of the recombination probability for a 2.5 keV ER based on Scott's September 2015 electric field map and NEST. Radius is uncorrected, as observed at the anode.}
+\captionof{figure}{Two dimensional map of the recombination probability for a 2.5 keV ER based on the September 2015 RvZ electric field map and NEST. Radius is uncorrected, as observed at the anode.}
 \label{fig:RecombMap}
 \end{figure}
 
@@ -241,7 +241,9 @@ We also take a separate, three dimensional approach to mapping the $^{83m}$Kr S1
 
 Finally, we relate the Z dependence, XY dependence, and three dimensional dependence maps of the S1a/S1b ratio to the Z dependence, XY dependence, and three dimensional dependence maps of the S2 field effect measured in section \ref{section:FieldEffects}.  We choose to discard the XY dependence maps since no significant relationship is found between them. (Figure \ref{fig:S1aS1bField_S2XY}) This lack of correlation is attributed to the Z dependence of the electric field being much more dominant than the XY dependence of the electric field.  
 
-A second order polynomial is fit to the spatial dependence of the $^{83m}$Kr S2$_E$ (induced by the field effect) to S1a/S1b relationship.  This polynomial will be used in KrypCal to determine the strength of the field effect in $^{83m}$Kr S2 data at all points in time.  We find that the Z dependence and three dimensional maps agree closely within the range of measured S1a/S1b ratios, but begin to diverge in the extrapolated regions. (Figure \ref{fig:S1aS1bField_S2})  Because the electric field varies more in September 2015 than at earlier times in Run4, and because the time variation of the electric field has significantly slowed at times later than September 2015, we expect the measured range of S1a/S1b ratios in this work will cover the majority of S1a/S1b ratios that will ever be measured in Run4. Therefore, the discrepancy in the extrapolation of each map is not concerning. 
+%Note.. when calculating errors, outcome of polynomial was slightly diferent from first time around due to changing in 1D interp code.  Used same fractional size of errors for the errors here
+
+A second order polynomial is fit to the spatial dependence of the $^{83m}$Kr S2$_E$ (induced by the field effect) to S1a/S1b relationship, with best fit parameters of $a=-0.499 \pm 0.117$,$b=1.48 \pm 0.615$, and $c=0.667 \pm 0.946$ for the second order, first order, and zeroth order terms, respectively.  This polynomial will be used in KrypCal to determine the strength of the field effect in $^{83m}$Kr S2 data at all points in time.  We find that the Z dependence and three dimensional maps agree closely within the range of measured S1a/S1b ratios, but begin to diverge in the extrapolated regions. (Figure \ref{fig:S1aS1bField_S2})  Because the electric field varies more in September 2015 than at earlier times in Run4, and because the time variation of the electric field has significantly slowed at times later than September 2015, we expect the measured range of S1a/S1b ratios in this work will cover the majority of S1a/S1b ratios that will ever be measured in Run4. Therefore, the discrepancy in the extrapolation of each map is not concerning. 
 
 \begin{figure}[!h]
 \includegraphics[scale=0.6]{Run04Corrections/S1aS1bVField_XYDep.png}
@@ -288,7 +290,7 @@ The result of this is shown in Figure \ref{fig:S1FieldFig}.  A $\chi^2$ fit to t
 
 \begin{figure}[!h]
 \includegraphics[scale=0.7]{Run04Corrections/S1aS1bvField_ZDep_3D.png}
-\captionof{figure}{The Z (black) and three dimensional (grey) relationship of the $^{83m}$Kr S1a/S1b ratio to the $^{83m}$Kr S1 field effect.  The black and grey data points are not measured, but instead inferred from the Z (dark red) and three dimensional (light right) relationship of the $^{83m}$Kr S1a/S1b ratio to the $^{83m}$Kr S2$_E$ field effect.}
+\captionof{figure}{The Z (black) and three dimensional (grey) relationship of the $^{83m}$Kr S1a/S1b ratio to the $^{83m}$Kr S1 field effect.  The black and grey data points are not measured, but instead inferred from the Z (dark red) and three dimensional (light red) relationship of the $^{83m}$Kr S1a/S1b ratio to the $^{83m}$Kr S2$_E$ field effect.}
  \label{fig:S1FieldFig}
 \end{figure}
 
@@ -320,9 +322,9 @@ The relative light yield of the $^{83m}$Kr 32.1 keV decay, $^{83m}$Kr 9.4 keV de
 \frac{\gamma}{E} = 55.2[1-0.0004895 \times F \times \ln{(1 + 1/(8.9\mathrm{e}{-4} \times F))}]
 \label{S1aYield}
 \end{equation}
-where $\gamma$ is the number of photons, $E$ is the energy of the decay, and $F$ is the applied electric field in units of V/cm.  
+where $\gamma$ is the number of photons, $E$ is the energy of the decay in keV, and $F$ is the applied electric field in units of V/cm.  
 
-Using equation \ref{S1aYield} we can directly measure the strength of the field effect in the $^{83m}$Kr S1 data and relate it to the S1a/S1b ratio.  We begin by using the electric field to S1a/S1b relationships shown in Figure \ref{FieldToS1aS1b}, as well as the electric field measured by Lucie's field maps to estimate the electric field in the detector in September 2015.  The average of the three electric field maps is taken as the measurement of the electric field, and the difference in each of the three electric field maps is taken as a systematic error.  The electric field map is converted to a map of the expected light yield at 32.1 keV using equation \ref{S1aYield}, assuming no detector inefficiency effects are present. The three dimensional spatial dependence of the light yield provides a direct measurement of the strength of the field effect in the S1a data, given by $\gamma(xyz)$/$\gamma(center)$.  Note that the strength of the field effect in the S1a data can help us derive the strength of the field effect in the combined S1 data, but the two are not equivalent.  Normalizing the field effect in the S1a data to the center of the detector, as shown in equation \ref{S1aNorm}, produces S1a$_F$ data which has spatial variation due to detector inefficiency effects only.  
+Using equation \ref{S1aYield} we can directly measure the strength of the field effect in the $^{83m}$Kr S1 data and relate it to the S1a/S1b ratio.  We begin by using the electric field to S1a/S1b relationships shown in Figure \ref{FieldToS1aS1b}, as well as the RvZ and three dimensional electric field maps to estimate the electric field in the detector in September 2015.  The average of the three electric field maps is taken as the measurement of the electric field, and the difference in each of the three electric field maps is taken as a systematic error.  The electric field map is converted to a map of the expected light yield at 32.1 keV using equation \ref{S1aYield}, assuming no detector inefficiency effects are present. The three dimensional spatial dependence of the light yield provides a direct measurement of the strength of the field effect in the S1a data, given by $\gamma(xyz)$/$\gamma(center)$.  Note that the strength of the field effect in the S1a data can help us derive the strength of the field effect in the combined S1 data, but the two are not equivalent.  Normalizing the field effect in the S1a data to the center of the detector, as shown in equation \ref{S1aNorm}, produces S1a$_F$ data which has spatial variation due to detector inefficiency effects only.  
 \begin{equation}
 S1a_F = S1a \frac{\gamma(center)}{\gamma(xyz)}
 \label{S1aNorm}
@@ -346,7 +348,7 @@ Any residual spatial variation in the detector inefficiency corrected combined S
 \label{S1aFieldEffect}
 \end{figure}
 
-We can use the direct measurement of the S1a/S1b ratio to S1 field effect relationship measured in this section with the direct measurement of the S1a/S1b ratio to S2 field effect relationship measured in section \ref{section:S1aS1b2} to remove the field effects in $^{83m}Kr$ data and produce detector inefficiency corrections via the methods in section \ref{KrypCalCode}.  The result of this is shown in Figure \ref{ShittyCH3T2} and Figure \ref{ShittyKr2}.  A $\chi^2$ fit to the expected CH$_3$T and $^{83m}$Kr energy spectra returns an average reduced $\chi^2$ of 2.22, with a reduced $\chi^2$ of 1196/124=1.58 for CH$_3$T alone, and a reduced $\chi^2$ of 74.2/26=2.85 for $^{83m}$Kr alone using the best fit parameters of $g1=0.100$ and $EE=0.76$.  The large systematic errors in the S1a/S1b ratio to field effect relationships, introduced by uncertainties in the field maps and systematic errors in the detector inefficiency corrections, lead to poorly optimized energy spectra when the two direct measurement results are combined.  Therefore, we turn to a $\chi^2$ minimization method in section \ref{section:S1relation2} to determine the optimal S1 field effect to S1a/S1b relationship and S2 field effect to S1a/S1b relationship.
+We can use the direct measurement of the S1a/S1b ratio to S1 field effect relationship measured in this section with the direct measurement of the S1a/S1b ratio to S2 field effect relationship measured in section \ref{section:S1aS1b2} to remove the field effects in $^{83m}Kr$ data and produce detector inefficiency corrections via the methods in section \ref{KrypCalCode}.  The result of this is shown in Figure \ref{ShittyCH3T2} and Figure \ref{ShittyKr2}.  A $\chi^2$ fit to the expected CH$_3$T and $^{83m}$Kr energy spectra returns an average reduced $\chi^2$ of 2.22, with a reduced $\chi^2$ of 196/124=1.58 for CH$_3$T alone, and a reduced $\chi^2$ of 74.2/26=2.85 for $^{83m}$Kr alone using the best fit parameters of $g1=0.100$ and $EE=0.76$.  The large systematic errors in the S1a/S1b ratio to field effect relationships, introduced by uncertainties in the field maps and systematic errors in the detector inefficiency corrections, lead to unoptimized energy spectra when the two direct measurement results are combined.  Therefore, we turn to a $\chi^2$ minimization method in section \ref{section:S1relation2} to determine the optimal S1 field effect to S1a/S1b relationship and S2 field effect to S1a/S1b relationship.
 
 
 
@@ -379,15 +381,15 @@ since we normalize the detector inefficiency effects to the center of the detect
 \begin{equation}
 g_1 = \frac{S1a(center)}{\gamma (center)}.
 \end{equation}
-The result of this prediction is g$_1$=0.108 $\pm$ 0.010, where systematic errors from the field map measurement and the parameters in equation  \ref{S1aYield} have been included in the result.  Note that this prediction is only one sigma below the optimal value of $g_1$ found in the following section.
+The result of this prediction is g$_1$=0.108 $\pm$ 0.010, where systematic errors from the field map measurement and the parameters in equation  \ref{S1aYield} have been included in the result.  Note that this prediction is only one sigma below the optimal value of $g_1$ found in the following section, showing consistency between the two measurements.
 
 \subsubsection{Measuring the S1a/S1b Ratio to S1 Field Effect Relationship with $\chi^2$ Fitting Methods} \label{section:S1relation2}
 
-Although field induced variation in the recombination of a $^{83m}$Kr event can introduce a spatial and time dependence in the $^{83m}$Kr S1 and S2 signals, the total energy signal given (with gain factors $g_1$ and $g_2$) by 
+Although field induced variation in the recombination of a $^{83m}$Kr event can introduce a spatial and time dependence in the $^{83m}$Kr S1 and S2 signals, the total energy signal given (with gain factors $g_1$ and $g_2$, and a $W$ value of 1/73) by 
 \begin{equation} \label{CombinedEnergy}
 E=\left(\frac{1}{73}\right)\left(\frac{S1_E}{g_1} + \frac{S2_E}{g_2}\right)
 \end{equation}
-should be insensitive to field variations.  We can take advantage of this fact to determine the optimal S1a/S1b to S1 field effect relationship corresponding to the directly measured S1a/S1b to S2 field effect relationship measured in section \ref{section:S1aS1b2}.  Unfortunately, we do not have knowledge of the strength of the field effect in the $^{83m}$Kr S1 signal, so we can not remove the field effect from the data to produce the efficiency-only corrected S1$_E$ signal.  Likewise, without efficiency corrected data we can not measure the gain factors $g_1$ and $g_2$ to produce a combined energy spectrum.  The only tools that we have at our disposal are a measurement of the strength of the field effect in the $^{83m}$Kr S2 signal and its relationship to S1a/S1b, as well as the ability to produce efficiency only corrected $^{83m}$Kr S2$_E$ data based on to the spatial variation of field effect corrected  $^{83m}$Kr S2$_F$ data.  In this section we turn to a $\chi^2$ minimization approach which will float the S1 field effect to S1a/S1b relationship, produce inefficiency corrections based on the field removed S1$_F$ and S2$_F$ signals, and then float the gain factors $g_1$ and $g_2$ to produce an optimized combined energy spectrum.  
+should be insensitive to field variations.  We can take advantage of this fact to determine the optimal S1a/S1b to S1 field effect relationship corresponding to the directly measured S1a/S1b to S2 field effect relationship measured in section \ref{section:S1aS1b2}.  Since we desire an independent measurement of the S1 field effect, we do not want to rely on the S1 field effect measurement from section~\ref{MatthewsIdea} here.  Instead, we assume we do not have knowledge of the strength of the field effect in the $^{83m}$Kr S1 signal, so we can not remove the field effect from the data to produce the efficiency-only corrected S1$_E$ signal.  Likewise, without efficiency corrected data we can not measure the gain factors $g_1$ and $g_2$ to produce a combined energy spectrum.  The only tools that we have at our disposal are a measurement of the strength of the field effect in the $^{83m}$Kr S2 signal and its relationship to S1a/S1b, as well as the ability to produce efficiency only corrected $^{83m}$Kr S2$_E$ data based on to the spatial variation of field effect corrected  $^{83m}$Kr S2$_F$ data.  In this section we turn to a $\chi^2$ minimization approach which will float the S1 field effect to S1a/S1b relationship, produce inefficiency corrections based on the field removed S1$_F$ and S2$_F$ signals, and then float the gain factors $g_1$ and $g_2$ to produce an optimized combined energy spectrum.  
 
 We begin by eliminating one of the three parameters associated with the second order polynomial which describes the S1 field effect to S1a/S1b relationship.  We choose to normalize the spatial variation induced by the nonuniform electric field to the center of the detector, so the strength of the field effect as measured by $\frac{S1_{E,Kr}(xyz)}{S1_{E,Kr}(center)}$ must equal one at the center of the detector.  Therefore, we can relate one of the coefficients ($a$,$b$, and $c$) in the second order polynomial
 \begin{equation}
@@ -403,7 +405,7 @@ To evaluate the performance of each $a$,$b$,$g_1$, and $EE$ combination we must 
 
 Tritium is a beta decay with an energy spectrum that has a broad peak at 2.5 keV and a smoothly falling distribution out to 18 keV.  As with $^{83m}$Kr, this spectrum is smeared based on a number of parameters.  Unlike $^{83m}$Kr, the smearing in CH$_3$T data can be accurately determined by NEST so we can compare the energy spectrum from data to simulations on a bin by bin basis. 
 
-For each $a$,$b$,$g_1$, and $EE$ combination a reduced $\chi^2$ for the CH$_3$T and $^{83m}$Kr data is measured using the difference between the expected energy spectra and measured energy spectra.   During the $^{83m}$Kr $\chi^2$ calculation, the energy spectrum is from each point in time is divided into drift time bins so that the spatial dependence of the energy spectrum is included in the $\chi^2$ measurement.  The $^{83m}$Kr data has very high statistics, and only the mean of a Gaussian fit to the data is of interest, so the variance used in the $\chi^2$  measurement  is dominated by systematic error.  We use the standard deviation of the $^{83m}$Kr energy spectrum over the duration of Run3 to evaluate the size of this systematic error, and find $\sigma = 0.2395$.  During the CH$_3$T $\chi^2$  calculation, the energy spectrum is divided into energy bins so that the entire beta spectrum (above 3.5 keV to avoid the detector threshold) is included in the $\chi^2$ measurement.  The variance of the CH$_3$T data is based on statistics alone, due to finer binning and lower statistics of the data.  We choose to define a total reduced $\chi^2$ (to be minimized in the $\chi^2$ fit) as the average of the reduced $\chi^2$ for the $^{83m}$Kr and CH$_3$T data, so that each source carries the same amount of weight in the fit. A minimum average reduced  $\chi^2$ of 0.8413 is found for the $a=0.065$,$b=0.02$,$g_1=0.0980$, and $EE=0.0808$ combination.  The corresponding reduced $\chi^2$ of the $^{83m}$Kr and CH$_3$T energy spectra separately are 12.17/26=0.4682 (p=0.99) and 150.6/124=1.2143 (p=0.05), respectively. Note that (as we will see in section \ref{Results}) the extraction efficiency needed to produce these results is consistent with our expectations, and the results produce $^{83m}$Kr energy peaks (unbinned in drift time) that are within one sigma of the expected 41.55 keV in both September 2015 and February 2016. 
+For each $a$,$b$,$g_1$, and $EE$ combination a reduced $\chi^2$ for the CH$_3$T and $^{83m}$Kr data is measured using the difference between the expected energy spectra and measured energy spectra.   During the $^{83m}$Kr $\chi^2$ calculation, the energy spectrum is from each point in time is divided into drift time bins so that the spatial dependence of the energy spectrum is included in the $\chi^2$ measurement.  The $^{83m}$Kr data has very high statistics, and only the mean of a Gaussian fit to the data is of interest, so the variance used in the $\chi^2$  measurement  is dominated by systematic error.  We use the standard deviation of the $^{83m}$Kr energy spectrum over the duration of Run3 to evaluate the size of this systematic error, and find $\sigma = 0.2395$ keV.  During the CH$_3$T $\chi^2$  calculation, the energy spectrum is divided into energy bins so that the entire beta spectrum (above 3.5 keV to avoid the detector threshold) is included in the $\chi^2$ measurement.  The variance of the CH$_3$T data is based on statistics alone, due to finer binning and lower statistics of the data.  We choose to define a total reduced $\chi^2$ (to be minimized in the $\chi^2$ fit) as the average of the reduced $\chi^2$ for the $^{83m}$Kr and CH$_3$T data, so that each source carries the same amount of weight in the fit. A minimum average reduced  $\chi^2$ of 0.8413 is found for the best fit parameters of $a=0.065 \pm 0.0117$,$b=0.020 \pm 0.060$,$g_1=0.0980 \pm 0.001$, and $EE=0.808 \pm 0.029$. The corresponding value of the zeroth order coefficient is $c=0.461 \pm 0.186$.  The reduced $\chi^2$ of the $^{83m}$Kr and CH$_3$T energy spectra separately are 12.17/26=0.4682 (p=0.99) and 150.6/124=1.2143 (p=0.05), respectively. Note that (as we will see in section \ref{Results}) the extraction efficiency needed to produce these results is consistent with our expectations, and the results produce $^{83m}$Kr energy peaks (unbinned in drift time) that are within one sigma of the expected 41.55 keV in both September 2015 and February 2016. 
 
 
 \begin{figure} [!h]
@@ -411,7 +413,7 @@ For each $a$,$b$,$g_1$, and $EE$ combination a reduced $\chi^2$ for the CH$_3$T 
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/KrEnergy.png} }}
 \qquad
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/KrEnergyZDep.png} }}
-\captionof{figure}{ (Left) The energy spectrum of $^{83m}$Kr data in February 2016 (red) and September 2015(blue) after determining the S1 field effect to S1a/S1b relationship from the version 2.22 reduced $\chi^2$ method. The energy spectrum is expected to be a Gaussian distribution centered around the black line.  (Right) The Z dependence of the $^{83m}$Kr energy peaks in September 2015 (red) and February 2016 (black).}
+\captionof{figure}{ (Left) The energy spectrum of $^{83m}$Kr data in February 2016 (red) and September 2015(blue) after determining the S1 field effect to S1a/S1b relationship from the reduced $\chi^2$ method. The energy spectrum is expected to be a Gaussian distribution centered around the black line.  (Right) The Z dependence of the $^{83m}$Kr energy peaks in September 2015 (red) and February 2016 (black).}
 \label{Kr2p20}
 \end{figure}
 
@@ -430,12 +432,12 @@ For each $a$,$b$,$g_1$, and $EE$ combination a reduced $\chi^2$ for the CH$_3$T 
 
 \subsubsection{Summary of S1a/S1b Ratio to Field Effect Measurements}
 
-We have directly measured the strength of the field effect in $^{83m}$Kr S2 data by removing detector inefficiency effects from the data with the help of CH$_3$T data.  We have also directly measured the strength of the field effect in $^{83m}$Kr S1 data using the expected light yield of the $^{83m}$Kr S1 data 32.1 keV decay.  Combining these two direct measurement techniques does not produce satisfactory energy spectra.  Instead, we turn to $\chi^2$ optimization methods to find the optimal S1 field effect to S1a/S1b relationship to pair with the direct S2 field effect measurement.  We find that the optimal S1 field effect found by a $\chi^2$ optimization for the directly measured S2 field effect agrees very closely with our expectations from recombination physics.  This promising result is bolstered by the improvements in the corrected data discussed in section \ref{Results}. We choose to use the S2 field relationship measured in section \ref{section:S1aS1b2} and the corresponding optimal S1 field effect relationship measured in section \ref{section:S1relation2} for our KrypCal work. The polynomials that describe these relationships are:
+We have directly measured the strength of the field effect in $^{83m}$Kr S2 data by removing detector inefficiency effects from the data with the help of CH$_3$T data.  We have also directly measured the strength of the field effect in $^{83m}$Kr S1 data using the expected light yield of the $^{83m}$Kr S1 data 32.1 keV decay.  Combining these two direct measurement techniques does not produce satisfactory energy spectra.  Instead, we turn to $\chi^2$ optimization methods to find the optimal S1 field effect to S1a/S1b relationship to pair with the direct S2 field effect measurement.  We find that the optimal S1 field effect found by a $\chi^2$ optimization agrees very closely with our expectations from recombination physics.  This promising result is bolstered by the improvements in the corrected data discussed in section \ref{Results}. We choose to use the S2 field relationship measured in section \ref{section:S1aS1b2} and the corresponding optimal S1 field effect relationship measured in section \ref{section:S1relation2} for our KrypCal work. The polynomials that describe these relationships are:
 \begin{equation}
 \frac{S2_{E,Kr}(xyz)}{S2_{E,Kr}(center)} =    -0.499 \left(\frac{S1a}{S1b} \right)^2 + 1.48  \left(\frac{S1a}{S1b} \right) + 0.667
 \end{equation}
 \begin{equation}
-\frac{S1_{E,Kr}(xyz)}{S1_{E,Kr}(center)} =   -0.065 \left(\frac{S1a}{S1b} \right)^2 + 0.020 \left(\frac{S1a}{S1b} \right) + 0.461
+\frac{S1_{E,Kr}(xyz)}{S1_{E,Kr}(center)} =   0.065 \left(\frac{S1a}{S1b} \right)^2 + 0.020 \left(\frac{S1a}{S1b} \right) + 0.461
 \end{equation}
 
 
@@ -451,7 +453,11 @@ Now that we have related the strength of the field effect in both $^{83m}$Kr S2 
 
 \subsubsection{Mapping S1a/S1b}
 
-For a $^{83m}$Kr calibration at any point in time, we begin by measuring the Z and XY dependence of the S1a/S1b ratio using the methods of section  \ref{section:S1aS1b1} and  \ref{section:S1aS1b2}.  We first divide the detector into drift times bins with a width chosen such that each bin has roughly 300 events.   A Gaussian distribution is fit to the S1a and S1b spectrum of each bin to determine the mean pulse areas versus Z.  A second order polynomial is fit to the ratio of the Gaussian means versus Z and is used to determine the S1a/S1b at any drift time in the detector.  The XY dependence of the S1a/S1b signal is found in a similar manner.  We first remove the Z dependence of the S1a/S1b data by normalizing the polynomial fit found above to the detector center (defined by taking the mean drift time value of all $^{83m}$Kr events above 4 $\mu$seconds drift time). We then divide the detector into square, two dimensional XY bins with lengths defined such that each bin has roughly 300 events, and fit a Gaussian distribution to the S1a and S1b data of each bin.  The mean of the Gaussian distribution from each bin is used to construct an S1a/S1b XY dependence map, with a spline interpolation and extrapolation being used to determine the XY dependence between and outside of the bins.  If the $^{83m}$Kr data set has enough statistics (more than 100,000 S1a/S1b events after cuts) a three dimensional S1a/S1b map is also constructed. The detector is divided into three dimensional voxels with dimensions chosen such that each voxel has roughly 200 events.  A three dimensional map of S1a/S1b ratio is produced by fitting a Gaussian distribution to the S1a and S1b pulse area spectrum in each voxel.  A spline interpolation is used to determine the S1a/S1b ratio between the three dimensional voxels, and the S1a/S1b Z dependence map is used to extrapolate outside of the range of the voxels. 
+For a $^{83m}$Kr calibration at any point in time, we begin by measuring the Z and XY dependence of the S1a/S1b ratio using the methods of section  \ref{section:S1aS1b1} and  \ref{section:S1aS1b2}.  We first divide the detector into drift times bins with a width chosen such that each bin has roughly 300 events.   A Gaussian distribution is fit to the S1a and S1b spectrum of each bin to determine the mean pulse areas versus Z.  A second order polynomial is fit to the ratio of the Gaussian means versus Z and is used to determine the S1a/S1b at any drift time in the detector.  The XY dependence of the S1a/S1b signal is found in a similar manner.  
+
+We first remove the Z dependence of the S1a/S1b data by normalizing the polynomial fit found above to the detector center (defined by taking the mean drift time value of all $^{83m}$Kr events above 4 $\mu$seconds drift time). We then divide the detector into square, two dimensional XY bins with lengths defined such that each bin has roughly 300 events, and fit a Gaussian distribution to the S1a and S1b data of each bin.  The mean of the Gaussian distribution from each bin is used to construct an S1a/S1b XY dependence map, with a spline interpolation and extrapolation being used to determine the XY dependence between and outside of the bins.  
+
+If the $^{83m}$Kr data set has enough statistics (more than 100,000 S1a/S1b events after cuts) a three dimensional S1a/S1b map is also constructed, and used in favor of the Z and XY maps. The detector is divided into three dimensional voxels with dimensions chosen such that each voxel has roughly 200 events.  A three dimensional map of S1a/S1b ratio is produced by fitting a Gaussian distribution to the S1a and S1b pulse area spectrum in each voxel.  A spline interpolation is used to determine the S1a/S1b ratio between the three dimensional voxels, and the S1a/S1b Z dependence map is used to extrapolate outside of the range of the voxels. 
 
 \subsubsection{Removing the field effect from $^{83m}$Kr Data}
 
@@ -470,7 +476,9 @@ S2_F &=S2 \times \frac{S2_E(center)}{S2_E(xyz)} \label{S2F-2}
 \subsubsection{Measuring Detector Inefficiencies}
 
 
-After removing the field effects from the $^{83m}$Kr data we are ready to measure the residual spatial pulse area variation due to detector inefficiencies alone.  We first measure the Z dependence of the S2$_F$ and S1$_F$ pulse areas by slicing the detector into drift time bins with widths defined such that each bin has roughly 300 events.  A Gaussian distribution is fit to the S2$_F$ and S1$_F$ spectra of each bin to determine the location of the spectra maximums. (Figure \ref{fig:KrypCal_S2ZDep} and Figure \ref{fig:KrypCal_S1ZDep}) In the case of the S2$_F$ signal, a cubic interpolation is used to determine the S2$_F$ Z dependence between each drift time bin, and a linear extrapolation based on the first and last 20\% of Gaussian distribution data points is used to determine the S2$_F$ Z dependence above and below the span of the drift time bins.  A detector inefficiency correction for the Z direction is defined by taking the ratio of the S2$_F$  pulse area at a height of 4 $\mu$seconds (just below the liquid surface) to the S2$_F$ pulse area as a function of Z as described in the equation
+After removing the field effects from the $^{83m}$Kr data we are ready to measure the residual spatial pulse area variation due to detector inefficiencies alone.  We first measure the Z dependence of the S2$_F$ and S1$_F$ pulse areas by slicing the detector into drift time bins with widths defined such that each bin has roughly 300 events.  A Gaussian distribution is fit to the S2$_F$ and S1$_F$ spectra of each bin to determine the location of the spectra maximums. (Figure \ref{fig:KrypCal_S2ZDep} and Figure \ref{fig:KrypCal_S1ZDep}) In the case of the S2$_F$ signal, a cubic interpolation is used to determine the S2$_F$ Z dependence between each drift time bin, and a linear extrapolation based on the first and last 20\% of Gaussian distribution data points is used to determine the S2$_F$ Z dependence above and below the span of the drift time bins.  
+
+A detector inefficiency correction for the Z direction is defined by taking the ratio of the S2$_F$  pulse area at a height of 4 $\mu$seconds (just below the liquid surface) to the S2$_F$ pulse area as a function of Z as described in the equation
 \begin{equation}
 \mbox{S}2_{\mbox{z-efficiency-correction}} = \frac{S2_F(z=4)}{S2_F(z)}.
 \end{equation} 
@@ -521,7 +529,7 @@ S1_E &=S1 \times \mbox{S}1_{\mbox{xy-efficiency-correction}} \times \mbox{S}1_{\
 
 \subsubsection{Additional Output from the Corrections Module: Electron Lifetime}
 
-The S2$_F$ Z dependence is not expected to be exponential in a nonuniform drift field due to the drift velocity dependent absorption cross section.  Nonetheless, it is still useful to define a electron lifetime to track the purity of the detector's xenon over time.  Two approaches have been taken in this regard.  The first approach is to treat the S2$_F$ Z dependence as approximately exponential anyway and quote the exponential decay constant as the lifetime, regardless of the quality of the fit.  Due to the increasing strength of the field this approximation worsens over time. (Figure \ref{ELFits})  The second approach to measuring the electron lifetime is to define a pseudo-lifetime from the S2$_F$ Z dependence by fitting an exponential to the S2$_F$ mean just below the liquid surface (at 4 $\mu$seconds) and just above the cathode (at 320 $\mu$seconds).  While this approach avoids any issues with poor fits, it also neglects the S2$_F$ Z dependence in the bulk of the detector.  Note that the actual corrections use a spline fit to the S2$_F$ Z dependence, and therefore avoid any issues in defining an exponential lifetime.
+The S2$_F$ Z dependence is not expected to be exponential in a nonuniform drift field due to the drift velocity dependent absorption cross section.  Nonetheless, it is still useful to define an approximate electron lifetime to track the purity of the detector's xenon over time.  Two approaches have been taken in this regard.  The first approach is to treat the S2$_F$ Z dependence as approximately exponential anyway and quote the exponential decay constant as the lifetime, regardless of the quality of the fit.  Due to the increasing strength of the field this approximation worsens over time. (Figure \ref{ELFits})  The second approach to measuring the electron lifetime is to define a pseudo-lifetime from the S2$_F$ Z dependence by fitting an exponential to the S2$_F$ mean just below the liquid surface (at 4 $\mu$seconds) and just above the cathode (at 320 $\mu$seconds).  While this approach avoids any issues with poor fits, it also neglects the S2$_F$ Z dependence in the bulk of the detector.  Note that the actual corrections use a spline fit to the S2$_F$ Z dependence, and therefore avoid any issues in defining an exponential lifetime.
 
 
 \begin{figure}[!h]
@@ -538,7 +546,7 @@ The S2$_F$ Z dependence is not expected to be exponential in a nonuniform drift 
 
 \begin{figure}[!h]
 \includegraphics[scale=0.5]{Run04Corrections/LUX_eLifetime_Kr2p22.png}
-\captionof{figure}{The electron lifetime over Run4 found by fitting an exponential to the S2$_F$ Z dependence.  Red areas indicate circulation outages.  At high lifetimes the S2$_F$ Z dependence is less exponential, leading to larger errors on the measurement.}
+\captionof{figure}{The electron lifetime over Run4 found by fitting an exponential to the S2$_F$ Z dependence.  Red areas indicate circulation outages.  At high lifetimes the S2$_F$ Z dependence is less exponential, and the small fraction of electrons that are lost is harder to measure, leading to larger errors on the measurement.}
  \label{fig:Run4Lifetime}
 \end{figure}
 
@@ -563,7 +571,15 @@ We select a population of clean events by requiring 100 samples between the firs
 
 \subsubsection{Additional Output from the Corrections Module: Electric Field Maps}
 
-Due to the time variation of the electric field in Run4 it is clearly important to measure the electric field in each $^{83m}$Kr calibration data set.  To accomplish this, we relate the RvZ field maps in September 2014 and September 2015 to the RvZ dependence of the S1a/S1b ratio during the same points in time.  (Figure \ref{FieldToS1aS1b}) Although the measured S1a/S1b to electric field relationship is similar between the two datasets, the estimate of the field differs depending on which relationship is used.  We choose to use the average result of the two relationships for the reported field strength, and take the difference between them as a systematic error. (Figure \ref{KrypFieldMap}
+Due to the time variation of the electric field in Run4 it is clearly important to measure the electric field in each $^{83m}$Kr calibration data set.  To accomplish this, we relate the RvZ field maps in September 2014 and September 2015 to the RvZ dependence of the S1a/S1b ratio during the same points in time (Figure \ref{FieldToS1aS1b}). In September 2014, the best fit polynomial for this relation is
+\begin{equation}
+\text{Field (V/cm)} =    (711 \pm 100) \left(\frac{S1a}{S1b} \right)^2 + (-4788 \pm 530) \left(\frac{S1a}{S1b} \right) + (7948 \pm 704)
+\end{equation}
+In September 2015, the best fit polynomial for this relation is
+\begin{equation}
+\text{Field (V/cm)} =    (1169 \pm 120) \left(\frac{S1a}{S1b} \right)^2 + (-7128 \pm 631) \left(\frac{S1a}{S1b} \right) + (10900 \pm 824)
+\end{equation}
+Although the measured S1a/S1b to electric field relationship is similar between the two datasets, the estimate of the field differs depending on which relationship is used.  We choose to use the average result of the two relationships for the reported field strength, and take the difference between them as a systematic error. (Figure \ref{KrypFieldMap}
 
 \begin{figure}[!h]
 \includegraphics[scale=0.6]{Run04Corrections/S1aS1bToField_Overlay.png}
@@ -589,14 +605,14 @@ In this section we will cover a number of metrics which have been used to determ
 
 \subsubsection{Energy Spectra}\label{Result:Spectra}
 
-Version 2.22 of the $\chi^2$ method presented in section \ref{section:S1relation2} finds an average total reduced $\chi^2$ of 0.8413 for the CH$_3$T and $^{83m}$Kr energy spectra, with a reduced $\chi^2$ of  150.6/124=1.2143 (p=0.05) for CH$_3$T alone and a reduced $\chi^2$ of 12.17/26=0.4682 (p=0.99) for $^{83m}$Kr alone.  The resulting $^{83m}$Kr energy spectra (unbinned in drift time) from September 2015 and February 2016 are shown in figure \ref{Kr2p22_KrE}.  The Gaussian means differ from the expected 41.55 keV by less than one sigma, and the reduced $\chi^2$ based on the Z dependence of the Energy spectra returns a p-value of 0.99.
+The $\chi^2$ method presented in section \ref{section:S1relation2} finds an average total reduced $\chi^2$ of 0.8413 for the CH$_3$T and $^{83m}$Kr energy spectra, with a reduced $\chi^2$ of  150.6/124=1.2143 (p=0.05) for CH$_3$T alone and a reduced $\chi^2$ of 12.17/26=0.4682 (p=0.99) for $^{83m}$Kr alone.  The resulting $^{83m}$Kr energy spectra (unbinned in drift time) from September 2015 and February 2016 are shown in figure \ref{Kr2p22_KrE}.  The Gaussian means differ from the expected 41.55 keV by less than one sigma, and the reduced $\chi^2$ based on the Z dependence of the Energy spectra returns a p-value of 0.99.
 
 \begin{figure} [!h]
 \centering
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/KrEnergy.png} }}
 \qquad
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/KrEnergyZDep.png} }}
-\captionof{figure}{ (Left) The energy spectrum of $^{83m}$Kr data in September 2014 (red) and September 2015(blue) after determining the S1 field effect to S1a/S1b relationship from the version 2.22 reduced $\chi^2$ method. The energy spectrum is expected to be a Gaussian distribution centered around the black line.  (Right) The Z dependence of the $^{83m}$Kr energy peaks in September 2014 (red) and September 2015 (black).}
+\captionof{figure}{ (Left) The energy spectrum of $^{83m}$Kr data in September 2014 (red) and September 2015(blue) after determining the S1 field effect to S1a/S1b relationship from the  reduced $\chi^2$ method. The energy spectrum is expected to be a Gaussian distribution centered around the black line.  (Right) The Z dependence of the $^{83m}$Kr energy peaks in September 2014 (red) and September 2015 (black).}
 \label{Kr2p22_KrE}
 \end{figure}
 
@@ -605,19 +621,19 @@ The CH$_3$T energy spectra from calibrations in September 2014, November 2014, F
 
 \begin{figure} [!h]
 \includegraphics[scale=0.7]{Run04Corrections/KrypCal_2p22_AllCH3TEnergy.png}
-\captionof{figure}{The September 2014, November 2014, February 2015, September 2015, and February 2016 CH$_3$T energy spectra resulting from KrypCal 2.22 corrections.}
+\captionof{figure}{The September 2014, November 2014, February 2015, September 2015, and February 2016 CH$_3$T energy spectra resulting from KrypCal corrections.}
  \label{Kr2p22_H3E}
 \end{figure}
 
 
-A version of $^{83m}$Kr which does not acknowledge the spatial and time dependent field in Run4 produces the $^{83m}$Kr energy spectra shown in Figure \ref{BadKrypCalKr} and the CH$_3$T energy spectra shown in Figure \ref{BadKrypCalH3}.  This version of KrypCal produces corrections that normalize the $^{83m}$Kr S1 and S2 signals everywhere in the detector, regardless of whether the variation is induced by field effects or detector inefficiency. An optimal value of $g_1=0.100 \pm 0.001$ and extraction efficiency of EE$=1.08 \pm 0.030$ is found by an energy spectrum $\chi^2$ fit.  This optimal value of the extraction efficiency is 40\%-80\% higher than our expectations based on Guschin data and our extraction field strength, and exceeds 100\%.  Even with the unreasonably high extraction efficiency, the $^{83m}$Kr and CH$_3$T energy spectra produce an worse average reduced $\chi^2$ of 1.12 for the $^{83m}$Kr and CH$_3$T energy spectra when compared to the expected energy spectra, with a reduced $\chi^2$ of 10.06/26=0.3869 for $^{83m}$Kr alone, and a reduced $\chi^2$ of 230.2/124=1.8562 for CH$_3$T alone. 
+A version of $^{83m}$Kr which does not acknowledge the spatial and time dependent field in Run4 produces the $^{83m}$Kr energy spectra shown in Figure \ref{BadKrypCalKr} and the CH$_3$T energy spectra shown in Figure \ref{BadKrypCalH3}.  This version of KrypCal produces corrections that normalize the $^{83m}$Kr S1 and S2 signals everywhere in the detector, regardless of whether the variation is induced by field effects or detector inefficiency. An optimal value of $g_1=0.100 \pm 0.001$ and extraction efficiency of EE$=1.08 \pm 0.030$ is found by an energy spectrum $\chi^2$ fit.  This optimal value of the extraction efficiency is 40\%-80\% higher than our expectations based on Guschin data and our extraction field strength, and exceeds 100\%.  Even with the unreasonably high extraction efficiency, the $^{83m}$Kr and CH$_3$T energy spectra produce a worse average reduced $\chi^2$ of 1.12 for the $^{83m}$Kr and CH$_3$T energy spectra when compared to the expected energy spectra, with a reduced $\chi^2$ of 10.06/26=0.3869 for $^{83m}$Kr alone, and a reduced $\chi^2$ of 230.2/124=1.8562 for CH$_3$T alone.
 
 \begin{figure} [!h]
 \centering
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/KrSpectraWithoutFieldCorrection.png} }}
 \qquad
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/KrSpectraZDepWithoutFieldCorrection.png} }}
-\captionof{figure}{ (Left) The energy spectrum of $^{83m}$Kr data in February 2016 (red) and September 2015(blue) using a version of KrypCal that does no properly account for field effects. The energy spectrum is expected to be a Gaussian distribution centered around the black line.  (Right) The Z dependence of the $^{83m}$Kr energy peaks in September 2015 (red) and February 2016 (black) using the same version of KrypCal.}
+\captionof{figure}{ (Left) The energy spectrum of $^{83m}$Kr data in February 2016 (red) and September 2015(blue) using a version of KrypCal that does not properly account for field effects. The energy spectrum is expected to be a Gaussian distribution centered around the black line.  (Right) The Z dependence of the $^{83m}$Kr energy peaks in September 2015 (red) and February 2016 (black) using the same version of KrypCal.}
 \label{BadKrypCalKr}
 \end{figure}
 
@@ -627,7 +643,7 @@ A version of $^{83m}$Kr which does not acknowledge the spatial and time dependen
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/TritumSpectrumWithoutFieldCorrection_Sep2015.png} }}
 \qquad
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/TritumSpectrumWithoutFieldCorrection_Feb2016.png} }}
-\captionof{figure}{ (Left) The energy spectrum of CH$_3$T data in September 2015 (left) and February 2016 (right)  using a version of KrypCal that does no properly account for field effects.  The expected CH$_3$T energy spectrum for each data set is shown in black.}
+\captionof{figure}{ (Left) The energy spectrum of CH$_3$T data in September 2015 (left) and February 2016 (right)  using a version of KrypCal that does not properly account for field effects.  The expected CH$_3$T energy spectrum for each data set is shown in black.}
 \label{BadKrypCalH3}
 \end{figure}
 
@@ -635,7 +651,7 @@ A version of $^{83m}$Kr which does not acknowledge the spatial and time dependen
 
 \subsubsection{Energy Threshold}
 
-The Run4 energy threshold calculated by comparing the expected CH$_3$T energy spectrum to the measured CH$_3$T energy spectrum in September 2014, November 2014, February 2015, September 2015, and February 2016 is shown in Figure \ref{Thresholds}. The 50\% efficiency measurements are shown in Table \ref{ThreshTable}.  The average detector threshold of 1.19 $\pm$ 0.64 keV is consistent with libNEST expectation of 1.29 $\pm$ 0.17 keV.
+The Run4 energy threshold calculated by comparing the expected CH$_3$T energy spectrum to the measured CH$_3$T energy spectrum in September 2014, November 2014, February 2015, September 2015, and February 2016 is shown in Figure \ref{Thresholds}. The 50\% efficiency measurements are shown in Table \ref{ThreshTable}.  The average detector threshold of 1.19 $\pm$ 0.64 keV is consistent with libNEST expectation of 1.29 $\pm$ 0.17 keV, which was measured by comparison of the tritium beta spectrum input to the libNEST energy output.
 
 \begin{center}
 \begin{tabular}{| c | c |} 
@@ -657,14 +673,14 @@ February 2016 & 1.21 $\pm$ 0.52  \\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.7]{Run04Corrections/KrypCal_2p22_Threshold.png}
-\captionof{figure}{The September 2014, November 2014, February 2015, and September 2015 energy thresholds resulting from KrypCal 2.22 corrections.}
+\captionof{figure}{The September 2014, November 2014, February 2015, and September 2015 energy thresholds resulting from KrypCal corrections.}
  \label{Thresholds}
 \end{figure}
 
 
 \subsubsection{G1 and EE}
 
-Version 2.22 of the $\chi^2$ method presented in section \ref{section:S1relation2} finds best fit values of $g_1=0.098 \pm 0.001$ and $EE=0.808 \pm 0.022$.  This is consistent with our expectations of an extraction efficiency between 0.6 and 0.8, based on our extraction field models and the Run4 liquid level, and is much better than the $g_1=0.100 \pm 0.001$ and $EE=0.108 \pm 0.030$ result found in section \ref{Result:Spectra}. (Figure \ref{EEexpec})  Likewise, the best fit value of $g_1$ is within one sigma of our expectation of g$_1$=0.108 $\pm$ 0.010 found in section \ref{G1pred}. 
+The $\chi^2$ method presented in section \ref{section:S1relation2} finds best fit values of $g_1=0.098 \pm 0.001$ and $EE=0.808 \pm 0.029$.  This is consistent with our expectations of an extraction efficiency between 0.6 and 0.8, based on our extraction field models and the Run4 liquid level, and is much better than the $g_1=0.100 \pm 0.001$ and $EE=1.08 \pm 0.030$ result found in section \ref{Result:Spectra}. (Figure \ref{EEexpec})  Likewise, the best fit value of $g_1$ is within one sigma of our expectation of g$_1$=0.108 $\pm$ 0.010 found in section \ref{G1pred}. 
 
 \begin{figure}[!h]
 \includegraphics[scale=0.5]{Run04Corrections/GuschinEE.png}
@@ -675,7 +691,7 @@ Version 2.22 of the $\chi^2$ method presented in section \ref{section:S1relation
 
 \subsubsection{Lifetime Estimates}
 
-The nonuniform field in the LUX detector produces higher recombination of $^{83m}$Kr events in the bottom of the detector.  This results in an attenuation of the $^{83m}$Kr S2 signal that is directly proportional to drift time.  This effect mimics the attenuation of the $^{83m}$Kr S2 signal produced by impurities capturing charge as it drift to the top of the detector.  As a result, when field effects are not properly accounted for in a $^{83m}$Kr calibration the electron lifetime is drastically underestimated, resulting in an over correction of all S2 signals in the detector.  This problem is rectified in the latest version of KrypCal, which measures higher values of electron lifetime after the field effects have been properly separated from the detector inefficiency effects.  The higher values of electron lifetimes have been confirmed by a separate, low energy $^{37}$Ar injection performed at the end of LUX.
+The nonuniform field in the LUX detector produces higher recombination of $^{83m}$Kr events in the bottom of the detector.  This results in an attenuation of the $^{83m}$Kr S2 signal that is directly proportional to drift time.  This effect mimics the attenuation of the $^{83m}$Kr S2 signal produced by impurities capturing charge as it drift to the top of the detector.  As a result, when field effects are not properly accounted for in a $^{83m}$Kr calibration the electron lifetime is drastically underestimated, resulting in an over correction of all S2 signals in the detector.  This problem is rectified in the Run4 version of KrypCal, which measures higher values of electron lifetime after the field effects have been properly separated from the detector inefficiency effects.  The higher values of electron lifetimes have been confirmed by a separate, low energy $^{37}$Ar injection performed at the end of LUX.
 
 
 \begin{figure} [!h]
@@ -690,7 +706,7 @@ The nonuniform field in the LUX detector produces higher recombination of $^{83m
 
 \subsubsection{Energy Resolution}
 
-The energy spectra of xenon activation peaks found in neutron generator calibration data sets is shown in Figure \ref{DDpeaks}.  Using KrypCal 2.22 corrections, we find an energy peak at each of the expected xenon activation lines.  An unreasonably high extraction efficiency of 108\% is required for the xenon activation peaks to appear at their correct energies, and the resolution of the peaks is worsened.  For reference, the energy resolution of each of the xenon activation peaks, as well as for the $^{83m}$Kr peaks are included in Table \ref{EnergyRes1} (version which does not account for field effects properly) and Table \ref{EnergyRes2} (version which does account for field effects properly). Together, these energy spectra results confirm improved energy reconstruction and energy resolution ranging from 1.36 keV to 275 keV.  
+The energy spectra of xenon activation peaks found in neutron generator calibration data sets is shown in Figure \ref{DDpeaks}.  Using KrypCal corrections, we find an energy peak at each of the expected xenon activation lines.  An unreasonably high extraction efficiency of 108\% is required for the xenon activation peaks to appear at their correct energies, and the resolution of the peaks is worsened.  For reference, the energy resolution of each of the xenon activation peaks, as well as for the $^{83m}$Kr peaks are included in Table \ref{EnergyRes1} (version which does not account for field effects properly) and Table \ref{EnergyRes2} (version which does account for field effects properly). Together, these energy spectra results confirm improved energy reconstruction and energy resolution ranging from 1.36 keV to 275 keV.  
 
 \begin{figure} [!h]
 \centering
@@ -749,7 +765,7 @@ Sep2015 $^{83m}$Kr (41.55 keV) & 41.60   $\pm$ 0.021 & 2.62  $\pm$ 0.021  & 0.06
 
 \subsubsection{Nuclear Recoil Band}
 
-Nuclear recoils are much less sensitive to field variation effects in the detector, so if we were to see a significant spatial dependence in the NR band it would indicate a flaw in the corrections. As expected, the results of the KrypCal 2.22 NR band calibration in October 2014 show very little spatial dependence in the NR band. (Figure \ref{NRBandZ})  The result of the same calibration using a version of KrypCal which does not properly account for field effects is also shown in Figure \ref{NRBandZ}.  The underestimate of the electron lifetime and subsequent over correction of the S2 data produces a non-physical z dependence in the NR band.
+Nuclear recoils are much less sensitive to field variation effects in the detector, so if we were to see a significant spatial dependence in the NR band it would indicate a flaw in the corrections. As expected, the results of the KrypCal NR band calibration in October 2014 show very little spatial dependence in the NR band. (Figure \ref{NRBandZ})  The result of the same calibration using a version of KrypCal which does not properly account for field effects is also shown in Figure \ref{NRBandZ}.  The underestimate of the electron lifetime and subsequent over correction of the S2 data produces a non-physical z dependence in the NR band.
 
 %NEST says <~4% variation, and this dat ahas <~5% variation
 
@@ -772,7 +788,7 @@ Nuclear recoils are much less sensitive to field variation effects in the detect
 
 \subsubsection{Electron Recoil Band}
 
-The electron recoil band that results from KrypCal 2.22 corrections should have significant spatial and time dependence due to the recombination variation induced by the nonuniform electric field remaining in the data. 
+The electron recoil band that results from KrypCal corrections should have significant spatial and time dependence due to the recombination variation induced by the nonuniform electric field remaining in the data. 
 
 The corrected ER band calibration data from September 2015 was divided into three dimensional voxels with a Z height of 86 $\mu$seconds and an X and Y width of 16 cm.  We see a 16\% spatial variation of the ER band in September 2015 (at S1=20 phd), which is close to the libNEST prediction of a 13\% spatial variation (at S1=20 phd).  We also observe a $\sim$1\% variation in time for the total ER band over the duration of Run4. (Figure \ref{ERBandVariation}) The relative size of the spatial and time dependence of the ER band is consistent with expectations, since the spatial dependence of the electric field is stronger than the time dependence of the electric field. 
 
@@ -784,7 +800,7 @@ The corrected ER band calibration data from September 2015 was divided into thre
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/Sep2015_VoxelizedBands_WithUpperLower.png} }}
 \qquad
 \subfloat{{\includegraphics[width=6.5cm]{Run04Corrections/OverlayOfAll2015ERBands.png} }}
-\captionof{figure}{ (Left) The spatial variation of the KrypCal 2.22 corrected ER band from September 2015.  The black band represents the total, unbinned ER band and the grey bands represent the ER band from each voxel. (Right) The time dependence of the total, unbinned ER band as measured by the KrypCal 2.22 corrected data at four points in time.}
+\captionof{figure}{ (Left) The spatial variation of the KrypCal corrected ER band from September 2015.  The black band represents the total, unbinned ER band and the grey bands represent the ER band from each voxel. (Right) The time dependence of the total, unbinned ER band as measured by the KrypCal corrected data at four points in time.}
 \label{ERBandVariation}
 \end{figure}
 
