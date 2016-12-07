@@ -1,7 +1,7 @@
 \section{Tritium as a Calibration Source} \label{TritiumChapter}
 
 
-In this chapter, we'll discuss the use of tritium as an internal calibration source in the LUX detector.  The material presented here will focus on the R\&D efforts to produce such a source prior to LUX's Run 3 data taking campaign, as well as the first results from the calibration source during the Run 3 campaign.  Tritium is an ideal calibration source for measuring the detector's electron recoil response, since the the beta decay spans the entire WIMP search energy range.  Note that the source is not a replacement for the mono-energetic $^83m$Kr source which is used to produce signal corrections in Chapter~\ref{StandardCalibrations}, since the wide spectral shape is less suited for tracking position and time dependence of the S1 and S2 signals.  The tritium calibration source was also a critical component in dealing with the non-uniform drift field in LUX's Run 4 data, which will be discussed in Chapter~\ref{Run04Corrections}.
+In this chapter, we'll discuss the use of tritium as an internal calibration source in the LUX detector.  The material presented here will focus on the R\&D efforts to produce such a source prior to LUX's Run 3 data taking campaign, as well as the first results from the calibration source during the Run 3 campaign.  Tritium is an ideal calibration source for measuring the detector's electron recoil response, since the the beta decay spans the entire WIMP search energy range.  Note that the source is not a replacement for the mono-energetic $^{83m}$Kr source which is used to produce signal corrections in Chapter~\ref{StandardCalibrations}, since the wide spectral shape is less suited for tracking position and time dependence of the S1 and S2 signals.  The tritium calibration source was also a critical component in dealing with the non-uniform drift field in LUX's Run 4 data, which will be discussed in Chapter~\ref{Run04Corrections}.
 
 \subsection{Motivation for a Tritium Calibration Source}
 
@@ -40,7 +40,7 @@ After dozens of sequential injections, we observed a modest increase in the back
 \end{figure}
 
 \begin{figure}
-\includegraphics[scale=.4]{GasPhaseRemoval_RestTime.jpg} 
+\includegraphics[scale=.5]{GasPhaseRemoval_RestTime.jpg} 
 \captionof{figure}{Time-separated clusters of purification have an upward trend in purification inefficiency.}
 \label{UMDGasRestTime}
 \end{figure}
@@ -139,7 +139,7 @@ To more accurately model the LUX detector we surrounded our PMTs with polyethyle
 \label{UMDOutgassingSpectra}
 \end{figure}
 
-Such an increase in CH$_3$T activity can be produced through two mechanisms: a drift in PMT gain which would shift the CH$_3$T spectrum horizontally, or an increase in CH$_3$T activity shifting the CH$_3$T spectrum vertically. To determine if our PMT gain was shifting during our CH$_3$T data sets we used an external $^{137}$Cs source. Over eight days the $^{137}$Cs event rate remained flat, with an initial event rate of 120255 $\pm$ 350 observed Hz and a final event rate of 115469 $\pm$ 339.807 observed Hz. A linear fit to the $^{137}$Cs data results in a nearly zero slope of 0.0026 Hz per day. (Figure~\ref{UMDCsData}) We conclude that the rise in tritium rate during the step events can not be due to our PMT gain drifting, and must therefore be a result of an increase in the amount of CH$_3$T in the fiducial region of our detector. We suspect this increase in CH$_3$T is due to pockets of stagnant gas slowly moving into the detector's fiducial region. To avoid such a source of residual CH$_3$T contamination, a detector wishing to using tritiated methane as an internal calibration source must be designed such that no areas of stagnant gas exist within its system.  
+Such an increase in CH$_3$T activity can be produced through two mechanisms: a drift in PMT gain which would shift the CH$_3$T spectrum horizontally, or an increase in CH$_3$T activity shifting the CH$_3$T spectrum vertically. To determine if our PMT gain was shifting during our CH$_3$T data sets we used an external $^{137}$Cs source. Over eight days the $^{137}$Cs event rate remained flat, with an initial event rate of 120255 $\pm$ 350 observed Hz and a final event rate of 115469 $\pm$ 339.807 observed Hz. A linear fit to the $^{137}$Cs data results in a nearly zero slope of 0.0026 Hz per day. (Figure~\ref{UMDCsData}) We conclude that the rise in tritium rate during the step events can not be due to our PMT gain drifting, and must therefore be a result of an increase in the amount of CH$_3$T in the fiducial region of our detector. We suspect this increase in CH$_3$T is due to pockets of stagnant gas slowly moving into the detector's fiducial region. To avoid such a source of residual CH$_3$T contamination, a detector wishing to use tritiated methane as an internal calibration source must be designed such that no areas of stagnant gas exist within its system.  
 
 \begin{figure}
 \includegraphics[scale=.35]{Cesium_TimeHisto.jpg} 
@@ -163,7 +163,7 @@ which states that a change in density in any part of the system is due to inflow
 \begin{equation}
 \frac{\delta \phi}{\delta t} = D \nabla^2 \phi,
 \end{equation}
-which describes the transport of a material by diffusion.
+which describes the transport of material by diffusion.
 
 To implement these diffusion laws into our model we must determine the diffusion coefficient of CH$_3$T in the plastics of LUX. At room temperature, the diffusion coefficient of methane in teflon is measured to be $2.3 \times 10^{-7}$ cm$^2$/sec~\cite{MethaneDiffusion}.  The temperature dependence of this diffusion constant is modeled by the Arrhenius equation,  
 \begin{equation}
@@ -247,7 +247,7 @@ The initial concentration is defined by dividing the desired injection activity 
 half-infinite boundary conditions in our diffusion model is valid, and combine this with our allowed range of values for $G$ to extract a value for $K$. We find that an initial injection activity of 10 Bq results in the background rate returning to $<$ 5\% of its initial value in one month~\cite{JonOutgassing}. (Figure~\ref{OutgassingSim})
 
 \begin{figure}
-\includegraphics[scale=.3]{OutgassingSim.png} 
+\includegraphics[scale=.4]{OutgassingSim.png} 
 \captionof{figure}{The results of simulating the CH$_3$T activity in LUX after a 10 Bq injection.  In the first week the amount of residual CH$_3$T is dominated by the purification time constant, while the outgassing time constant determines the amount of activity later times.}
 \label{OutgassingSim}
 \end{figure}
@@ -273,7 +273,7 @@ bottle so that this drop in activity can be measured. The final component of the
 \label{LUXInjectionSys}
 \end{figure}
 
-Once the CH$_3$T has been injected in the LUX gas system it flows into the liquid xenon inside of the LUX cryostat, where it mixes uniformly throughout the fiducial volume.  Since the xenon gas in LUX is constantly circulating, the remaining CH$_3$T is swept out of inner cryostat with the circulating xenon.  The LUX gas system uses a hot zirconium getter (SAES PS4-MT15-R-1) downstream of the cryostat to remove CH$_3$T and other impurities from from the xenon. Extensive R\&D was conducted using a smaller zirconium getter (SAES PS4-MT3-R-1) at the University of Maryland to learn about the CH$_3$T removal efficiency of these purifiers. Details of these studies is discussed in section~\ref{UMDRemoval}.
+Once the CH$_3$T has been injected in the LUX gas system it flows into the liquid xenon inside of the LUX cryostat, where it mixes uniformly throughout the fiducial volume.  Since the xenon gas in LUX is constantly circulating, the remaining CH$_3$T is swept out of inner cryostat with the circulating xenon.  The LUX gas system uses a hot zirconium getter (SAES PS4-MT15-R-1) downstream of the cryostat to remove CH$_3$T and other impurities from the xenon. Extensive R\&D was conducted using a smaller zirconium getter (SAES PS4-MT3-R-1) at the University of Maryland to learn about the CH$_3$T removal efficiency of these purifiers. Details of these studies is discussed in section~\ref{UMDRemoval}.
 
 
 \subsection{ER Band Calibration of the LUX Detector} \label{DiscrimSec}
@@ -298,7 +298,7 @@ After the natural methane campaign a small amount of tritium was injected into L
 After confirming the purification time constant, the LUX committee approved the use of CH$_3$T as an internal calibration source.  The initial CH$_3$T calibration was limited to 0.3 Hz due to the uncertainty in the value of the the diffusion constant $G$, but injections ranging from 2-10 Hz have been done every 3-4 months after the value of $G$ was constrained further.  The location of events from the first CH$_3$T calibration is shown in Figure~\ref{TritiumSpatialDist}. As expected, the CH$_3$T source mixes uniformly throughout the detector.  
 \begin{figure} [!h]
 \includegraphics[scale=.5]{TritiumRvZ.pdf} 
-\captionof{figure}{The location of events during the August 2013 LUX CH$_3$T injection.  The solid black like indicates the fiducial volume used for the first LUX Run3 results paper.}
+\captionof{figure}{The location of events during the August 2013 LUX CH$_3$T injection.  The solid black like indicates the fiducial volume used for the first LUX Run3 results paper~\cite{TritiumPaper}.}
 \label{TritiumSpatialDist}
 \end{figure}
 
@@ -307,13 +307,13 @@ The combined energy spectrum for a high statistics CH$_3$T calibration is shown 
 
 \begin{figure} [!h]
 \includegraphics[scale=.425]{TritiumSpectrum.pdf} 
-\captionof{figure}{Top: The combined energy spectrum from a high statistics CH$_3$T calibration in LUX taken in December 2013.  Data is shown in black, and a model of the expected tritium beta spectrum is shown in red.  Bottom: The residual differences between the data and model for each bin, in units of $\sigma$.}
+\captionof{figure}{Top: The combined energy spectrum from a high statistics CH$_3$T calibration in LUX taken in December 2013.  Data is shown in black, and a model of the expected tritium beta spectrum is shown in red.  Bottom: The residual differences between the data and model for each bin, in units of $\sigma$~\cite{TritiumPaper}.}
 \label{TritiumSpectrum}
 \end{figure}
 
 \begin{figure} [!h]
 \includegraphics[scale=.4]{TritiumThreshold.pdf} 
-\captionof{figure}{The ratio of the tritium data to expectations.  An error function fit used to determine the energy threshold is shown in blue.}
+\captionof{figure}{The ratio of the tritium data to expectations.  An error function fit used to determine the energy threshold is shown in blue~\cite{TritiumPaper}.}
 \label{TritiumThreshold}
 \end{figure}
 
@@ -324,12 +324,12 @@ In addition to the calibration results mentioned in this section, the CH$_3$T ca
 
 \begin{figure} [!h]
 \includegraphics[scale=.35]{TritiumERBand.pdf} 
-\captionof{figure}{The electron recoil calibration of LUX resulting from 170,000 CH$_3$T events at 180 V/cm.  The Gaussian means of each S1 bin, as well as power law fits to those means and the 10\% and 90\% contours of the ER band are shown in black.  The power law fits to the mean, 10\%, and 90\% contours of the NR band are shown in red.}
+\captionof{figure}{The electron recoil calibration of LUX resulting from 170,000 CH$_3$T events at 180 V/cm.  The Gaussian means of each S1 bin, as well as power law fits to those means and the 10\% and 90\% contours of the ER band are shown in black.  The power law fits to the mean, 10\%, and 90\% contours of the NR band are shown in red~\cite{TritiumPaper}.}
 \label{TritiumERBand}
 \end{figure}
 
 \begin{figure} [!h]
-\includegraphics[scale=.35]{TritiumLeakage.pdf} 
-\captionof{figure}{The leakage fraction and discrimination versus S1 in the LUX detector at 180 V/cm.}
+\includegraphics[scale=.5]{TritiumLeakage.pdf} 
+\captionof{figure}{The leakage fraction and discrimination versus S1 in the LUX detector at 180 V/cm~\cite{TritiumPaper}.}
 \label{TritiumLeakage}
 \end{figure}

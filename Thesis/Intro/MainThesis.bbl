@@ -64,6 +64,11 @@ DS~Akerib, X~Bai, S~Bedikian, E~Bernard, A~Bernstein, A~Bolozdynya, A~Bradley,
   Accelerators, Spectrometers, Detectors and Associated Equipment},
   704:111--126, 2013.
 
+\bibitem{Akerib:2016vxi}
+D.~S. Akerib et~al.
+\newblock {Results from a search for dark matter in the complete LUX exposure}.
+\newblock 2016.
+
 \bibitem{Slutsky:2009gv}
 S.~Slutsky, Y.~R. Yen, H.~Breuer, A.~Dobi, C.~Hall, T.~Langford, D.~Leonard,
   L.~J. Kaufman, V.~Strickland, and N.~Voskanian.
@@ -77,6 +82,12 @@ J~Balajthy.
   \url{https://docs.google.com/presentation/d/16VfGTd5lYoIk9AkkJypX6qpJ5SujgQQt8d0YEjFinCo/edit#slide=id.gae573feed_0_5},
   2015.
 \newblock Accessed: 2016-06-14.
+
+\bibitem{TritiumPaper}
+DS~Akerib, HM~Ara{\'u}jo, X~Bai, AJ~Bailey, J~Balajthy, P~Beltrame, EP~Bernard,
+  A~Bernstein, TP~Biesiadzinski, EM~Boulton, et~al.
+\newblock Tritium calibration of the lux dark matter experiment.
+\newblock {\em Phys. Rev. D}, 93:072009, 2016.
 
 \bibitem{Phelps}
 P.~Phelps.
@@ -383,6 +394,11 @@ Evalyn~I Gates, Geza Gyuk, and Michael~S Turner.
 \newblock The local halo density.
 \newblock {\em The Astrophysical Journal Letters}, 449(2):L123, 1995.
 
+\bibitem{Bernabei:2013xsa}
+R.~Bernabei et~al.
+\newblock {Final model independent result of DAMA/LIBRA-phase1}.
+\newblock {\em Eur. Phys. J.}, C73:2648, 2013.
+
 \bibitem{Shan}
 Chung-Lin Shan.
 \newblock Determining ratios of wimp-nucleon cross sections from direct dark
@@ -396,10 +412,11 @@ P~Br\'as.
   detection efficiency in LUX}.
 \newblock PhD thesis, Universidade De Coimbra, 2015.
 
-\bibitem{Akerib:2016vxi}
-D.~S. Akerib et~al.
-\newblock {Results from a search for dark matter in the complete LUX exposure}.
-\newblock 2016.
+\bibitem{BradleyThesis}
+A.~Bradley.
+\newblock {\em LUX Thermosyphon Cryogenics and Radon-Related Backgrounds for
+  the First WIMP Result}.
+\newblock PhD thesis, Case Western Reserve University, 2014.
 
 \bibitem{TeflonActivationEnergy}
 S~Pauly.
@@ -424,17 +441,13 @@ J~Balajthy and C~Hall.
   \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000481}, 2013.
 \newblock Accessed: 2016-06-14.
 
-\bibitem{TritiumPaper}
-DS~Akerib, HM~Ara{\'u}jo, X~Bai, AJ~Bailey, J~Balajthy, P~Beltrame, EP~Bernard,
-  A~Bernstein, TP~Biesiadzinski, EM~Boulton, et~al.
-\newblock Tritium calibration of the lux dark matter experiment.
-\newblock {\em Phys. Rev. D}, 93:072009, 2016.
-
-\bibitem{BradleyThesis}
-A.~Bradley.
-\newblock {\em LUX Thermosyphon Cryogenics and Radon-Related Backgrounds for
-  the First WIMP Result}.
-\newblock PhD thesis, Case Western Reserve University, 2014.
+\bibitem{LuxSaturation}
+C.~Faham.
+\newblock 662 kev s2 pmt sautration in bottom array.
+\newblock
+  \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/LuxDB00000045/PMT_S2_Saturation_662keV.pdf},
+  2013.
+\newblock Accessed: 2016-10-25.
 
 \bibitem{Dahl}
 C.E. Dahl.
@@ -453,6 +466,13 @@ A.~Dobi.
 \newblock {\em Measurement of the Electron Recoil Band of the LUX Dark Matter
   Detector With a Tritium Calibration Source}.
 \newblock PhD thesis, University of Maryland, 2014.
+
+\bibitem{akerib2016signal}
+DS~Akerib, S~Alsum, HM~Ara{\'u}jo, X~Bai, AJ~Bailey, J~Balajthy, P~Beltrame,
+  EP~Bernard, A~Bernstein, TP~Biesiadzinski, et~al.
+\newblock Signal yields, energy resolution, and recombination fluctuations in
+  liquid xenon.
+\newblock {\em arXiv preprint arXiv:1610.02076}, 2016.
 
 \bibitem{TritiumSpec}
 JJ~Simpson.
@@ -510,6 +530,14 @@ S.~Stephenson.
 \newblock
   \url{http://teacher.pas.rochester.edu:8080/wiki/pub/Lux/AnalysisMeeting150818/20150818_PositionCorrection_ScottStephenson.pdf},
   2015.
+\newblock Accessed: 2016-06-14.
+
+\bibitem{S1aS1bModuleNote}
+A.~Currie and C.~Faham.
+\newblock A new module to fit $^{83m}$kr double-s1 areas and timing.
+\newblock
+  \url{http://teacher.pas.rochester.edu:8080/wiki/bin/view/Lux/LuxDB00000309},
+  2014.
 \newblock Accessed: 2016-06-14.
 
 \bibitem{Manalaysay}

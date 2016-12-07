@@ -13,61 +13,63 @@ A level-1 auxiliary file: ChapterSix.aux
 A level-1 auxiliary file: ChapterSeven.aux
 A level-1 auxiliary file: ChapterEight.aux
 The style file: unsrt.bst
-Illegal, another \bibstyle command---line 50 of file MainThesis.aux
+Illegal, another \bibstyle command---line 56 of file MainThesis.aux
  : \bibstyle
  :          {plain}
 I'm skipping whatever remains of this command
 Database file #1: ThesisBibtex.bib
 Warning--I'm ignoring Refregier's extra "year" field
---line 440 of file ThesisBibtex.bib
+--line 455 of file ThesisBibtex.bib
 Warning--I didn't find a database entry for "Fermit-LAT"
 Warning--can't use both volume and number fields in AxionReview
+Warning--empty journal in Akerib:2016vxi
 Name 1 in "{Battaner} E., and {Florido} E." has a comma at the end for entry Battaner
 while executing---line 944 of file unsrt.bst
 Warning--can't use both volume and number fields in Robertson
-Warning--empty journal in Akerib:2016vxi
 Warning--empty title in MethaneDiffusion
 Name 1 in "J Balajthy, and C Hall" has a comma at the end for entry JonOutgassing
 while executing---line 944 of file unsrt.bst
-You've used 84 entries,
+Name 1 in "A. Currie, and C. Faham" has a comma at the end for entry S1aS1bModuleNote
+while executing---line 944 of file unsrt.bst
+You've used 88 entries,
             1791 wiz_defined-function locations,
-            1007 strings with 19069 characters,
-and the built_in function-call counts, 18581 in all, are:
-= -- 1495
-> -- 1088
+            1029 strings with 19872 characters,
+and the built_in function-call counts, 19332 in all, are:
+= -- 1551
+> -- 1143
 < -- 8
-+ -- 403
-- -- 319
-* -- 1343
-:= -- 3154
-add.period$ -- 264
-call.type$ -- 84
-change.case$ -- 74
++ -- 423
+- -- 335
+* -- 1381
+:= -- 3288
+add.period$ -- 278
+call.type$ -- 88
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 88
-duplicate$ -- 744
-empty$ -- 1723
-format.name$ -- 319
-if$ -- 4005
+cite$ -- 92
+duplicate$ -- 771
+empty$ -- 1793
+format.name$ -- 335
+if$ -- 4168
 int.to.chr$ -- 0
-int.to.str$ -- 84
-missing$ -- 67
-newline$ -- 433
-num.names$ -- 84
-pop$ -- 205
+int.to.str$ -- 88
+missing$ -- 69
+newline$ -- 455
+num.names$ -- 88
+pop$ -- 221
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 303
+skip$ -- 315
 stack$ -- 0
-substring$ -- 970
-swap$ -- 137
+substring$ -- 982
+swap$ -- 141
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 158
-width$ -- 86
-write$ -- 930
-(There were 3 error messages)
+while$ -- 163
+width$ -- 90
+write$ -- 975
+(There were 4 error messages)
