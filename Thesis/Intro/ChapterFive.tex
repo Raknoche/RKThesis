@@ -52,7 +52,7 @@ We first measure the Z dependence of the $^{83m}$Kr S1 pulse areas by slicing th
 \label{fig:KrypCal_S1ZDep}
 \end{figure}
 
-The XY dependence of the S1 signal is found by dividing the z-corrected ($S1 \times \mbox{S}1_{\mbox{z-efficiency-correction}}$) data into two dimensional XY bins with dimensions defined such that each bin has roughly 300 events, typically resulting in $\sim$1.5 cm steps in each dimension.  A Gaussian distribution is fit to the data of each bin.  The mean of the Gaussian distribution from each bin is used to construct S1 XY response maps, with a spline interpolation and extrapolation being used to determine the XY dependence between and outside of the bins. (Figure~\ref{fig:KrypCalS1XYDep}) A detector inefficiency correction for the XY direction is defined by taking the ratio of the z-corrected S1 pulse area at the center of the detector to the z-corrected S1 pulse area as a function of XY in cm, as shown below
+The XY dependence of the S1 signal is found by dividing the z-corrected ($S1 \times \mbox{S}1_{\mbox{z-efficiency-correction}}$) data into two dimensional XY bins with dimensions defined such that each bin has roughly 300 events, typically resulting in $\sim$1.5~cm steps in each dimension.  A Gaussian distribution is fit to the data of each bin.  The mean of the Gaussian distribution from each bin is used to construct S1 XY response maps, with a spline interpolation and extrapolation being used to determine the XY dependence between and outside of the bins. (Figure~\ref{fig:KrypCalS1XYDep}) A detector inefficiency correction for the XY direction is defined by taking the ratio of the z-corrected S1 pulse area at the center of the detector to the z-corrected S1 pulse area as a function of XY in cm, as shown below
 \begin{align}
 \mbox{S}1_{\mbox{xy-efficiency-correction}} &= \frac{\mbox{S}1_{\mbox{z-efficiency-correction}}\times S1(x_c,y_c,z)}{\mbox{S}1_{\mbox{z-efficiency-correction}}\times S1(xyz)}.
 \end{align} 
@@ -82,7 +82,7 @@ In this case, the corrected S1 pulse areas are produced by multiplying the raw, 
 \end{equation}
 The detector inefficiency effects in the S1 signal are due to the unchanging internal geometry of the detector, as well as the slowly changing PMT quantum efficiencies of the PMTs, which remain constant for many months.  Therefore, the S1 correction maps vary by only a few percent over time and a single high statistics three dimensional correction map can be applied to data over a long period of time.  In the case of LUX Run3, the three dimensional S1 corrections map was only updated once, and each version was used for a span of roughly two months.
 
-Figure~\ref{KrS1Improvement} show the $^{83m}$Kr S1 spectrum from one particular data set before and after pulse area corrections are applied. In this data set the corrections improve the S1 resolution resolution by 35\%, and shifts the mean by 2\%.  Similar improvements in resolution are seen in all $^{83m}$Kr data sets.  The corrected S1 pulse areas are also found to be extremely uniform over time, with the corrected $^{83m}$Kr S1 varying by less than 0.6\% over the course of the LUX detector's Run3 data taking campaign (Figure~\ref{KrS1Stability}).
+Figure~\ref{KrS1Improvement} shows the $^{83m}$Kr S1 spectrum from one particular data set before and after pulse area corrections are applied. In this data set the corrections improve the S1 resolution resolution by 35\%, and shifts the mean by 2\%.  Similar improvements in resolution are seen in all $^{83m}$Kr data sets.  The corrected S1 pulse areas are also found to be extremely uniform over time, with the corrected $^{83m}$Kr S1 varying by less than 0.6\% over the course of the LUX detector's Run3 data taking campaign (Figure~\ref{KrS1Stability}).
 
 
 \begin{figure} [!h]
@@ -183,7 +183,7 @@ In the maximum likelihood analysis, a probability distribution function is used 
 \begin{equation}
 \mbox{F}(x_i, z_i \text{\textbar} \mu, \sigma, \lambda) = \frac{1}{\sqrt{2\pi}\sigma} e^\frac{(-x_i - \mu e^\frac{-z_i}{\lambda})^2}{(2\sigma)^2}, 
 \end{equation}
-where $\sigma$ and $\mu$ are the Gaussian sigma and mean of the corrected radon peak based on the most recent krypton calibration data set, $x_i$ and $z_i$ are the uncorrected S2 and depth of the ith event in the data set, and $\lambda$ represents the unknown electron absorption length for the data set.  The second PDF fits a true Gaussian to the corrected S2 data, $x_i e^\frac{z_i}{\lambda}$, and is given by
+where $\sigma$ and $\mu$ are the Gaussian sigma and mean of the corrected radon peak based on the most recent krypton calibration data set, $x_i$ and $z_i$ are the uncorrected S2 and depth of the $i$th event in the data set, and $\lambda$ represents the unknown electron absorption length for the data set.  The second PDF fits a true Gaussian to the corrected S2 data, $x_i e^\frac{z_i}{\lambda}$, and is given by
 \begin{equation}
 \mbox{F}(x_i, z_i \text{\textbar} \mu, \sigma, \lambda) = \frac{1}{\sqrt{2 \pi} \sigma} e^\frac{(-x_i e^\frac{z_i}{\lambda} - \mu)^2}{(2 \sigma)^2}. 
 \end{equation}
